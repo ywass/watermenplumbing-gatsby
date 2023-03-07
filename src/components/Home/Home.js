@@ -15,6 +15,7 @@ import shutter1Img from "../../images/shutterstock_3194182101.jpg"
 import SpecticImg from "../../images/Septic-Blog.jpg"
 /* import CouponsImg from "../../images/coupons-v10-bg.jpg" */
 function Home() {
+
   return (
 
 <main id="MainZone">

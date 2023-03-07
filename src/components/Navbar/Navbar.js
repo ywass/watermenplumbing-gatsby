@@ -1,10 +1,11 @@
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-import React from 'react'
+import React, { useState } from 'react'
 import  '../../style/home.css'
 import LogoImg from '../../images/Logoo.png'
 import LogoImg2 from '../../images/Logo2.png'
 function Navbar() {
+  const [openMenu,setOpenMenu] = useState(false)
   return (
 <header id="HeaderZone">
   <nav
@@ -14,7 +15,7 @@ function Navbar() {
     data-showhide="true"
   >
   
-    <svg
+  {!openMenu && <svg
       viewBox="0 0 36 36"
       className="floater"
       title="Open the accessibility options menu"
@@ -22,9 +23,11 @@ function Navbar() {
       data-action="open"
       data-role="btn"
       data-type="open"
+      onClick={()=>setOpenMenu(true)}
     >
       <use data-href="/cms/svg/site/ykmkv4_n6ok.36.svg#accessibility" />
-    </svg>
+    </svg>}
+  {openMenu &&
     <ul
       className="accessibility-menu bg-box"
       data-accessibility-menu="true"
@@ -36,6 +39,7 @@ function Navbar() {
           title="Close the accessibility options menu"
           data-role="btn"
           data-type="close"
+          onClick={()=>setOpenMenu(false)}
         >
           <svg viewBox="0 0 36 36" className="accessibility-icon">
             <use data-href="/cms/svg/site/ykmkv4_n6ok.36.svg#accessibility_hide" />
@@ -88,6 +92,7 @@ function Navbar() {
         </button>
       </li>
     </ul>
+}
   </nav>
   <div
     className="header v11-alt show light-bg bg-box-unlike"
