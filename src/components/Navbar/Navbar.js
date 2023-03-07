@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
-import  './Navbar.css'
+import  '../../style/home.css'
 import LogoImg from '../../images/Logoo.png'
 import LogoImg2 from '../../images/Logo2.png'
 function Navbar() {

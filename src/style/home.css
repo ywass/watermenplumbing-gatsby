@@ -193,7 +193,7 @@ img{
 .cms-button.expand:after{
     content:'';
     display:inline-block;
-    background-image:url(../../images/sprite24.png);
+    background-image:url(../images/sprite24.png);
     width:16px;
     height:16px;
     background-position:-437px -293px;
@@ -358,7 +358,7 @@ img{
     display:block;
     width:24px;
     height:24px;
-    background-image:url(../../images/sprite24.png);
+    background-image:url(../images/sprite24.png);
     background-repeat:no-repeat;
     background-position:-96px -216px;
     position:absolute;
@@ -391,7 +391,7 @@ img{
     height:24px;
     padding:0;
     margin:0;
-    background-image:url(../../images/sprite24.png);
+    background-image:url(../images/sprite24.png);
     background-repeat:no-repeat;
     background-position:0px -216px;
     border-radius:0;
@@ -536,7 +536,7 @@ img{
     display:block;
     width:24px;
     height:24px;
-    background-image:url(../../images/sprite24.png);
+    background-image:url(../images/sprite24.png);
     background-repeat:no-repeat;
     background-position:-48px -216px;
     opacity:0.5;
@@ -622,7 +622,7 @@ img{
     width:48px;
     height:48px;
     margin:20px auto;
-    background-image:url(../../images/sprite24.png);
+    background-image:url(../images/sprite24.png);
     background-repeat:no-repeat;
     background-position:-192px -552px;
     opacity:0.4;
@@ -5880,7 +5880,7 @@ html.high-contrast .dark-bg [class*="flair-border"] [class*="flair-"],html.high-
         display:none;
     }
     html:not(.high-contrast) .blog.v7 picture.img-bg{
-        background:url(../../images/blog-v7-bg-tablet.jpg) no-repeat;
+        background:url(../images/blog-v7-bg-tablet.jpg) no-repeat;
         background-size:cover;
     }
 }
