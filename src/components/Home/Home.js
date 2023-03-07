@@ -7,6 +7,12 @@ import ServicesImg from "../../images/services-v9-img.png"
 /* import ValuesImg from "../../images/values-v4-alt-bg.jpg" */
 import Values2Img from "../../images/values-v13-img.png"
 import ReviewsImg from "../../images/reviews-v15-img.png"
+import HomeAdvisorImg from "../../images/HomeAdvisor.png"
+import ToppingImg from "../../images/toppng.png"
+import BBBImg from "../../images/BBB-Accredited.png"
+import HiclipartImg from "../../images/hiclipart.png"
+import shutter1Img from "../../images/shutterstock_3194182101.jpg"
+import SpecticImg from "../../images/Septic-Blog.jpg"
 /* import CouponsImg from "../../images/coupons-v10-bg.jpg" */
 function Home() {
   return (
@@ -1497,10 +1503,10 @@ function Home() {
               >
                 <div className="side-padding-medium fit text-center">
                   <img
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+
                     alt="Home Advisor Top Rated"
                     title="Home Advisor Top Rated"
-                    data-src="../../images/HomeAdvisor.png"
+                    src={HomeAdvisorImg}
                   /> 
                 </div>
               </li>
@@ -1512,10 +1518,10 @@ function Home() {
               >
                 <div className="side-padding-medium fit text-center">
                    <img
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+
                     alt="Homeadvisor -  Elite Service"
                     title="Homeadvisor -  Elite Service"
-                    data-src="../../images/toppng.png"
+                    src={ToppingImg}
                   /> 
                 </div>
               </li>
@@ -1527,10 +1533,10 @@ function Home() {
               >
                 <div className="side-padding-medium fit text-center">
                    <img
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                    
                     alt="BBB Accredited A+ Rating"
                     title="BBB Accredited A+ Rating"
-                    data-src="../../images/BBB-Accredited.png"
+                    src={BBBImg}
                   /> 
                 </div>
               </li>
@@ -1542,10 +1548,10 @@ function Home() {
               >
                 <div className="side-padding-medium fit text-center">
                    <img
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                   
                     alt="100% Guarantee"
                     title="100% Guarantee"
-                    data-src="../../images/hiclipart.png"
+                    src={HiclipartImg}
                   /> 
                 </div>
               </li>
@@ -1641,9 +1647,9 @@ function Home() {
                     role="presentation"
                   >
                     <img
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+
                       alt="A couple (man and woman) admiring a 2-story Florida house and asking questions before purchasing"
-                      data-src="../../images/shutterstock_319418210[1].jpg"
+                      src={shutter1Img}
                     /> 
                   </div>
                   <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
@@ -1669,9 +1675,9 @@ function Home() {
                     role="presentation"
                   >
                     <img
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+
                       alt="Do all homes have septic tanks? Look for a septic tank cover in the ground"
-                      data-src="../../images/Septic-Blog.jpg"
+                      src={SpecticImg}
                     /> 
                   </div>
                   <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">

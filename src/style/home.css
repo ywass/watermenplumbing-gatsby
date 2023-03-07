@@ -1900,6 +1900,7 @@ html.high-contrast body .dark-bg .btn-colors,html.high-contrast body .light-bg .
 }
 .light-bg [class*='flair-border']::before,.dark-bg .bg-box.unlike-bg [class*='flair-border']::before,.dark-bg.bg-box-unlike .bg-box:not(.like-bg) [class*='flair-border']::before,.light-bg [class*='flair-border']::after,.dark-bg .bg-box.unlike-bg [class*='flair-border']::after,.dark-bg.bg-box-unlike .bg-box:not(.like-bg) [class*='flair-border']::after{
     border-color:#CC6461;
+    
 }
 .dark-bg svg.header-flair,.light-bg .bg-box.unlike-bg svg.header-flair,.light-bg.bg-box-unlike .bg-box:not(.like-bg) svg.header-flair{
     color:#E89185;
@@ -2085,10 +2086,10 @@ svg.site-arrow > line{
 .show [class*="flair-border"] [class*="flair-2"]{
     transform:scaleY(1);
 }
-.light-bg [class*="flair-border"] [class*="flair-"],.dark-bg .bg-box.unlike-bg [class*="flair-border"] [class*="flair-"],.dark-bg.bg-box-unlike .bg-box:not(.like-bg) [class*="flair-border"] [class*="flair-"]{
+.light-bg [class*="flair-border"] [class*="flair-"],.dark-bg .bg-box.unlike-bg [class*="flair-border"] [class*="flair-"],.dark-bg.bg-box-unlike .bg-box:not(.like-bg)[class*="flair-border"] [class*="flair-"]{
     border-color:#CC6461;
 }
-.dark-bg [class*="flair-border"] [class*="flair-"],.light-bg .bg-box.unlike-bg [class*="flair-border"] [class*="flair-"],.light-bg.bg-box-unlike .bg-box:not(.like-bg) [class*="flair-border"] [class*="flair-"]{
+.dark-bg [class*="flair-border"] [class*="flair-"],.light-bg .bg-box.unlike-bg [class*="flair-border"] [class*="flair-"],.light-bg.bg-box-unlike .bg-box:not(.like-bg)[class*="flair-border"] [class*="flair-"]{
     border-color:#E89185;
 }
  :root{
@@ -5838,10 +5839,10 @@ html.high-contrast .ui-loader::after{
 html.high-contrast body .close-btn::before,html.high-contrast body .close-btn::after{
     background-color:#A66300;
 }
-html.high-contrast .light-bg [class*="flair-border"] [class*="flair-"],html.high-contrast .dark-bg .bg-box.unlike-bg [class*="flair-border"] [class*="flair-"],html.high-contrast .dark-bg.bg-box-unlike .bg-box:not(.like-bg) [class*="flair-border"] [class*="flair-"]{
+html.high-contrast .light-bg[class*="flair-border"] [class*="flair-"],html.high-contrast .dark-bg .bg-box.unlike-bg[class*="flair-border"] [class*="flair-"],html.high-contrast .dark-bg.bg-box-unlike .bg-box:not(.like-bg)[class*="flair-border"] [class*="flair-"]{
     border-color:#B8504D;
 }
-html.high-contrast .dark-bg [class*="flair-border"] [class*="flair-"],html.high-contrast .light-bg .bg-box.unlike-bg [class*="flair-border"] [class*="flair-"],html.high-contrast .light-bg.bg-box-unlike .bg-box:not(.like-bg) [class*="flair-border"] [class*="flair-"]{
+html.high-contrast .dark-bg[class*="flair-border"] [class*="flair-"],html.high-contrast .light-bg .bg-box.unlike-bg[class*="flair-border"] [class*="flair-"],html.high-contrast .light-bg.bg-box-unlike .bg-box:not(.like-bg)[class*="flair-border"] [class*="flair-"]{
     border-color:#E89185;
 }
  .header.v11-alt nav.hide-1280 li{
@@ -8406,6 +8407,7 @@ fieldset .validation::before{
     max-width:27.778em;
     margin:2em auto;
 }
+
 .coupon-style .coupon-border::after{
     width:calc(100% - 1.5rem);
     height:calc(100% - 1.5rem);
