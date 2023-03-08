@@ -252,7 +252,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="about-us/areas-we-serve/index.html"
+                      to="/areas-we-serve"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >

@@ -2023,7 +2023,7 @@ svg.header-flair .square{
     stroke-dasharray:36;
 }
 .header-flair{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .show svg.header-flair .square{
     transition:stroke-dashoffset 0.75s linear 1s, fill 1s ease 1.75s;

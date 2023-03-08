@@ -93,12 +93,10 @@ function AboutUs() {
             <p style={{ textAlign: "left" }}>
               At Watermen Plumbing Inc., we consider ourselves South Florida’s
               premier
-              <a href="../plumbing-services/index.html">
-                plumbing services
+              <a href="../plumbing-services/index.html"> plumbing services
               </a>{" "}
               provider. We specialize in residential and
-              <a href="../plumbing-services/commercial-plumbing/index.html">
-                small-scale commercial
+              <a href="../plumbing-services/commercial-plumbing/index.html"> small-scale commercial
               </a>{" "}
               plumbing services. We are proud to be known for our honesty,
               integrity, and professionalism in the industry. Our goal is to
@@ -159,8 +157,7 @@ function AboutUs() {
                     id="ContentV1_2"
                     data-process="replace"
                     data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
-                  >
-                    (954) 800-6364
+                  > (954) 800-6364
                   </span>
                 </a>{" "}
                 for all your plumbing needs!

@@ -167,16 +167,14 @@ function Home() {
                   </h2>
                   <p>
                     The team at
-                    <a href="about-us/index.html">Watermen Plumbing</a> has been
+                    <a href="about-us/index.html"> Watermen Plumbing</a> has been
                     serving customers in South Florida since 2015. We are proud
                     to serve Boca Raton, Hallandale Beach, Davie, and beyond,
-                    with honest and professional
-                    <a href="plumbing-services/index.html">
-                      plumbing services
+                    with honest and professional 
+                    <a href="plumbing-services/index.html"> plumbing services
                     </a>{" "}
                     for homeowners and
-                    <a href="plumbing-services/commercial-plumbing/index.html">
-                      businesses
+                    <a href="plumbing-services/commercial-plumbing/index.html"> businesses
                     </a>{" "}
                     alike. We provide a high level of customer service and
                     expertise-driven solutions. Our team is working to prove we
@@ -185,8 +183,7 @@ function Home() {
                     plumbing headaches. We believe that in order to be the best,
                     you have to always provide the best service! So, whether
                     it’s customer service,
-                    <a href="plumbing-services/toilets/index.html">
-                      toilet repairs
+                    <a href="plumbing-services/toilets/index.html"> toilet repairs
                     </a>
                     , water heater installations, or general maintenance calls,
                     we will always give you our best.
