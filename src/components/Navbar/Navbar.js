@@ -21,7 +21,7 @@ function Navbar() {
       
       className="floater"
      
-      
+  
       onClick={()=>setOpenMenu(true)}
     />
       }
@@ -242,7 +242,7 @@ function Navbar() {
               <li className=" flex-block-1024 auto relative" role="menuitem">
                 <Link
                   className="flex-middle-center-block-1024 auto center-1024"
-                  to="about-us/index.html"
+                  to="/about"
                   target=""
                   style={{ textDecoration: 'none' }}
                 >
