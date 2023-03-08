@@ -5850,6 +5850,7 @@ html.high-contrast .dark-bg[class*="flair-border"] [class*="flair-"],html.high-c
 }
 .header.v11-alt .search-link{
     padding:.2rem .5rem 0rem;
+    
 }
 .header.v11-alt .phones{
     text-align:center;

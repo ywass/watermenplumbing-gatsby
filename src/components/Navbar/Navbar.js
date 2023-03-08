@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import  '../../style/home.css'
 import LogoImg from '../../images/Logoo.png'
 import LogoImg2 from '../../images/Logo2.png'
+import SearchIcon from '../../images/svg/search.svg'
 function Navbar() {
   const [openMenu,setOpenMenu] = useState(false)
   return (
@@ -218,9 +219,7 @@ function Navbar() {
             aria-label="Search Our Site"
             style={{ textDecoration: 'none' }}
           >
-            <svg viewBox="0 0 24 24" title="Search Icon">
-              <use data-href="cms/svg/site/ykmkv4_n6ok.24.svg#search" />
-            </svg>
+            <SearchIcon/>
           </Link>
         </div>
         <div className="bottom-bar side-padding-small flex-between-middle auto full">

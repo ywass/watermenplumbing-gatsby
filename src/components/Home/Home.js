@@ -14,6 +14,8 @@ import HiclipartImg from "../../images/hiclipart.png"
 import shutter1Img from "../../images/shutterstock_3194182101.jpg"
 import SpecticImg from "../../images/Septic-Blog.jpg"
 /* import CouponsImg from "../../images/coupons-v10-bg.jpg" */
+import KnowledgeIcon from "../../images/svg/knowledge.svg";
+import FilterIcon from "../../images/svg/filter.svg";
 function Home() {
 
   return (
@@ -79,14 +81,9 @@ function Home() {
             className="flex-middle-block-1024 center-1024 btn-colors"
             href="plumbing-services/index.html"
           >
-            <svg
-              viewBox="0 0 24 24"
-              className="fit"
-              role="presentation"
-              title=""
-            >
-              <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#knowledge" />
-            </svg>
+           
+            <KnowledgeIcon />
+            
             <span className="title-font">Plumbing Services</span>
           </a>
         </li>
@@ -95,14 +92,7 @@ function Home() {
             className="flex-middle-block-1024 center-1024 btn-colors"
             href="plumbing-services/water-filtration/index.html"
           >
-            <svg
-              viewBox="0 0 24 24"
-              className="fit"
-              role="presentation"
-              title=""
-            >
-              <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#filter" />
-            </svg>
+           <FilterIcon/>
             <span className="title-font">Water Filtration</span>
           </a>
         </li>
