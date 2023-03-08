@@ -15,7 +15,12 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
-    `gatsby-plugin-image`,
+  
+      `gatsby-plugin-image`,
+      `gatsby-plugin-sharp`,
+      `gatsby-transformer-sharp`,
+  
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -23,6 +28,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+  
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
@@ -31,8 +37,7 @@ module.exports = {
         }
       }
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+   
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

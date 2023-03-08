@@ -3,6 +3,10 @@ import '../../style/home.css'
 import LogoImg from '../../images/Logoo.png'
 import LogoImg2 from '../../images/Logo2.png'
 import { Link } from 'gatsby'
+import InstagramIcon from '../../images/svg/instagram-f.svg'
+import GoogleIcon from '../../images/svg/google-f.svg'
+import FacebookIcon from '../../images/svg/facebook-f.svg'
+import MapIcon from '../../images/svg/map.svg'
 function Footer() {
   return (
     <footer id="FooterZone">
@@ -100,9 +104,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener"
                 >
-                  <svg viewBox="0 0 36 36">
-                    <use data-href="cms/svg/admin/ufphi5p03ss.36.svg#google_plus" />
-                  </svg>
+                 <GoogleIcon/>
                 </Link>
               </li>
               <li className="fit" data-item="i" data-key={64068}>
@@ -114,9 +116,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener"
                 >
-                  <svg viewBox="0 0 36 36">
-                    <use data-href="cms/svg/admin/ufphi5p03ss.36.svg#facebook" />
-                  </svg>
+                 <FacebookIcon/>
                 </Link>
               </li>
               <li className="fit" data-item="i" data-key={64518}>
@@ -128,9 +128,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener"
                 >
-                  <svg viewBox="0 0 36 36">
-                    <use data-href="cms/svg/admin/ufphi5p03ss.36.svg#instagram" />
-                  </svg>
+                 <InstagramIcon/>
                 </Link>
               </li>
             </ul>
@@ -160,14 +158,7 @@ function Footer() {
                 <span itemProp="addressRegion">FL</span>{" "}
                 <span itemProp="postalCode">33433</span>
                 <div className="flex-middle center-1024">
-                  <svg
-                    viewBox="0 0 36 36"
-                    className="fit right-margin-tiny"
-                    title="Site Icon"
-                    role="presentation"
-                  >
-                    <use data-href="cms/svg/site/ykmkv4_n6ok.36.svg#directions" />
-                  </svg>
+                  <MapIcon className="fit right-margin-tiny"/>
                   <Link
                     target="_blank"
                     to="http://maps.google.com/maps?f=q&hl=en&z=15&q=22485%20Arcadia%20Court,Boca%20Raton,FL,33433"

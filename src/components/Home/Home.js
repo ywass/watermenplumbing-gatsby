@@ -13,9 +13,22 @@ import BBBImg from "../../images/BBB-Accredited.png"
 import HiclipartImg from "../../images/hiclipart.png"
 import shutter1Img from "../../images/shutterstock_3194182101.jpg"
 import SpecticImg from "../../images/Septic-Blog.jpg"
+import tltBdrImg from '../../images/tlt-bdr.png'
+import tltBdr2Img from '../../images/tlt-bdr2.png'
 /* import CouponsImg from "../../images/coupons-v10-bg.jpg" */
 import KnowledgeIcon from "../../images/svg/knowledge.svg";
 import FilterIcon from "../../images/svg/filter.svg";
+import WaterFilterationIcon from "../../images/svg/WaterFiltration.svg";
+import WaterHeatersIcon from "../../images/svg/WaterHeaters.svg";
+import TanklessElectricIcon from "../../images/svg/TanklessElectric.svg";
+import SewerServicesIcon from "../../images/svg/SewerServices.svg";
+import CustomHomeIcon from "../../images/svg/CustomHome.svg";
+import CameraDrainIcon from "../../images/svg/CameraDrain.svg";
+import CustomerEmployeeIcon from "../../images/svg/customerEmployee.svg";
+import KnowledgeAbleIcon from "../../images/svg/knowledgeAble.svg";
+import ReliableHonestIcon from "../../images/svg/reliableHonest.svg";
+import FullyStockIcon from "../../images/svg/fullyStock.svg";
+import StarIcon from "../../images/svg/star.svg";
 function Home() {
 
   return (
@@ -60,9 +73,7 @@ function Home() {
           <em className="title-color-2 subtitle">
             When Your Plumbing Needs Care Trust Watermen To Be There
           </em>
-          <svg role="presentation" className="header-flair">
-            <use href="includes/flair.svg#header" />
-          </svg>
+          <img className="header-flair" src={tltBdrImg}/>
           <p className="no-bottom-margin description">
             Professional, friendly and well-trained! Our expert plumbing team is
             here to handle all of your plumbing needs. Specializing in plumbing
@@ -209,9 +220,7 @@ function Home() {
                   <span className="flair-2" />
                   <header className="text-center" id="ContactV6Header">
                     <h4>Contact Us Today</h4>
-                    <svg role="presentation" className="header-flair">
-                      <use href="includes/flair.svg#header" />
-                    </svg>
+                    <img className="header-flair" src={tltBdr2Img}/>
                   </header>
                   <div id="ContactV6Form" className="ui-repeater">
                     <fieldset data-item="i" data-key="">
@@ -457,9 +466,7 @@ function Home() {
                     We are proud to offer an array of plumbing solutions. Put
                     our expert team to the test!
                   </strong>
-                  <svg role="presentation" className="header-flair">
-                    <use href="includes/flair.svg#header" />
-                  </svg>
+                  <img className="header-flair" src={tltBdr2Img}/>
                 </header>
                 <ul
                   className="services-list flex-wrap-spaced-between-block-800 top-margin-small ui-repeater"
@@ -470,14 +477,7 @@ function Home() {
                       className="full flex-middle btn-style btn-color-hover full text-left"
                       href="plumbing-services/water-filtration/index.html"
                     >
-                      <svg
-                        viewBox="0 0 24 24"
-                        className="right-margin-tiny fit"
-                        role="presentation"
-                        title="Water Filtration Icon"
-                      >
-                        <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#filter" />
-                      </svg>
+                      <WaterFilterationIcon className="right-margin-tiny fit"/>
                       <span>Water Filtration</span>
                     </a>
                   </li>
@@ -486,14 +486,7 @@ function Home() {
                       className="full flex-middle btn-style btn-color-hover full text-left"
                       href="plumbing-services/water-heaters/index.html"
                     >
-                      <svg
-                        viewBox="0 0 24 24"
-                        className="right-margin-tiny fit"
-                        role="presentation"
-                        title="Water Heaters Icon"
-                      >
-                        <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#water_heater" />
-                      </svg>
+                      <WaterHeatersIcon className="right-margin-tiny fit"/>
                       <span>Water Heaters</span>
                     </a>
                   </li>
@@ -502,14 +495,7 @@ function Home() {
                       className="full flex-middle btn-style btn-color-hover full text-left"
                       href="plumbing-services/drain-issues/camera-drain-inspection/index.html"
                     >
-                      <svg
-                        viewBox="0 0 24 24"
-                        className="right-margin-tiny fit"
-                        role="presentation"
-                        title="Camera Drain Inspection Icon"
-                      >
-                        <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#drain_camera" />
-                      </svg>
+                     <CameraDrainIcon className="right-margin-tiny fit"/>
                       <span>Camera Drain Inspection</span>
                     </a>
                   </li>
@@ -518,14 +504,7 @@ function Home() {
                       className="full flex-middle btn-style btn-color-hover full text-left"
                       href="plumbing-services/tankless-electric-water-heater/index.html"
                     >
-                      <svg
-                        viewBox="0 0 24 24"
-                        className="right-margin-tiny fit"
-                        role="presentation"
-                        title="Tankless Electric Water Heater Icon"
-                      >
-                        <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#tankless" />
-                      </svg>
+                      <TanklessElectricIcon className="right-margin-tiny fit"/>
                       <span>Tankless Electric Water Heater</span>
                     </a>
                   </li>
@@ -534,14 +513,7 @@ function Home() {
                       className="full flex-middle btn-style btn-color-hover full text-left"
                       href="plumbing-services/sewer-services/index.html"
                     >
-                      <svg
-                        viewBox="0 0 24 24"
-                        className="right-margin-tiny fit"
-                        role="presentation"
-                        title="Sewer Services Icon"
-                      >
-                        <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#sewer" />
-                      </svg>
+                      <SewerServicesIcon className="right-margin-tiny fit"/>
                       <span>Sewer Services</span>
                     </a>
                   </li>
@@ -550,14 +522,7 @@ function Home() {
                       className="full flex-middle btn-style btn-color-hover full text-left"
                       href="plumbing-services/custom-home-plumbing/index.html"
                     >
-                      <svg
-                        viewBox="0 0 24 24"
-                        className="right-margin-tiny fit"
-                        role="presentation"
-                        title="Custom Home Plumbing Icon"
-                      >
-                        <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#custom" />
-                      </svg>
+                      <CustomHomeIcon className="right-margin-tiny fit"/>
                       <span>Custom Home Plumbing</span>
                     </a>
                   </li>
@@ -619,9 +584,7 @@ function Home() {
                 <strong>
                   We Believe That Only the Best Is Good Enough, for You!
                 </strong>
-                <svg role="presentation" className="header-flair">
-                  <use href="includes/flair.svg#header" />
-                </svg>
+                <img className="header-flair" src={tltBdrImg}/>
               </header>
               <ul className="values-list ui-repeater" id="ValuesV4AltList">
                 <li
@@ -630,13 +593,7 @@ function Home() {
                   data-key={15797}
                 >
                   <span className="ico-con">
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="values-icon"
-                      role="presentation"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#saftey" />
-                    </svg>
+                  <CustomerEmployeeIcon className="values-icon"/>
                   </span>
                   <div className="info">
                     <strong className="title-style-4 title-color-4">
@@ -655,13 +612,7 @@ function Home() {
                   data-key={15796}
                 >
                   <span className="ico-con">
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="values-icon"
-                      role="presentation"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#knowledge" />
-                    </svg>
+                   <KnowledgeAbleIcon className="values-icon"/>
                   </span>
                   <div className="info">
                     <strong className="title-style-4 title-color-4">
@@ -682,13 +633,7 @@ function Home() {
                   data-key={15795}
                 >
                   <span className="ico-con">
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="values-icon"
-                      role="presentation"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#honest" />
-                    </svg>
+                   <ReliableHonestIcon className="values-icon"/>
                   </span>
                   <div className="info">
                     <strong className="title-style-4 title-color-4">
@@ -706,13 +651,7 @@ function Home() {
                   data-key={15794}
                 >
                   <span className="ico-con">
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="values-icon"
-                      role="presentation"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#truck" />
-                    </svg>
+                   <FullyStockIcon className="values-icon"/>
                   </span>
                   <div className="info">
                     <strong className="title-style-4 title-color-4">
@@ -755,9 +694,7 @@ function Home() {
                       <strong className="title-style-1 title-color-1">
                         Your Home Deserves Clean Water
                       </strong>
-                      <svg className="header-flair" role="presentation">
-                        <use href="includes/flair.svg#header" />
-                      </svg>
+                      <img className="header-flair" src={tltBdr2Img}/>
                       <p className="relative">
                         We pride ourselves on unmatched service and are happy to
                         offer top notch water filtration solutions for your
@@ -848,9 +785,7 @@ function Home() {
               >
                 <h4>5 Star Customer Reviews</h4>
                 <strong>Feedback From Our Happy Customers</strong>
-                <svg role="presentation" className="header-flair">
-                  <use href="includes/flair.svg#header" />
-                </svg>
+                <img className="header-flair" src={tltBdrImg}/>
               </header>
               <div className="flex-column border-radius">
                  <picture
@@ -895,49 +830,19 @@ function Home() {
                                 title="5 Star Rating"
                               >
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate1"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate1"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate2"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate2"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate3"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate3"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate4"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                  <StarIcon className="rate4"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate5"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                 <StarIcon className="rate5"/>
                                 </li>
                               </ul>
                             </div>
@@ -967,49 +872,19 @@ function Home() {
                                 title="5 Star Rating"
                               >
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate1"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate1"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate2"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate2"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate3"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate3"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate4"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate4"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate5"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate5"/>
                                 </li>
                               </ul>
                             </div>
@@ -1039,49 +914,19 @@ function Home() {
                                 title="5 Star Rating"
                               >
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate1"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate1"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate2"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate2"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate3"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate3"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate4"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate4"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate5"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate5"/>
                                 </li>
                               </ul>
                             </div>
@@ -1110,49 +955,19 @@ function Home() {
                                 title="5 Star Rating"
                               >
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate1"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate1"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate2"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate2"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate3"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate3"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate4"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate4"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate5"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate5"/>
                                 </li>
                               </ul>
                             </div>
@@ -1184,49 +999,19 @@ function Home() {
                                 title="5 Star Rating"
                               >
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate1"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate1"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate2"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate2"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate3"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate3"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate4"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate4"/>
                                 </li>
                                 <li className="fit flex-middle-center">
-                                  <svg
-                                    viewBox="0 0 24 24"
-                                    className="rate5"
-                                    role="presentation"
-                                  >
-                                    <use data-href="/cms/svg/admin/ufphi5p03ss.24.svg#rating_star" />
-                                  </svg>
+                                <StarIcon className="rate5"/>
                                 </li>
                               </ul>
                             </div>
@@ -1316,9 +1101,7 @@ function Home() {
           <header className="text-align center-800" id="CouponV10Header">
             <h4>Take Advantage Of Our Specials!</h4>
             <strong>Coupons &amp; Promotions</strong>
-            <svg role="presentation" className="header-flair">
-              <use href="includes/flair.svg#header" />
-            </svg>
+            <img className="header-flair" src={tltBdrImg}/>
           </header>
           <div id="CouponV10List" className="ui-repeater" data-role="container">
             <ul className="flex-grid-large auto-responsive" data-role="list">
@@ -1607,9 +1390,9 @@ function Home() {
             data-src="../../images/blog-v7-bg-mobile.jpg"
           />
           <img
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            
             alt=""
-            data-src="../../images/blog-v7-bg.jpg"
+            src="../../images/blog-v7-bg.jpg"
           /> 
         </picture>
         <div className="flex-auto-responsive-block-1024-margined flex-direction item-spacing item-widths align-items main">
@@ -1620,9 +1403,7 @@ function Home() {
                 Stay Updated With Tips, Tricks, and Educational Plumbing
                 Articles
               </strong>
-              <svg role="presentation" className="header-flair">
-                <use href="includes/flair.svg#header" />
-              </svg>
+              <img className="header-flair" src={tltBdrImg}/>
             </header>
             <ul
               className="blog-list flex-grid-wrap-auto-size-max-2-block-500 close-gap-500 ui-repeater"

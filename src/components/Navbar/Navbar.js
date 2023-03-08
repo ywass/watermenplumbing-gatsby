@@ -5,6 +5,7 @@ import  '../../style/home.css'
 import LogoImg from '../../images/Logoo.png'
 import LogoImg2 from '../../images/Logo2.png'
 import SearchIcon from '../../images/svg/search.svg'
+import FloaterIcon from '../../images/svg/footer-access.svg'
 function Navbar() {
   const [openMenu,setOpenMenu] = useState(false)
   return (
@@ -16,18 +17,14 @@ function Navbar() {
     data-showhide="true"
   >
   
-  {!openMenu && <svg
-      viewBox="0 0 36 36"
+  {!openMenu && <FloaterIcon
+      
       className="floater"
-      title="Open the accessibility options menu"
-      tabIndex={0}
-      data-action="open"
-      data-role="btn"
-      data-type="open"
+     
+      
       onClick={()=>setOpenMenu(true)}
-    >
-      <use data-href="/cms/svg/site/ykmkv4_n6ok.36.svg#accessibility" />
-    </svg>}
+    />
+      }
   {openMenu &&
     <ul
       className="accessibility-menu bg-box"
@@ -235,7 +232,7 @@ function Navbar() {
               >
                 <Link
                   className="flex-middle-center-block-1024 auto center-1024"
-                  to="index.html"
+                  to="/"
                   target=""
                   style={{ textDecoration: 'none' }}
                 >
