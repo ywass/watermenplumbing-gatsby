@@ -242,7 +242,7 @@ function Navbar() {
               <li className=" flex-block-1024 auto relative" role="menuitem">
                 <Link
                   className="flex-middle-center-block-1024 auto center-1024"
-                  to="/about"
+                  to="/about-us"
                   target=""
                   style={{ textDecoration: 'none' }}
                 >
@@ -252,7 +252,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="/areas-we-serve"
+                      to="/about-us/areas-we-serve"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -294,7 +294,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/whole-home-repiping/index.html"
+                      to="/plumbing-services/whole-home-repiping"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -304,7 +304,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/water-heaters/index.html"
+                      to="/plumbing-services/water-heaters"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -314,7 +314,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/water-filtration/index.html"
+                      to="/plumbing-services/water-filtration"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -324,7 +324,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/backwater-valves/index.html"
+                      to="/plumbing-services/backwater-valves"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -334,7 +334,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/bathroom-plumbing-renovation-upgrade/index.html"
+                      to="/plumbing-services/bathroom-plumbing-renovation-upgrade"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -344,7 +344,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/commercial-plumbing/index.html"
+                      to="/plumbing-services/commercial-plumbing"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -354,7 +354,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/custom-home-plumbing/index.html"
+                      to="/plumbing-services/custom-home-plumbing"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -364,7 +364,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/leak-detection-repair/index.html"
+                      to="/plumbing-services/leak-detection-repair"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -374,7 +374,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/plumbing-upgrades/index.html"
+                      to="/plumbing-services/plumbing-upgrades"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -384,7 +384,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/thermostatic-pressure-balancing/index.html"
+                      to="/plumbing-services/thermostatic-pressure-balancing"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -394,7 +394,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/toilets/index.html"
+                      to="/plumbing-services/toilets"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -404,7 +404,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/other-services/index.html"
+                      to="/plumbing-services/other-services"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -414,7 +414,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/tankless-gas-water-heater/index.html"
+                      to="/plumbing-services/tankless-gas-water-heater"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -424,7 +424,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/tankless-electric-water-heater/index.html"
+                      to="/plumbing-services/tankless-electric-water-heater"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -436,7 +436,7 @@ function Navbar() {
               <li className=" flex-block-1024 auto relative" role="menuitem">
                 <Link
                   className="flex-middle-center-block-1024 auto center-1024"
-                  to="plumbing-services/water-filtration/index.html"
+                  to="/plumbing-services/water-filtration"
                   target=""
                   style={{ textDecoration: 'none' }}
                 >
@@ -446,7 +446,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/water-filtration/water-filtration-products/index.html"
+                      to="/plumbing-services/water-filtration/water-filtration-products"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
