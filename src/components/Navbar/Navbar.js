@@ -264,7 +264,7 @@ function Navbar() {
               <li className=" flex-block-1024 auto relative" role="menuitem">
                 <Link
                   className="flex-middle-center-block-1024 auto center-1024"
-                  to="plumbing-services/index.html"
+                  to="/plumbing-services"
                   target=""
                   style={{ textDecoration: 'none' }}
                 >
