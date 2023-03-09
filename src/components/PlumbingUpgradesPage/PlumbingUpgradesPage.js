@@ -13,7 +13,7 @@ import PanelGroupMobImg from "../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../images/values-v9-img.png'
 import ctaV13Bg from '../../images/cta-v13-bg.jpeg'
 import showerFloor from "../../images/Shower-floor.jpg"
-import showerTwo from '../../images/Shower-Upgrade.jpg'
+
 function PlumbingUpgradesPage() {
   return (
     <main id="MainZone">
@@ -135,7 +135,7 @@ function PlumbingUpgradesPage() {
                       alt="New shower with large square shower head and brown tiles"
                       width={300}
                       height={403}
-                      src={showerTwo}
+                      src='../../images/Shower-Upgrade.jpg'
                     />
                   </p>
                   <p>
