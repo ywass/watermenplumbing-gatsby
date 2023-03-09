@@ -4,6 +4,8 @@ import mainstageV1Img from '../../images/mainstage-v1-bg.jpeg'
 import panelgroupV4Img from '../../images/panel-group-v4-bg.jpeg'
 import contentV3Img from '../../images/content-v3-img.png'
 import valueV9Img from '../../images/values-v9-img.png'
+import tltBdrImg from '../../images/tlt-bdr.png'
+import tltBdr2Img from '../../images/tlt-bdr2.png'
 import CustomerEmployeeIcon from "../../images/svg/customerEmployee.svg";
 import KnowledgeAbleIcon from "../../images/svg/knowledgeAble.svg";
 import ReliableHonestIcon from "../../images/svg/reliableHonest.svg";
@@ -92,9 +94,7 @@ function PlumbingServicesPage() {
             <em className="title-color-2 subtitle">
               Locally Owned and Operated Since 2015
             </em>
-            <svg role="presentation" className="header-flair">
-              <use href="../includes/flair.svg#header" />
-            </svg>
+            <img src={tltBdr2Img} className="header-flair"/>
             <p className="no-bottom-margin description">
               With state of the art plumbing technology and straightforward
               pricing, trust our reliable team to get your plumbing and water
@@ -431,9 +431,7 @@ function PlumbingServicesPage() {
                   We are proud to offer an array of plumbing solutions. Put our
                   team to the test!
                 </strong>
-                <svg role="presentation" className="header-flair">
-                  <use href="../includes/flair.svg#header" />
-                </svg>
+                <img src={tltBdr2Img} className="header-flair"/>
               </header>
               <ul
                 className="services-list flex-wrap-spaced-between-block-800 ui-repeater"
@@ -621,9 +619,7 @@ function PlumbingServicesPage() {
                 <strong>
                   We Believe That Only the Best Is Good Enough, for You!
                 </strong>
-                <svg role="presentation" className="header-flair">
-                  <use href="../includes/flair.svg#header" />
-                </svg>
+                <img src={tltBdrImg} className="header-flair"/>
               </header>
               <ul
                 className="values-list flex-wrap-grid-block-800-break-1024-auto-size-max-3 close-gap-800 ui-repeater"
@@ -779,9 +775,7 @@ function PlumbingServicesPage() {
                   <strong>
                     Complete the Form to Connect With Our Plumbing Team
                   </strong>
-                  <svg role="presentation" className="header-flair">
-                    <use href="../includes/flair.svg#header" />
-                  </svg>
+                  <img src={tltBdr2Img} className="header-flair"/>
                 </header>
                 <div id="ContactV1Form" className="ui-repeater">
                   <fieldset data-item="i" data-key="">

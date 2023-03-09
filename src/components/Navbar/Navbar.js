@@ -274,7 +274,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/sewer-services/index.html"
+                      to="/plumbing-services/sewer-services"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
@@ -284,7 +284,7 @@ function Navbar() {
                   <li className="" role="menuitem">
                     <Link
                       className="btn-color-hover"
-                      to="plumbing-services/drain-issues/index.html"
+                      to="/plumbing-services/drain-issues"
                       target=""
                       style={{ textDecoration: 'none' }}
                     >
