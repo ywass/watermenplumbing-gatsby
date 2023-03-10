@@ -177,32 +177,32 @@ function Footer() {
             </div>
             <ul role="menu" aria-label="Footer Navigation">
               <li role="menuitem">
-                <Link to="index.html" target="">
+                <Link to="/" target="">
                   Home
                 </Link>
               </li>
               <li role="menuitem">
-                <Link to="plumbing-services/index.html" target="">
+                <Link to="/plumbing-services" target="">
                   Plumbing Services
                 </Link>
               </li>
               <li role="menuitem">
-                <Link to="reviews/index.html" target="">
+                <Link to="/reviews" target="">
                   Reviews
                 </Link>
               </li>
               <li role="menuitem">
-                <Link to="privacy-policy/index.html" target="">
+                <Link to="/privacy-policy" target="">
                   Privacy Policy
                 </Link>
               </li>
               <li role="menuitem">
-                <Link to="site-map/index.html" target="">
+                <Link to="/site-map" target="">
                   Site Map
                 </Link>
               </li>
               <li role="menuitem">
-                <Link to="contact-us/index.html" target="">
+                <Link to="/contact-us" target="">
                   Contact Us
                 </Link>
               </li>

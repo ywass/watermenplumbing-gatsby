@@ -146,7 +146,7 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="contact-us/index.html" target="" style={{ textDecoration: 'none' }}>
+                <Link to="/contact-us" target="" style={{ textDecoration: 'none' }}>
                   Contact Us
                 </Link>
               </li>
@@ -458,7 +458,7 @@ function Navbar() {
               <li className=" flex-block-1024 auto relative" role="menuitem">
                 <Link
                   className="flex-middle-center-block-1024 auto center-1024"
-                  to="coupons/index.html"
+                  to="/coupons"
                   target=""
                   style={{ textDecoration: 'none' }}
                 >
@@ -468,7 +468,7 @@ function Navbar() {
               <li className=" flex-block-1024 auto relative" role="menuitem">
                 <Link
                   className="flex-middle-center-block-1024 auto center-1024"
-                  to="reviews/index.html"
+                  to="/reviews"
                   target=""
                   style={{ textDecoration: 'none' }}
                 >
@@ -542,7 +542,7 @@ function Navbar() {
             </li>
             <li className="top-margin-small  relative">
               <Link
-                to="contact-us/index.html"
+                to="/contact-us"
                 className="title-style-4 title-color-4"
                 target=""
                 style={{ textDecoration: 'none' }}
