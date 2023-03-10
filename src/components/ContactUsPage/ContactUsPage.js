@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../style/contactUs.css'
 import map from '../../images/map-img.jpg'
+import tltBdrImg from '../../images/tlt-bdr.png'
+import tltBdr2Img from '../../images/tlt-bdr2.png'
 function ContactUsPage() {
   return (
     <main id="MainZone">
@@ -44,9 +46,7 @@ function ContactUsPage() {
           id="ContactSystemV1Header"
         >
           <h1>Contact Watermen Plumbing Today!</h1>
-          <svg className="header-flair" role="presentation">
-            <use href="../includes/flair.svg#header" />
-          </svg>
+         <img src={tltBdr2Img} className="header-flair"/>
         </header>
         <div
           className="content-style relative bottom-margin"

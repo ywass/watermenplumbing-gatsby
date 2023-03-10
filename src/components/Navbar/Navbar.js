@@ -136,12 +136,12 @@ function Navbar() {
           >
             <ul className="flex-middle">
               <li>
-                <Link to="blog/index.html" style={{ textDecoration: 'none' }}>
+                <Link to="/blog" style={{ textDecoration: 'none' }}>
                   Blog
                 </Link>
               </li>
               <li>
-                <Link to="photo-gallery/index.html" target="" style={{ textDecoration: 'none' }}>
+                <Link to="/photo-gallery" target="" style={{ textDecoration: 'none' }}>
                   Photo Gallery
                 </Link>
               </li>
@@ -211,7 +211,7 @@ function Navbar() {
           </span>
           <Link
             className="search-link btn-colors hide-500 border-radius fit left-margin-large"
-            to="site-search/index.html"
+            to="/site-search"
             title="Search Our Site"
             aria-label="Search Our Site"
             style={{ textDecoration: 'none' }}
