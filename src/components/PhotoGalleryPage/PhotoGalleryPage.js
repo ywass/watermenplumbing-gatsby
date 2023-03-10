@@ -185,7 +185,7 @@ function PhotoGalleryPage() {
             <li className="photo fit" data-item="i" data-key={16502}>
               <Link
                 className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-                to="/photo-galleryunderground-jobs"
+                to="/photo-gallery/underground-jobs"
               >
                 <img
                  
