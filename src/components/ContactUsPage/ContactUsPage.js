@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../style/contactUs.css'
-import map from '../../images/map-img.png'
+import map from '../../images/map-img.jpg'
 function ContactUsPage() {
   return (
     <main id="MainZone">
