@@ -454,9 +454,9 @@ function SiteMapPage() {
                 </a>
                 <ul>
                   <li>
-                    <a href="../reviews/thank-you/index.html" target="">
+                    <Link to="/thank-you" target="">
                       Thank You
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -1118,9 +1118,9 @@ function SiteMapPage() {
                 </a>
                 <ul>
                   <li>
-                    <a href="../contact-us/thank-you/index.html" target="">
+                  <Link to="/thank-you" target="">
                       Thank You
-                    </a>
+                  </Link>
                   </li>
                 </ul>
               </li>
@@ -1129,108 +1129,7 @@ function SiteMapPage() {
                   Site Search
                 </a>
               </li>
-              <li>
-                <a href="../index.html" target="">
-                  -
-                </a>
-                <ul>
-                  <li>
-                    <a href="../index.html" target="">
-                      Hollywood
-                    </a>
-                    <ul>
-                      <li>
-                        <a
-                          href="../-/hollywood/commercial-plumbing/index.html"
-                          target=""
-                        >
-                          Commercial Plumbing
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="../-/hollywood/drain-services/index.html"
-                          target=""
-                        >
-                          Drain Services
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="../-/hollywood/emergency-plumbing/index.html"
-                          target=""
-                        >
-                          Emergency Plumbing
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="../-/hollywood/fixture-services/index.html"
-                          target=""
-                        >
-                          Fixture Services
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="../-/hollywood/outdoor-plumbing-services/index.html"
-                          target=""
-                        >
-                          Outdoor Plumbing Services
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="../-/hollywood/plumbing-maintenance-inspections/index.html"
-                          target=""
-                        >
-                          Plumbing Maintenance &amp; Inspections
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="../-/hollywood/plumbing-services/index.html"
-                          target=""
-                        >
-                          Plumbing Services
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="../-/hollywood/sewer-services/index.html"
-                          target=""
-                        >
-                          Sewer Services
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="../-/hollywood/water-heater-services/index.html"
-                          target=""
-                        >
-                          Water Heater Services
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="../-/hollywood/water-line-plumbing/index.html"
-                          target=""
-                        >
-                          Water Line Plumbing
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="../-/hollywood/water-treatment-services/index.html"
-                          target=""
-                        >
-                          Water Treatment Services
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
+              
             </ul>
           </div>
         </div>
