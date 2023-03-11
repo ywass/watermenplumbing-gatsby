@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import React from 'react'
 import '../../style/privacyPolicy.css'
 function SiteMapPage() {
@@ -952,32 +953,32 @@ function SiteMapPage() {
                 </ul>
               </li>
               <li>
-                <a href="../video-center/index.html" target="">
+                <a href="/video-center" target="">
                   Video Center
                 </a>
               </li>
               <li>
-                <a href="../awards-accolades/index.html" target="">
+                <Link to="/awards-accolades" target="">
                   Awards &amp; Accolades
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="../locations/index.html" target="">
+                <Link to="/locations" target="">
                   Locations
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="../photo-gallery/index.html" target="">
+                <Link to="/photo-gallery" target="">
                   Photo Gallery
-                </a>
+                </Link>
                 <ul>
                   <li>
-                    <a
-                      href="../photo-gallery/our-projects/index.html"
+                    <Link
+                      to="/photo-gallery/our-projects"
                       target=""
                     >
                       Our Projects
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a
