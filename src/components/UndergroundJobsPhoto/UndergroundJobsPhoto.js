@@ -35,9 +35,7 @@ function UndergroundJobsPhoto() {
             <span className="flair-2" />
             <header className="no-pad center-800" id="SystemBannerV1Info">
               <h1>Underground Jobs</h1>
-              <svg role="presentation" className="header-flair">
-                <use href="../../includes/flair.svg#header" />
-              </svg>
+              <img src={tltBdrImg} className="header-flair"/>
             </header>
             <div id="SystemBannerV1BtnCon"></div>
           </div>
