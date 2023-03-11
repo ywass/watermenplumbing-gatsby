@@ -415,19 +415,19 @@ function SiteMapPage() {
                 </ul>
               </li>
               <li>
-                <a href="../error/index.html" target="">
+                <Link to="/404" target="">
                   Error
-                </a>
+                </Link>
                 <ul>
                   <li>
-                    <a href="../error/404/index.html" target="">
+                    <Link to="/404" target="">
                       404
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="../error/500/index.html" target="">
+                    <Link to="/404" target="">
                       500
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
