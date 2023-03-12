@@ -1,8 +1,8 @@
 import React from 'react'
-import '../../../style/blog.css'
-import HomeIcon from '../../../images/svg/HomeIcon.svg'
+import '../../../../style/blog.css'
+import HomeIcon from '../../../../images/svg/HomeIcon.svg'
 import { Link } from 'gatsby'
-function TwentyTwoPages() {
+function October2021Pages() {
   return (
     <main id="MainZone">
   <section className="bread-crumbs v1 bg-box-none light-bg" id="BreadCrumbsV1">
@@ -19,7 +19,12 @@ function TwentyTwoPages() {
               Blog
             </Link>
           </li>
-          <li className="flex-middle relative">2022</li>
+          <li className="flex-middle relative">
+            <Link to="/blog/2021" target="">
+              2021
+            </Link>
+          </li>
+          <li className="flex-middle relative">October</li>
         </ol>
       </nav>
     </div>
@@ -32,34 +37,34 @@ function TwentyTwoPages() {
     <div className="main vertical-padding-small flex-spaced-between-block-1024-margined flex-direction">
       <div className="content-zone two-thirds" id="ContentZone">
         <form
-          id="Form_BlogSystemV1BlogPostsYear"
+          id="Form_BlogSystemV1BlogPostsMonth"
           method="post"
           encType="multipart/form-data"
-          action="https://www.watermenplumbing.com/blog/2022/"
+          action="https://www.watermenplumbing.com/blog/2021/october/"
           data-search={1}
         >
           <input
             type="hidden"
             name="_m_"
-            defaultValue="BlogSystemV1BlogPostsYear"
+            defaultValue="BlogSystemV1BlogPostsMonth"
           />
           <input
             type="hidden"
             className="ui-cms-input"
-            id="BlogSystemV1BlogPostsYear__edit_"
-            name="BlogSystemV1BlogPostsYear$_edit_"
+            id="BlogSystemV1BlogPostsMonth__edit_"
+            name="BlogSystemV1BlogPostsMonth$_edit_"
             defaultValue=""
           />
           <input
             type="hidden"
             className="ui-cms-input"
-            id="BlogSystemV1BlogPostsYear__command_"
-            name="BlogSystemV1BlogPostsYear$_command_"
+            id="BlogSystemV1BlogPostsMonth__command_"
+            name="BlogSystemV1BlogPostsMonth$_command_"
             defaultValue=""
           />
           <div
-            className="blog-posts blog-year ui-repeater ui-ajax"
-            id="BlogSystemV1BlogPostsYear"
+            className="blog-posts blog-month ui-repeater ui-ajax"
+            id="BlogSystemV1BlogPostsMonth"
             data-onvisible="show"
             data-loading="false"
             data-infinite="true"
@@ -68,44 +73,44 @@ function TwentyTwoPages() {
           >
             <input
               type="hidden"
-              id="BlogSystemV1BlogPostsYear_HDR0_ResultsPerPage"
+              id="BlogSystemV1BlogPostsMonth_HDR0_ResultsPerPage"
               autoComplete="off"
               className="ui-cms-input"
-              name="BlogSystemV1BlogPostsYear$HDR0$ResultsPerPage"
+              name="BlogSystemV1BlogPostsMonth$HDR0$ResultsPerPage"
               defaultValue={6}
               data-search="true"
             />
             <input
               type="hidden"
-              id="BlogSystemV1BlogPostsYear_HDR0_PagingID"
+              id="BlogSystemV1BlogPostsMonth_HDR0_PagingID"
               autoComplete="off"
               className="ui-cms-input"
-              name="BlogSystemV1BlogPostsYear$HDR0$PagingID"
+              name="BlogSystemV1BlogPostsMonth$HDR0$PagingID"
               defaultValue=""
               data-search="true"
             />
             <div className="bottom-margin-small">
               <header
                 className="text-align no-pad center-1024"
-                id="BlogSystemV1BlogPostsYearHeader"
+                id="BlogSystemV1BlogPostsMonthHeader"
                 data-role="thead"
               >
-                <h1>Posts in 2022</h1>
+                <h1>Posts in October, 2021</h1>
                 <svg className="header-flair" role="presentation">
-                  <use href="../../includes/flair.svg#header" />
+                  <use href="../../../includes/flair.svg#header" />
                 </svg>
               </header>
             </div>
             <ul className="flex-grid-wrap-block-800" data-role="tbody">
-              
+             
               <li
                 className="half flex- featured"
                 data-item="i"
-                data-key={1302513}
+                data-key={1279586}
               >
                 <Link
                   className="flex-column full border-radius scaling-item bg-box relative"
-                  to="/blog/2022/january/read-this-before-you-buy-a-house-in-florida-"
+                  to="/blog/2021/october/what-homeowners-should-know-about-septic-tanks"
                 >
                   <div
                     className="img pad-height-50 fit full"
@@ -113,22 +118,22 @@ function TwentyTwoPages() {
                   >
                     <img
                       src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                      alt="A couple (man and woman) admiring a 2-story Florida house and asking questions before purchasing"
-                      data-src="../../cms/thumbnails/34/480x240/images/blog/shutterstock_319418210%5b1%5d.jpg"
+                      alt="Do all homes have septic tanks? Look for a septic tank cover in the ground"
+                      data-src="../../../cms/thumbnails/34/480x240/images/blog/Septic-Blog.jpg"
                     />
                   </div>
                   <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
                     <div className="auto full">
                       <span className="blog-time-style full">
-                        <time content="Jan 21, 2022">Jan 21</time>
+                        <time content="Oct 25, 2021">Oct 25</time>
                       </span>
                       <strong className="title-style-4 title-color-4">
-                        Read This Before You Buy a House in Florida
+                        What Homeowners Should Know about Septic Tanks
                       </strong>
                       <p className="hide-800">
-                        Moving can be expensive, especially if you’re moving
-                        from out of state. Whether they’re moving for family
-                        reasons, a lifestyle ...
+                        If you own a home with a septic tank or are thinking
+                        about buying one, it’s important to understand how this
+                        system functions on ...
                       </p>
                     </div>
                     <span className="fit btn v2">View Article</span>
@@ -202,7 +207,7 @@ function TwentyTwoPages() {
           className="side-nav v1 bg-box like-bg border-radius-item overflow-hidden ui-repeater"
           id="BlogSystemV1SideNavCategories"
         >
-           <nav>
+         <nav>
             <header className="text-left">
               <h5>Categories</h5>
             </header>
@@ -223,7 +228,7 @@ function TwentyTwoPages() {
           className="side-nav v1 bg-box like-bg border-radius-item overflow-hidden ui-repeater"
           id="BlogSystemV1SideNavArchives"
         >
-         <nav>
+          <nav>
             <header className="text-left">
               <h5>Archives</h5>
             </header>
@@ -474,4 +479,4 @@ function TwentyTwoPages() {
   )
 }
 
-export default TwentyTwoPages
+export default October2021Pages

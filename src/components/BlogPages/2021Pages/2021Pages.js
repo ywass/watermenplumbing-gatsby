@@ -2,7 +2,7 @@ import React from 'react'
 import '../../../style/blog.css'
 import HomeIcon from '../../../images/svg/HomeIcon.svg'
 import { Link } from 'gatsby'
-function TwentyTwoPages() {
+function TwentyOnePages() {
   return (
     <main id="MainZone">
   <section className="bread-crumbs v1 bg-box-none light-bg" id="BreadCrumbsV1">
@@ -19,7 +19,7 @@ function TwentyTwoPages() {
               Blog
             </Link>
           </li>
-          <li className="flex-middle relative">2022</li>
+          <li className="flex-middle relative">2021</li>
         </ol>
       </nav>
     </div>
@@ -35,7 +35,7 @@ function TwentyTwoPages() {
           id="Form_BlogSystemV1BlogPostsYear"
           method="post"
           encType="multipart/form-data"
-          action="https://www.watermenplumbing.com/blog/2022/"
+          action="https://www.watermenplumbing.com/blog/2021/"
           data-search={1}
         >
           <input
@@ -64,7 +64,6 @@ function TwentyTwoPages() {
             data-loading="false"
             data-infinite="true"
             data-ajaxreplace="true"
-            data-needspaging="false"
           >
             <input
               type="hidden"
@@ -90,7 +89,7 @@ function TwentyTwoPages() {
                 id="BlogSystemV1BlogPostsYearHeader"
                 data-role="thead"
               >
-                <h1>Posts in 2022</h1>
+                <h1>Posts in 2021</h1>
                 <svg className="header-flair" role="presentation">
                   <use href="../../includes/flair.svg#header" />
                 </svg>
@@ -101,11 +100,11 @@ function TwentyTwoPages() {
               <li
                 className="half flex- featured"
                 data-item="i"
-                data-key={1302513}
+                data-key={1279586}
               >
                 <Link
                   className="flex-column full border-radius scaling-item bg-box relative"
-                  to="/blog/2022/january/read-this-before-you-buy-a-house-in-florida-"
+                  to="/blog/2021/october/what-homeowners-should-know-about-septic-tanks"
                 >
                   <div
                     className="img pad-height-50 fit full"
@@ -113,22 +112,197 @@ function TwentyTwoPages() {
                   >
                     <img
                       src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                      alt="A couple (man and woman) admiring a 2-story Florida house and asking questions before purchasing"
-                      data-src="../../cms/thumbnails/34/480x240/images/blog/shutterstock_319418210%5b1%5d.jpg"
+                      alt="Do all homes have septic tanks? Look for a septic tank cover in the ground"
+                      data-src="../../cms/thumbnails/34/480x240/images/blog/Septic-Blog.jpg"
                     />
                   </div>
                   <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
                     <div className="auto full">
                       <span className="blog-time-style full">
-                        <time content="Jan 21, 2022">Jan 21</time>
+                        <time content="Oct 25, 2021">Oct 25</time>
                       </span>
                       <strong className="title-style-4 title-color-4">
-                        Read This Before You Buy a House in Florida
+                        What Homeowners Should Know about Septic Tanks
                       </strong>
                       <p className="hide-800">
-                        Moving can be expensive, especially if you’re moving
-                        from out of state. Whether they’re moving for family
-                        reasons, a lifestyle ...
+                        If you own a home with a septic tank or are thinking
+                        about buying one, it’s important to understand how this
+                        system functions on ...
+                      </p>
+                    </div>
+                    <span className="fit btn v2">View Article</span>
+                  </div>
+                </Link>
+              </li>
+              <li
+                className="half flex- featured"
+                data-item="i"
+                data-key={1263828}
+              >
+                <Link
+                  className="flex-column full border-radius scaling-item bg-box relative"
+                  to="/blog/2021/august/what-to-look-for-when-buying-a-home-in-south-flo"
+                >
+                  <div
+                    className="img pad-height-50 fit full"
+                    role="presentation"
+                  >
+                    <img
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                      alt="Front view of a typical house found in Southern Florida."
+                      data-src="../../cms/thumbnails/34/480x240/images/blog/South-Florida-Home-Banner.jpg"
+                    />
+                  </div>
+                  <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
+                    <div className="auto full">
+                      <span className="blog-time-style full">
+                        <time content="Aug 31, 2021">Aug 31</time>
+                      </span>
+                      <strong className="title-style-4 title-color-4">
+                        What to Look for When Buying a Home in South Florida
+                      </strong>
+                      <p className="hide-800">
+                        Florida has long been a hot real estate market, but that
+                        is especially true today with the increase in remote
+                        work opportunities. ...
+                      </p>
+                    </div>
+                    <span className="fit btn v2">View Article</span>
+                  </div>
+                </Link>
+              </li>
+              <li
+                className="half flex- featured"
+                data-item="i"
+                data-key={1258441}
+              >
+                <Link
+                  className="flex-column full border-radius scaling-item bg-box relative"
+                  to="/blog/2021/august/protect-your-pipes-this-hurricane-season"
+                >
+                  <div
+                    className="img pad-height-50 fit full"
+                    role="presentation"
+                  >
+                    <img
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                      alt="Flooded Florida neighborhood street."
+                      data-src="../../cms/thumbnails/34/480x240/images/blog/Florida-Hurricane-Flooding.jpg"
+                    />
+                  </div>
+                  <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
+                    <div className="auto full">
+                      <span className="blog-time-style full">
+                        <time content="Aug 13, 2021">Aug 13</time>
+                      </span>
+                      <strong className="title-style-4 title-color-4">
+                        Protect Your Pipes this Hurricane Season
+                      </strong>
+                      <p className="hide-800">
+                        We’re in the middle of hurricane season and NOAA’s
+                        Climate Prediction Center says that atmospheric and
+                        oceanic conditions remain ...
+                      </p>
+                    </div>
+                    <span className="fit btn v2">View Article</span>
+                  </div>
+                </Link>
+              </li>
+              <li
+                className="half flex- featured"
+                data-item="i"
+                data-key={1248528}
+              >
+                <Link
+                  className="flex-column full border-radius scaling-item bg-box relative"
+                  to="/blog/2021/july/why-are-water-heaters-round-"
+                >
+                  <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
+                    <div className="auto full">
+                      <span className="blog-time-style full">
+                        <time content="Jul 6, 2021">Jul 06</time>
+                      </span>
+                      <strong className="title-style-4 title-color-4">
+                        Why Are Water Heaters Round?
+                      </strong>
+                      <p className="hide-800">
+                        If you have a storage tank water heater, you’re probably
+                        familiar with this cylindrical appliance in your garage
+                        or utility ...
+                      </p>
+                    </div>
+                    <span className="fit btn v2">View Article</span>
+                  </div>
+                </Link>
+              </li>
+              <li
+                className="half flex- featured"
+                data-item="i"
+                data-key={1241879}
+              >
+                <Link
+                  className="flex-column full border-radius scaling-item bg-box relative"
+                  to="/blog/2021/june/5-maintenance-tips-to-avoid-plumbing-headaches"
+                >
+                  <div
+                    className="img pad-height-50 fit full"
+                    role="presentation"
+                  >
+                    <img
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                      alt="Cartoon flooded laundry room/basement"
+                      data-src="../../cms/thumbnails/34/480x240/images/blog/Flooded-Laundry-Room.jpg"
+                    />
+                  </div>
+                  <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
+                    <div className="auto full">
+                      <span className="blog-time-style full">
+                        <time content="Jun 7, 2021">Jun 07</time>
+                      </span>
+                      <strong className="title-style-4 title-color-4">
+                        5 Maintenance Tips to Avoid Plumbing Headaches
+                      </strong>
+                      <p className="hide-800">
+                        Caring for your home’s plumbing system can seem
+                        daunting. Your plumbing is the workhorse of all the
+                        systems in your house. It ...
+                      </p>
+                    </div>
+                    <span className="fit btn v2">View Article</span>
+                  </div>
+                </Link>
+              </li>
+              <li
+                className="half flex- featured"
+                data-item="i"
+                data-key={1227010}
+              >
+                <Link
+                  className="flex-column full border-radius scaling-item bg-box relative"
+                  to="/blog/2021/april/a-guide-to-optimizing-your-home-plumbing"
+                >
+                  <div
+                    className="img pad-height-50 fit full"
+                    role="presentation"
+                  >
+                    <img
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                      alt="Flooded kitchen illustration"
+                      data-src="../../cms/thumbnails/34/480x240/images/blog/banner-banner-banner.jpg"
+                    />
+                  </div>
+                  <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
+                    <div className="auto full">
+                      <span className="blog-time-style full">
+                        <time content="Apr 7, 2021">Apr 07</time>
+                      </span>
+                      <strong className="title-style-4 title-color-4">
+                        A Guide to Optimizing Your Home Plumbing
+                      </strong>
+                      <p className="hide-800">
+                        Water pipes and sewer lines are essential to home life.
+                        Without a functional plumbing system, it would be nearly
+                        impossible to ...
                       </p>
                     </div>
                     <span className="fit btn v2">View Article</span>
@@ -179,7 +353,7 @@ function TwentyTwoPages() {
               </li>
               <li className="level-1" data-item="i" data-key={1223080}>
                 <Link
-                  to="/blog/2021/march/plumbing-problems-that-can-cause-mold"
+                  to="/blog/march/plumbing-problems-that-can-cause-mold"
                   target=""
                   role="menuitem"
                 >
@@ -202,7 +376,7 @@ function TwentyTwoPages() {
           className="side-nav v1 bg-box like-bg border-radius-item overflow-hidden ui-repeater"
           id="BlogSystemV1SideNavCategories"
         >
-           <nav>
+          <nav>
             <header className="text-left">
               <h5>Categories</h5>
             </header>
@@ -223,7 +397,7 @@ function TwentyTwoPages() {
           className="side-nav v1 bg-box like-bg border-radius-item overflow-hidden ui-repeater"
           id="BlogSystemV1SideNavArchives"
         >
-         <nav>
+           <nav>
             <header className="text-left">
               <h5>Archives</h5>
             </header>
@@ -474,4 +648,4 @@ function TwentyTwoPages() {
   )
 }
 
-export default TwentyTwoPages
+export default TwentyOnePages
