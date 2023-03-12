@@ -1,21 +1,63 @@
 import React from 'react'
-import '../../style/blog.css'
-import blogMainOneImg from '../../images/shutterstock_3194182101.jpg'
-import HomeIcon from '../../images/svg/HomeIcon.svg'
+import '../../../style/blog.css'
+import HomeIcon from '../../../images/svg/HomeIcon.svg'
 import { Link } from 'gatsby'
-function BlogMainPage() {
+function CategoriesPages() {
   return (
     <main id="MainZone">
+  <section
+    className="sub-banner v1 bg-image dark-bg bg-box-none text-left"
+    id="SubBannerV1"
+    data-onvisible="show"
+  >
+    <picture className="img-bg bg-position" role="presentation">
+      <source
+        media="(max-width: 500px)"
+        srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+        data-src="/assets/sub-banners/sub-banner-v1-bg-mobile.jpg"
+      />
+      <img
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+        alt=""
+        data-src="/assets/sub-banners/sub-banner-v1-bg.jpg"
+      />
+    </picture>
+    <div className="main">
+      <div
+        className="bg-box side-padding-medium vertical-padding info text-align center-500 box-flair"
+        id="SubBannerV1Info"
+      >
+        <div className="flair-border">
+          <span className="flair-1" />
+          <span className="flair-2" />
+          <span className="title-font title-color-1">
+            <strong>Categories</strong>
+          </span>
+          <em className="title-color-2 subtitle">
+            We’ll Treat Your Home as if It Were Our Own
+          </em>
+          <svg role="presentation" className="header-flair">
+            <use href="../../includes/flair.svg#header" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
   <section className="bread-crumbs v1 bg-box-none light-bg" id="BreadCrumbsV1">
     <div className="main">
       <nav className="relative bg-box border-radius-item no-shadow">
         <ol className="flex-middle">
           <li className="flex-middle relative">
             <Link title="Go Home" aria-label="Go Home" to="/">
-              <HomeIcon/>
+             <HomeIcon/>
             </Link>
           </li>
-          <li className="flex-middle relative">Blog</li>
+          <li className="flex-middle relative">
+            <Link to="/blog" target="">
+              Blog
+            </Link>
+          </li>
+          <li className="flex-middle relative">Categories</li>
         </ol>
       </nav>
     </div>
@@ -28,283 +70,127 @@ function BlogMainPage() {
     <div className="main vertical-padding-small flex-spaced-between-block-1024-margined flex-direction">
       <div className="content-zone two-thirds" id="ContentZone">
         <form
-          id="Form_BlogSystemV1BlogPostsHome"
+          id="Form_BlogSystemV1BlogPostsCategories"
           method="post"
           encType="multipart/form-data"
-          action="https://www.watermenplumbing.com/blog/"
+          action="https://www.watermenplumbing.com/blog/categories/"
           data-search={1}
         >
           <input
             type="hidden"
             name="_m_"
-            defaultValue="BlogSystemV1BlogPostsHome"
+            defaultValue="BlogSystemV1BlogPostsCategories"
           />
           <input
             type="hidden"
             className="ui-cms-input"
-            id="BlogSystemV1BlogPostsHome__edit_"
-            name="BlogSystemV1BlogPostsHome$_edit_"
+            id="BlogSystemV1BlogPostsCategories__edit_"
+            name="BlogSystemV1BlogPostsCategories$_edit_"
             defaultValue=""
           />
           <input
             type="hidden"
             className="ui-cms-input"
-            id="BlogSystemV1BlogPostsHome__command_"
-            name="BlogSystemV1BlogPostsHome$_command_"
+            id="BlogSystemV1BlogPostsCategories__command_"
+            name="BlogSystemV1BlogPostsCategories$_command_"
             defaultValue=""
           />
           <div
-            className="blog-posts blog-home ui-repeater ui-ajax"
-            id="BlogSystemV1BlogPostsHome"
+            className="blog-posts blog-categories ui-repeater ui-ajax"
+            id="BlogSystemV1BlogPostsCategories"
             data-onvisible="show"
             data-loading="false"
             data-infinite="true"
             data-ajaxreplace="true"
+            data-needspaging="false"
           >
             <input
               type="hidden"
-              id="BlogSystemV1BlogPostsHome_HDR0_ResultsPerPage"
+              id="BlogSystemV1BlogPostsCategories_HDR0_ResultsPerPage"
               autoComplete="off"
               className="ui-cms-input"
-              name="BlogSystemV1BlogPostsHome$HDR0$ResultsPerPage"
+              name="BlogSystemV1BlogPostsCategories$HDR0$ResultsPerPage"
               defaultValue={6}
               data-search="true"
             />
             <input
               type="hidden"
-              id="BlogSystemV1BlogPostsHome_HDR0_PagingID"
+              id="BlogSystemV1BlogPostsCategories_HDR0_PagingID"
               autoComplete="off"
               className="ui-cms-input"
-              name="BlogSystemV1BlogPostsHome$HDR0$PagingID"
+              name="BlogSystemV1BlogPostsCategories$HDR0$PagingID"
               defaultValue=""
               data-search="true"
             />
-            <div className="bottom-margin-small">
+            <div className="bottom-margin-tiny">
               <header
                 className="text-align no-pad center-1024"
-                id="BlogSystemV1BlogPostsHomeHeader"
+                id="BlogSystemV1BlogPostsCategoriesHeader"
                 data-role="thead"
               >
-                <h1>Recent News</h1>
+                <h1>Posts by Category</h1>
                 <svg className="header-flair" role="presentation">
-                  <use href="../includes/flair.svg#header" />
+                  <use href="../../includes/flair.svg#header" />
                 </svg>
               </header>
             </div>
-            <ul className="flex-grid-wrap-block-800" data-role="tbody">
+            <ul>
               
-              <li
-                className="half flex- featured"
-                data-item="i"
-                data-key={1302513}
-              >
-                <Link
-                  className="flex-column full border-radius scaling-item bg-box relative"
-                  to="/blog/2022/january/read-this-before-you-buy-a-house-in-florida-"
-                >
-                  <div
-                    className="img pad-height-50 fit full"
-                    role="presentation"
+              <li>
+                <div className="divider top-margin-small bottom-margin-small flex-middle-center-spaced-between divide">
+                  <Link to="/blog/categories/septic-tanks" title="Septic Tanks">
+                    <strong className="title-style-3">Septic Tanks</strong>
+                  </Link>
+                  <span className="line auto" />
+                  <Link
+                    to="/blog/categories/septic-tanks"
+                    className="btn-colors btn-style fit"
+                    title="Septic Tanks"
                   >
-                    <img
-                      alt="A couple (man and woman) admiring a 2-story Florida house and asking questions before purchasing"
-                      src={blogMainOneImg}
-                    />
-                  </div>
-                  <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
-                    <div className="auto full">
-                      <span className="blog-time-style full">
-                        <time content="Jan 21, 2022">Jan 21</time>
-                      </span>
-                      <strong className="title-style-4 title-color-4">
-                        Read This Before You Buy a House in Florida
-                      </strong>
-                      <p className="hide-800">
-                        Moving can be expensive, especially if you’re moving
-                        from out of state. Whether they’re moving for family
-                        reasons, a lifestyle ...
-                      </p>
-                    </div>
-                    <span className="fit btn v2">View Article</span>
-                  </div>
-                </Link>
-              </li>
-              <li
-                className="half flex- featured"
-                data-item="i"
-                data-key={1279586}
-              >
-                <Link
-                  className="flex-column full border-radius scaling-item bg-box relative"
-                  to="/blog/2021/october/what-homeowners-should-know-about-septic-tanks"
-                >
-                  <div
-                    className="img pad-height-50 fit full"
-                    role="presentation"
+                    (1) Post
+                  </Link>
+                </div>
+                <ul className="flex-grid-wrap-block-800" data-role="tbody">
+                  <li
+                    className="half flex- featured"
+                    data-item="i"
+                    data-key={2324508}
                   >
-                    <img
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                      alt="Do all homes have septic tanks? Look for a septic tank cover in the ground"
-                      data-src="../cms/thumbnails/34/480x240/images/blog/Septic-Blog.jpg"
-                    />
-                  </div>
-                  <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
-                    <div className="auto full">
-                      <span className="blog-time-style full">
-                        <time content="Oct 25, 2021">Oct 25</time>
-                      </span>
-                      <strong className="title-style-4 title-color-4">
-                        What Homeowners Should Know about Septic Tanks
-                      </strong>
-                      <p className="hide-800">
-                        If you own a home with a septic tank or are thinking
-                        about buying one, it’s important to understand how this
-                        system functions on ...
-                      </p>
-                    </div>
-                    <span className="fit btn v2">View Article</span>
-                  </div>
-                </Link>
+                    <Link
+                      className="flex-column full border-radius scaling-item bg-box relative"
+                      to="/blog//2021/october/what-homeowners-should-know-about-septic-tanks/index.html"
+                    >
+                      <div
+                        className="img pad-height-50 fit full"
+                        role="presentation"
+                      >
+                        <img
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                          alt="Do all homes have septic tanks? Look for a septic tank cover in the ground"
+                          data-src="../../cms/thumbnails/34/480x240/images/blog/Septic-Blog.jpg"
+                        />
+                      </div>
+                      <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
+                        <div className="auto full">
+                          <span className="blog-time-style full">
+                            <time content="Oct 25, 2021">Oct 25</time>
+                          </span>
+                          <strong className="title-style-4 title-color-4">
+                            What Homeowners Should Know about Septic Tanks
+                          </strong>
+                          <p className="hide-800">
+                            If you own a home with a septic tank or are thinking
+                            about buying one, it’s important to understand how
+                            this system functions on ...
+                          </p>
+                        </div>
+                        <span className="fit btn v2">View Article</span>
+                      </div>
+                    </Link>
+                  </li>
+                </ul>
               </li>
-              <li
-                className="half flex- featured"
-                data-item="i"
-                data-key={1263828}
-              >
-                <Link
-                  className="flex-column full border-radius scaling-item bg-box relative"
-                  to="/blog/2021/august/what-to-look-for-when-buying-a-home-in-south-flo"
-                >
-                  <div
-                    className="img pad-height-50 fit full"
-                    role="presentation"
-                  >
-                    <img
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                      alt="Front view of a typical house found in Southern Florida."
-                      data-src="../cms/thumbnails/34/480x240/images/blog/South-Florida-Home-Banner.jpg"
-                    />
-                  </div>
-                  <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
-                    <div className="auto full">
-                      <span className="blog-time-style full">
-                        <time content="Aug 31, 2021">Aug 31</time>
-                      </span>
-                      <strong className="title-style-4 title-color-4">
-                        What to Look for When Buying a Home in South Florida
-                      </strong>
-                      <p className="hide-800">
-                        Florida has long been a hot real estate market, but that
-                        is especially true today with the increase in remote
-                        work opportunities. ...
-                      </p>
-                    </div>
-                    <span className="fit btn v2">View Article</span>
-                  </div>
-                </Link>
-              </li>
-              <li
-                className="half flex- featured"
-                data-item="i"
-                data-key={1258441}
-              >
-                <Link
-                  className="flex-column full border-radius scaling-item bg-box relative"
-                  to="/blog/2021/august/protect-your-pipes-this-hurricane-season"
-                >
-                  <div
-                    className="img pad-height-50 fit full"
-                    role="presentation"
-                  >
-                    <img
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                      alt="Flooded Florida neighborhood street."
-                      data-src="../cms/thumbnails/34/480x240/images/blog/Florida-Hurricane-Flooding.jpg"
-                    />
-                  </div>
-                  <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
-                    <div className="auto full">
-                      <span className="blog-time-style full">
-                        <time content="Aug 13, 2021">Aug 13</time>
-                      </span>
-                      <strong className="title-style-4 title-color-4">
-                        Protect Your Pipes this Hurricane Season
-                      </strong>
-                      <p className="hide-800">
-                        We’re in the middle of hurricane season and NOAA’s
-                        Climate Prediction Center says that atmospheric and
-                        oceanic conditions remain ...
-                      </p>
-                    </div>
-                    <span className="fit btn v2">View Article</span>
-                  </div>
-                </Link>
-              </li>
-              <li
-                className="half flex- featured"
-                data-item="i"
-                data-key={1248528}
-              >
-                <Link
-                  className="flex-column full border-radius scaling-item bg-box relative"
-                  to="/blog/2021/july/why-are-water-heaters-round-"
-                >
-                  <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
-                    <div className="auto full">
-                      <span className="blog-time-style full">
-                        <time content="Jul 6, 2021">Jul 06</time>
-                      </span>
-                      <strong className="title-style-4 title-color-4">
-                        Why Are Water Heaters Round?
-                      </strong>
-                      <p className="hide-800">
-                        If you have a storage tank water heater, you’re probably
-                        familiar with this cylindrical appliance in your garage
-                        or utility ...
-                      </p>
-                    </div>
-                    <span className="fit btn v2">View Article</span>
-                  </div>
-                </Link>
-              </li>
-              <li
-                className="half flex- featured"
-                data-item="i"
-                data-key={1241879}
-              >
-                <Link
-                  className="flex-column full border-radius scaling-item bg-box relative"
-                  to="/blog/2021/june/5-maintenance-tips-to-avoid-plumbing-headaches"
-                >
-                  <div
-                    className="img pad-height-50 fit full"
-                    role="presentation"
-                  >
-                    <img
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                      alt="Cartoon flooded laundry room/basement"
-                      data-src="../cms/thumbnails/34/480x240/images/blog/Flooded-Laundry-Room.jpg"
-                    />
-                  </div>
-                  <div className="flex-column-top side-padding-large vertical-padding-tiny full auto">
-                    <div className="auto full">
-                      <span className="blog-time-style full">
-                        <time content="Jun 7, 2021">Jun 07</time>
-                      </span>
-                      <strong className="title-style-4 title-color-4">
-                        5 Maintenance Tips to Avoid Plumbing Headaches
-                      </strong>
-                      <p className="hide-800">
-                        Caring for your home’s plumbing system can seem
-                        daunting. Your plumbing is the workhorse of all the
-                        systems in your house. It ...
-                      </p>
-                    </div>
-                    <span className="fit btn v2">View Article</span>
-                  </div>
-                </Link>
-              </li>
-              
+             
             </ul>
           </div>
         </form>
@@ -321,7 +207,7 @@ function BlogMainPage() {
             <ul role="menu">
               <li className="level-1" data-item="i" data-key={1191482}>
                 <Link
-                  to="/blog/2018/september/master-plumber-vs-plumber-in-florida-what-s-the-"
+                  to="/blog/2018/september/master-plumber-vs-plumber-in-florida-what-s-the-/index.html"
                   target=""
                   role="menuitem"
                 >
@@ -330,7 +216,7 @@ function BlogMainPage() {
               </li>
               <li className="level-1" data-item="i" data-key={1191463}>
                 <Link
-                  to="/blog/2017/september/5-post-hurricane-plumbing-problems-to-watch-for"
+                  to="/blog/2017/september/5-post-hurricane-plumbing-problems-to-watch-for/index.html"
                   target=""
                   role="menuitem"
                 >
@@ -339,7 +225,7 @@ function BlogMainPage() {
               </li>
               <li className="level-1" data-item="i" data-key={1191503}>
                 <Link
-                  to="/blog/2020/march/plumbing-maintenance-and-repair-in-your-rental-p"
+                  to="/blog/2020/march/plumbing-maintenance-and-repair-in-your-rental-p/index.html"
                   target=""
                   role="menuitem"
                 >
@@ -348,7 +234,7 @@ function BlogMainPage() {
               </li>
               <li className="level-1" data-item="i" data-key={1223080}>
                 <Link
-                  to="/blog/2021/march/plumbing-problems-that-can-cause-mold"
+                  to="/blog/2021/march/plumbing-problems-that-can-cause-mold/index.html"
                   target=""
                   role="menuitem"
                 >
@@ -357,7 +243,7 @@ function BlogMainPage() {
               </li>
               <li className="level-1" data-item="i" data-key={1191189}>
                 <Link
-                  to="/blog/2020/november/plumbing-upgrades-that-will-increase-your-home-s"
+                  to="/blog/2020/november/plumbing-upgrades-that-will-increase-your-home-s/index.html"
                   target=""
                   role="menuitem"
                 >
@@ -392,7 +278,7 @@ function BlogMainPage() {
           className="side-nav v1 bg-box like-bg border-radius-item overflow-hidden ui-repeater"
           id="BlogSystemV1SideNavArchives"
         >
-          <nav>
+           <nav>
             <header className="text-left">
               <h5>Archives</h5>
             </header>
@@ -643,4 +529,4 @@ function BlogMainPage() {
   )
 }
 
-export default BlogMainPage
+export default CategoriesPages
