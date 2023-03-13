@@ -12,6 +12,7 @@ import PanelGroupImg from "../../../images/values-v9-bg.jpg"
 import PanelGroupMobImg from "../../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../../images/values-v9-img.png'
 import ctaV13Bg from '../../../images/cta-v13-bg.jpeg'
+import { Link } from 'gatsby'
 function SewerLineInstReplacePage() {
   return (
     <main id="MainZone">
@@ -92,8 +93,8 @@ function SewerLineInstReplacePage() {
                 >
                   <b>
                     Give us a call at
-                    <a
-                      href="tel:(954) 800-6364"
+                    <Link
+                      to="tel:(954) 800-6364"
                       id="ColumnLayoutContent_1"
                       data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                     >
@@ -104,7 +105,7 @@ function SewerLineInstReplacePage() {
                       >
                         (954) 800-6364
                       </span>
-                    </a>{" "}
+                    </Link>{" "}
                     to discuss your plumbing project with our qualified
                     professionals.
                   </b>
@@ -121,7 +122,7 @@ function SewerLineInstReplacePage() {
                 <ul>
                   <li>
                     Strange smells coming from your
-                    <a href="../../drain-issues/index.html">drains</a>
+                    <Link to="/plumbing-services/drain-issues">drains</Link>
                   </li>
                   <li>There is mold growth in your home</li>
                   <li>Water drains slowly or not at all</li>
@@ -131,7 +132,7 @@ function SewerLineInstReplacePage() {
                   <li>Sewage is backing up into your sink or shower</li>
                   <li>
                     The
-                    <a href="../../toilets/index.html">toilet</a> backs up when
+                    <Link to="/toilets">toilet</Link> backs up when
                     you flush
                   </li>
                 </ul>
@@ -146,14 +147,14 @@ function SewerLineInstReplacePage() {
                 <p className="text-highlight v5 title-font side-padding">
                   For dependable sewer line replacement services in Boca Raton,
                   <b>
-                    <a href="../../../contact-us/index.html">
+                    <Link to="/contact-us">
                       contact us online
-                    </a>
+                    </Link>
                   </b>{" "}
                   or at
                   <b>
-                    <a
-                      href="tel:(954) 800-6364"
+                    <Link
+                      to="tel:(954) 800-6364"
                       id="ColumnLayoutContent_3"
                       data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                     >
@@ -164,7 +165,7 @@ function SewerLineInstReplacePage() {
                       >
                         (954) 800-6364
                       </span>
-                    </a>
+                    </Link>
                   </b>{" "}
                   today!
                 </p>
@@ -197,7 +198,7 @@ function SewerLineInstReplacePage() {
                 <p>
                   Your sewer line is responsible for carrying the wastewater
                   from your home to the main
-                  <a href="../index.html">sewer line</a>. If damage has occurred
+                  <Link to="/plumbing-services/sewer-services">sewer line</Link>. If damage has occurred
                   to your sewer pipes, it can cause severe problems, including
                   sewage backing up into your home. To avoid such disasters,
                   contact Watermen Plumbing Inc. as soon as you suspect a broken
@@ -209,8 +210,8 @@ function SewerLineInstReplacePage() {
                 >
                   <b>
                     Call
-                    <a
-                      href="tel:(954) 800-6364"
+                    <Link
+                      to="tel:(954) 800-6364"
                       id="ColumnLayoutContent_5"
                       data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                     >
@@ -221,11 +222,11 @@ function SewerLineInstReplacePage() {
                       >
                         (954) 800-6364
                       </span>
-                    </a>{" "}
+                    </Link>{" "}
                     or
-                    <a href="../../../contact-us/index.html">
+                    <Link to="/contact-us">
                       contact us online
-                    </a>{" "}
+                    </Link>{" "}
                     to schedule an estimate with our Boca Raton sewer line
                     installation and replacement specialists.
                   </b>
@@ -243,30 +244,30 @@ function SewerLineInstReplacePage() {
         >
           <nav>
             <header className="text-left">
-              <a href="../index.html">
+              <Link to="/plumbing-services/sewer-services">
                 <h5>Sewer Services</h5>
-              </a>
+              </Link>
             </header>
             <ul className="el-tab-box" role="menu">
               <li className="level-1 selected ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="index.html"
+                  to="/plumbing-services/sewer-services/sewer-line-installation-replacement"
                   target=""
                   role="menuitem"
                 >
                   Sewer Line Installation &amp; Replacement
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../septic-to-sewer-conversion/index.html"
+                  to="/septic-to-sewer-conversion"
                   target=""
                   role="menuitem"
                 >
                   Septic to Sewer Conversion
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -525,13 +526,13 @@ function SewerLineInstReplacePage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../../coupons/print/index0a09.html?id=7622"
+                        to="../../../coupons/print/index0a09.html?id=7622"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -571,13 +572,13 @@ function SewerLineInstReplacePage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../../coupons/print/index9f4e.html?id=7223"
+                        to="../../../coupons/print/index9f4e.html?id=7223"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -648,9 +649,9 @@ function SewerLineInstReplacePage() {
         id="CtaV13List"
       >
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../../photo-gallery/index.html"
+            to="/photo-gallery"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -667,12 +668,12 @@ function SewerLineInstReplacePage() {
               </strong>
               <span className="btn v1 top-margin-small">View Our Gallery</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../../blog/index.html"
+            to="/blog"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -689,12 +690,12 @@ function SewerLineInstReplacePage() {
               </strong>
               <span className="btn v1 top-margin-small">Read Our bLogs</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../../coupons/index.html"
+            to="/coupons"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -711,7 +712,7 @@ function SewerLineInstReplacePage() {
               </strong>
               <span className="btn v1 top-margin-small">View our Offers</span>
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
@@ -721,7 +722,7 @@ function SewerLineInstReplacePage() {
     id="ValuesV9"
     data-onvisible="show"
   >
-    <a name="valuesAnchor" />
+    <Link name="valuesAnchor" />
     <picture className="img-bg" role="presentation" data-role="picture">
       <source
         media="(max-width: 500px)"

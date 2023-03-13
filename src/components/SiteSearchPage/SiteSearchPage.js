@@ -1,5 +1,8 @@
 import React from 'react'
 import '../../style/siteSearch.css'
+
+
+import { Link } from 'gatsby'
 function SiteSearchPage() {
   return (
     <main id="MainZone">
@@ -38,9 +41,7 @@ function SiteSearchPage() {
           id="SiteSearchSystemV1Header"
         >
           <h1>How Can We Help You?</h1>
-          <svg className="header-flair" role="presentation">
-            <use href="../includes/flair.svg#header" />
-          </svg>
+        
         </header>
         <input
           type="hidden"
@@ -77,7 +78,7 @@ function SiteSearchPage() {
                 defaultValue=""
                 data-search="true"
               />
-              <label htmlFor="SiteSearchSystemV1Search_HDR0_Keyword">
+              <label className='searchLabel' htmlFor="SiteSearchSystemV1Search_HDR0_Keyword">
                 Search by keyword
               </label>
               <label
@@ -107,7 +108,7 @@ function SiteSearchPage() {
               <strong className="title-style-4 text-center">
                 Sorry no matching pages were found. Please try a <br />
                 different search term or
-                <a href="../site-map/index.html">click here</a> to visit our
+                <Link to="/site-map">click here</Link> to visit our
                 site map.
               </strong>
             </li>

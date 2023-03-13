@@ -12,6 +12,7 @@ import PanelGroupImg from "../../../images/values-v9-bg.jpg"
 import PanelGroupMobImg from "../../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../../images/values-v9-img.png'
 import ctaV13Bg from '../../../images/cta-v13-bg.jpeg'
+import { Link } from 'gatsby'
 function SepticToSewerConvPage() {
   return (
     <main id="MainZone">
@@ -77,7 +78,7 @@ function SepticToSewerConvPage() {
                 <p>
                   There are two ways properties can get rid of wastewater:
                   through a septic tank or a
-                  <a href="../index.html">sewer line</a>. While many simply
+                  <Link to="/plumbing-services/sewer-services">sewer line</Link>. While many simply
                   accept the septic system that came with a building, municipal
                   authorities have expanded and extended public sewer lines,
                   allowing for an easier conversion process. Converting to a
@@ -95,8 +96,8 @@ function SepticToSewerConvPage() {
                   </b>
                   <b>
                     Watermen Plumbing Inc. Call
-                    <a
-                      href="tel:(954) 800-6364"
+                    <Link
+                      to="tel:(954) 800-6364"
                       id="ColumnLayoutContent_1"
                       data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                     >
@@ -107,7 +108,7 @@ function SepticToSewerConvPage() {
                       >
                         (954) 800-6364
                       </span>
-                    </a>{" "}
+                    </Link>{" "}
                     to schedule an estimate.
                   </b>
                 </p>
@@ -179,8 +180,8 @@ function SepticToSewerConvPage() {
                 >
                   <b>
                     Call us today
-                    <a
-                      href="tel:(954) 800-6364"
+                    <Link
+                      to="tel:(954) 800-6364"
                       id="ColumnLayoutContent_3"
                       data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                     >
@@ -191,11 +192,11 @@ function SepticToSewerConvPage() {
                       >
                         (954) 800-6364
                       </span>
-                    </a>{" "}
+                    </Link>{" "}
                     or
-                    <a href="../../../contact-us/index.html">
+                    <Link to="/contact-us">
                       contact us online
-                    </a>{" "}
+                    </Link>{" "}
                     so our team at
                   </b>
                   <b>Watermen Plumbing Inc. can answer all your questions.</b>
@@ -213,30 +214,30 @@ function SepticToSewerConvPage() {
         >
           <nav>
             <header className="text-left">
-              <a href="../index.html">
+              <Link to="/plumbing-services/sewer-services">
                 <h5>Sewer Services</h5>
-              </a>
+              </Link>
             </header>
             <ul className="el-tab-box" role="menu">
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../sewer-line-installation-replacement/index.html"
+                  to="/plumbing-services/sewer-services/sewer-line-installation-replacement"
                   target=""
                   role="menuitem"
                 >
                   Sewer Line Installation &amp; Replacement
-                </a>
+                </Link>
               </li>
               <li className="level-1 selected ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="index.html"
+                  to="/plumbing-services/sewer-services/septic-to-sewer-conversion"
                   target=""
                   role="menuitem"
                 >
                   Septic to Sewer Conversion
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -495,13 +496,13 @@ function SepticToSewerConvPage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../../coupons/print/index0a09.html?id=7622"
+                        to="../../../coupons/print/index0a09.html?id=7622"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -541,13 +542,13 @@ function SepticToSewerConvPage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../../coupons/print/index9f4e.html?id=7223"
+                        to="../../../coupons/print/index9f4e.html?id=7223"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -618,9 +619,9 @@ function SepticToSewerConvPage() {
         id="CtaV13List"
       >
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../../photo-gallery/index.html"
+            to="/photo-gallery"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -637,12 +638,12 @@ function SepticToSewerConvPage() {
               </strong>
               <span className="btn v1 top-margin-small">View Our Gallery</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../../blog/index.html"
+            to="/blog"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -659,12 +660,12 @@ function SepticToSewerConvPage() {
               </strong>
               <span className="btn v1 top-margin-small">Read Our bLogs</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../../coupons/index.html"
+            to="/coupons"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -681,7 +682,7 @@ function SepticToSewerConvPage() {
               </strong>
               <span className="btn v1 top-margin-small">View our Offers</span>
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
@@ -691,7 +692,7 @@ function SepticToSewerConvPage() {
     id="ValuesV9"
     data-onvisible="show"
   >
-    <a name="valuesAnchor" />
+    <Link name="valuesAnchor" />
     <picture className="img-bg" role="presentation" data-role="picture">
       <source
         media="(max-width: 500px)"

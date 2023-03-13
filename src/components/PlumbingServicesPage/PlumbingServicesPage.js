@@ -28,6 +28,7 @@ import ThermostaticPressure from '../../images/svg/ThermostaticPressure.svg'
 import SewerInstallation from '../../images/svg/SewerInstallation.svg'
 import SepticSewer from '../../images/svg/SepticSewer.svg'
 import TanklessGasWater from '../../images/svg/TanklessGasWater.svg'
+import { Link } from 'gatsby'
 function PlumbingServicesPage() {
   return (
 <main id="MainZone">
@@ -103,13 +104,13 @@ function PlumbingServicesPage() {
             <div className="top-margin">
               <ul className="flex-wrap-block-500-margined text-align center-800 close-gap-500">
                 <li className="top-margin-tiny fit" data-item="i">
-                  <a
+                  <Link
                     className="full btn v1"
-                    href="https://book.housecallpro.com/book/Watermen-Plumbing-Inc/373bf5a05fc149db80dc799b751841fe"
+                    to="https://book.housecallpro.com/book/Watermen-Plumbing-Inc/373bf5a05fc149db80dc799b751841fe"
                     target="_blank"
                   >
                     Schedule Service Today
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -172,11 +173,11 @@ function PlumbingServicesPage() {
                 </h2>
                 <p style={{ textAlign: "left" }}>
                   At
-                  <a href="../about-us/index.html"> Watermen Plumbing Inc. </a>,
+                  <Link to="/about-us"> Watermen Plumbing Inc. </Link>,
                   our team of licensed, trained, and certified plumbing
                   specialists are eager to provide the residents and
-                  <a href="commercial-plumbing/index.html"> business owners
-                  </a>{" "}
+                  <Link to="/plumbing-services/commercial-plumbing"> business owners
+                  </Link>{" "}
                   of Boca Raton, Davie, Hallandale Beach, and surrounding
                   customers a complete selection of plumbing services to address
                   everyday household problems.
@@ -197,9 +198,9 @@ function PlumbingServicesPage() {
                       Financing is available for our customers
                     </span>
                     . Call in the experts from Watermen Plumbing Inc. at
-                    <a
+                    <Link
                       style={{ fontWeight: "bold" }}
-                      href="tel:(954) 800-6364"
+                      to="tel:(954) 800-6364"
                       id="ContentV1_1"
                       data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                     >
@@ -209,14 +210,14 @@ function PlumbingServicesPage() {
                         data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
                       > (954) 800-6364
                       </span>
-                    </a>{" "}
+                    </Link>{" "}
                     or
-                    <a
+                    <Link
                       style={{ fontWeight: "bold" }}
-                      href="../contact-us/index.html"
+                      to="/contact-us"
                     >
                       contact us online
-                    </a>{" "}
+                    </Link>{" "}
                     for plumbing services in Boca Raton, Hallandale Beach, &amp;
                     Davie.
                   </strong>
@@ -238,8 +239,8 @@ function PlumbingServicesPage() {
                   <li style={{ textAlign: "left" }}>
                     <b>Sewer Services</b> – Our team services your sewer lines
                     and
-                    <a href="drain-issues/drain-cleaning-snaking/index.html"> drains
-                    </a>{" "}
+                    <Link to="/plumbing-services/drain-issues/drain-cleaning-snaking"> drains
+                    </Link>{" "}
                     to remove clogs, stop leaks, and replace damaged piping.
                     Broken sewer lines and pipe failures are a messy business,
                     so when your sewer pipes need repair, look no further than
@@ -249,8 +250,8 @@ function PlumbingServicesPage() {
                     <b>Whole House Repiping – </b>Do you have aging pipes? Are
                     they leaking or draining slowly? You may need to have the
                     sewer piping network underneath your home replaced. A
-                    <a href="whole-home-repiping/index.html"> whole-house repiping
-                    </a>{" "}
+                    <Link to="/plumbing-services/whole-home-repiping"> whole-house repiping
+                    </Link>{" "}
                     job leaves you with a completely new plumbing system.
                     Repiping is typically a large-scale job. The results should
                     ensure you never need plumbing installed again.
@@ -258,7 +259,7 @@ function PlumbingServicesPage() {
                   <li style={{ textAlign: "left" }}>
                     <b>Water Heater</b> – We specialize in the repair,
                     servicing, and installation of all brands and types of
-                    <a href="water-heaters/index.html"> water heaters </a>,
+                    <Link to="/plumbing-services/water-heaters"> water heaters </Link>,
                     including tankless, traditional, gas, and electric.
                   </li>
                   <li style={{ textAlign: "left" }}>
@@ -266,13 +267,13 @@ function PlumbingServicesPage() {
                     like a service associated with plumbing, but in reality,
                     hard water is very damaging to plumbing fixtures. We can
                     inspect your system and
-                    <a href="water-filtration/index.html"> install water purification systems
-                    </a>{" "}
+                    <Link to="/plumbing-services/water-filtration"> install water purification systems
+                    </Link>{" "}
                     to eliminate the problem.
                   </li>
                   <li style={{ textAlign: "left" }}>
                     <b>Backwater Valves</b> -
-                    <a href="backwater-valves/index.html"> Backwater valves </a>{" "}
+                    <Link to="/plumbing-services/backwater-valves"> Backwater valves </Link>{" "}
                     prevent sewer waters from reentering your home once it’s
                     been sent into the sewer lines. The valve contains specialty
                     flaps that allow water to exit your home, but once the flap
@@ -286,8 +287,8 @@ function PlumbingServicesPage() {
                   <b>
                     We offer same-day appointments and weekend emergency calls.
                     Call in the experts from Watermen Plumbing Inc. at
-                    <a
-                      href="tel:(954) 800-6364"
+                    <Link
+                      to="tel:(954) 800-6364"
                       id="ContentV1_3"
                       data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                     >
@@ -297,9 +298,9 @@ function PlumbingServicesPage() {
                         data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
                       > (954) 800-6364
                       </span>
-                    </a>{" "}
+                    </Link>{" "}
                     or
-                    <a href="../contact-us/index.html"> contact us online </a>.
+                    <Link to="/contact-us"> contact us online </Link>.
                   </b>
                 </p>
               </article>
@@ -345,7 +346,7 @@ function PlumbingServicesPage() {
                   <div className="content-style" id="ContentV3MainContent">
                     <p>
                       At
-                      <a href="../about-us/index.html"> Watermen Plumbing Inc </a>
+                      <Link to="/about-us"> Watermen Plumbing Inc </Link>
                       ., we are focused on customer service and expert
                       solutions. Our specialists and master plumbers know the
                       industry inside and out, and we never leave a job until
@@ -366,8 +367,8 @@ function PlumbingServicesPage() {
                       <b>
                         Hallandale Beach, Davie and surrounding communities.
                         Call in the experts from Watermen Plumbing Inc. at
-                        <a
-                          href="tel:(954) 800-6364"
+                        <Link
+                          to="tel:(954) 800-6364"
                           id="ContentV3_1"
                           data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                         >
@@ -377,20 +378,20 @@ function PlumbingServicesPage() {
                             data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
                           > (954) 800-6364
                           </span>
-                        </a>{" "}
+                        </Link>{" "}
                         to solve all your plumbing problems!
                       </b>
                     </p>
                   </div>
                   <div id="ContentV3BtnCon">
                     <div className="top-margin-small relative">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../about-us/index.html"
+                        to="/about-us"
                         aria-labelledby="ContentV3Header"
                       >
                         More About Us
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -438,166 +439,166 @@ function PlumbingServicesPage() {
                 id="ServicesV8Services"
               >
                 <li className="half flex-" data-item="i" data-key={54107}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="water-filtration/index.html"
+                    to="/plumbing-services/water-filtration"
                   >
                    <WaterFilterationIcon className="right-margin-tiny fit"/>
                     <span>Water Filtration</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54108}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="sewer-services/septic-to-sewer-conversion/index.html"
+                    to="/plumbing-services/sewer-services/septic-to-sewer-conversion"
                   >
                     <SepticSewer className="right-margin-tiny fit"/>
                     <span>Septic to Sewer Conversion</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54109}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="sewer-services/sewer-line-installation-replacement/index.html"
+                    to="/plumbing-services/sewer-services/sewer-line-installation-replacement"
                   >
                     <SewerInstallation className="right-margin-tiny fit"/>
                     <span>Sewer Line Installation &amp; Replacement</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54111}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="thermostatic-pressure-balancing/index.html"
+                    to="/plumbing-services/thermostatic-pressure-balancing"
                   >
                    <ThermostaticPressure className="right-margin-tiny fit"/>
                     <span>Thermostatic Pressure Balancing</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54112}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="whole-home-repiping/index.html"
+                    to="/plumbing-services/whole-home-repiping"
                   >
                     <WholeHomeRepiping className="right-margin-tiny fit"/>
                     <span>Whole Home Repiping</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54115}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="leak-detection-repair/index.html"
+                    to="/plumbing-services/leak-detection-repair"
                   >
                     <LeaksIcon className="right-margin-tiny fit"/>
                     <span>Leaks</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54116}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="toilets/index.html"
+                    to="/toilets"
                   >
                    <ToiletsIcon className="right-margin-tiny fit"/>
                     <span>Toilets</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54106}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="commercial-plumbing/index.html"
+                    to="/plumbing-services/commercial-plumbing"
                   >
                    <CommercialPlumbing className="right-margin-tiny fit"/>
                     <span>Commercial Plumbing</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54105}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="other-services/index.html"
+                    to="/plumbing-services/other-services"
                   >
                     <OtherServicesIcon className="right-margin-tiny fit"/>
                     <span>Other Services</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54101}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="water-heaters/index.html"
+                    to="/plumbing-services/water-heaters"
                   >
                   <WaterHeatersIcon className="right-margin-tiny fit"/>
                     <span>Water Heaters</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54113}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="drain-issues/camera-drain-inspection/index.html"
+                    to="/plumbing-services/drain-issues/camera-drain-inspection"
                   >
                     <CameraDrainIcon className="right-margin-tiny fit"/>
                     <span>Camera Drain Inspection</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54103}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="tankless-electric-water-heater/index.html"
+                    to="/plumbing-services/tankless-electric-water-heater"
                   >
                    <TanklessElectricIcon className="right-margin-tiny fit"/>
                     <span>Tankless Electric Water Heater</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54104}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="tankless-gas-water-heater/index.html"
+                    to="/plumbing-services/tankless-gas-water-heater"
                   >
                    <TanklessGasWater className="right-margin-tiny fit"/>
                     <span>Tankless Gas Water Heater</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54110}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="sewer-services/index.html"
+                    to="/plumbing-services/sewer-services"
                   >
                    <SewerServicesIcon className="right-margin-tiny fit"/>
                     <span>Sewer Services</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54100}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="custom-home-plumbing/index.html"
+                    to="/plumbing-services/custom-home-plumbing"
                   >
                    <CustomHomeIcon className="right-margin-tiny fit"/>
                     <span>Custom Home Plumbing</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54097}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="bathroom-plumbing-renovation-upgrade/index.html"
+                    to="/plumbing-services/bathroom-plumbing-renovation-upgrade"
                   >
                    <BathroomPlumbingRenovation className="right-margin-tiny fit"/>
                     <span>Bathroom Plumbing Renovation Upgrade</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54102}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="plumbing-upgrades/index.html"
+                    to="/plumbing-services/plumbing-upgrades"
                   >
                     <PlumbingUpgrades className="right-margin-tiny fit"/>
                     <span>Plumbing Upgrades</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54099}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="backwater-valves/index.html"
+                    to="/plumbing-services/backwater-valves"
                   >
                    <BackwaterValves className="right-margin-tiny fit"/>
                     <span>Backwater Valves</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div id="ServicesV8BtnCon"></div>
@@ -610,7 +611,7 @@ function PlumbingServicesPage() {
         id="ValuesV13"
         data-onvisible="show"
       >
-        <a name="valuesAnchor" />
+        <Link name="valuesAnchor" />
         <div className="main relative">
           <div className="flex-spaced-between-auto-responsive-margined flex-direction align-items item-spacing item-widths center-800">
             <div className="over-item">

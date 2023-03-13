@@ -12,6 +12,7 @@ import PanelGroupImg from "../../images/values-v9-bg.jpg"
 import PanelGroupMobImg from "../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../images/values-v9-img.png'
 import ctaV13Bg from '../../images/cta-v13-bg.jpeg'
+import { Link } from 'gatsby'
 function DrainIssuesPage() {
   return (
     <main id="MainZone">
@@ -84,9 +85,9 @@ function DrainIssuesPage() {
                   (bathroom sink), shower drains, floor drains, and urinals. It
                   is extremely important to have these fixtures regularly
                   cleaned. At
-                  <a href="../../about-us/index.html">
+                  <Link to="/about-us">
                     Watermen Plumbing Inc.
-                  </a>{" "}
+                  </Link>{" "}
                   we have the knowledge, tools, resources experience, and
                   expertise to confidently deal with all of your drain needs.
                 </p>
@@ -95,19 +96,19 @@ function DrainIssuesPage() {
                 </p>
                 <ul>
                   <li>
-                    <a href="drain-cleaning-snaking/index.html">
+                    <Link to="/plumbing-services/drain-cleaning-snaking">
                       Drain Cleaning
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="drain-cleaning-snaking/index.html">
+                    <Link to="/plumbing-services/drain-cleaning-snaking">
                       Drain Snaking
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="camera-drain-inspection/index.html">
+                    <Link to="/plumbing-services/camera-drain-inspection">
                       Camera Drain Inspection
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <p
@@ -116,12 +117,12 @@ function DrainIssuesPage() {
                 >
                   For expert drain solutions in Boca Raton,
                   <strong>
-                    <a href="../../contact-us/index.html">contact us online</a>
+                    <Link to="/contact-us">contact us online</Link>
                   </strong>{" "}
                   or at
                   <b>
-                    <a
-                      href="tel:(954) 800-6364"
+                    <Link
+                      to="tel:(954) 800-6364"
                       id="ColumnLayoutContent_1"
                       data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                     >
@@ -132,15 +133,15 @@ function DrainIssuesPage() {
                       >
                         (954) 800-6364
                       </span>
-                    </a>
+                    </Link>
                   </b>{" "}
                   today!
                 </p>
                 <h3>Camera Drain Inspection</h3>
                 <p>
-                  <a href="camera-drain-inspection/index.html">
+                  <Link to="/plumbing-services/camera-drain-inspection">
                     Camera drain inspections
-                  </a>{" "}
+                  </Link>{" "}
                   are mainly done to locate causes of blockages, or obstructions
                   in drains or sewers. This information can be invaluable and
                   can help
@@ -221,36 +222,36 @@ function DrainIssuesPage() {
                   larger drain-related problems. Calling an experienced Boca
                   Raton plumber today for assistance. Our professional &amp;
                   knowledgeable plumbers at
-                  <a href="../../about-us/index.html">
+                  <Link to="/about-us">
                     Watermen Plumbing Inc.
-                  </a>{" "}
+                  </Link>{" "}
                   are prepared repair the problem for you.
                 </p>
                 <h3>Additional Reading</h3>
                 <ul>
                   <li>
-                    <a href="../../blog/2021/june/5-maintenance-tips-to-avoid-plumbing-headaches/index.html">
+                    <Link to="/blog/2021/june/5-maintenance-tips-to-avoid-plumbing-headaches">
                       5 Maintenance Tips to Avoid Plumbing Headaches
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="../../blog/2021/march/plumbing-problems-that-can-cause-mold/index.html">
+                    <Link to="/blog/2021/march/plumbing-problems-that-can-cause-mold">
                       Plumbing Problems That Can Cause Mold
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="../../blog/2018/september/master-plumber-vs-plumber-in-florida-what-s-the-/index.html">
+                    <Link to="/blog/2018/september/master-plumber-vs-plumber-in-florida-what-s-the-">
                       Master Plumber vs Plumber in Florida: What's the
                       Difference?
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <p className="content-quote v1 bg-box unlike-bg side-padding-medium vertical-padding-tiny title-style-3 title-color-3">
                   <b>
-                    <a href="../../contact-us/index.html">Contact us</a> by
+                    <Link to="/contact-us">Contact us</Link> by
                     calling
-                    <a
-                      href="tel:(954) 800-6364"
+                    <Link
+                      to="tel:(954) 800-6364"
                       id="ColumnLayoutContent_3"
                       data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                     >
@@ -261,7 +262,7 @@ function DrainIssuesPage() {
                       >
                         (954) 800-6364
                       </span>
-                    </a>{" "}
+                    </Link>{" "}
                     so we can help get your pipes draining smoothly.
                   </b>
                 </p>
@@ -278,30 +279,30 @@ function DrainIssuesPage() {
         >
           <nav>
             <header className="text-left">
-              <a href="index.html">
+              <Link to="/plumbing-services/drain-issues">
                 <h5>Drain Issues</h5>
-              </a>
+              </Link>
             </header>
             <ul className="el-tab-box" role="menu">
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="camera-drain-inspection/index.html"
+                  to="/plumbing-services/camera-drain-inspection"
                   target=""
                   role="menuitem"
                 >
                   Camera Drain Inspection
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="drain-cleaning-snaking/index.html"
+                  to="/plumbing-services/drain-cleaning-snaking"
                   target=""
                   role="menuitem"
                 >
                   Drain Cleaning Snaking
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -561,13 +562,13 @@ function DrainIssuesPage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../coupons/print/index0a09.html?id=7622"
+                        to="../../coupons/print/index0a09.html?id=7622"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -608,13 +609,13 @@ function DrainIssuesPage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../coupons/print/index9f4e.html?id=7223"
+                        to="../../coupons/print/index9f4e.html?id=7223"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -686,9 +687,9 @@ function DrainIssuesPage() {
         id="CtaV13List"
       >
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../photo-gallery/index.html"
+            to="/photo-gallery"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -704,12 +705,12 @@ function DrainIssuesPage() {
               </strong>
               <span className="btn v1 top-margin-small">View Our Gallery</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../blog/index.html"
+            to="/blog"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -727,12 +728,12 @@ function DrainIssuesPage() {
               </strong>
               <span className="btn v1 top-margin-small">Read Our bLogs</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../coupons/index.html"
+            to="/coupons"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -750,7 +751,7 @@ function DrainIssuesPage() {
               </strong>
               <span className="btn v1 top-margin-small">View our Offers</span>
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
@@ -760,7 +761,7 @@ function DrainIssuesPage() {
     id="ValuesV9"
     data-onvisible="show"
   >
-    <a name="valuesAnchor" />
+    <Link name="valuesAnchor" />
     <picture className="img-bg" role="presentation" data-role="picture">
       <source
         media="(max-width: 500px)"

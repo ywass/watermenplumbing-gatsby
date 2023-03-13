@@ -6,6 +6,7 @@ import subBannerBgImg from '../../images/sub-banner-v1-bg.jpg'
 import kitchenSink1Img from '../../images/20200515_002210830_iOS.jpg'
 import kitchenSink2Img from '../../images/1of2.jpg'
 import kitchenSink3Img from '../../images/2of2.jpg'
+import { Link } from 'gatsby'
 function KitchenSinkReplacePhoto() {
   return (
     <main id="MainZone">
@@ -56,9 +57,9 @@ function KitchenSinkReplacePhoto() {
           data-item="i"
           data-key={289400}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Kitchen Sink Replacement Before & After"
@@ -68,7 +69,7 @@ function KitchenSinkReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Kitchen Sink Replacement Before &amp; After
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -81,9 +82,9 @@ function KitchenSinkReplacePhoto() {
           data-item="i"
           data-key={289401}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Kitchen Sink Replacement Before"
@@ -93,7 +94,7 @@ function KitchenSinkReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Kitchen Sink Replacement Before
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -106,9 +107,9 @@ function KitchenSinkReplacePhoto() {
           data-item="i"
           data-key={289402}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Kitchen Sink Replacement After"
@@ -118,7 +119,7 @@ function KitchenSinkReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Kitchen Sink Replacement After
             </strong>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

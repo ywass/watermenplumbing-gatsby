@@ -20,306 +20,306 @@ function SiteMapPage() {
             </header>
             <ul id="SiteMapV1List">
               <li>
-                <a href="../index.html" target="">
+                <Link to="/" target="">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="../about-us/index.html" target="">
+                <Link to="/about-us" target="">
                   About Us
-                </a>
+                </Link>
                 <ul>
                   <li>
-                    <a href="../about-us/areas-we-serve/index.html" target="">
+                    <Link to="/about-us/areas-we-serve" target="">
                       Areas We Serve
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a
-                          href="../about-us/areas-we-serve/broward-county/index.html"
+                        <Link
+                          to="/about-us/areas-we-serve/broward-county"
                           target=""
                         >
                           Broward County
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="../about-us/areas-we-serve/coral-springs/index.html"
+                        <Link
+                          to="/about-us/areas-we-serve/coral-springs"
                           target=""
                         >
                           Coral Springs
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="../about-us/areas-we-serve/davie/index.html"
+                        <Link
+                          to="/about-us/areas-we-serve/davie"
                           target=""
                         >
                           Davie
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="../about-us/areas-we-serve/fort-lauderdale/index.html"
+                        <Link
+                          to="/about-us/areas-we-serve/fort-lauderdale"
                           target=""
                         >
                           Fort Lauderdale
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="../about-us/areas-we-serve/hollywood/index.html"
+                        <Link
+                          to="/about-us/areas-we-serve/hollywood"
                           target=""
                         >
                           Hollywood
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="../about-us/areas-we-serve/miramar/index.html"
+                        <Link
+                          to="/about-us/areas-we-serve/miramar"
                           target=""
                         >
                           Miramar
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="../about-us/areas-we-serve/plantation/index.html"
+                        <Link
+                          to="/about-us/areas-we-serve/plantation"
                           target=""
                         >
                           Plantation
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="../about-us/areas-we-serve/hallandale-beach/index.html"
+                        <Link
+                          to="/about-us/areas-we-serve/hallandale-beach"
                           target=""
                         >
                           Hallandale Beach
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="../plumbing-services/index.html" target="">
+                <Link to="/plumbing-services" target="">
                   Plumbing Services
-                </a>
+                </Link>
                 <ul>
                   <li>
-                    <a
-                      href="../plumbing-services/sewer-services/index.html"
+                    <Link
+                      to="/plumbing-services/sewer-services"
                       target=""
                     >
                       Sewer Services
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a
-                          href="../plumbing-services/sewer-services/sewer-line-installation-replacement/index.html"
+                        <Link
+                          to="/plumbing-services/sewer-services/sewer-line-installation-replacement"
                           target=""
                         >
                           Sewer Line Installation &amp; Replacement
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="../plumbing-services/sewer-services/septic-to-sewer-conversion/index.html"
+                        <Link
+                          to="/plumbing-services/sewer-services/septic-to-sewer-conversion"
                           target=""
                         >
                           Septic to Sewer Conversion
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/drain-issues/index.html"
+                    <Link
+                      to="/plumbing-services/drain-issues"
                       target=""
                     >
                       Drain Issues
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a
-                          href="../plumbing-services/drain-issues/camera-drain-inspection/index.html"
+                        <Link
+                          to="/plumbing-services/drain-issues/camera-drain-inspection"
                           target=""
                         >
                           Camera Drain Inspection
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="../plumbing-services/drain-issues/drain-cleaning-snaking/index.html"
+                        <Link
+                          to="/plumbing-services/drain-issues/drain-cleaning-snaking"
                           target=""
                         >
                           Drain Cleaning Snaking
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/whole-home-repiping/index.html"
+                    <Link
+                      to="/plumbing-services/whole-home-repiping"
                       target=""
                     >
                       Whole Home Repiping
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/water-heaters/index.html"
+                    <Link
+                      to="/plumbing-services/water-heaters"
                       target=""
                     >
                       Water Heaters
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/water-filtration/index.html"
+                    <Link
+                      to="/plumbing-services/water-filtration"
                       target=""
                     >
                       Water Filtration
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a
-                          href="../plumbing-services/water-filtration/water-filtration-products/index.html"
+                        <Link
+                          to="/plumbing-services/water-filtration/water-filtration-products"
                           target=""
                         >
                           Water Filtration Products
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/index.html"
+                            <Link
+                              to="/plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems"
                               target=""
                             >
                               Whole House Filtration Systems
-                            </a>
+                            </Link>
                             <ul>
                               <li>
-                                <a
-                                  href="../plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/flow-tech-pure-cx-carbon-whole-house-w/index.html"
+                                <Link
+                                  to="/plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/flow-tech-pure-cx-carbon-whole-house-w"
                                   target=""
                                 >
                                   Flow-Tech Pure CX Carbon Whole-House Water
                                   Filter
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
-                                  href="../plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/flow-tech-pure-cs-carbon-whole-house-w/index.html"
+                                <Link
+                                  to="/plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/flow-tech-pure-cs-carbon-whole-house-w"
                                   target=""
                                 >
                                   Flow-Tech PURE CS Carbon Whole-House Water
                                   Filter
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
-                                  href="../plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/flow-tech-whole-house-iron-filter/index.html"
+                                <Link
+                                  to="/plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/flow-tech-whole-house-iron-filter"
                                   target=""
                                 >
                                   Flow-Tech Whole-House Iron Filter
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
-                                  href="../plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/flow-tech-home-sulfur-filter/index.html"
+                                <Link
+                                  to="/plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/flow-tech-home-sulfur-filter"
                                   target=""
                                 >
                                   Flow-Tech Home Sulfur Filter
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a
-                              href="../plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/index.html"
+                            <Link
+                              to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems"
                               target=""
                             >
                               Drinking Water Systems
-                            </a>
+                            </Link>
                             <ul>
                               <li>
-                                <a
-                                  href="../plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/alwaysfresh-drinking-water-system/index.html"
+                                <Link
+                                  to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/alwaysfresh-drinking-water-system"
                                   target=""
                                 >
                                   AlwaysFresh® Drinking Water System
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
-                                  href="../plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/reverse-osmosis-drinking-water-system/index.html"
+                                <Link
+                                  to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/reverse-osmosis-drinking-water-system"
                                   target=""
                                 >
                                   Reverse Osmosis Drinking Water System
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a
-                              href="../plumbing-services/water-filtration/water-filtration-products/water-softeners/index.html"
+                            <Link
+                              to="/plumbing-services/water-filtration/water-filtration-products/water-softeners"
                               target=""
                             >
                               Water Softeners
-                            </a>
+                            </Link>
                             <ul>
                               <li>
-                                <a
-                                  href="../plumbing-services/water-filtration/water-filtration-products/water-softeners/flow-tech-dual-function-softener-filter/index.html"
+                                <Link
+                                  to="/plumbing-services/water-filtration/water-filtration-products/water-softeners/flow-tech-dual-function-softener-filter"
                                   target=""
                                 >
                                   Flow-Tech Dual Function Softener/Filter
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a
-                                  href="../plumbing-services/water-filtration/water-filtration-products/water-softeners/flow-tech-ion-exchange-water-softener/index.html"
+                                <Link
+                                  to="/plumbing-services/water-filtration/water-filtration-products/water-softeners/flow-tech-ion-exchange-water-softener"
                                   target=""
                                 >
                                   Flow-Tech Ion Exchange Water Softener
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a
-                              href="../plumbing-services/water-filtration/water-filtration-products/anti-scale-systems/index.html"
+                            <Link
+                              to="/plumbing-services/water-filtration/water-filtration-products/anti-scale-systems"
                               target=""
                             >
                               Anti-Scale Systems
-                            </a>
+                            </Link>
                             <ul>
                               <li>
-                                <a
-                                  href="../plumbing-services/water-filtration/water-filtration-products/anti-scale-systems/flow-tech-home-max-anti-scale-system/index.html"
+                                <Link
+                                  to="/plumbing-services/water-filtration/water-filtration-products/anti-scale-systems/flow-tech-home-max-anti-scale-system"
                                   target=""
                                 >
                                   Flow-Tech Home MAX Anti-Scale System
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </li>
                           <li>
-                            <a
-                              href="../plumbing-services/water-filtration/water-filtration-products/filter-tanks/index.html"
+                            <Link
+                              to="/plumbing-services/water-filtration/water-filtration-products/filter-tanks"
                               target=""
                             >
                               Filter Tanks
-                            </a>
+                            </Link>
                             <ul>
                               <li>
-                                <a
-                                  href="../plumbing-services/water-filtration/water-filtration-products/filter-tanks/one-cartridge-filter-tank/index.html"
+                                <Link
+                                  to="/plumbing-services/water-filtration/water-filtration-products/filter-tanks/one-cartridge-filter-tank"
                                   target=""
                                 >
                                   One™ Cartridge Filter Tank
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </li>
@@ -328,89 +328,89 @@ function SiteMapPage() {
                     </ul>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/backwater-valves/index.html"
+                    <Link
+                      to="/plumbing-services/backwater-valves"
                       target=""
                     >
                       Backwater Valves
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/bathroom-plumbing-renovation-upgrade/index.html"
+                    <Link
+                      to="/plumbing-services/bathroom-plumbing-renovation-upgrade"
                       target=""
                     >
                       Bathroom Plumbing Renovation Upgrade
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/commercial-plumbing/index.html"
+                    <Link
+                      to="/plumbing-services/commercial-plumbing"
                       target=""
                     >
                       Commercial Plumbing
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/custom-home-plumbing/index.html"
+                    <Link
+                      to="/plumbing-services/custom-home-plumbing"
                       target=""
                     >
                       Custom Home Plumbing
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/leak-detection-repair/index.html"
+                    <Link
+                      to="/plumbing-services/leak-detection-repair"
                       target=""
                     >
                       Leak Detection &amp; Repair
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/plumbing-upgrades/index.html"
+                    <Link
+                      to="/plumbing-services/plumbing-upgrades"
                       target=""
                     >
                       Plumbing Upgrades
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/thermostatic-pressure-balancing/index.html"
+                    <Link
+                      to="/plumbing-services/thermostatic-pressure-balancing"
                       target=""
                     >
                       Thermostatic Pressure Balancing
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="../plumbing-services/toilets/index.html" target="">
+                    <Link to="/plumbing-services/toilets" target="">
                       Toilets
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/other-services/index.html"
+                    <Link
+                      to="/plumbing-services/other-services"
                       target=""
                     >
                       Other Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/tankless-gas-water-heater/index.html"
+                    <Link
+                      to="/plumbing-services/tankless-gas-water-heater"
                       target=""
                     >
                       Tankless Gas Water Heater
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../plumbing-services/tankless-electric-water-heater/index.html"
+                    <Link
+                      to="/plumbing-services/tankless-electric-water-heater"
                       target=""
                     >
                       Tankless Electric Water Heater
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -432,26 +432,26 @@ function SiteMapPage() {
                 </ul>
               </li>
               <li>
-                <a href="../services/index.html" target="">
+                <Link to="/services" target="">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="../coupons/index.html" target="">
+                <Link to="/coupons" target="">
                   Coupons
-                </a>
+                </Link>
                 <ul>
                   <li>
-                    <a href="../coupons/print/index.html" target="">
+                    <Link to="/coupons/print" target="">
                       Print
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="../reviews/index.html" target="">
+                <Link to="/reviews" target="">
                   Reviews
-                </a>
+                </Link>
                 <ul>
                   <li>
                     <Link to="/thank-you" target="">
@@ -461,490 +461,490 @@ function SiteMapPage() {
                 </ul>
               </li>
               <li>
-                <a href="../blog/index.html" target="">
+                <Link to="/blog" target="">
                   Blog
-                </a>
+                </Link>
                 <ul>
                   <li>
-                    <a href="../blog/categories/index.html" target="">
+                    <Link to="/blog/categories" target="">
                       Categories
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a
-                          href="../blog/categories/septic-tanks/index.html"
+                        <Link
+                          to="/blog/categories/septic-tanks"
                           target=""
                         >
                           Septic Tanks
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="../blog/2022/index.html" target="">
+                    <Link to="/blog/2022" target="">
                       2022
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a href="../blog/2022/january/index.html" target="">
+                        <Link to="/blog/2022/january" target="">
                           January
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2022/january/read-this-before-you-buy-a-house-in-florida-/index.html"
+                            <Link
+                              to="/blog/2022/january/read-this-before-you-buy-a-house-in-florida-"
                               target=""
                             >
                               Read This Before You Buy a House in Florida
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="../blog/2021/index.html" target="">
+                    <Link to="/blog/2021" target="">
                       2021
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a href="../blog/2021/october/index.html" target="">
+                        <Link to="/blog/2021/october" target="">
                           October
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2021/october/what-homeowners-should-know-about-septic-tanks/index.html"
+                            <Link
+                              to="/blog/2021/october/what-homeowners-should-know-about-septic-tanks"
                               target=""
                             >
                               What Homeowners Should Know about Septic Tanks
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2021/august/index.html" target="">
+                        <Link to="/blog/2021/august" target="">
                           August
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2021/august/what-to-look-for-when-buying-a-home-in-south-flo/index.html"
+                            <Link
+                              to="/blog/2021/august/what-to-look-for-when-buying-a-home-in-south-flo"
                               target=""
                             >
                               What to Look for When Buying a Home in South
                               Florida
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
-                              href="../blog/2021/august/protect-your-pipes-this-hurricane-season/index.html"
+                            <Link
+                              to="/blog/2021/august/protect-your-pipes-this-hurricane-season"
                               target=""
                             >
                               Protect Your Pipes this Hurricane Season
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2021/july/index.html" target="">
+                        <Link to="/blog/2021/july" target="">
                           July
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2021/july/why-are-water-heaters-round-/index.html"
+                            <Link
+                              to="/blog/2021/july/why-are-water-heaters-round-"
                               target=""
                             >
                               Why Are Water Heaters Round?
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2021/june/index.html" target="">
+                        <Link to="/blog/2021/june" target="">
                           June
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2021/june/5-maintenance-tips-to-avoid-plumbing-headaches/index.html"
+                            <Link
+                              to="/blog/2021/june/5-maintenance-tips-to-avoid-plumbing-headaches"
                               target=""
                             >
                               5 Maintenance Tips to Avoid Plumbing Headaches
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2021/april/index.html" target="">
+                        <Link to="/blog/2021/april" target="">
                           April
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2021/april/a-guide-to-optimizing-your-home-plumbing/index.html"
+                            <Link
+                              to="/blog/2021/april/a-guide-to-optimizing-your-home-plumbing"
                               target=""
                             >
                               A Guide to Optimizing Your Home Plumbing
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2021/march/index.html" target="">
+                        <Link to="/blog/2021/march" target="">
                           March
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2021/march/plumbing-problems-that-can-cause-mold/index.html"
+                            <Link
+                              to="/blog/2021/march/plumbing-problems-that-can-cause-mold"
                               target=""
                             >
                               Plumbing Problems That Can Cause Mold
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
-                              href="../blog/2021/march/the-dangers-of-cut-rate-plumbing/index.html"
+                            <Link
+                              to="/blog/2021/march/the-dangers-of-cut-rate-plumbing"
                               target=""
                             >
                               The Dangers of Cut-Rate Plumbing
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2021/january/index.html" target="">
+                        <Link to="/blog/2021/january" target="">
                           January
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2021/january/benefits-of-hiring-a-professional-plumber/index.html"
+                            <Link
+                              to="/blog/2021/january/benefits-of-hiring-a-professional-plumber"
                               target=""
                             >
                               Benefits of Hiring a Professional Plumber
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="../blog/2020/index.html" target="">
+                    <Link to="/blog/2020" target="">
                       2020
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a href="../blog/2020/november/index.html" target="">
+                        <Link to="/blog/2020/november" target="">
                           November
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2020/november/plumbing-upgrades-that-will-increase-your-home-s/index.html"
+                            <Link
+                              to="/blog/2020/november/plumbing-upgrades-that-will-increase-your-home-s"
                               target=""
                             >
                               Plumbing Upgrades That Will Increase Your Home’s
                               Worth
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2020/october/index.html" target="">
+                        <Link to="/blog/2020/october" target="">
                           October
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2020/october/plumbers-near-me/index.html"
+                            <Link
+                              to="/blog/2020/october/plumbers-near-me"
                               target=""
                             >
                               Plumbers Near Me
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2020/august/index.html" target="">
+                        <Link to="/blog/2020/august" target="">
                           August
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2020/august/why-is-there-chlorine-in-my-water-/index.html"
+                            <Link
+                              to="/blog/2020/august/why-is-there-chlorine-in-my-water-"
                               target=""
                             >
                               Why is there chlorine in my water?
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2020/july/index.html" target="">
+                        <Link to="/blog/2020/july" target="">
                           July
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2020/july/common-plumbing-emergencies-to-avoid/index.html"
+                            <Link
+                              to="/blog/2020/july/common-plumbing-emergencies-to-avoid"
                               target=""
                             >
                               Common Plumbing Emergencies to Avoid
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2020/april/index.html" target="">
+                        <Link to="/blog/2020/april" target="">
                           April
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2020/april/how-can-i-be-proactive-to-avoid-issues-with-my-p/index.html"
+                            <Link
+                              to="/blog/2020/april/how-can-i-be-proactive-to-avoid-issues-with-my-p"
                               target=""
                             >
                               How Can I Be Proactive to Avoid Issues With My
                               Plumbing?
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2020/march/index.html" target="">
+                        <Link to="/blog/2020/march" target="">
                           March
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2020/march/plumbing-maintenance-and-repair-in-your-rental-p/index.html"
+                            <Link
+                              to="/blog/2020/march/plumbing-maintenance-and-repair-in-your-rental-p"
                               target=""
                             >
                               Plumbing Maintenance and Repair in Your Rental
                               Property
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="../blog/2019/index.html" target="">
+                    <Link to="/blog/2019" target="">
                       2019
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a href="../blog/2019/june/index.html" target="">
+                        <Link to="/blog/2019/june" target="">
                           June
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2019/june/would-this-anti-scale-system-defeat-godzilla-/index.html"
+                            <Link
+                              to="/blog/2019/june/would-this-anti-scale-system-defeat-godzilla-"
                               target=""
                             >
                               Would This Anti-Scale System Defeat Godzilla?
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2019/may/index.html" target="">
+                        <Link to="/blog/2019/may" target="">
                           May
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2019/may/where-does-your-water-come-from-/index.html"
+                            <Link
+                              to="/blog/2019/may/where-does-your-water-come-from-"
                               target=""
                             >
                               Where Does Your Water Come From?
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2019/april/index.html" target="">
+                        <Link to="/blog/2019/april" target="">
                           April
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2019/april/florida-school-plumbing-problems-warning-/index.html"
+                            <Link
+                              to="/blog/2019/april/florida-school-plumbing-problems-warning-"
                               target=""
                             >
                               Florida School Plumbing Problems Warning!?
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2019/february/index.html" target="">
+                        <Link to="/blog/2019/february" target="">
                           February
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2019/february/never-flush-these-things-down-the-toilet-why/index.html"
+                            <Link
+                              to="/blog/2019/february/never-flush-these-things-down-the-toilet-why"
                               target=""
                             >
                               Never Flush These Things Down the Toilet &amp; Why
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2019/january/index.html" target="">
+                        <Link to="/blog/2019/january" target="">
                           January
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2019/january/old-house-pipes-add-what-to-your-drinking-water-/index.html"
+                            <Link
+                              to="/blog/2019/january/old-house-pipes-add-what-to-your-drinking-water-"
                               target=""
                             >
                               Old House Pipes Add WHAT to Your Drinking Water?
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="../blog/2018/index.html" target="">
+                    <Link to="/blog/2018" target="">
                       2018
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a href="../blog/2018/december/index.html" target="">
+                        <Link to="/blog/2018/december" target="">
                           December
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2018/december/when-should-i-replace-my-toilet-/index.html"
+                            <Link
+                              to="/blog/2018/december/when-should-i-replace-my-toilet-"
                               target=""
                             >
                               When Should I Replace My Toilet?
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2018/november/index.html" target="">
+                        <Link to="/blog/2018/november" target="">
                           November
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2018/november/6-holiday-plumbing-tips-to-keep-your-plans-flowi/index.html"
+                            <Link
+                              to="/blog/2018/november/6-holiday-plumbing-tips-to-keep-your-plans-flowi"
                               target=""
                             >
                               6 Holiday Plumbing Tips to Keep Your Plans Flowing
                               Smoothly
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2018/september/index.html" target="">
+                        <Link to="/blog/2018/september" target="">
                           September
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2018/september/master-plumber-vs-plumber-in-florida-what-s-the-/index.html"
+                            <Link
+                              to="/blog/2018/september/master-plumber-vs-plumber-in-florida-what-s-the-"
                               target=""
                             >
                               Master Plumber vs Plumber in Florida: What’s the
                               Difference?
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2018/august/index.html" target="">
+                        <Link to="/blog/2018/august" target="">
                           August
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2018/august/why-are-plumbers-so-expensive-/index.html"
+                            <Link
+                              to="/blog/2018/august/why-are-plumbers-so-expensive-"
                               target=""
                             >
                               Why Are Plumbers So Expensive?
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2018/june/index.html" target="">
+                        <Link to="/blog/2018/june" target="">
                           June
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2018/june/tankless-water-heater-pros-cons/index.html"
+                            <Link
+                              to="/blog/2018/june/tankless-water-heater-pros-cons"
                               target=""
                             >
                               Tankless Water Heater: Pros &amp; Cons
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2018/may/index.html" target="">
+                        <Link to="/blog/2018/may" target="">
                           May
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2018/may/how-do-i-know-when-its-time-to-replace-my-garbag/index.html"
+                            <Link
+                              to="/blog/2018/may/how-do-i-know-when-its-time-to-replace-my-garbag"
                               target=""
                             >
                               How Do I Know When Its Time to Replace My Garbage
                               Disposal?
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="../blog/2017/index.html" target="">
+                    <Link to="/blog/2017" target="">
                       2017
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a href="../blog/2017/september/index.html" target="">
+                        <Link to="/blog/2017/september" target="">
                           September
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2017/september/5-post-hurricane-plumbing-problems-to-watch-for/index.html"
+                            <Link
+                              to="/blog/2017/september/5-post-hurricane-plumbing-problems-to-watch-for"
                               target=""
                             >
                               5 Post Hurricane Plumbing Problems to Watch For
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="../blog/2017/april/index.html" target="">
+                        <Link to="/blog/2017/april" target="">
                           April
-                        </a>
+                        </Link>
                         <ul>
                           <li>
-                            <a
-                              href="../blog/2017/april/clogged-drain-call-a-plumber-or-do-it-myself-/index.html"
+                            <Link
+                              to="/blog/2017/april/clogged-drain-call-a-plumber-or-do-it-myself-"
                               target=""
                             >
                               Clogged Drain: Call a Plumber or Do it Myself?
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
@@ -953,9 +953,9 @@ function SiteMapPage() {
                 </ul>
               </li>
               <li>
-                <a href="/video-center" target="">
+                <Link to="/video-center" target="">
                   Video Center
-                </a>
+                </Link>
               </li>
               <li>
                 <Link to="/awards-accolades" target="">
@@ -981,141 +981,141 @@ function SiteMapPage() {
                     </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/kitchen-and-drain-replacement/index.html"
+                    <Link
+                      to="/photo-gallery/kitchen-and-drain-replacement"
                       target=""
                     >
                       Kitchen and Drain Replacement
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/laundry-repair2/index.html"
+                    <Link
+                      to="/photo-gallery/laundry-repair2"
                       target=""
                     >
                       Laundry Repair
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/water-heater-replacement/index.html"
+                    <Link
+                      to="/photo-gallery/water-heater-replacement"
                       target=""
                     >
                       Water Heater Replacement
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/whole-house-water-repipe/index.html"
+                    <Link
+                      to="/photo-gallery/whole-house-water-repipe"
                       target=""
                     >
                       Whole House Water Repipe
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/water-filtration/index.html"
+                    <Link
+                      to="/photo-gallery/water-filtration"
                       target=""
                     >
                       Water Filtration
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/underground-jobs/index.html"
+                    <Link
+                      to="/photo-gallery/underground-jobs"
                       target=""
                     >
                       Underground Jobs
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/commercial-jobs/index.html"
+                    <Link
+                      to="/photo-gallery/commercial-jobs"
                       target=""
                     >
                       Commercial Jobs
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/bathroom-plumbing-renovations/index.html"
+                    <Link
+                      to="/photo-gallery/bathroom-plumbing-renovations"
                       target=""
                     >
                       Bathroom Plumbing &amp; Renovations
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/water-line-spigot-installation/index.html"
+                    <Link
+                      to="/photo-gallery/water-line-spigot-installation"
                       target=""
                     >
                       Water Line &amp; Spigot Installation
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/main-water-shut-off-valve/index.html"
+                    <Link
+                      to="/photo-gallery/main-water-shut-off-valve"
                       target=""
                     >
                       Main Water Shut Off Valve
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/main-valve-replacement/index.html"
+                    <Link
+                      to="/photo-gallery/main-valve-replacement"
                       target=""
                     >
                       Main Valve Replacement
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/laundry-repair/index.html"
+                    <Link
+                      to="/photo-gallery/laundry-repair"
                       target=""
                     >
                       Laundry Repair
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/kitchen-sink-replacement/index.html"
+                    <Link
+                      to="/photo-gallery/kitchen-sink-replacement"
                       target=""
                     >
                       Kitchen Sink Replacement
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/camera-inspections/index.html"
+                    <Link
+                      to="/photo-gallery/camera-inspections"
                       target=""
                     >
                       Camera Inspections
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="../photo-gallery/silicone-caulking-before-afters/index.html"
+                    <Link
+                      to="/photo-gallery/silicone-caulking-before-afters"
                       target=""
                     >
                       Silicone Caulking Before &amp; Afters
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="../privacy-policy/index.html" target="">
+                <Link to="/privacy-policy" target="">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="index.html" target="">
+                <Link to="/site-map" target="">
                   Site Map
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="../contact-us/index.html" target="">
+                <Link to="/contact-us" target="">
                   Contact Us
-                </a>
+                </Link>
                 <ul>
                   <li>
                   <Link to="/thank-you" target="">
@@ -1125,9 +1125,9 @@ function SiteMapPage() {
                 </ul>
               </li>
               <li>
-                <a href="../site-search/index.html" target="">
+                <Link to="../site-search/index.html" target="">
                   Site Search
-                </a>
+                </Link>
               </li>
               
             </ul>

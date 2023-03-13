@@ -8,6 +8,7 @@ import cJobTwoImg from '../../images/urinal-instal-1-of-2.jpg'
 import cJobThreeImg from '../../images/urinal-instal-2-of-2.jpg'
 import cJobFourImg from '../../images/Water-leak-repair-3.jpg'
 import cJobFiveImg from '../../images/Water-main-spot-repair.jpg'
+import { Link } from 'gatsby'
 function CommercialJobsPhoto() {
   return (
     <main id="MainZone">
@@ -59,9 +60,9 @@ function CommercialJobsPhoto() {
             data-item="i"
             data-key={289307}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
               
@@ -72,7 +73,7 @@ function CommercialJobsPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Mixing Valve Replacement Before and After
               </strong>
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit "
@@ -85,9 +86,9 @@ function CommercialJobsPhoto() {
             data-item="i"
             data-key={289309}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                
@@ -98,7 +99,7 @@ function CommercialJobsPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Urinal Install Before
               </strong>
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit "
@@ -111,9 +112,9 @@ function CommercialJobsPhoto() {
             data-item="i"
             data-key={289310}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                 
@@ -124,7 +125,7 @@ function CommercialJobsPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Urinal Install After
               </strong>
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit "
@@ -137,9 +138,9 @@ function CommercialJobsPhoto() {
             data-item="i"
             data-key={289311}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
               
@@ -150,7 +151,7 @@ function CommercialJobsPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Water Leak Repair
               </strong>
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit "
@@ -163,9 +164,9 @@ function CommercialJobsPhoto() {
             data-item="i"
             data-key={289312}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                 
@@ -176,7 +177,7 @@ function CommercialJobsPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Water Main Spot Repair
               </strong>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

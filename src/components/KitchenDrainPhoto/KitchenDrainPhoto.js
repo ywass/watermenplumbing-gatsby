@@ -8,6 +8,7 @@ import kOneImg from '../../images/k1of2.jpg'
 import kTwoImg from '../../images/k2of2.jpg'
 import kichenBandAImg from '../../images/kitchen-drain-b4-anf-after.jpg'
 import kDrainLastImg from '../../images/kitchen-drain-replaement-and-upgrade.jpg'
+import { Link } from 'gatsby'
 function KitchenDrainPhoto() {
   return (
     <main id="MainZone">
@@ -59,9 +60,9 @@ function KitchenDrainPhoto() {
           data-item="i"
           data-key={288075}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               
@@ -72,7 +73,7 @@ function KitchenDrainPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Kitchen Drain Before and After
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -85,9 +86,9 @@ function KitchenDrainPhoto() {
           data-item="i"
           data-key={288076}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               
@@ -95,7 +96,7 @@ function KitchenDrainPhoto() {
               title=""
               src={kOneImg}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -108,9 +109,9 @@ function KitchenDrainPhoto() {
           data-item="i"
           data-key={288077}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -118,7 +119,7 @@ function KitchenDrainPhoto() {
               title=""
               src={kTwoImg}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -131,9 +132,9 @@ function KitchenDrainPhoto() {
           data-item="i"
           data-key={288078}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -144,7 +145,7 @@ function KitchenDrainPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Kitchen Drain Before and After
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -157,9 +158,9 @@ function KitchenDrainPhoto() {
           data-item="i"
           data-key={288079}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -167,7 +168,7 @@ function KitchenDrainPhoto() {
               title=""
             src={kDrainLastImg}
             />
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

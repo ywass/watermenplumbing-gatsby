@@ -7,6 +7,7 @@ import mainValRep1Img from '../../images/Main-watr-shut-off-valve-b4.jpg'
 import mainValRep2Img from '../../images/20180802_181453407_iOS.jpg'
 import mainValRep3Img from '../../images/20180802_193045939_iOS.jpg'
 import mainValRep4Img from '../../images/Main-watr-shut-off-valve-after.jpg'
+import { Link } from 'gatsby'
 function MainValveRepPhoto() {
   return (
     <main id="MainZone">
@@ -58,9 +59,9 @@ function MainValveRepPhoto() {
             data-item="i"
             data-key={289389}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                 alt="Main Valve Replacement Before"
@@ -70,7 +71,7 @@ function MainValveRepPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Main Valve Replacement Before
               </strong>
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit "
@@ -83,9 +84,9 @@ function MainValveRepPhoto() {
             data-item="i"
             data-key={289390}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                 alt="Main Valve Replacement Before"
@@ -95,7 +96,7 @@ function MainValveRepPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Main Valve Replacement Before
               </strong>
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit "
@@ -108,9 +109,9 @@ function MainValveRepPhoto() {
             data-item="i"
             data-key={289391}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                 alt="Main Valve Replacement After"
@@ -120,7 +121,7 @@ function MainValveRepPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Main Valve Replacement After
               </strong>
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit "
@@ -133,9 +134,9 @@ function MainValveRepPhoto() {
             data-item="i"
             data-key={289392}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                 alt="Main Valve Replacement After"
@@ -145,7 +146,7 @@ function MainValveRepPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Main Valve Replacement After
               </strong>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

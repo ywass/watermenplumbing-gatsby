@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../style/coupons.css'
 import subBannerBgImg from '../../images/sub-banner-v1-bg.jpg'
+import { Link } from 'gatsby'
 function CouponsPage() {
   return (
     <main id="MainZone">
@@ -126,13 +127,13 @@ function CouponsPage() {
                   <span>- Dec 31, 2022</span>
                 </div>
                 <div className="top-margin-small relative auto full">
-                  <a
+                  <Link
                     className="btn v1"
                     href="#"
                     target="_blank"
                   >
                     Print
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -174,13 +175,13 @@ function CouponsPage() {
                   <span>- Dec 31, 2022</span>
                 </div>
                 <div className="top-margin-small relative auto full">
-                  <a
+                  <Link
                     className="btn v1"
                     href="#"
                     target="_blank"
                   >
                     Print
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

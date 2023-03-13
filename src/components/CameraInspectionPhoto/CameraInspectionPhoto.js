@@ -7,6 +7,7 @@ import cameraIns1Img from '../../images/Camera-inspection-Levi.jpg'
 import cameraIns2Img from '../../images/Camera-inspection-Yosef.jpg'
 import cameraIns3Img from '../../images/Travis-Pic-doing-camera-inspection.jpg'
 import cameraIns4Img from '../../images/Aligator-in-drain.jpg'
+import { Link } from 'gatsby'
 function CameraInspectionPhoto() {
   return (
     <main id="MainZone">
@@ -57,9 +58,9 @@ function CameraInspectionPhoto() {
             data-item="i"
             data-key={289403}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                 alt="Levi Performing a Camera Inspection"
@@ -69,7 +70,7 @@ function CameraInspectionPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Levi Performing a Camera Inspection
               </strong>
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit "
@@ -82,9 +83,9 @@ function CameraInspectionPhoto() {
             data-item="i"
             data-key={289404}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                 alt="Yosef Performing a Camera Inspection"
@@ -94,7 +95,7 @@ function CameraInspectionPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Yosef Performing a Camera Inspection
               </strong>
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit "
@@ -107,9 +108,9 @@ function CameraInspectionPhoto() {
             data-item="i"
             data-key={289405}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                 alt="Travis Performing a Camera Inspection"
@@ -119,7 +120,7 @@ function CameraInspectionPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Travis Performing a Camera Inspection
               </strong>
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit "
@@ -132,9 +133,9 @@ function CameraInspectionPhoto() {
             data-item="i"
             data-key={289406}
           >
-            <a
+            <Link
               className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                 alt="Alligator in Drain"
@@ -144,7 +145,7 @@ function CameraInspectionPhoto() {
               <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
                 Alligator in Drain
               </strong>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

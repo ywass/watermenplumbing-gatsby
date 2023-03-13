@@ -5,6 +5,7 @@ import tltBdr2Img from '../../images/tlt-bdr2.png'
 import subBannerBgImg from '../../images/sub-banner-v1-bg.jpg'
 import LTROneImg from '../../images/Multiple-laundry-drain-repair-1.jpg'
 import LTRTwoImg from '../../images/Multiple-laundry-drain-repair-2-after.jpg'
+import { Link } from 'gatsby'
 function LaundaryTwoRepairPhoto() {
   return (
     <main id="MainZone">
@@ -56,9 +57,9 @@ function LaundaryTwoRepairPhoto() {
           data-item="i"
           data-key={288080}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -66,7 +67,7 @@ function LaundaryTwoRepairPhoto() {
               title=""
               src={LTROneImg}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -79,9 +80,9 @@ function LaundaryTwoRepairPhoto() {
           data-item="i"
           data-key={288081}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -89,7 +90,7 @@ function LaundaryTwoRepairPhoto() {
               title=""
               src={LTRTwoImg}
             />
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

@@ -26,6 +26,7 @@ import bathReno20Img from '../../images/ps2.jpg'
 import bathReno21Img from '../../images/ps3.jpg'
 import bathReno22Img from '../../images/ps4.jpg'
 import bathReno23Img from '../../images/ps5.jpg'
+import { Link } from 'gatsby'
 function BathPlumbingRenoPhoto() {
   return (
     <main id="MainZone">
@@ -77,9 +78,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289348}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -90,7 +91,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Sloped Shower Floor
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -103,9 +104,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289349}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -116,7 +117,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Tub Installation
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -129,9 +130,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289350}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src={bathReno3Img}
@@ -143,7 +144,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Vanity Drains and Water Supply Piping
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -156,9 +157,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289351}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -169,7 +170,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Complete Tub Installation with Faucet and Tile Work
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -182,9 +183,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289352}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src={bathReno5Img}
@@ -194,7 +195,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Complete Tub Installation with Faucet and Tile Work
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -207,9 +208,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289353}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src={bathReno6Img}
@@ -219,7 +220,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Free Standing Tub
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -232,9 +233,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289354}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
                src={bathReno7Img}
@@ -244,7 +245,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Liner Waterproofing
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -257,9 +258,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289355}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src={bathReno8Img}
@@ -269,7 +270,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Valve Trim Installation
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -282,9 +283,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289356}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src={bathReno9Img}
@@ -294,7 +295,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Waterproofing, Faucet Install, and Final Product
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -307,9 +308,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289357}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
                src={bathReno10Img}
@@ -319,7 +320,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Head to Slide Bar Installation
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -332,9 +333,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289358}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src={bathReno11Img}
@@ -344,7 +345,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Head to Slide Bar Installation
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -357,9 +358,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289359}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src={bathReno12Img}
@@ -369,7 +370,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Faucet Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -382,9 +383,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289360}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
                src={bathReno13Img}
@@ -394,7 +395,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Faucet Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -407,9 +408,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289361}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
             src={bathReno14Img}
@@ -419,7 +420,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Faucet Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -432,9 +433,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289362}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
                      src={bathReno15Img}
@@ -444,7 +445,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Faucet Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -457,9 +458,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289363}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
                src={bathReno16Img}
@@ -469,7 +470,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Faucet Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -482,9 +483,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289364}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
                 src={bathReno17Img}
@@ -494,7 +495,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Faucet Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -507,9 +508,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289365}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
                src={bathReno18Img}
@@ -519,7 +520,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Faucet Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -532,9 +533,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289366}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src={bathReno19Img}
@@ -544,7 +545,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Faucet Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -557,9 +558,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289367}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src={bathReno20Img}
@@ -569,7 +570,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Faucet Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -582,9 +583,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289368}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src={bathReno21Img}
@@ -594,7 +595,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Faucet Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -607,9 +608,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289369}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              src={bathReno22Img}
@@ -619,7 +620,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Faucet Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -632,9 +633,9 @@ function BathPlumbingRenoPhoto() {
           data-item="i"
           data-key={289370}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              src={bathReno23Img}
@@ -644,7 +645,7 @@ function BathPlumbingRenoPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Shower Faucet Replacement
             </strong>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

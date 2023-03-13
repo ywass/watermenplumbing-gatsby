@@ -29,6 +29,7 @@ import KnowledgeAbleIcon from "../../images/svg/knowledgeAble.svg";
 import ReliableHonestIcon from "../../images/svg/reliableHonest.svg";
 import FullyStockIcon from "../../images/svg/fullyStock.svg";
 import StarIcon from "../../images/svg/star.svg";
+import { Link } from 'gatsby'
 function Home() {
 
   return (
@@ -80,32 +81,32 @@ function Home() {
             and water filtration.
           </p>
           <div className="top-margin">
-            <a className="btn v1" href="contact-us/index.html">
+            <Link className="btn v1" to="contact-us">
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       </div>
       <ul className="cta-list flex-grid-wrap-block-500 fourth">
         <li className="third" data-item="i">
-          <a
+          <Link
             className="flex-middle-block-1024 center-1024 btn-colors"
-            href="plumbing-services/index.html"
+            to="/plumbing-services"
           >
            
             <KnowledgeIcon />
             
             <span className="title-font">Plumbing Services</span>
-          </a>
+          </Link>
         </li>
         <li className="third" data-item="i">
-          <a
+          <Link
             className="flex-middle-block-1024 center-1024 btn-colors"
-            href="plumbing-services/water-filtration/index.html"
+            to="/plumbing-services/water-filtration"
           >
            <FilterIcon/>
             <span className="title-font">Water Filtration</span>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
@@ -167,15 +168,15 @@ function Home() {
                   </h2>
                   <p>
                     The team at
-                    <a href="about-us/index.html"> Watermen Plumbing</a> has been
+                    <Link to="/about-us"> Watermen Plumbing</Link> has been
                     serving customers in South Florida since 2015. We are proud
                     to serve Boca Raton, Hallandale Beach, Davie, and beyond,
                     with honest and professional 
-                    <a href="plumbing-services/index.html"> plumbing services
-                    </a>{" "}
+                    <Link to="/plumbing-services"> plumbing services
+                    </Link>{" "}
                     for homeowners and
-                    <a href="plumbing-services/commercial-plumbing/index.html"> businesses
-                    </a>{" "}
+                    <Link to="/plumbing-services/commercial-plumbing"> businesses
+                    </Link>{" "}
                     alike. We provide a high level of customer service and
                     expertise-driven solutions. Our team is working to prove we
                     are the best plumbing professionals in Boca Raton, and we
@@ -183,8 +184,8 @@ function Home() {
                     plumbing headaches. We believe that in order to be the best,
                     you have to always provide the best service! So, whether
                     it’s customer service,
-                    <a href="plumbing-services/toilets/index.html"> toilet repairs
-                    </a>
+                    <Link to="/plumbing-services/toilets"> toilet repairs
+                    </Link>
                     , water heater installations, or general maintenance calls,
                     we will always give you our best.
                   </p>
@@ -470,69 +471,69 @@ function Home() {
                   id="ServicesV9Services"
                 >
                   <li className="half flex-" data-item="i" data-key={54107}>
-                    <a
+                    <Link
                       className="full flex-middle btn-style btn-color-hover full text-left"
-                      href="plumbing-services/water-filtration/index.html"
+                      to="/plumbing-services/water-filtration"
                     >
                       <WaterFilterationIcon className="right-margin-tiny fit"/>
                       <span>Water Filtration</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="half flex-" data-item="i" data-key={54101}>
-                    <a
+                    <Link
                       className="full flex-middle btn-style btn-color-hover full text-left"
-                      href="plumbing-services/water-heaters/index.html"
+                      to="/plumbing-services/water-heaters"
                     >
                       <WaterHeatersIcon className="right-margin-tiny fit"/>
                       <span>Water Heaters</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="half flex-" data-item="i" data-key={54113}>
-                    <a
+                    <Link
                       className="full flex-middle btn-style btn-color-hover full text-left"
-                      href="plumbing-services/drain-issues/camera-drain-inspection/index.html"
+                      to="/plumbing-services/drain-issues/camera-drain-inspection"
                     >
                      <CameraDrainIcon className="right-margin-tiny fit"/>
                       <span>Camera Drain Inspection</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="half flex-" data-item="i" data-key={54103}>
-                    <a
+                    <Link
                       className="full flex-middle btn-style btn-color-hover full text-left"
-                      href="plumbing-services/tankless-electric-water-heater/index.html"
+                      to="/plumbing-services/tankless-electric-water-heater"
                     >
                       <TanklessElectricIcon className="right-margin-tiny fit"/>
                       <span>Tankless Electric Water Heater</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="half flex-" data-item="i" data-key={54110}>
-                    <a
+                    <Link
                       className="full flex-middle btn-style btn-color-hover full text-left"
-                      href="plumbing-services/sewer-services/index.html"
+                      to="/plumbing-services/sewer-services"
                     >
                       <SewerServicesIcon className="right-margin-tiny fit"/>
                       <span>Sewer Services</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="half flex-" data-item="i" data-key={54100}>
-                    <a
+                    <Link
                       className="full flex-middle btn-style btn-color-hover full text-left"
-                      href="plumbing-services/custom-home-plumbing/index.html"
+                      to="/plumbing-services/custom-home-plumbing"
                     >
                       <CustomHomeIcon className="right-margin-tiny fit"/>
                       <span>Custom Home Plumbing</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <div id="ServicesV9BtnCon">
                   <div className="top-margin text-align">
-                    <a
+                    <Link
                       className="btn v1"
                       aria-labelledby="ServicesV9Header"
-                      href="plumbing-services/index.html"
+                      to="/plumbing-services"
                     >
                       Additional Services
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -698,9 +699,9 @@ function Home() {
                         home.
                       </p>
                       <div className="text-center top-margin">
-                        <a href="contact-us/index.html" className="btn v1">
+                        <Link to="/contact-us" className="btn v1">
                           Contact Us
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1055,13 +1056,13 @@ function Home() {
                       </div>
                       <div id="ReviewsV15ReviewsBtnCon">
                         <div className="top-margin text-align center-800">
-                          <a
-                            href="reviews/index.html"
+                          <Link
+                            to="/reviews"
                             aria-labelledby="ReviewsV15ReviewsHeader"
                             className="btn v1"
                           >
                             Read More Reviews
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1136,13 +1137,13 @@ function Home() {
                         <small>- Dec 31, 2022</small>
                       </div>
                       <div className="top-margin-small">
-                        <a
+                        <Link
                           className="btn v1"
-                          href="coupons/print/index0a09.html?id=7622"
+                          to="/coupons/print"
                           target="_blank"
                         >
                           Print
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1185,13 +1186,13 @@ function Home() {
                         <small>- Dec 31, 2022</small>
                       </div>
                       <div className="top-margin-small">
-                        <a
+                        <Link
                           className="btn v1"
-                          href="coupons/print/index9f4e.html?id=7223"
+                          to="/coupons/print"
                           target="_blank"
                         >
                           Print
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1228,13 +1229,13 @@ function Home() {
           </div>
           <div id="CouponV10BtnCon">
             <div className="top-margin text-center">
-              <a
-                href="coupons/index.html"
+              <Link
+                to="/coupons"
                 className="btn v1"
                 aria-labelledby="CouponV10Header"
               >
                 view More Deals
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -1407,9 +1408,9 @@ function Home() {
               id="BlogV7List"
             >
               <li className="flex- auto" data-item="i" data-key={1302513}>
-                <a
+                <Link
                   className="flex-column full border-radius-item scaling-img-item bg-box relative"
-                  href="blog/2022/january/read-this-before-you-buy-a-house-in-florida-/index.html"
+                  to="/blog/2022/january/read-this-before-you-buy-a-house-in-florida-"
                 >
                   <div
                     className="img pad-height-50 fit full"
@@ -1432,12 +1433,12 @@ function Home() {
                     </div>
                     <span className="fit btn v2">View Article</span>
                   </div>
-                </a>
+                </Link>
               </li>
               <li className="flex- auto" data-item="i" data-key={1279586}>
-                <a
+                <Link
                   className="flex-column full border-radius-item scaling-img-item bg-box relative"
-                  href="blog/2021/october/what-homeowners-should-know-about-septic-tanks/index.html"
+                  to="/blog/2021/october/what-homeowners-should-know-about-septic-tanks"
                 >
                   <div
                     className="img pad-height-50 fit full"
@@ -1477,18 +1478,18 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                </a>
+                </Link>
               </li>
             </ul>
             <div id="BlogV7BtnCon">
               <div className="top-margin text-align center-800">
-                <a
+                <Link
                   className="btn v1"
-                  href="blog/index.html"
+                  to="/blog"
                   aria-labelledby="BlogV7Header"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>

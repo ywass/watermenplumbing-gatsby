@@ -10,6 +10,7 @@ import waterShut4Img from '../../images/mgv-2.jpg'
 import waterShut5Img from '../../images/mgv3.jpg'
 import waterShut6Img from '../../images/mgv5.jpg'
 import waterShut7Img from '../../images/mgv6.jpg'
+import { Link } from 'gatsby'
 function MainWaterShutOffPhoto() {
   return (
     <main id="MainZone">
@@ -60,9 +61,9 @@ function MainWaterShutOffPhoto() {
           data-item="i"
           data-key={289382}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Main Water Shut Off Valve 6"
@@ -72,7 +73,7 @@ function MainWaterShutOffPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Main Water Shut Off Valve 6
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -85,9 +86,9 @@ function MainWaterShutOffPhoto() {
           data-item="i"
           data-key={289383}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Main Water Shut Off Valve 7"
@@ -97,7 +98,7 @@ function MainWaterShutOffPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Main Water Shut Off Valve 7
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -110,9 +111,9 @@ function MainWaterShutOffPhoto() {
           data-item="i"
           data-key={289384}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Main Water Shut Off Valve 1"
@@ -122,7 +123,7 @@ function MainWaterShutOffPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Main Water Shut Off Valve 1
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -135,9 +136,9 @@ function MainWaterShutOffPhoto() {
           data-item="i"
           data-key={289385}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Main Water Shut Off Valve 2"
@@ -147,7 +148,7 @@ function MainWaterShutOffPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Main Water Shut Off Valve 2
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -160,9 +161,9 @@ function MainWaterShutOffPhoto() {
           data-item="i"
           data-key={289386}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Main Water Shut Off Valve 3"
@@ -172,7 +173,7 @@ function MainWaterShutOffPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Main Water Shut Off Valve 3
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -185,9 +186,9 @@ function MainWaterShutOffPhoto() {
           data-item="i"
           data-key={289387}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Main Water Shut Off Valve 4"
@@ -197,7 +198,7 @@ function MainWaterShutOffPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Main Water Shut Off Valve 4
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -210,9 +211,9 @@ function MainWaterShutOffPhoto() {
           data-item="i"
           data-key={289388}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Main Water Shut Off Valve 5"
@@ -222,7 +223,7 @@ function MainWaterShutOffPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Main Water Shut Off Valve 5
             </strong>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

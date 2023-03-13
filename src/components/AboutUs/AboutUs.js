@@ -12,6 +12,7 @@ import StarIcon from "../../images/svg/star.svg";
 import tltBdrImg from '../../images/tlt-bdr.png'
 import tltBdr2Img from '../../images/tlt-bdr2.png'
 import PanelGroupImg from "../../images/panel-group-v5-bg.jpg"
+import { Link } from 'gatsby'
 function AboutUs() {
   return (
     <main id="MainZone">
@@ -93,11 +94,11 @@ function AboutUs() {
             <p style={{ textAlign: "left" }}>
               At Watermen Plumbing Inc., we consider ourselves South Florida’s
               premier
-              <a href="../plumbing-services/index.html"> plumbing services
-              </a>{" "}
+              <Link to="/plumbing-services"> plumbing services
+              </Link>{" "}
               provider. We specialize in residential and
-              <a href="../plumbing-services/commercial-plumbing/index.html"> small-scale commercial
-              </a>{" "}
+              <Link to="/plumbing-services/commercial-plumbing"> small-scale commercial
+              </Link>{" "}
               plumbing services. We are proud to be known for our honesty,
               integrity, and professionalism in the industry. Our goal is to
               provide you with a level of service that is unparalleled. We have
@@ -148,8 +149,8 @@ function AboutUs() {
                 Customers in Boca Raton, Hallandale Beach, Davie, Hollywood and
                 Southern Florida can call in the experts from Watermen Plumbing
                 Inc. at
-                <a
-                  href="tel:(954) 800-6364"
+                <Link
+                  to="tel:(954) 800-6364"
                   id="ContentV1_1"
                   data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                 >
@@ -159,7 +160,7 @@ function AboutUs() {
                     data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
                   > (954) 800-6364
                   </span>
-                </a>{" "}
+                </Link>{" "}
                 for all your plumbing needs!
               </b>
             </p>
@@ -430,13 +431,13 @@ function AboutUs() {
             </div>
             <div id="ReviewsV16ReviewsBtnCon">
               <div className="top-margin text-align center-800">
-                <a
-                  href="../reviews/index.html"
+                <Link
+                  to="/reviews"
                   aria-labelledby="ReviewsV16ReviewsHeader"
                   className="btn v1"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -477,9 +478,9 @@ function AboutUs() {
         id="CtaV13List"
       >
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../photo-gallery/index.html"
+            to="/photo-gallery"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -495,12 +496,12 @@ function AboutUs() {
               </strong>
               <span className="btn v1 top-margin-small">View Our Gallery</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../blog/index.html"
+            to="/blog"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -518,12 +519,12 @@ function AboutUs() {
               </strong>
               <span className="btn v1 top-margin-small">Read Our bLogs</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../coupons/index.html"
+            to="/coupons"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -541,7 +542,7 @@ function AboutUs() {
               </strong>
               <span className="btn v1 top-margin-small">View our Offers</span>
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

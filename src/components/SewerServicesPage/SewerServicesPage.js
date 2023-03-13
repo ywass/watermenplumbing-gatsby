@@ -12,6 +12,7 @@ import PanelGroupImg from "../../images/values-v9-bg.jpg"
 import PanelGroupMobImg from "../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../images/values-v9-img.png'
 import ctaV13Bg from '../../images/cta-v13-bg.jpeg'
+import { Link } from 'gatsby'
 function SewerServicesPage() {
   return (
     <main id="MainZone">
@@ -78,16 +79,16 @@ function SewerServicesPage() {
                   </h2>
                   <p>
                     When your sewer lines are backed up, and your
-                    <a href="../drain-issues/drain-cleaning-snaking/index.html">
+                    <Link to="/plumbing-services/drain-issues/drain-cleaning-snaking">
                       drain
-                    </a>{" "}
+                    </Link>{" "}
                     is moving slowly, you want the help of a professional plumber
                     who knows how to get your system up and running again without
                     much hassle.
                   </p>
                   <p>
                     At
-                    <a href="../../about-us/index.html">Watermen Plumbing Inc.</a>
+                    <Link to="/about-us">Watermen Plumbing Inc.</Link>
                     , we are just the ones to call to get your system up and
                     running as soon as possible. A failing sewer line or multiple
                     blockages in your sewer network doesn’t have to mean panic.
@@ -101,11 +102,11 @@ function SewerServicesPage() {
                     className="text-highlight v2 bg-box bordered side-padding-medium vertical-padding-tiny"
                   >
                     <b>
-                      <a href="../../contact-us/index.html">Contact</a> Watermen
+                      <Link to="/contact-us">Contact</Link> Watermen
                       Plumbing Inc. for your Boca Raton sewer line problems. Call
                       us at
-                      <a
-                        href="tel:(954) 800-6364"
+                      <Link
+                        to="tel:(954) 800-6364"
                         id="ColumnLayoutContent_1"
                         data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                       >
@@ -116,7 +117,7 @@ function SewerServicesPage() {
                         >
                           (954) 800-6364
                         </span>
-                      </a>{" "}
+                      </Link>{" "}
                       to schedule an appointment or request an estimate.
                     </b>
                   </p>
@@ -132,14 +133,14 @@ function SewerServicesPage() {
                     If you aren’t managing the health of your sewer lines, they
                     will inevitably need to be replaced sooner rather than later.
                     At Watermen Plumbing Inc., we provide
-                    <a href="sewer-line-installation-replacement/index.html">
+                    <Link to="/plumbing-services/sewer-line-installation-replacement">
                       sewer line installation and replacement
-                    </a>{" "}
+                    </Link>{" "}
                     services at an affordable price. We offer every level of sewer
                     line replacement, from a few pipes to a
-                    <a href="../whole-home-repiping/index.html">
+                    <Link to="/plumbing-services/whole-home-repiping">
                       whole-house repiping
-                    </a>
+                    </Link>
                     . The most important aspect of sewer line replacement or
                     installation is moving quickly. Once you realize you need new
                     sewer lines, waiting around will not improve the situation.
@@ -161,7 +162,7 @@ function SewerServicesPage() {
                     committed to providing clients with the best customer service
                     in the area. We are problem solvers who will always work to
                     provide you with an expert solution to solve your
-                    <a href="../index.html">plumbing issues</a>. Our team of
+                    <Link to="/plumbing-services">plumbing issues</Link>. Our team of
                     specialists and master plumbers understand everything there is
                     to know about the plumbing industry. There aren’t many
                     problems our team hasn’t faced, so when we work in your home
@@ -189,20 +190,20 @@ function SewerServicesPage() {
                   <h3>Additional Reading</h3>
                   <ul>
                     <li>
-                      <a href="../../blog/2021/june/5-maintenance-tips-to-avoid-plumbing-headaches/index.html">
+                      <Link to="/blog/2021/june/5-maintenance-tips-to-avoid-plumbing-headaches">
                         5 Maintenance Tips to Avoid Plumbing Headaches
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../../blog/2021/march/plumbing-problems-that-can-cause-mold/index.html">
+                      <Link to="/blog/2021/march/plumbing-problems-that-can-cause-mold">
                         Plumbing Problems That Can Cause Mold
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../../blog/2018/september/master-plumber-vs-plumber-in-florida-what-s-the-/index.html">
+                      <Link to="/blog/2018/september/master-plumber-vs-plumber-in-florida-what-s-the-">
                         Master Plumber vs Plumber in Florida: What's the
                         Difference?
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <p
@@ -212,8 +213,8 @@ function SewerServicesPage() {
                     <b>
                       Call in the Boca Raton sewer service experts from Watermen
                       Plumbing Inc. at
-                      <a
-                        href="tel:(954) 800-6364"
+                      <Link
+                        to="tel:(954) 800-6364"
                         id="ColumnLayoutContent_3"
                         data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                       >
@@ -224,7 +225,7 @@ function SewerServicesPage() {
                         >
                           (954) 800-6364
                         </span>
-                      </a>{" "}
+                      </Link>{" "}
                       for all your plumbing needs!
                     </b>
                   </p>
@@ -241,30 +242,30 @@ function SewerServicesPage() {
           >
             <nav>
               <header className="text-left">
-                <a href="index.html">
+                <Link to="/plumbing-services/sewer-services">
                   <h5>Sewer Services</h5>
-                </a>
+                </Link>
               </header>
               <ul className="el-tab-box" role="menu">
                 <li className="level-1  ">
-                  <a
+                  <Link
                     className="pseudo-before relative auto"
-                    href="sewer-line-installation-replacement/index.html"
+                    to="/plumbing-services/sewer-line-installation-replacement"
                     target=""
                     role="menuitem"
                   >
                     Sewer Line Installation &amp; Replacement
-                  </a>
+                  </Link>
                 </li>
                 <li className="level-1  ">
-                  <a
+                  <Link
                     className="pseudo-before relative auto"
-                    href="septic-to-sewer-conversion/index.html"
+                    to="/plumbing-services/septic-to-sewer-conversion"
                     target=""
                     role="menuitem"
                   >
                     Septic to Sewer Conversion
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -524,13 +525,13 @@ function SewerServicesPage() {
                         <small>- Dec 31, 2022</small>
                       </div>
                       <div className="top-margin-small auto full">
-                        <a
+                        <Link
                           className="btn v1"
-                          href="../../coupons/print/index0a09.html?id=7622"
+                          to="/coupons"
                           target="_blank"
                         >
                           Print
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -571,13 +572,13 @@ function SewerServicesPage() {
                         <small>- Dec 31, 2022</small>
                       </div>
                       <div className="top-margin-small auto full">
-                        <a
+                        <Link
                           className="btn v1"
-                          href="../../coupons/print/index9f4e.html?id=7223"
+                          to="/coupons"
                           target="_blank"
                         >
                           Print
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -649,9 +650,9 @@ function SewerServicesPage() {
           id="CtaV13List"
         >
           <li className="flex- fit" data-item="i">
-            <a
+            <Link
               className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-              href="../../photo-gallery/index.html"
+              to="/photo-gallery"
             >
               <div className="img pad-height- bottom-margin">
                 <img
@@ -667,12 +668,12 @@ function SewerServicesPage() {
                 </strong>
                 <span className="btn v1 top-margin-small">View Our Gallery</span>
               </div>
-            </a>
+            </Link>
           </li>
           <li className="flex- fit" data-item="i">
-            <a
+            <Link
               className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-              href="../../blog/index.html"
+              to="/blog"
             >
               <div className="img pad-height- bottom-margin">
                 <img
@@ -690,12 +691,12 @@ function SewerServicesPage() {
                 </strong>
                 <span className="btn v1 top-margin-small">Read Our bLogs</span>
               </div>
-            </a>
+            </Link>
           </li>
           <li className="flex- fit" data-item="i">
-            <a
+            <Link
               className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-              href="../../coupons/index.html"
+              to="/coupons"
             >
               <div className="img pad-height- bottom-margin">
                 <img
@@ -713,7 +714,7 @@ function SewerServicesPage() {
                 </strong>
                 <span className="btn v1 top-margin-small">View our Offers</span>
               </div>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -723,7 +724,7 @@ function SewerServicesPage() {
       id="ValuesV9"
       data-onvisible="show"
     >
-      <a name="valuesAnchor" />
+      <Link name="valuesAnchor" />
       <picture className="img-bg" role="presentation" data-role="picture">
         <source
           media="(max-width: 500px)"

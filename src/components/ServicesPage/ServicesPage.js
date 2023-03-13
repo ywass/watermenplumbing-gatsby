@@ -1,5 +1,34 @@
 import React from 'react'
 import '../../style/services.css'
+import mainstageV1Img from '../../images/mainstage-v1-bg.jpeg'
+import panelgroupV4Img from '../../images/panel-group-v4-bg.jpeg'
+import contentV3Img from '../../images/content-v3-img.png'
+import valueV9Img from '../../images/values-v9-img.png'
+import tltBdrImg from '../../images/tlt-bdr.png'
+import tltBdr2Img from '../../images/tlt-bdr2.png'
+import CustomerEmployeeIcon from "../../images/svg/customerEmployee.svg";
+import KnowledgeAbleIcon from "../../images/svg/knowledgeAble.svg";
+import ReliableHonestIcon from "../../images/svg/reliableHonest.svg";
+import FullyStockIcon from "../../images/svg/fullyStock.svg";
+import WaterFilterationIcon from "../../images/svg/WaterFiltration.svg";
+import WaterHeatersIcon from "../../images/svg/WaterHeaters.svg";
+import TanklessElectricIcon from "../../images/svg/TanklessElectric.svg";
+import SewerServicesIcon from "../../images/svg/SewerServices.svg";
+import CustomHomeIcon from "../../images/svg/CustomHome.svg";
+import CameraDrainIcon from "../../images/svg/CameraDrain.svg";
+import BackwaterValves from '../../images/svg/BackwaterValves.svg'
+import PlumbingUpgrades from '../../images/svg/PlumbingUpgrades.svg'
+import BathroomPlumbingRenovation from '../../images/svg/BathroomPlumbingRenovation.svg'
+import OtherServicesIcon from '../../images/svg/OtherServicesIcon.svg'
+import CommercialPlumbing from '../../images/svg/CommercialPlumbing.svg'
+import ToiletsIcon from '../../images/svg/ToiletsIcon.svg'
+import LeaksIcon from '../../images/svg/LeaksIcon.svg'
+import WholeHomeRepiping from '../../images/svg/WholeHomeRepiping.svg'
+import ThermostaticPressure from '../../images/svg/ThermostaticPressure.svg'
+import SewerInstallation from '../../images/svg/SewerInstallation.svg'
+import SepticSewer from '../../images/svg/SepticSewer.svg'
+import TanklessGasWater from '../../images/svg/TanklessGasWater.svg'
+import { Link } from 'gatsby'
 function ServicesPage() {
   return (
     <main id="MainZone">
@@ -24,10 +53,9 @@ function ServicesPage() {
         data-src="/assets/mainstages/mainstage-v1-bg-tablet.jpg"
       />
       <img
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
         loading="lazy"
         alt=""
-        data-src="/assets/mainstages/mainstage-v1-bg.jpg"
+        src={mainstageV1Img}
       />
     </picture>
     <div className="main">
@@ -44,10 +72,9 @@ function ServicesPage() {
             data-src="/assets/mainstages/mainstage-v1-img-tablet.png"
           />
           <img
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
             loading="lazy"
             alt=""
-            data-src="/assets/mainstages/mainstage-v1-img.png"
+            src={mainstageV1Img}
           />
         </picture>
         <div className="bg-box side-padding-medium vertical-padding info text-align center-800 box-flair border-radius">
@@ -67,7 +94,7 @@ function ServicesPage() {
               Locally Owned and Operated Since 2015
             </em>
             <svg role="presentation" className="header-flair">
-              <use href="../includes/flair.svg#header" />
+              <use to="../includes/flair.svg#header" />
             </svg>
             <p className="no-bottom-margin description">
               With state of the art plumbing technology and straightforward
@@ -77,13 +104,13 @@ function ServicesPage() {
             <div className="top-margin">
               <ul className="flex-wrap-block-500-margined text-align center-800 close-gap-500">
                 <li className="top-margin-tiny fit" data-item="i">
-                  <a
+                  <Link
                     className="full btn v1"
-                    href="https://book.housecallpro.com/book/Watermen-Plumbing-Inc/373bf5a05fc149db80dc799b751841fe"
+                    to="https://book.housecallpro.com/book/Watermen-Plumbing-Inc/373bf5a05fc149db80dc799b751841fe"
                     target="_blank"
                   >
                     Schedule Service Today
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -112,10 +139,9 @@ function ServicesPage() {
         data-src="/assets/panel-groups/panel-group-v4-bg-tablet.jpg"
       />
       <img
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
         alt=""
         loading="lazy"
-        data-src="/assets/panel-groups/panel-group-v4-bg.jpg"
+        src={panelgroupV4Img}
       />
     </picture>
     <div className="box" id="PanelGroupV4Zone">
@@ -136,9 +162,8 @@ function ServicesPage() {
             data-src="/assets/content/content-v3-bg-tablet.jpg"
           />
           <img
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
             alt=""
-            data-src="/assets/content/content-v3-bg.jpg"
+            src={contentV3Img}
           />
         </picture>
         <div className="main">
@@ -150,13 +175,13 @@ function ServicesPage() {
                 <div className="overlap-padding">
                   <div id="ContentV3BtnCon">
                     <div className="top-margin-small relative">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../about-us/index.html"
+                        to="/about-us"
                         aria-labelledby="ContentV3Header"
                       >
                         More About Us
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -173,9 +198,8 @@ function ServicesPage() {
                 data-src="/assets/content/content-v3-img-mobile.png"
               />
               <img
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                 alt=""
-                data-src="/assets/content/content-v3-img.png"
+                src={contentV3Img}
               />
             </picture>
           </div>
@@ -197,301 +221,173 @@ function ServicesPage() {
                   We are proud to offer an array of plumbing solutions. Put our
                   team to the test!
                 </strong>
-                <svg role="presentation" className="header-flair">
-                  <use href="../includes/flair.svg#header" />
-                </svg>
+                <img src={tltBdr2Img} className="header-flair"/>
               </header>
               <ul
                 className="services-list flex-wrap-spaced-between-block-800 ui-repeater"
                 id="ServicesV8Services"
               >
                 <li className="half flex-" data-item="i" data-key={54107}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/water-filtration/index.html"
+                    to="/plumbing-services/water-filtration"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Water Filtration Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#filter" />
-                    </svg>
+                   <WaterFilterationIcon className="right-margin-tiny fit"/>
                     <span>Water Filtration</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54108}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/sewer-services/septic-to-sewer-conversion/index.html"
+                    to="/plumbing-services/sewer-services/septic-to-sewer-conversion"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Septic to Sewer Conversion Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#septic" />
-                    </svg>
+                    <SepticSewer className="right-margin-tiny fit"/>
                     <span>Septic to Sewer Conversion</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54109}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/sewer-services/sewer-line-installation-replacement/index.html"
+                    to="/plumbing-services/sewer-services/sewer-line-installation-replacement"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Sewer Line Installation & Replacement Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#sewer_line" />
-                    </svg>
+                    <SewerInstallation className="right-margin-tiny fit"/>
                     <span>Sewer Line Installation &amp; Replacement</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54111}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/thermostatic-pressure-balancing/index.html"
+                    to="/plumbing-services/thermostatic-pressure-balancing"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Thermostatic Pressure Balancing Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#thermostat" />
-                    </svg>
+                   <ThermostaticPressure className="right-margin-tiny fit"/>
                     <span>Thermostatic Pressure Balancing</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54112}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/whole-home-repiping/index.html"
+                    to="/plumbing-services/whole-home-repiping"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Whole Home Repiping Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#home_repiping" />
-                    </svg>
+                    <WholeHomeRepiping className="right-margin-tiny fit"/>
                     <span>Whole Home Repiping</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54115}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/leak-detection-repair/index.html"
+                    to="/plumbing-services/leak-detection-repair"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Leaks Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#leaks" />
-                    </svg>
+                    <LeaksIcon className="right-margin-tiny fit"/>
                     <span>Leaks</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54116}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/toilets/index.html"
+                    to="/toilets"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Toilets Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#septic" />
-                    </svg>
+                   <ToiletsIcon className="right-margin-tiny fit"/>
                     <span>Toilets</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54106}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/commercial-plumbing/index.html"
+                    to="/plumbing-services/commercial-plumbing"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Commercial Plumbing Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#commerial" />
-                    </svg>
+                   <CommercialPlumbing className="right-margin-tiny fit"/>
                     <span>Commercial Plumbing</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54105}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/other-services/index.html"
+                    to="/plumbing-services/other-services"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Other Services Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#other_services" />
-                    </svg>
+                    <OtherServicesIcon className="right-margin-tiny fit"/>
                     <span>Other Services</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54101}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/water-heaters/index.html"
+                    to="/plumbing-services/water-heaters"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Water Heaters Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#water_heater" />
-                    </svg>
+                  <WaterHeatersIcon className="right-margin-tiny fit"/>
                     <span>Water Heaters</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54113}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/drain-issues/camera-drain-inspection/index.html"
+                    to="/plumbing-services/drain-issues/camera-drain-inspection"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Camera Drain Inspection Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#drain_camera" />
-                    </svg>
+                    <CameraDrainIcon className="right-margin-tiny fit"/>
                     <span>Camera Drain Inspection</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54103}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/tankless-electric-water-heater/index.html"
+                    to="/plumbing-services/tankless-electric-water-heater"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Tankless Electric Water Heater Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#tankless" />
-                    </svg>
+                   <TanklessElectricIcon className="right-margin-tiny fit"/>
                     <span>Tankless Electric Water Heater</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54104}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/tankless-gas-water-heater/index.html"
+                    to="/plumbing-services/tankless-gas-water-heater"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Tankless Gas Water Heater Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#tankless" />
-                    </svg>
+                   <TanklessGasWater className="right-margin-tiny fit"/>
                     <span>Tankless Gas Water Heater</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54110}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/sewer-services/index.html"
+                    to="/plumbing-services/sewer-services"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Sewer Services Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#sewer" />
-                    </svg>
+                   <SewerServicesIcon className="right-margin-tiny fit"/>
                     <span>Sewer Services</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54100}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/custom-home-plumbing/index.html"
+                    to="/plumbing-services/custom-home-plumbing"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Custom Home Plumbing Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#custom" />
-                    </svg>
+                   <CustomHomeIcon className="right-margin-tiny fit"/>
                     <span>Custom Home Plumbing</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54097}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/bathroom-plumbing-renovation-upgrade/index.html"
+                    to="/plumbing-services/bathroom-plumbing-renovation-upgrade"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Bathroom Plumbing Renovation Upgrade Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#bathtub" />
-                    </svg>
+                   <BathroomPlumbingRenovation className="right-margin-tiny fit"/>
                     <span>Bathroom Plumbing Renovation Upgrade</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54102}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/plumbing-upgrades/index.html"
+                    to="/plumbing-services/plumbing-upgrades"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Plumbing Upgrades Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#custom_plumbing" />
-                    </svg>
+                    <PlumbingUpgrades className="right-margin-tiny fit"/>
                     <span>Plumbing Upgrades</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="half flex-" data-item="i" data-key={54099}>
-                  <a
+                  <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    href="../plumbing-services/backwater-valves/index.html"
+                    to="/plumbing-services/backwater-valves"
                   >
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="right-margin-tiny fit"
-                      role="presentation"
-                      title="Backwater Valves Icon"
-                    >
-                      <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#backwater" />
-                    </svg>
+                   <BackwaterValves className="right-margin-tiny fit"/>
                     <span>Backwater Valves</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div id="ServicesV8BtnCon"></div>
@@ -504,7 +400,7 @@ function ServicesPage() {
         id="ValuesV13"
         data-onvisible="show"
       >
-        <a name="valuesAnchor" />
+        <Link name="valuesAnchor" />
         <div className="main relative">
           <div className="flex-spaced-between-auto-responsive-margined flex-direction align-items item-spacing item-widths center-800">
             <div className="over-item">
@@ -513,9 +409,7 @@ function ServicesPage() {
                 <strong>
                   We Believe That Only the Best Is Good Enough, for You!
                 </strong>
-                <svg role="presentation" className="header-flair">
-                  <use href="../includes/flair.svg#header" />
-                </svg>
+                <img src={tltBdrImg} className="header-flair"/>
               </header>
               <ul
                 className="values-list flex-wrap-grid-block-800-break-1024-auto-size-max-3 close-gap-800 ui-repeater"
@@ -528,13 +422,7 @@ function ServicesPage() {
                 >
                   <div className="flex-start center-800">
                     <span className="ico-con">
-                      <svg
-                        viewBox="0 0 24 24"
-                        className="values-icon"
-                        role="presentation"
-                      >
-                        <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#saftey" />
-                      </svg>
+                     <CustomerEmployeeIcon className="values-icon"/>
                     </span>
                   </div>
                   <div className="info">
@@ -555,13 +443,7 @@ function ServicesPage() {
                 >
                   <div className="flex-start center-800">
                     <span className="ico-con">
-                      <svg
-                        viewBox="0 0 24 24"
-                        className="values-icon"
-                        role="presentation"
-                      >
-                        <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#knowledge" />
-                      </svg>
+                     <KnowledgeAbleIcon className="values-icon"/>
                     </span>
                   </div>
                   <div className="info">
@@ -584,13 +466,7 @@ function ServicesPage() {
                 >
                   <div className="flex-start center-800">
                     <span className="ico-con">
-                      <svg
-                        viewBox="0 0 24 24"
-                        className="values-icon"
-                        role="presentation"
-                      >
-                        <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#honest" />
-                      </svg>
+                    <ReliableHonestIcon className="values-icon"/>
                     </span>
                   </div>
                   <div className="info">
@@ -610,13 +486,7 @@ function ServicesPage() {
                 >
                   <div className="flex-start center-800">
                     <span className="ico-con">
-                      <svg
-                        viewBox="0 0 24 24"
-                        className="values-icon"
-                        role="presentation"
-                      >
-                        <use data-href="/cms/svg/site/ykmkv4_n6ok.24.svg#truck" />
-                      </svg>
+                     <FullyStockIcon className="values-icon"/>
                     </span>
                   </div>
                   <div className="info">
@@ -643,9 +513,9 @@ function ServicesPage() {
                 data-src="/assets/values/values-v9-img-mobile.png"
               />
               <img
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                
                 alt=""
-                data-src="/assets/values/values-v9-img.png"
+                src={valueV9Img}
               />
             </picture>
           </div>
@@ -680,7 +550,7 @@ function ServicesPage() {
           id="ContactV1"
           data-onvisible="show"
         >
-          <a name="contactAnchor" />
+          <Link name="contactAnchor" />
           <picture
             className="img-bg bg-position"
             role="presentation"
@@ -712,9 +582,7 @@ function ServicesPage() {
                   <strong>
                     Complete the Form to Connect With Our Plumbing Team
                   </strong>
-                  <svg role="presentation" className="header-flair">
-                    <use href="../includes/flair.svg#header" />
-                  </svg>
+                 <img src={tltBdr2Img} className="header-flair"/>
                 </header>
                 <div id="ContactV1Form" className="ui-repeater">
                   <fieldset data-item="i" data-key="">
@@ -858,7 +726,7 @@ function ServicesPage() {
                             Are you a new customer?
                           </label>
                           <svg className="site-arrow">
-                            <use href="../includes/flair.svg#arrow-down" />
+                            <use to="../includes/flair.svg#arrow-down" />
                           </svg>
                           <div
                             className="validation"

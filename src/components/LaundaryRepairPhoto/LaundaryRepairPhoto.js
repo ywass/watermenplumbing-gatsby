@@ -10,6 +10,8 @@ import LRFourImg from '../../images/IMG_5128.jpg'
 import LRFiveImg from '../../images/IMG_5129.jpg'
 import LRSixImg from '../../images/IMG_5130.jpg'
 import LRSevenImg from '../../images/IMG_5131.jpg'
+import { Link } from 'gatsby'
+
 function LaundaryRepairPhoto() {
   return (
     <main id="MainZone">
@@ -61,9 +63,9 @@ function LaundaryRepairPhoto() {
           data-item="i"
           data-key={289393}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -71,7 +73,7 @@ function LaundaryRepairPhoto() {
               title=""
               src={LROneImg}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -84,9 +86,9 @@ function LaundaryRepairPhoto() {
           data-item="i"
           data-key={289394}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               
@@ -97,7 +99,7 @@ function LaundaryRepairPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Multiple Laundry Drain Repair Before
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -110,9 +112,9 @@ function LaundaryRepairPhoto() {
           data-item="i"
           data-key={289395}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -123,7 +125,7 @@ function LaundaryRepairPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Multiple Laundry Drain Repair After
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -136,9 +138,9 @@ function LaundaryRepairPhoto() {
           data-item="i"
           data-key={289396}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -146,7 +148,7 @@ function LaundaryRepairPhoto() {
               title=""
               src={LRFourImg}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -159,9 +161,9 @@ function LaundaryRepairPhoto() {
           data-item="i"
           data-key={289397}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -169,7 +171,7 @@ function LaundaryRepairPhoto() {
               title=""
             src={LRFiveImg}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -182,9 +184,9 @@ function LaundaryRepairPhoto() {
           data-item="i"
           data-key={289398}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -192,7 +194,7 @@ function LaundaryRepairPhoto() {
               title=""
               src={LRSixImg}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -205,9 +207,9 @@ function LaundaryRepairPhoto() {
           data-item="i"
           data-key={289399}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -215,7 +217,7 @@ function LaundaryRepairPhoto() {
               title=""
               src={LRSevenImg}
             />
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

@@ -12,6 +12,7 @@ import faucetInstallImg from '../../images/Shower-waterproofing-faucet-isntall-a
 import showerFloorImg from '../../images/Sloaped-shower-floor.jpg'
 import tubInstallImg from '../../images/Tub-instalation.jpg'
 import vanityDrainImg from '../../images/Vanity-drains-and-water-supply-piping-prepaired.jpg'
+import { Link } from 'gatsby'
 function OurProjectsPhoto() {
   return (
 <main id="MainZone">
@@ -63,9 +64,9 @@ function OurProjectsPhoto() {
           data-item="i"
           data-key={288065}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -76,7 +77,7 @@ function OurProjectsPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Before Shower Upgrade
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -89,9 +90,9 @@ function OurProjectsPhoto() {
           data-item="i"
           data-key={288066}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -102,7 +103,7 @@ function OurProjectsPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               After Shower Upgrade
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -115,9 +116,9 @@ function OurProjectsPhoto() {
           data-item="i"
           data-key={288067}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
             
@@ -128,7 +129,7 @@ function OurProjectsPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Tub Upgrade
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -141,9 +142,9 @@ function OurProjectsPhoto() {
           data-item="i"
           data-key={288068}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -151,7 +152,7 @@ function OurProjectsPhoto() {
               title=""
               src={showerLineImg}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -164,9 +165,9 @@ function OurProjectsPhoto() {
           data-item="i"
           data-key={288069}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               
@@ -177,7 +178,7 @@ function OurProjectsPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               After Shower Upgrade
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -190,9 +191,9 @@ function OurProjectsPhoto() {
           data-item="i"
           data-key={288070}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               
@@ -200,7 +201,7 @@ function OurProjectsPhoto() {
               title=""
               src={faucetInstallImg}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -213,9 +214,9 @@ function OurProjectsPhoto() {
           data-item="i"
           data-key={288071}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -223,7 +224,7 @@ function OurProjectsPhoto() {
               title=""
               src={showerFloorImg}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -236,9 +237,9 @@ function OurProjectsPhoto() {
           data-item="i"
           data-key={288072}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -246,7 +247,7 @@ function OurProjectsPhoto() {
               title=""
              src={tubInstallImg}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -259,9 +260,9 @@ function OurProjectsPhoto() {
           data-item="i"
           data-key={288073}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -269,7 +270,7 @@ function OurProjectsPhoto() {
               title=""
              src={vanityDrainImg}
             />
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

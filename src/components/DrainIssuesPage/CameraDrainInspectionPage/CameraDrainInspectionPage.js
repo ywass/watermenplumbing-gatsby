@@ -12,6 +12,7 @@ import PanelGroupImg from "../../../images/values-v9-bg.jpg"
 import PanelGroupMobImg from "../../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../../images/values-v9-img.png'
 import ctaV13Bg from '../../../images/cta-v13-bg.jpeg'
+import { Link } from 'gatsby'
 function CameraDrainInspectionPage() {
   return (
     <main id="MainZone">
@@ -80,9 +81,9 @@ function CameraDrainInspectionPage() {
                   blockages, or obstructions in drains or sewers. This
                   information can be invaluable and can help save money when
                   dealing with
-                  <a href="../drain-cleaning-snaking/index.html">
+                  <Link to="/plumbing-services/drain-cleaning-snaking">
                     troubled drains
-                  </a>
+                  </Link>
                   . Once the blockage is found, a “locate” can then be performed
                   to pinpoint the exact location of the obstruction in the
                   drain. This is possible due to the latest’s in technology
@@ -131,8 +132,8 @@ function CameraDrainInspectionPage() {
                 <p className="content-quote v1 bg-box unlike-bg side-padding-medium vertical-padding-tiny title-style-3 title-color-3">
                   <b>
                     Call
-                    <a
-                      href="tel:(954) 800-6364"
+                    <Link
+                      to="tel:(954) 800-6364"
                       id="ColumnLayoutContent_1"
                       data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                     >
@@ -143,7 +144,7 @@ function CameraDrainInspectionPage() {
                       >
                         (954) 800-6364
                       </span>
-                    </a>{" "}
+                    </Link>{" "}
                     today and have a master plumber perform a camera inspection
                     for you.
                   </b>
@@ -161,30 +162,30 @@ function CameraDrainInspectionPage() {
         >
           <nav>
             <header className="text-left">
-              <a href="../index.html">
+              <Link to="/plumbing-services/drain-issues">
                 <h5>Drain Issues</h5>
-              </a>
+              </Link>
             </header>
             <ul className="el-tab-box" role="menu">
               <li className="level-1 selected ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="index.html"
+                  to="/plumbing-services/camera-drain-inspection"
                   target=""
                   role="menuitem"
                 >
                   Camera Drain Inspection
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../drain-cleaning-snaking/index.html"
+                  to="/plumbing-services/drain-cleaning-snaking"
                   target=""
                   role="menuitem"
                 >
                   Drain Cleaning Snaking
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -443,13 +444,13 @@ function CameraDrainInspectionPage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../../coupons/print/index0a09.html?id=7622"
+                        to="../../../coupons/print/index0a09.html?id=7622"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -489,13 +490,13 @@ function CameraDrainInspectionPage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../../coupons/print/index9f4e.html?id=7223"
+                        to="../../../coupons/print/index9f4e.html?id=7223"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -566,9 +567,9 @@ function CameraDrainInspectionPage() {
         id="CtaV13List"
       >
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../../photo-gallery/index.html"
+            to="/photo-gallery"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -585,12 +586,12 @@ function CameraDrainInspectionPage() {
               </strong>
               <span className="btn v1 top-margin-small">View Our Gallery</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../../blog/index.html"
+            to="/blog"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -607,12 +608,12 @@ function CameraDrainInspectionPage() {
               </strong>
               <span className="btn v1 top-margin-small">Read Our bLogs</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../../coupons/index.html"
+            to="/coupons"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -629,7 +630,7 @@ function CameraDrainInspectionPage() {
               </strong>
               <span className="btn v1 top-margin-small">View our Offers</span>
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
@@ -639,7 +640,7 @@ function CameraDrainInspectionPage() {
     id="ValuesV9"
     data-onvisible="show"
   >
-    <a name="valuesAnchor" />
+    <Link name="valuesAnchor" />
     <picture className="img-bg" role="presentation" data-role="picture">
       <source
         media="(max-width: 500px)"

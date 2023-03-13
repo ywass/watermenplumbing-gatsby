@@ -16,6 +16,7 @@ import tltBdr2Img from '../../images/tlt-bdr2.png'
 import PanelGroupImg from "../../images/values-v9-bg.jpg"
 import PanelGroupMobImg from "../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../images/values-v9-img.png'
+import { Link } from 'gatsby'
 function AreaWeServePage() {
   return (
     <main id="MainZone">
@@ -99,42 +100,42 @@ function AreaWeServePage() {
                 </p>
                 <ul>
                   <li>
-                    <a target="_blank" href="broward-county/index.html">
+                    <Link target="_blank" to="/about-us/areas-we-serve/broward-county">
                       Broward County
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="hallandale-beach/index.html">Hallandale Beach</a>
+                    <Link to="/about-us/areas-we-servehallandale-beach">Hallandale Beach</Link>
                   </li>
                   <li>
-                    <a target="_blank" href="davie/index.html">
+                    <Link target="_blank" to="/about-us/areas-we-serve/davie">
                       Davie
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a target="_blank" href="coral-springs/index.html">
+                    <Link target="_blank" to="/about-us/areas-we-serve/coral-springs">
                       Coral Springs
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a target="_blank" href="hollywood/index.html">
+                    <Link target="_blank" to="/about-us/areas-we-serve/hollywood">
                       Hollywood
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a target="_blank" href="plantation/index.html">
+                    <Link target="_blank" to="/about-us/areas-we-serve/plantation">
                       Plantation
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a target="_blank" href="fort-lauderdale/index.html">
+                    <Link target="_blank" to="/about-us/areas-we-serve/fort-lauderdale">
                       Ft. Lauderdale
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a target="_blank" href="miramar/index.html">
+                    <Link target="_blank" to="/about-us/areas-we-serve/miramar">
                       Miramar
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <h2>The Watermen Plumbing, Inc. Difference</h2>
@@ -200,9 +201,9 @@ function AreaWeServePage() {
                     Have a plumbing issue? Need to schedule a maintenance
                     check-up?{" "}
                   </b>
-                  <a href="../../contact-us/index.html">
+                  <Link to="/about-us/areas-we-serve/contact-us">
                     <b> Contact us </b>
-                  </a>
+                  </Link>
                   <b>online, or give us a call:</b>
                   <b>(954) 800-6364!</b>
                 </p>
@@ -219,90 +220,90 @@ function AreaWeServePage() {
         >
           <nav>
             <header className="text-left">
-              <a href="index.html">
+              <Link to="/about-us/areas-we-serve">
                 <h5>Areas We Serve</h5>
-              </a>
+              </Link>
             </header>
             <ul className="el-tab-box" role="menu">
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="broward-county/index.html"
+                  to="/about-us/areas-we-serve/broward-county"
                   target=""
                   role="menuitem"
                 >
                   Broward County
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="coral-springs/index.html"
+                  to="/about-us/areas-we-serve/coral-springs"
                   target=""
                   role="menuitem"
                 >
                   Coral Springs
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="davie/index.html"
+                  to="/about-us/areas-we-serve/davie"
                   target=""
                   role="menuitem"
                 >
                   Davie
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="fort-lauderdale/index.html"
+                  to="/about-us/areas-we-serve/fort-lauderdale"
                   target=""
                   role="menuitem"
                 >
                   Fort Lauderdale
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="hollywood/index.html"
+                  to="/about-us/areas-we-serve/hollywood"
                   target=""
                   role="menuitem"
                 >
                   Hollywood
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="miramar/index.html"
+                  to="/about-us/areas-we-serve/miramar"
                   target=""
                   role="menuitem"
                 >
                   Miramar
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="plantation/index.html"
+                  to="/about-us/areas-we-serve/plantation"
                   target=""
                   role="menuitem"
                 >
                   Plantation
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="hallandale-beach/index.html"
+                  to="/about-us/areas-we-serve/hallandale-beach"
                   target=""
                   role="menuitem"
                 >
                   Hallandale Beach
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -560,13 +561,13 @@ function AreaWeServePage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../coupons/print/index0a09.html?id=7622"
+                        to="../../coupons/print/index0a09.html?id=7622"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -607,13 +608,13 @@ function AreaWeServePage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../coupons/print/index9f4e.html?id=7223"
+                        to="../../coupons/print/index9f4e.html?id=7223"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -685,9 +686,9 @@ function AreaWeServePage() {
         id="CtaV13List"
       >
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../photo-gallery/index.html"
+            to="/photo-gallery"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -703,12 +704,12 @@ function AreaWeServePage() {
               </strong>
               <span className="btn v1 top-margin-small">View Our Gallery</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../blog/index.html"
+            to="/blog"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -726,12 +727,12 @@ function AreaWeServePage() {
               </strong>
               <span className="btn v1 top-margin-small">Read Our bLogs</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../coupons/index.html"
+            to="/coupons"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -749,7 +750,7 @@ function AreaWeServePage() {
               </strong>
               <span className="btn v1 top-margin-small">View our Offers</span>
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
@@ -759,7 +760,7 @@ function AreaWeServePage() {
     id="ValuesV9"
     data-onvisible="show"
   >
-    <a name="valuesAnchor" />
+    <Link name="valuesAnchor" />
     <picture className="img-bg" role="presentation" data-role="picture">
       <source
         media="(max-width: 500px)"

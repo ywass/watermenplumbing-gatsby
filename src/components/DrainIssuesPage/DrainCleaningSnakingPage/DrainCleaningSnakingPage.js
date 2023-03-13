@@ -12,6 +12,7 @@ import PanelGroupMobImg from "../../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../../images/values-v9-img.png'
 import ctaV13Bg from '../../../images/cta-v13-bg.jpeg'
 import drainCleaningImg from '../../../images/drain-cleaning-snaking-hollywood-fl.jpg'
+import { Link } from 'gatsby'
 function DrainCleaningSnakingPage() {
   return (
     <main id="MainZone">
@@ -107,8 +108,8 @@ function DrainCleaningSnakingPage() {
                     <b>
                       To get started, call our drain snaking specialists in Boca
                       Raton at
-                      <a
-                        href="tel:(954) 800-6364"
+                      <Link
+                        to="tel:(954) 800-6364"
                         id="ColumnLayoutContent_1"
                         data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                       >
@@ -119,11 +120,11 @@ function DrainCleaningSnakingPage() {
                         >
                           (954) 800-6364
                         </span>
-                      </a>{" "}
+                      </Link>{" "}
                       or fill out our
-                      <a href="../../../contact-us/index.html">
+                      <Link to="/contact-us">
                         online contact form
-                      </a>
+                      </Link>
                       .
                     </b>
                   </p>
@@ -197,8 +198,8 @@ function DrainCleaningSnakingPage() {
                     <strong>
                       Is it time for drain cleaning in Boca Raton, Davie, or
                       Hallandale Beach? Give us a call at
-                      <a
-                        href="tel:(954) 800-6364"
+                      <Link
+                        to="tel:(954) 800-6364"
                         id="ColumnLayoutContent_3"
                         data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                       >
@@ -209,7 +210,7 @@ function DrainCleaningSnakingPage() {
                         >
                           (954) 800-6364
                         </span>
-                      </a>{" "}
+                      </Link>{" "}
                       today!
                     </strong>
                   </p>
@@ -226,30 +227,30 @@ function DrainCleaningSnakingPage() {
           >
             <nav>
               <header className="text-left">
-                <a href="../index.html">
+                <Link to="/plumbing-services/drain-issues">
                   <h5>Drain Issues</h5>
-                </a>
+                </Link>
               </header>
               <ul className="el-tab-box" role="menu">
                 <li className="level-1  ">
-                  <a
+                  <Link
                     className="pseudo-before relative auto"
-                    href="../camera-drain-inspection/index.html"
+                    to="/camera-drain-inspection"
                     target=""
                     role="menuitem"
                   >
                     Camera Drain Inspection
-                  </a>
+                  </Link>
                 </li>
                 <li className="level-1 selected ">
-                  <a
+                  <Link
                     className="pseudo-before relative auto"
-                    href="index.html"
+                    to="/plumbing-services/drain-issues/drain-cleaning-snaking"
                     target=""
                     role="menuitem"
                   >
                     Drain Cleaning Snaking
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -508,13 +509,13 @@ function DrainCleaningSnakingPage() {
                         <small>- Dec 31, 2022</small>
                       </div>
                       <div className="top-margin-small auto full">
-                        <a
+                        <Link
                           className="btn v1"
-                          href="../../../coupons/print/index0a09.html?id=7622"
+                          to="../../../coupons/print/index0a09.html?id=7622"
                           target="_blank"
                         >
                           Print
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -554,13 +555,13 @@ function DrainCleaningSnakingPage() {
                         <small>- Dec 31, 2022</small>
                       </div>
                       <div className="top-margin-small auto full">
-                        <a
+                        <Link
                           className="btn v1"
-                          href="../../../coupons/print/index9f4e.html?id=7223"
+                          to="../../../coupons/print/index9f4e.html?id=7223"
                           target="_blank"
                         >
                           Print
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -631,9 +632,9 @@ function DrainCleaningSnakingPage() {
           id="CtaV13List"
         >
           <li className="flex- fit" data-item="i">
-            <a
+            <Link
               className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-              href="../../../photo-gallery/index.html"
+              to="/photo-gallery"
             >
               <div className="img pad-height- bottom-margin">
                 <img
@@ -650,12 +651,12 @@ function DrainCleaningSnakingPage() {
                 </strong>
                 <span className="btn v1 top-margin-small">View Our Gallery</span>
               </div>
-            </a>
+            </Link>
           </li>
           <li className="flex- fit" data-item="i">
-            <a
+            <Link
               className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-              href="../../../blog/index.html"
+              to="/blog"
             >
               <div className="img pad-height- bottom-margin">
                 <img
@@ -672,12 +673,12 @@ function DrainCleaningSnakingPage() {
                 </strong>
                 <span className="btn v1 top-margin-small">Read Our bLogs</span>
               </div>
-            </a>
+            </Link>
           </li>
           <li className="flex- fit" data-item="i">
-            <a
+            <Link
               className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-              href="../../../coupons/index.html"
+              to="/coupons"
             >
               <div className="img pad-height- bottom-margin">
                 <img
@@ -694,7 +695,7 @@ function DrainCleaningSnakingPage() {
                 </strong>
                 <span className="btn v1 top-margin-small">View our Offers</span>
               </div>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -704,7 +705,7 @@ function DrainCleaningSnakingPage() {
       id="ValuesV9"
       data-onvisible="show"
     >
-      <a name="valuesAnchor" />
+      <Link name="valuesAnchor" />
       <picture className="img-bg" role="presentation" data-role="picture">
         <source
           media="(max-width: 500px)"

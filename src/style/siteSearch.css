@@ -721,8 +721,13 @@ img {
   border: none;
   vertical-align: middle;
   background: none;
+
   outline: 0;
   width: 100%;
+}
+ .searchLabel{
+  margin-top: 13px !important;
+
 }
 .ui-dialog .form-group .input-textbox textarea {
   color: #889aa7;
