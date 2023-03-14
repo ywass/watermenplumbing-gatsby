@@ -11,7 +11,7 @@ import tltBdr2Img from '../../../../images/tlt-bdr2.png'
 import PanelGroupImg from "../../../../images/values-v9-bg.jpg"
 import PanelGroupMobImg from "../../../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../../../images/values-v9-img.png'
-import ironFilterImg from '../../../../images/whole-house-iron-filter-500.png'
+import ionExImg from '../../../../images/ion-exchange-water-softener-500.png'
 import pdfOne from '../../../../../static/productBrochures/ion-exchange-softener.pdf'
 import { Link } from 'gatsby'
 function SecondWaterSoftProductPage() {
@@ -29,9 +29,8 @@ function SecondWaterSoftProductPage() {
         data-src="/assets/sub-banners/sub-banner-v1-bg-mobile.jpg"
       />
       <img
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
         alt=""
-        data-src="/assets/sub-banners/sub-banner-v1-bg.jpg"
+        src={subBannerBgImg}
       />
     </picture>
     <div className="main">
@@ -84,7 +83,7 @@ function SecondWaterSoftProductPage() {
                   <img
                     className="media-left media-small"
                     alt="Ion Exchange Water Softener 500"
-                    src="../../../../../images/products/ion-exchange-water-softener-500.png"
+                    src={ionExImg}
                   />
                   Hard water is characterized by the volume of dissolved mineral
                   content in your water. The normal hardness of the water in
@@ -444,9 +443,8 @@ function SecondWaterSoftProductPage() {
                       data-src="../../../../../images/coupons/Senoir%5b9%5d.jpg"
                     />
                     <img
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                       alt=""
-                      data-src="../../../../../images/coupons/Senoir%5b9%5d.jpg"
+                      src={senoirImg}
                     />
                   </picture>
                   <div className="full side-padding-small">
@@ -488,9 +486,8 @@ function SecondWaterSoftProductPage() {
                       data-src="../../../../../images/coupons/Senoir%5b9%5d.jpg"
                     />
                     <img
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                       alt=""
-                      data-src="../../../../../images/coupons/Senoir%5b9%5d.jpg"
+                      src={senoirImg}
                     />
                   </picture>
                   <div className="full side-padding-small">
@@ -576,9 +573,8 @@ function SecondWaterSoftProductPage() {
         data-src="../../../../../assets/ctas/cta-v13-bg-tablet.jpg"
       />
       <img
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
         alt=""
-        data-src="../../../../../assets/ctas/cta-v13-bg.jpg"
+        src={ctaV13Bg}
       />
     </picture>
     <div className="main">
@@ -594,9 +590,8 @@ function SecondWaterSoftProductPage() {
           >
             <div className="img pad-height- bottom-margin">
               <img
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                 style={{
-                  backgroundImage: "url(../../../../../images/ctas/Let-us.jpg)"
+                  backgroundImage: `url(${letUsImg})`
                 }}
                 alt=""
                 role="presentation"
@@ -617,10 +612,8 @@ function SecondWaterSoftProductPage() {
           >
             <div className="img pad-height- bottom-margin">
               <img
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                 style={{
-                  backgroundImage:
-                    "url(../../../../../images/ctas/Stay-in-loop.jpg)"
+                  backgroundImage:`url(${stayLoopImg})`
                 }}
                 alt=""
                 role="presentation"
@@ -641,10 +634,8 @@ function SecondWaterSoftProductPage() {
           >
             <div className="img pad-height- bottom-margin">
               <img
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                 style={{
-                  backgroundImage:
-                    "url(../../../../../images/ctas/Save-on-service.jpg)"
+                  backgroundImage:`url(${saveServiceImg})`
                 }}
                 alt=""
                 role="presentation"
@@ -674,10 +665,9 @@ function SecondWaterSoftProductPage() {
         data-src="../../../../../assets/values/values-v9-bg-mobile.jpg"
       />
       <img
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
         alt=""
         title=""
-        data-src="../../../../../assets/values/values-v9-bg.jpg"
+        src={PanelGroupImg}
       />
     </picture>
     <div className="main relative">
@@ -803,9 +793,8 @@ function SecondWaterSoftProductPage() {
             data-src="../../../../../assets/values/values-v9-img-mobile.png"
           />
           <img
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
             alt=""
-            data-src="../../../../../assets/values/values-v9-img.png"
+            src={valuesV9Img}
           />
         </picture>
       </div>

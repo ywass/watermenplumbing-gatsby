@@ -11,7 +11,7 @@ import tltBdr2Img from '../../../../images/tlt-bdr2.png'
 import PanelGroupImg from "../../../../images/values-v9-bg.jpg"
 import PanelGroupMobImg from "../../../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../../../images/values-v9-img.png'
-import ironFilterImg from '../../../../images/whole-house-iron-filter-500.png'
+import dualFuncImg from '../../../../images/dual-function-softener-filter-500.png'
 import pdfOne from '../../../../../static/productBrochures/Dual-System-one-sheet.pdf'
 import { Link } from 'gatsby'
 function FirstWaterSoftProductPage() {
@@ -29,9 +29,8 @@ function FirstWaterSoftProductPage() {
         data-src="/assets/sub-banners/sub-banner-v1-bg-mobile.jpg"
       />
       <img
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
         alt=""
-        data-src="/assets/sub-banners/sub-banner-v1-bg.jpg"
+        src={subBannerBgImg}
       />
     </picture>
     <div className="main">
@@ -82,7 +81,7 @@ function FirstWaterSoftProductPage() {
                   <img
                     className="media-small media-right"
                     alt="Dual Function Softener Filter 500"
-                    src="../../../../../images/products/dual-function-softener-filter-500.png"
+                    src={dualFuncImg}
                   />
                   Whether your home or property has water that is hard or
                   chlorinated, Flow-Tech Home Dual Filter and Softener delivers
@@ -423,9 +422,8 @@ function FirstWaterSoftProductPage() {
                       data-src="../../../../../images/coupons/Senoir%5b9%5d.jpg"
                     />
                     <img
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                       alt=""
-                      data-src="../../../../../images/coupons/Senoir%5b9%5d.jpg"
+                      src={senoirImg}
                     />
                   </picture>
                   <div className="full side-padding-small">
@@ -467,9 +465,8 @@ function FirstWaterSoftProductPage() {
                       data-src="../../../../../images/coupons/Senoir%5b9%5d.jpg"
                     />
                     <img
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                       alt=""
-                      data-src="../../../../../images/coupons/Senoir%5b9%5d.jpg"
+                      src={senoirImg}
                     />
                   </picture>
                   <div className="full side-padding-small">
@@ -555,9 +552,8 @@ function FirstWaterSoftProductPage() {
         data-src="../../../../../assets/ctas/cta-v13-bg-tablet.jpg"
       />
       <img
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
         alt=""
-        data-src="../../../../../assets/ctas/cta-v13-bg.jpg"
+        src={ctaV13Bg}
       />
     </picture>
     <div className="main">
@@ -573,9 +569,8 @@ function FirstWaterSoftProductPage() {
           >
             <div className="img pad-height- bottom-margin">
               <img
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                 style={{
-                  backgroundImage: "url(../../../../../images/ctas/Let-us.jpg)"
+                  backgroundImage: `url(${letUsImg})`
                 }}
                 alt=""
                 role="presentation"
@@ -596,10 +591,8 @@ function FirstWaterSoftProductPage() {
           >
             <div className="img pad-height- bottom-margin">
               <img
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                 style={{
-                  backgroundImage:
-                    "url(../../../../../images/ctas/Stay-in-loop.jpg)"
+                  backgroundImage:`url(${stayLoopImg})`
                 }}
                 alt=""
                 role="presentation"
@@ -620,10 +613,8 @@ function FirstWaterSoftProductPage() {
           >
             <div className="img pad-height- bottom-margin">
               <img
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                 style={{
-                  backgroundImage:
-                    "url(../../../../../images/ctas/Save-on-service.jpg)"
+                  backgroundImage:`url(${saveServiceImg})`
                 }}
                 alt=""
                 role="presentation"
@@ -653,10 +644,9 @@ function FirstWaterSoftProductPage() {
         data-src="../../../../../assets/values/values-v9-bg-mobile.jpg"
       />
       <img
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
         alt=""
         title=""
-        data-src="../../../../../assets/values/values-v9-bg.jpg"
+       src={PanelGroupImg}
       />
     </picture>
     <div className="main relative">
@@ -782,9 +772,8 @@ function FirstWaterSoftProductPage() {
             data-src="../../../../../assets/values/values-v9-img-mobile.png"
           />
           <img
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
             alt=""
-            data-src="../../../../../assets/values/values-v9-img.png"
+            src={valuesV9Img}
           />
         </picture>
       </div>

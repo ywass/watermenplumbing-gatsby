@@ -27,9 +27,8 @@ function WaterSoftProductPage() {
         data-src="/assets/sub-banners/sub-banner-v1-bg-mobile.jpg"
       />
       <img
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
         alt=""
-        data-src="/assets/sub-banners/sub-banner-v1-bg.jpg"
+        src={subBannerBgImg}
       />
     </picture>
     <div className="main">
@@ -371,9 +370,8 @@ function WaterSoftProductPage() {
                       data-src="/images/coupons/Senoir[9].jpg"
                     />
                     <img
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                       alt=""
-                      data-src="/images/coupons/Senoir[9].jpg"
+                      src={senoirImg}
                     />
                   </picture>
                   <div className="full side-padding-small">
@@ -415,9 +413,8 @@ function WaterSoftProductPage() {
                       data-src="/images/coupons/Senoir[9].jpg"
                     />
                     <img
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                       alt=""
-                      data-src="/images/coupons/Senoir[9].jpg"
+                      src={senoirImg}
                     />
                   </picture>
                   <div className="full side-padding-small">
@@ -503,9 +500,8 @@ function WaterSoftProductPage() {
         data-src="/assets/ctas/cta-v13-bg-tablet.jpg"
       />
       <img
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
         alt=""
-        data-src="/assets/ctas/cta-v13-bg.jpg"
+        src={ctaV13Bg}
       />
     </picture>
     <div className="main">
@@ -521,9 +517,8 @@ function WaterSoftProductPage() {
           >
             <div className="img pad-height- bottom-margin">
               <img
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                 style={{
-                  backgroundImage: "url(../../../../images/ctas/Let-us.jpg)"
+                  backgroundImage:`url(${letUsImg})`
                 }}
                 alt=""
                 role="presentation"
@@ -544,10 +539,8 @@ function WaterSoftProductPage() {
           >
             <div className="img pad-height- bottom-margin">
               <img
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                 style={{
-                  backgroundImage:
-                    "url(../../../../images/ctas/Stay-in-loop.jpg)"
+                  backgroundImage:`url(${stayLoopImg})`
                 }}
                 alt=""
                 role="presentation"
@@ -568,10 +561,8 @@ function WaterSoftProductPage() {
           >
             <div className="img pad-height- bottom-margin">
               <img
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                 style={{
-                  backgroundImage:
-                    "url(../../../../images/ctas/Save-on-service.jpg)"
+                  backgroundImage:`url(${saveServiceImg})`
                 }}
                 alt=""
                 role="presentation"
@@ -601,10 +592,9 @@ function WaterSoftProductPage() {
         data-src="../../../../assets/values/values-v9-bg-mobile.jpg"
       />
       <img
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
         alt=""
         title=""
-        data-src="../../../../assets/values/values-v9-bg.jpg"
+        src={PanelGroupImg}
       />
     </picture>
     <div className="main relative">
@@ -730,9 +720,8 @@ function WaterSoftProductPage() {
             data-src="../../../../assets/values/values-v9-img-mobile.png"
           />
           <img
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
             alt=""
-            data-src="../../../../assets/values/values-v9-img.png"
+            src={valuesV9Img}
           />
         </picture>
       </div>
