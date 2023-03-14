@@ -12,7 +12,7 @@ import PanelGroupImg from "../../../../images/values-v9-bg.jpg"
 import PanelGroupMobImg from "../../../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../../../images/values-v9-img.png'
 import ironFilterImg from '../../../../images/whole-house-iron-filter-500.png'
-import pdfOne from '../../../../../static/productBrochures/'
+import pdfOne from '../../../../../static/productBrochures/Dual-System-one-sheet.pdf'
 import { Link } from 'gatsby'
 function FirstWaterSoftProductPage() {
   return (
