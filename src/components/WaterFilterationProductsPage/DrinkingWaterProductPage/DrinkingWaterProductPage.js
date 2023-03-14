@@ -1,19 +1,18 @@
 import React from 'react'
-import '../../../../style/sewerServices.css'
-import subBannerBgImg from '../../../../images/sub-banner-v1-bg.jpg'
-import senoirImg from '../../../../images/Senoir[9].jpg'
-import letUsImg from '../../../../images/Let-us.jpg'
-import stayLoopImg from '../../../../images/Stay-in-loop.jpg'
-import saveServiceImg from '../../../../images/Save-on-service.jpg'
-import ctaV13Bg from '../../../../images/cta-v13-bg.jpeg'
-import tltBdrImg from '../../../../images/tlt-bdr.png'
-import tltBdr2Img from '../../../../images/tlt-bdr2.png'
-import PanelGroupImg from "../../../../images/values-v9-bg.jpg"
-import PanelGroupMobImg from "../../../../images/values-v9-bg-mobile.jpg"
-import valuesV9Img from '../../../../images/values-v9-img.png'
-import pdfOne from '../../../../../static/productBrochures/legal-trifold-fold-brochure-MAX-no-bleed.pdf'
+import '../../../style/sewerServices.css'
+import subBannerBgImg from '../../../images/sub-banner-v1-bg.jpg'
+import senoirImg from '../../../images/Senoir[9].jpg'
+import letUsImg from '../../../images/Let-us.jpg'
+import stayLoopImg from '../../../images/Stay-in-loop.jpg'
+import saveServiceImg from '../../../images/Save-on-service.jpg'
+import ctaV13Bg from '../../../images/cta-v13-bg.jpeg'
+import tltBdrImg from '../../../images/tlt-bdr.png'
+import tltBdr2Img from '../../../images/tlt-bdr2.png'
+import PanelGroupImg from "../../../images/values-v9-bg.jpg"
+import PanelGroupMobImg from "../../../images/values-v9-bg-mobile.jpg"
+import valuesV9Img from '../../../images/values-v9-img.png'
 import { Link } from 'gatsby'
-function FirstAntiScaleProductPage() {
+function DrinkingWaterProductPage() {
   return (
     <main id="MainZone">
   <section
@@ -41,7 +40,7 @@ function FirstAntiScaleProductPage() {
           <span className="flair-1" />
           <span className="flair-2" />
           <span className="title-font title-color-1">
-            <strong>Flow-Tech Home MAX Anti-Scale System</strong>
+            <strong>Drinking Water Systems</strong>
           </span>
           <em className="title-color-2 subtitle">
             We’ll Treat Your Home as if It Were Our Own
@@ -71,73 +70,29 @@ function FirstAntiScaleProductPage() {
                 id="MainContent"
                 data-content="true"
               >
-                <h1>
-                  Flow-Tech Home MAX Anti-Scale System
-                  <img
-                    width={15}
-                    title="Click and drag to move"
-                    height={15}
-                    role="presentation"
-                    draggable="true"
-                    alt=""
-                    src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw=="
-                  />
-                  ​
-                </h1>
-                <h3>
-                  ​Model:
-                  <strong>FTHMAX</strong>
-                </h3>
-                <p>
-                  Flow-Tech Home’s cutting edge technology is far more effective
-                  than any other physical water treatment system on the market
-                  and is the best alternative to a water softener. Not only will
-                  the Flow-Tech system stop limescale from occurring in your
-                  home, it will also remove existing build-up, which allows for
-                  your home's overall efficiency to improve.
-                </p>
-                <p style={{ textAlign: "center" }}>
-                  <iframe
-                    width={560}
-                    height={315}
-                    src="https://www.youtube.com/embed/Wep8mzhS3gI"
-                    frameBorder={0}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen=""
-                  />
-                </p>
-                <p>
-                  The system has a unique induction method that allows for your
-                  home's water to be treated year-round. It induces a low
-                  frequency signal that is pulsed several thousand times per
-                  second and sent throughout your entire plumbing system. This
-                  electromagnetic signal reverses the charge on the minerals
-                  that are dissolved in the water, which effectively removes the
-                  scale from the water and the pipes.
-                </p>
+                <h1>Drinking Water Systems</h1>
                 <ul>
-                  <li>Service water mains up to: 1 - 1.5 in. diameter</li>
                   <li>
-                    Small commercial &amp; industrial systems are available for
-                    larger application
+                    <h4>
+                      <Link
+                        title="AlwaysFresh® Drinking Water System"
+                        to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/alwaysfresh-drinking-water-system"
+                      >
+                        AlwaysFresh® Drinking Water System
+                      </Link>
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
+                      <Link
+                        title="Reverse Osmosis Drinking Water System"
+                        to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/reverse-osmosis-drinking-water-system"
+                      >
+                        Reverse Osmosis Drinking Water System
+                      </Link>
+                    </h4>
                   </li>
                 </ul>
-                <p style={{ textAlign: "center" }}>
-                  <a
-                    className="btn v1"
-                    target="_blank"
-                   
-                    href={pdfOne}
-                  >
-                    Product Brochure
-                  </a>
-                  <Link
-                    className="btn v1"
-                    to="/contact-us"
-                  >
-                    Contact Us
-                  </Link>
-                </p>
               </div>
             </div>
           </div>
@@ -151,19 +106,29 @@ function FirstAntiScaleProductPage() {
         >
           <nav>
             <header className="text-left">
-              <Link to="/plumbing-services/water-filtration/water-filtration-products/anti-scale-systems">
-                <h5>Anti-Scale Systems</h5>
+              <Link to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems">
+                <h5>Drinking Water Systems</h5>
               </Link>
             </header>
             <ul className="el-tab-box" role="menu">
-              <li className="level-1 selected ">
+              <li className="level-1  ">
                 <Link
                   className="pseudo-before relative auto"
-                  to="/plumbing-services/water-filtration/water-filtration-products/anti-scale-systems/flow-tech-home-max-anti-scale-system"
+                  to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/alwaysfresh-drinking-water-system"
                   target=""
                   role="menuitem"
                 >
-                  Flow-Tech Home MAX Anti-Scale System
+                  AlwaysFresh® Drinking Water System
+                </Link>
+              </li>
+              <li className="level-1  ">
+                <Link
+                  className="pseudo-before relative auto"
+                  to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/reverse-osmosis-drinking-water-system"
+                  target=""
+                  role="menuitem"
+                >
+                  Reverse Osmosis Drinking Water System
                 </Link>
               </li>
             </ul>
@@ -173,7 +138,7 @@ function FirstAntiScaleProductPage() {
           id="Form_SideContactV1"
           method="post"
           encType="multipart/form-data"
-          action="https://www.watermenplumbing.com/plumbing-services/water-filtration/water-filtration-products/anti-scale-systems/flow-tech-home-max-anti-scale-system/"
+          action="https://www.watermenplumbing.com/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/"
         >
           <input type="hidden" name="_m_" defaultValue="SideContactV1" />
           <aside
@@ -318,7 +283,7 @@ function FirstAntiScaleProductPage() {
                         Are you a new customer?
                       </label>
                       <svg className="site-arrow">
-                        <use href="../../../../../includes/flair.svg#arrow-down" />
+                        <use href="../../../../includes/flair.svg#arrow-down" />
                       </svg>
                       <div
                         className="validation"
@@ -402,7 +367,7 @@ function FirstAntiScaleProductPage() {
                     <source
                       media="(max-width: 500px)"
                       srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                      data-src="../../../../../images/coupons/Senoir%5b9%5d.jpg"
+                      data-src="/images/coupons/Senoir[9].jpg"
                     />
                     <img
                       alt=""
@@ -445,7 +410,7 @@ function FirstAntiScaleProductPage() {
                     <source
                       media="(max-width: 500px)"
                       srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                      data-src="../../../../../images/coupons/Senoir%5b9%5d.jpg"
+                      data-src="/images/coupons/Senoir[9].jpg"
                     />
                     <img
                       alt=""
@@ -491,7 +456,7 @@ function FirstAntiScaleProductPage() {
                 data-action="Prev"
               >
                 <svg className="site-arrow">
-                  <use href="../../../../../includes/flair.svg#arrow-left" />
+                  <use href="../../../../includes/flair.svg#arrow-left" />
                 </svg>
               </button>
               <span className="paging" data-role="paging">
@@ -504,7 +469,7 @@ function FirstAntiScaleProductPage() {
                 data-action="Next"
               >
                 <svg className="site-arrow">
-                  <use href="../../../../../includes/flair.svg#arrow-right" />
+                  <use href="../../../../includes/flair.svg#arrow-right" />
                 </svg>
               </button>
             </div>
@@ -527,12 +492,12 @@ function FirstAntiScaleProductPage() {
       <source
         media="(max-width: 500px)"
         srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        data-src="../../../../../assets/ctas/cta-v13-bg-mobile.jpg"
+        data-src="/assets/ctas/cta-v13-bg-mobile.jpg"
       />
       <source
         media="(max-width: 800px)"
         srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        data-src="../../../../../assets/ctas/cta-v13-bg-tablet.jpg"
+        data-src="/assets/ctas/cta-v13-bg-tablet.jpg"
       />
       <img
         alt=""
@@ -553,7 +518,7 @@ function FirstAntiScaleProductPage() {
             <div className="img pad-height- bottom-margin">
               <img
                 style={{
-                  backgroundImage:`url(${letUsImg})`
+                  backgroundImage: `url(${letUsImg})`
                 }}
                 alt=""
                 role="presentation"
@@ -624,7 +589,7 @@ function FirstAntiScaleProductPage() {
       <source
         media="(max-width: 500px)"
         srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        data-src="../../../../../assets/values/values-v9-bg-mobile.jpg"
+        data-src="../../../../assets/values/values-v9-bg-mobile.jpg"
       />
       <img
         alt=""
@@ -654,7 +619,7 @@ function FirstAntiScaleProductPage() {
                 className="values-icon"
                 role="presentation"
               >
-                <use data-href="../../../../../cms/svg/site/ykmkv4_n6ok.24.svg#saftey" />
+                <use data-href="../../../../cms/svg/site/ykmkv4_n6ok.24.svg#saftey" />
               </svg>
             </span>
             <div className="info">
@@ -679,7 +644,7 @@ function FirstAntiScaleProductPage() {
                 className="values-icon"
                 role="presentation"
               >
-                <use data-href="../../../../../cms/svg/site/ykmkv4_n6ok.24.svg#knowledge" />
+                <use data-href="../../../../cms/svg/site/ykmkv4_n6ok.24.svg#knowledge" />
               </svg>
             </span>
             <div className="info">
@@ -706,7 +671,7 @@ function FirstAntiScaleProductPage() {
                 className="values-icon"
                 role="presentation"
               >
-                <use data-href="../../../../../cms/svg/site/ykmkv4_n6ok.24.svg#honest" />
+                <use data-href="../../../../cms/svg/site/ykmkv4_n6ok.24.svg#honest" />
               </svg>
             </span>
             <div className="info">
@@ -730,7 +695,7 @@ function FirstAntiScaleProductPage() {
                 className="values-icon"
                 role="presentation"
               >
-                <use data-href="../../../../../cms/svg/site/ykmkv4_n6ok.24.svg#truck" />
+                <use data-href="../../../../cms/svg/site/ykmkv4_n6ok.24.svg#truck" />
               </svg>
             </span>
             <div className="info">
@@ -752,7 +717,7 @@ function FirstAntiScaleProductPage() {
           <source
             media="(max-width: 500px)"
             srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-            data-src="../../../../../assets/values/values-v9-img-mobile.png"
+            data-src="../../../../assets/values/values-v9-img-mobile.png"
           />
           <img
             alt=""
@@ -767,4 +732,4 @@ function FirstAntiScaleProductPage() {
   )
 }
 
-export default FirstAntiScaleProductPage
+export default DrinkingWaterProductPage

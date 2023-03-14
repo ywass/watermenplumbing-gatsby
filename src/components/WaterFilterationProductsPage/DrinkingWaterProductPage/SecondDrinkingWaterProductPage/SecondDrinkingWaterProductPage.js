@@ -11,9 +11,10 @@ import tltBdr2Img from '../../../../images/tlt-bdr2.png'
 import PanelGroupImg from "../../../../images/values-v9-bg.jpg"
 import PanelGroupMobImg from "../../../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../../../images/values-v9-img.png'
-import pdfOne from '../../../../../static/productBrochures/legal-trifold-fold-brochure-MAX-no-bleed.pdf'
+import pdfOne from '../../../../../static/productBrochures/RO-one-sheet.pdf'
+import reverseOsmosisImg from '../../../../images/reverse-osmosis-system.png'
 import { Link } from 'gatsby'
-function FirstAntiScaleProductPage() {
+function SecondDrinkingWaterProductPage() {
   return (
     <main id="MainZone">
   <section
@@ -41,7 +42,7 @@ function FirstAntiScaleProductPage() {
           <span className="flair-1" />
           <span className="flair-2" />
           <span className="title-font title-color-1">
-            <strong>Flow-Tech Home MAX Anti-Scale System</strong>
+            <strong>Reverse Osmosis Drinking Water System</strong>
           </span>
           <em className="title-color-2 subtitle">
             We’ll Treat Your Home as if It Were Our Own
@@ -71,62 +72,57 @@ function FirstAntiScaleProductPage() {
                 id="MainContent"
                 data-content="true"
               >
-                <h1>
-                  Flow-Tech Home MAX Anti-Scale System
-                  <img
-                    width={15}
-                    title="Click and drag to move"
-                    height={15}
-                    role="presentation"
-                    draggable="true"
-                    alt=""
-                    src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw=="
-                  />
-                  ​
-                </h1>
+                <h1 itemProp="name">Reverse Osmosis Drinking Water System</h1>
                 <h3>
-                  ​Model:
-                  <strong>FTHMAX</strong>
+                  Model(s):
+                  <strong>
+                    102381 (system) &amp; 102382 (replacement kit)
+                  </strong>
                 </h3>
                 <p>
-                  Flow-Tech Home’s cutting edge technology is far more effective
-                  than any other physical water treatment system on the market
-                  and is the best alternative to a water softener. Not only will
-                  the Flow-Tech system stop limescale from occurring in your
-                  home, it will also remove existing build-up, which allows for
-                  your home's overall efficiency to improve.
-                </p>
-                <p style={{ textAlign: "center" }}>
-                  <iframe
-                    width={560}
-                    height={315}
-                    src="https://www.youtube.com/embed/Wep8mzhS3gI"
-                    frameBorder={0}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen=""
+                  <img
+                    className="media-small media-right"
+                    alt="Reverse Osmosis System"
+                    src={reverseOsmosisImg}
                   />
+                  Want to get bottle quality water directly from your own
+                  kitchensink? The Reverse Osmosis Drinking Water System is the
+                  convenient, cost efficient way to do exactly that!
                 </p>
                 <p>
-                  The system has a unique induction method that allows for your
-                  home's water to be treated year-round. It induces a low
-                  frequency signal that is pulsed several thousand times per
-                  second and sent throughout your entire plumbing system. This
-                  electromagnetic signal reverses the charge on the minerals
-                  that are dissolved in the water, which effectively removes the
-                  scale from the water and the pipes.
+                  The system uses Reverse Osmosis in combination with activated
+                  carbon technology to reduce up to 99% of unwanted impurities
+                  in your water. This process helps to eliminate smelly odors
+                  &amp; bad tastes from your very own tap water.
                 </p>
+                <p>
+                  Designed to provide your family with the cleanest, healthiest
+                  water possible. Multiple filters clean your home's regular
+                  faucet water to reduce any harmful contaminants. Monitor your
+                  system's performance using the touch monitor on the system’s
+                  faucet base. Easy installation - no electricity need during
+                  install or afterwards.
+                </p>
+                <h4>Specs:</h4>
                 <ul>
-                  <li>Service water mains up to: 1 - 1.5 in. diameter</li>
+                  <li>Healthy, sparkling clear drinking water</li>
+                  <li>Pristine, flavorful coffee, tea and juice</li>
+                  <li>Clearer ice cubes</li>
                   <li>
-                    Small commercial &amp; industrial systems are available for
-                    larger application
+                    Better tasting soups, sauces and meals when prepared with
+                    R.O. water
                   </li>
+                  <li>Environmentally sound water treatment</li>
+                  <li>
+                    Cost effective — the daily cost of bottled water will no
+                    longer be a concern
+                  </li>
+                  <li>Convenient — fresh, clean water ready at your tap</li>
                 </ul>
                 <p style={{ textAlign: "center" }}>
                   <a
                     className="btn v1"
                     target="_blank"
-                   
                     href={pdfOne}
                   >
                     Product Brochure
@@ -151,19 +147,29 @@ function FirstAntiScaleProductPage() {
         >
           <nav>
             <header className="text-left">
-              <Link to="/plumbing-services/water-filtration/water-filtration-products/anti-scale-systems">
-                <h5>Anti-Scale Systems</h5>
+              <Link to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems">
+                <h5>Drinking Water Systems</h5>
               </Link>
             </header>
             <ul className="el-tab-box" role="menu">
-              <li className="level-1 selected ">
+              <li className="level-1  ">
                 <Link
                   className="pseudo-before relative auto"
-                  to="/plumbing-services/water-filtration/water-filtration-products/anti-scale-systems/flow-tech-home-max-anti-scale-system"
+                  to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/alwaysfresh-drinking-water-system"
                   target=""
                   role="menuitem"
                 >
-                  Flow-Tech Home MAX Anti-Scale System
+                  AlwaysFresh® Drinking Water System
+                </Link>
+              </li>
+              <li className="level-1 selected ">
+                <Link
+                  className="pseudo-before relative auto"
+                  to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/reverse-osmosis-drinking-water-system"
+                  target=""
+                  role="menuitem"
+                >
+                  Reverse Osmosis Drinking Water System
                 </Link>
               </li>
             </ul>
@@ -173,7 +179,7 @@ function FirstAntiScaleProductPage() {
           id="Form_SideContactV1"
           method="post"
           encType="multipart/form-data"
-          action="https://www.watermenplumbing.com/plumbing-services/water-filtration/water-filtration-products/anti-scale-systems/flow-tech-home-max-anti-scale-system/"
+          action="https://www.watermenplumbing.com/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/reverse-osmosis-drinking-water-system/"
         >
           <input type="hidden" name="_m_" defaultValue="SideContactV1" />
           <aside
@@ -597,7 +603,7 @@ function FirstAntiScaleProductPage() {
             <div className="img pad-height- bottom-margin">
               <img
                 style={{
-                  backgroundImage:`url(${saveServiceImg})`
+                  backgroundImage: `url(${saveServiceImg})`
                 }}
                 alt=""
                 role="presentation"
@@ -767,4 +773,4 @@ function FirstAntiScaleProductPage() {
   )
 }
 
-export default FirstAntiScaleProductPage
+export default SecondDrinkingWaterProductPage
