@@ -13,7 +13,7 @@ import PanelGroupImg from "../../../images/values-v9-bg.jpg"
 
 import valuesV9Img from '../../../images/values-v9-img.png'
 import { Link } from 'gatsby'
-function CoralArea() {
+function DavieArea() {
   return (
     <main id="MainZone">
   <section
@@ -41,7 +41,7 @@ function CoralArea() {
           <span className="flair-1" />
           <span className="flair-2" />
           <span className="title-font title-color-1">
-            <strong>Coral Springs</strong>
+            <strong>Davie</strong>
           </span>
           <em className="title-color-2 subtitle">
             We’ll Treat Your Home as if It Were Our Own
@@ -71,60 +71,33 @@ function CoralArea() {
                 id="MainContent"
                 data-content="true"
               >
-                <h1>Coral Springs Plumbers</h1>
+                <h1>Davie Plumbers</h1>
                 <h2>
-                  Providing Coral Springs with plumbing services since 2015
+                  Expert Plumbing Services in Davie, FL &amp; the Surrounding
+                  Areas
                 </h2>
                 <p>
-                  At Watermen Plumbing Inc., our specialists care about
-                  customers by providing solutions that will serve them for
-                  years to come. Our master-level plumbers are constantly
-                  training others on the team to help them take their skills to
-                  the next level. When it comes to finding a plumber with
-                  knowledge and experience, it’s no wonder Coral Springs
-                  residents choose Watermen Plumbing Inc.
-                </p>
-                <p
-                  className="content-quote v2 bg-box bordered side-padding-medium vertical-padding-tiny title-style-3 title-color-3"
-                  style={{ textAlign: "center" }}
-                >
-                  For reliable plumbing services in the Coral Springs area,
-                  contact us
-                  <Link to="/contact-us">
-                    <strong>online</strong>
-                  </Link>{" "}
-                  or at
-                  <b>
-                    <Link
-                      to="tel:(954) 800-6364"
-                      id="ColumnLayoutContent_1"
-                      data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
-                    >
-                      <span
-                        id="ColumnLayoutContent_2"
-                        data-process="replace"
-                        data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
-                      > (954) 800-6364
-                      </span>
-                    </Link>{" "}
-                  </b>
-                  today!
+                  At Watermen Plumbing Inc., our team of certified plumbing
+                  professionals is dedicated to serving the Davie area. We are
+                  happy to provide estimates, discuss all options, and finish
+                  the job quickly for your convenience! We understand that
+                  plumbing issues can frustrate any resident or commercial
+                  property owner. That’s why we let our team of licensed
+                  professionals handle your problems with ease. Getting our
+                  customers back into a normal routine is part of what makes us
+                  a top-choice plumber.
                 </p>
                 <p>
-                  With thousands of positive reviews, it’s evident our
-                  <Link to="/plumbing-services">
-                    top-notch plumbing services
-                  </Link>{" "}
-                  and can-do mindsets are what keeps customers coming back. Each
-                  plumber on our roster takes on every job with a smile on their
-                  face because we never want customers to feel like their
-                  request is a hassle. When it comes to plumbing, issues can pop
-                  up anywhere. That’s why our team covers everything from
+                  When it comes to plumbing, issues can pop up anywhere. That’s
+                  why our team covers everything from
                   <Link to="/plumbing-services/toilets">
                     toilets
                   </Link>{" "}
-                  to whole-home repiping. Here’s a complete list of the plumbing
-                  services we offer in the Coral Springs area:
+                  to whole-home repiping. Here’s a complete list of the
+                  <Link to="/plumbing-services">
+                    plumbing services
+                  </Link>{" "}
+                  we offer in the Davie area:
                 </p>
                 <ul>
                   <li>
@@ -173,70 +146,75 @@ function CoralArea() {
                     </Link>
                   </li>
                 </ul>
-                <p>
-                  Plumbing is what makes any indoor space livable. When issues
-                  arise, it’s important to put the repairs and maintenance in
-                  trusted hands.
+                <p
+                  align="center"
+                  className="text-highlight v2 bg-box bordered side-padding-medium vertical-padding-tiny"
+                >
+                  <b>
+                    Be sure to
+                    <Link to="/contact-us"> contact our team of trained professionals
+                    </Link>{" "}
+                    at
+                    <Link
+                      to="tel:(954) 800-6364"
+                      id="ColumnLayoutContent_1"
+                      data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
+                    >
+                      <span
+                        id="ColumnLayoutContent_2"
+                        data-process="replace"
+                        data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
+                      > (954) 800-6364
+                      </span>
+                    </Link>{" "}
+                    for an assessment of your plumbing problem from one of our
+                    Davie plumbers!
+                  </b>
                 </p>
-                <h3>Coral Springs Custom Home Plumbing</h3>
+                <h3>Emergency Plumbing Service in Davie</h3>
                 <p>
-                  A home can reflect the type of creativity its owner possesses.
-                  When you’re creating a custom home, it’s important to make
-                  sure its plumbing complements the property. At Watermen
-                  Plumbing Inc., our custom home experts can design solutions
-                  that ensure your home will have an efficient plumbing system.
-                  Here are a few ways we help our custom home clients in Coral
-                  Springs:
+                  Life’s most annoying issues always strike at the most
+                  inconvenient times. Luckily, our team of experienced Davie
+                  plumbers is always ready to help with any emergency plumbing
+                  problems. Let’s say you’re relaxing on a Saturday evening when
+                  all of a sudden, a pipe bursts. Our dispatch team can get
+                  someone out to your residence the same night. You won’t have
+                  to wait until Monday morning for any repair services. Plus, if
+                  your problem requires more than one visit, we’ll still find a
+                  temporary solution for you. This way, you won’t have to deal
+                  with your plumbing problem for the days to come.
+                </p>
+                <h3>Davie Water Filtration Services</h3>
+                <p>
+                  Florida water has never been the cleanest in the nation.
+                  That’s why we can’t stress the importance of installing proper
+                  water filtration products enough. Without proper water
+                  filtration, residents living in Davie could experience some of
+                  the following issues:
                 </p>
                 <ul>
-                  <li>Standing double showers</li>
-                  <li>Waterfall faucets</li>
-                  <li>On-demand hot water systems</li>
-                  <li>Utility room drains</li>
-                  <li>Upgraded garbage disposal</li>
+                  <li>Hard water</li>
+                  <li>Low water pressure</li>
+                  <li>Water discoloration</li>
+                  <li>Mineral deposits in water</li>
+                  <li>Rusted iron stains around sink</li>
                 </ul>
-                <h3>Upgrade Plumbing Services in Coral Springs</h3>
                 <p>
-                  Are you in need of the above amenities but already have the
-                  home of your dreams? Our team’s upgrade plumbing services can
-                  still make these amenities work in your current space.
-                  Remodeling might take a few more steps, but with the knowledge
-                  and expertise of Watermen Plumbing Inc.’s technicians, you’ll
-                  have a fully operational solution in no time. When it comes to
-                  updating an older home, our team makes sure to clean out dirty
-                  pipes, replace any older lines, and inspect pipes that will
-                  remain. This way, we can ensure that our client is getting a
-                  solution that lasts for decades to come.
-                </p>
-                <h3>Coral Springs Commercial Plumber</h3>
-                <p>
-                  Having a business with effective plumbing creates a positive
-                  environment for customers. Since 2015, Watermen Plumbing Inc.
-                  has proudly served business owners in Coral Springs with all
-                  their plumbing needs. We know that to properly run a business
-                  you have to focus on more than just your building’s regular
-                  maintenance. That’s why we’re here to take that responsibility
-                  off your hands.
-                </p>
-                <p>
-                  Worried your business is too small or too large? There’s no
-                  job our team can’t handle. It doesn’t matter if your workspace
-                  is one room or multiple floors! We assist in a variety of
-                  different tasks from installing water heaters to fixing
-                  leaking faucets, and everything in between.
+                  At Watermen Plumbing Inc., our team offers a variety of
+                  solutions to make sure your home or business has access to
+                  clean water. Each filtration system can be tailored to a
+                  customer’s needs. Whether you’re a family of four, a small
+                  business with one bathroom, or a large apartment complex, we
+                  have a filtration system that can best suit your needs.
                 </p>
                 <p
                   align="center"
                   className="content-quote v1 bg-box unlike-bg side-padding-medium vertical-padding-tiny title-style-3 title-color-3"
                 >
                   <b>
-                    For more information on Watermen Plumbing Inc.’s Coral
-                    Springs plumbing services,{" "}
-                  </b>
-                  <Link to="/contact-us">
-                    <b> contact us </b>
-                  </Link>
-                  <b>
+                    For more information on all the plumbing services we offer
+                    for Davie homes and business, be sure to give us a
+                    <Link to="/contact-us"> contact us </Link>{" "}
                     today at
                     <Link
                       to="tel:(954) 800-6364"
@@ -281,7 +259,7 @@ function CoralArea() {
                   Broward County
                 </Link>
               </li>
-              <li className="level-1 selected ">
+              <li className="level-1  ">
                 <Link
                   className="pseudo-before relative auto"
                   to="/about-us/areas-we-serve/coral-springs"
@@ -291,7 +269,7 @@ function CoralArea() {
                   Coral Springs
                 </Link>
               </li>
-              <li className="level-1  ">
+              <li className="level-1 selected ">
                 <Link
                   className="pseudo-before relative auto"
                   to="/about-us/areas-we-serve/davie"
@@ -358,7 +336,7 @@ function CoralArea() {
           id="Form_SideContactV1"
           method="post"
           encType="multipart/form-data"
-          action="https://www.watermenplumbing.com/about-us/areas-we-serve/coral-springs/"
+          action="https://www.watermenplumbing.com/about-us/areas-we-serve/davie/"
         >
           <input type="hidden" name="_m_" defaultValue="SideContactV1" />
           <aside
@@ -738,7 +716,7 @@ function CoralArea() {
             <div className="img pad-height- bottom-margin">
               <img
                 style={{
-                  backgroundImage: `url(${letUsImg})`
+                  backgroundImage:`url(${letUsImg})`
                 }}
                 alt=""
                 role="presentation"
@@ -952,4 +930,4 @@ function CoralArea() {
   )
 }
 
-export default CoralArea
+export default DavieArea

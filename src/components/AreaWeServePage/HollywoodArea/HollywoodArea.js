@@ -13,7 +13,7 @@ import PanelGroupImg from "../../../images/values-v9-bg.jpg"
 
 import valuesV9Img from '../../../images/values-v9-img.png'
 import { Link } from 'gatsby'
-function CoralArea() {
+function HollywoodArea() {
   return (
     <main id="MainZone">
   <section
@@ -41,7 +41,7 @@ function CoralArea() {
           <span className="flair-1" />
           <span className="flair-2" />
           <span className="title-font title-color-1">
-            <strong>Coral Springs</strong>
+            <strong>Hollywood</strong>
           </span>
           <em className="title-color-2 subtitle">
             We’ll Treat Your Home as if It Were Our Own
@@ -71,186 +71,143 @@ function CoralArea() {
                 id="MainContent"
                 data-content="true"
               >
-                <h1>Coral Springs Plumbers</h1>
+                <h1>Plumbing Services in Hollywood</h1>
                 <h2>
-                  Providing Coral Springs with plumbing services since 2015
+                  Get the General Plumbing Services You Need for Simple
+                  Maintenance and Emergency Repairs
                 </h2>
                 <p>
-                  At Watermen Plumbing Inc., our specialists care about
-                  customers by providing solutions that will serve them for
-                  years to come. Our master-level plumbers are constantly
-                  training others on the team to help them take their skills to
-                  the next level. When it comes to finding a plumber with
-                  knowledge and experience, it’s no wonder Coral Springs
-                  residents choose Watermen Plumbing Inc.
-                </p>
-                <p
-                  className="content-quote v2 bg-box bordered side-padding-medium vertical-padding-tiny title-style-3 title-color-3"
-                  style={{ textAlign: "center" }}
-                >
-                  For reliable plumbing services in the Coral Springs area,
-                  contact us
-                  <Link to="/contact-us">
-                    <strong>online</strong>
-                  </Link>{" "}
-                  or at
+                  At Watermen Plumbing, we offer a wide range of plumbing
+                  services to the community of Hollywood, Florida. Floridians in
+                  the area have come to know and trust our team for the ability
+                  to provide reliable plumbing solutions. We know that your home
+                  is an important investment, and we think of your plumbing
+                  systems as the backbone that holds it all together. However,
+                  such an important system cannot be left up to its own devices.
+                  There are regular maintenance calls, repair services, and
+                  various installation processes that go into maintaining a
+                  functioning plumbing system, and our team can do it all.
                   <b>
-                    <Link
-                      to="tel:(954) 800-6364"
-                      id="ColumnLayoutContent_1"
-                      data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
-                    >
-                      <span
-                        id="ColumnLayoutContent_2"
-                        data-process="replace"
-                        data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
-                      > (954) 800-6364
-                      </span>
+                    Some of the most common requests we get for
+                    <Link to="/plumbing-services"> plumbing services
                     </Link>{" "}
+                    in Hollywood include:
                   </b>
-                  today!
                 </p>
+                <ul>
+                  <li>
+                    <Link to="/plumbing-services/drain-issues/drain-cleaning-snaking">
+                      <b>Snaking and fixing clogged drains </b>
+                    </Link>
+                  </li>
+                </ul>
                 <p>
-                  With thousands of positive reviews, it’s evident our
-                  <Link to="/plumbing-services">
-                    top-notch plumbing services
-                  </Link>{" "}
-                  and can-do mindsets are what keeps customers coming back. Each
-                  plumber on our roster takes on every job with a smile on their
-                  face because we never want customers to feel like their
-                  request is a hassle. When it comes to plumbing, issues can pop
-                  up anywhere. That’s why our team covers everything from
-                  <Link to="/plumbing-services/toilets">
-                    toilets
-                  </Link>{" "}
-                  to whole-home repiping. Here’s a complete list of the plumbing
-                  services we offer in the Coral Springs area:
+                  When it comes to cleaning your sewer lines, a good rule of
+                  thumb is to have them cleaned out every 18 to 22 months.
+                  Otherwise, you might find that your drain gets clogged more
+                  often and that it needs to undergo this repair more
+                  frequently. You might have heard horror stories about snakes
+                  coming out of pipes, but a plumber’s snakes are a bit
+                  different than the reptiles you might be imagining. A
+                  plumber’s snake works by entering the drain directly to make
+                  contact with and clear away the obstruction that causes the
+                  clog. This popular and simple service will have your toilets
+                  flushing with ease as soon as possible.
+                </p>
+                <ul>
+                  <li>
+                    <Link to="/plumbing-services/whole-home-repiping">
+                      <b>Re-piping </b>
+                    </Link>
+                  </li>
+                </ul>
+                <p>
+                  Florida presents some unique issues when it comes to sewage
+                  pipes, and the community of Hollywood is no exception. It
+                  could be due to the high levels of chlorine in the water
+                  supply, microbial activity, or high pH levels. The most likely
+                  explanation for most systems is that a combination of these
+                  factors lead to damaged pipes and leaks. If you think you have
+                  a water leak, it is important to detect it early. Otherwise,
+                  your system might have to undergo more extensive repairs
+                  later. If you notice increasing water bills, visible mold and
+                  mildew, musty smelling rooms, stained and damaged ceilings,
+                  walls, and floors, wet spots, or foundation cracks, you might
+                  have a leak. Our team has the skills and knowledge necessary
+                  to determine the severity of these spots and determine whether
+                  you need a re-piping or if there is another solution. We will
+                  always be honest when we provide these recommendations and
+                  will only recommend services you truly need.
                 </p>
                 <ul>
                   <li>
                     <Link to="/plumbing-services/sewer-services">
-                      Sewer services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/plumbing-services/drain-issues">
-                      Drainage services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/plumbing-services/backwater-valves">
-                      Backwater valves repair
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/plumbing-services/thermostatic-pressure-balancing">
-                      Thermostatic pressure balancing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/plumbing-services/bathroom-plumbing-renovation-upgrade">
-                      Bathroom plumbing renovation
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/plumbing-services/tankless-gas-water-heater">
-                      Tankless water heater maintenance
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/plumbing-services/sewer-services/septic-to-sewer-conversion">
-                      Septic to sewer conversion
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/plumbing-services/whole-home-repiping">
-                      Whole-home repiping
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/plumbing-services/leak-detection-repair">
-                      Leak repairs
+                      <b>Sewer repairs</b>
                     </Link>
                   </li>
                 </ul>
                 <p>
-                  Plumbing is what makes any indoor space livable. When issues
-                  arise, it’s important to put the repairs and maintenance in
-                  trusted hands.
+                  Nowadays, there are plenty of approaches we can take to repair
+                  your sewer line if you come across an issue. Some of the ways
+                  you can tell that your sewer line needs to be repaired include
+                  an odor of sewer gas, slow drains, and clogs and backups. The
+                  best way to prevent this issue is to undergo regular
+                  maintenance, and the best way to detect the issue and stop it
+                  in its tracks is to consult with an expert. One of our
+                  plumbing professionals will be able to thoroughly inspect your
+                  sewer to uncover the true cause of the issue and recommend the
+                  best repair possible. Some of the most popular sewer repairs
+                  methods include trenchless sewer methods, pipe bursting,
+                  cured-in place pipelining (CIPP), and slip lining.
                 </p>
-                <h3>Coral Springs Custom Home Plumbing</h3>
+                <h3>
+                  Top Qualities to Look for When Finding a Good Plumber in
+                  Hollywood
+                </h3>
                 <p>
-                  A home can reflect the type of creativity its owner possesses.
-                  When you’re creating a custom home, it’s important to make
-                  sure its plumbing complements the property. At Watermen
-                  Plumbing Inc., our custom home experts can design solutions
-                  that ensure your home will have an efficient plumbing system.
-                  Here are a few ways we help our custom home clients in Coral
-                  Springs:
+                  When you pick a plumber, you are placing a great deal of trust
+                  in that individual to handle the intricate systems that keep
+                  your home functioning and maintain its value. That is why
+                  picking a plumber goes beyond choosing someone who is familiar
+                  with the systems necessary to maintain your home. This is
+                  certainly important, but you also want a plumber who will turn
+                  what can be a stressful process into a smooth and enjoyable
+                  one. That level of commitment to your positive experience is
+                  what you will find in Hollywood at Watermen Plumbing.
+                  <b>
+                    Some of the qualities we embody that we believe are
+                    important for every plumber to have include:
+                  </b>
                 </p>
                 <ul>
-                  <li>Standing double showers</li>
-                  <li>Waterfall faucets</li>
-                  <li>On-demand hot water systems</li>
-                  <li>Utility room drains</li>
-                  <li>Upgraded garbage disposal</li>
+                  <li>Proper certification</li>
+                  <li>Years of experience</li>
+                  <li>Familiar with mechanical components of a home</li>
+                  <li>Adherence to safety</li>
+                  <li>Capable of maneuvering heavy objects</li>
+                  <li>Punctuality</li>
+                  <li>Highly coordinated</li>
+                  <li>Ability to solve problems</li>
+                  <li>Ability to communicate</li>
+                  <li>Dedication to the craft</li>
                 </ul>
-                <h3>Upgrade Plumbing Services in Coral Springs</h3>
-                <p>
-                  Are you in need of the above amenities but already have the
-                  home of your dreams? Our team’s upgrade plumbing services can
-                  still make these amenities work in your current space.
-                  Remodeling might take a few more steps, but with the knowledge
-                  and expertise of Watermen Plumbing Inc.’s technicians, you’ll
-                  have a fully operational solution in no time. When it comes to
-                  updating an older home, our team makes sure to clean out dirty
-                  pipes, replace any older lines, and inspect pipes that will
-                  remain. This way, we can ensure that our client is getting a
-                  solution that lasts for decades to come.
-                </p>
-                <h3>Coral Springs Commercial Plumber</h3>
-                <p>
-                  Having a business with effective plumbing creates a positive
-                  environment for customers. Since 2015, Watermen Plumbing Inc.
-                  has proudly served business owners in Coral Springs with all
-                  their plumbing needs. We know that to properly run a business
-                  you have to focus on more than just your building’s regular
-                  maintenance. That’s why we’re here to take that responsibility
-                  off your hands.
-                </p>
-                <p>
-                  Worried your business is too small or too large? There’s no
-                  job our team can’t handle. It doesn’t matter if your workspace
-                  is one room or multiple floors! We assist in a variety of
-                  different tasks from installing water heaters to fixing
-                  leaking faucets, and everything in between.
-                </p>
                 <p
                   align="center"
-                  className="content-quote v1 bg-box unlike-bg side-padding-medium vertical-padding-tiny title-style-3 title-color-3"
+                  className="text-highlight v1 bg-box unlike-bg side-padding-medium vertical-padding-tiny"
                 >
                   <b>
-                    For more information on Watermen Plumbing Inc.’s Coral
-                    Springs plumbing services,{" "}
-                  </b>
-                  <Link to="/contact-us">
-                    <b> contact us </b>
-                  </Link>
-                  <b>
-                    today at
-                    <Link
-                      to="tel:(954) 800-6364"
-                      id="ColumnLayoutContent_3"
-                      data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
-                    >
-                      <span
-                        id="ColumnLayoutContent_4"
-                        data-process="replace"
-                        data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
-                      > (954) 800-6364
-                      </span>
+                    To get access to the quality plumbing services you need in
+                    Hollywood, call Watermen Plumbing at{" "}
+                    <span
+                      id="ColumnLayoutContent_1"
+                      data-process="replace"
+                      data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
+                    > (954) 800-6364
+                    </span>{" "}
+                    or
+                    <Link to="/contact-us"> contact us online
                     </Link>
-                    !
+                    .
                   </b>
                 </p>
               </div>
@@ -281,7 +238,7 @@ function CoralArea() {
                   Broward County
                 </Link>
               </li>
-              <li className="level-1 selected ">
+              <li className="level-1  ">
                 <Link
                   className="pseudo-before relative auto"
                   to="/about-us/areas-we-serve/coral-springs"
@@ -311,7 +268,7 @@ function CoralArea() {
                   Fort Lauderdale
                 </Link>
               </li>
-              <li className="level-1  ">
+              <li className="level-1 selected ">
                 <Link
                   className="pseudo-before relative auto"
                   to="/about-us/areas-we-serve/hollywood"
@@ -358,7 +315,7 @@ function CoralArea() {
           id="Form_SideContactV1"
           method="post"
           encType="multipart/form-data"
-          action="https://www.watermenplumbing.com/about-us/areas-we-serve/coral-springs/"
+          action="https://www.watermenplumbing.com/about-us/areas-we-serve/hollywood/"
         >
           <input type="hidden" name="_m_" defaultValue="SideContactV1" />
           <aside
@@ -656,7 +613,7 @@ function CoralArea() {
                     <div className="top-margin-small auto full">
                       <Link
                         className="btn v1"
-                        to="/coupons"
+                        to="/about-us/areas-we-serve/coupons"
                         target="_blank"
                       >
                         Print
@@ -952,4 +909,4 @@ function CoralArea() {
   )
 }
 
-export default CoralArea
+export default HollywoodArea
