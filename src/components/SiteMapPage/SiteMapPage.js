@@ -1125,7 +1125,7 @@ function SiteMapPage() {
                 </ul>
               </li>
               <li>
-                <Link to="../site-search/index.html" target="">
+                <Link to="/site-search" target="">
                   Site Search
                 </Link>
               </li>

@@ -7,6 +7,7 @@ import silicon1Img from '../../images/23h.jpg'
 import silicon2Img from '../../images/25h.jpg'
 import silicon3Img from '../../images/4h.jpg'
 import silicon4Img from '../../images/16h.jpg'
+import { Link } from 'gatsby'
 function SiliconeCaulkingBandAPhoto() {
   return (
     <main id="MainZone">
@@ -57,9 +58,9 @@ function SiliconeCaulkingBandAPhoto() {
           data-item="i"
           data-key={289407}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Before & After"
@@ -69,7 +70,7 @@ function SiliconeCaulkingBandAPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Before &amp; After
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -82,9 +83,9 @@ function SiliconeCaulkingBandAPhoto() {
           data-item="i"
           data-key={289408}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Before & After"
@@ -94,7 +95,7 @@ function SiliconeCaulkingBandAPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Before &amp; After
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -107,9 +108,9 @@ function SiliconeCaulkingBandAPhoto() {
           data-item="i"
           data-key={289409}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Before & After"
@@ -119,7 +120,7 @@ function SiliconeCaulkingBandAPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Before &amp; After
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -132,9 +133,9 @@ function SiliconeCaulkingBandAPhoto() {
           data-item="i"
           data-key={289410}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt="Before & After"
@@ -144,7 +145,7 @@ function SiliconeCaulkingBandAPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Before &amp; After
             </strong>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

@@ -90,13 +90,13 @@ function SiteSearchPage() {
                 </svg>
               </label>
             </div>
-            <a
-              href="javascript:void(0)"
+            <Link
+              to="javascript:void(0)"
               title="Search Our Site"
               className="btn v1"
             >
               Search
-            </a>
+            </Link>
           </div>
           <ul className="top-margin-small">
             <li

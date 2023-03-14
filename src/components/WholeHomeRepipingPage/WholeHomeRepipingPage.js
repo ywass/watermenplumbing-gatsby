@@ -12,6 +12,7 @@ import PanelGroupImg from "../../images/values-v9-bg.jpg"
 import PanelGroupMobImg from "../../images/values-v9-bg-mobile.jpg"
 import valuesV9Img from '../../images/values-v9-img.png'
 import ctaV13Bg from '../../images/cta-v13-bg.jpeg'
+import { Link } from 'gatsby'
 function WholeHomeRepipingPage() {
   return (
     <main id="MainZone">
@@ -75,7 +76,7 @@ function WholeHomeRepipingPage() {
                 <h2>Repiping Solutions Throughout Palm Beach County</h2>
                 <p>
                   If you are a property owner, you’ve probably encountered
-                  <a href="../index.html"> plumbing issues</a> at some point in
+                  <Link to="/plumbing-services"> plumbing issues</Link> at some point in
                   your life. Years of water flowing through your piping systems
                   means that eventually your pipe’s internal lining can become
                   corroded. Even the smallest crack or leak can cause major
@@ -86,10 +87,10 @@ function WholeHomeRepipingPage() {
                   It is important to get our team on your job as soon as
                   possible when you suspect your plumbing system has major
                   issues. This can prevent disastrous
-                  <a href="../sewer-services/index.html"> sewage</a> or
+                  <Link to="/plumbing-services/sewer-services"> sewage</Link> or
                   wastewater emergencies from occurring. Trust
-                  <a href="../../about-us/index.html"> Watermen Plumbing Inc.
-                  </a>{" "}
+                  <Link to="/about-us"> Watermen Plumbing Inc.
+                  </Link>{" "}
                   to make sure that your pipes are secure and safe.
                 </p>
                 <p
@@ -97,9 +98,9 @@ function WholeHomeRepipingPage() {
                   className="text-highlight v2 bg-box bordered side-padding-medium vertical-padding-tiny"
                 >
                   <b>
-                    <a href="../../contact-us/index.html"> Contact us</a> now at
-                    <a
-                      href="tel:(954) 800-6364"
+                    <Link to="/contact-us"> Contact us</Link> now at
+                    <Link
+                      to="tel:(954) 800-6364"
                       id="ColumnLayoutContent_1"
                       data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                     >
@@ -109,7 +110,7 @@ function WholeHomeRepipingPage() {
                         data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
                       > (954) 800-6364
                       </span>
-                    </a>{" "}
+                    </Link>{" "}
                     so our devoted team can answer any question about repiping
                     your home.
                   </b>
@@ -165,17 +166,17 @@ function WholeHomeRepipingPage() {
                 <h3>Additional Reading</h3>
                 <ul>
                   <li>
-                    <a href="../../blog/2021/june/5-maintenance-tips-to-avoid-plumbing-headaches/index.html"> 5 Maintenance Tips to Avoid Plumbing Headaches
-                    </a>
+                    <Link to="/blog/2021/june/5-maintenance-tips-to-avoid-plumbing-headaches"> 5 Maintenance Tips to Avoid Plumbing Headaches
+                    </Link>
                   </li>
                   <li>
-                    <a href="../../blog/2021/march/plumbing-problems-that-can-cause-mold/index.html"> Plumbing Problems That Can Cause Mold
-                    </a>
+                    <Link to="/blog/2021/march/plumbing-problems-that-can-cause-mold"> Plumbing Problems That Can Cause Mold
+                    </Link>
                   </li>
                   <li>
-                    <a href="../../blog/2018/september/master-plumber-vs-plumber-in-florida-what-s-the-/index.html"> Master Plumber vs Plumber in Florida: What's the
+                    <Link to="/blog/2018/september/master-plumber-vs-plumber-in-florida-what-s-the-"> Master Plumber vs Plumber in Florida: What's the
                       Difference?
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <p
@@ -184,8 +185,8 @@ function WholeHomeRepipingPage() {
                 >
                   <b>
                     Call us today at
-                    <a
-                      href="tel:(954) 800-6364"
+                    <Link
+                      to="tel:(954) 800-6364"
                       id="ColumnLayoutContent_3"
                       data-replace-href="tel:{F:P:Cookie:PPCP1/(954)%20800-6364}"
                     >
@@ -195,10 +196,10 @@ function WholeHomeRepipingPage() {
                         data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
                       > (954) 800-6364
                       </span>
-                    </a>{" "}
+                    </Link>{" "}
                     or
-                    <a href="../../contact-us/index.html"> contact us online
-                    </a>{" "}
+                    <Link to="/contact-us"> contact us online
+                    </Link>{" "}
                     to benefit from our reliable whole home repiping in Boca
                     Raton, Davie, and Hallandale Beach.
                   </b>
@@ -216,20 +217,20 @@ function WholeHomeRepipingPage() {
         >
           <nav>
             <header className="text-left">
-              <a href="../index.html">
+              <Link to="/plumbing-services">
                 <h5> Plumbing Services</h5>
-              </a>
+              </Link>
             </header>
             <ul className="el-tab-box" role="menu">
               <li className="level-1  active-children flex-between-middle-wrap">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../sewer-services/index.html"
+                  to="/plumbing-services/sewer-services"
                   target=""
                   role="menuitem"
                 >
                   Sewer Services
-                </a>
+                </Link>
                 <svg
                   className="site-arrow el-tab  relative right-margin-tiny"
                   title="Open child menu of Sewer Services"
@@ -238,36 +239,36 @@ function WholeHomeRepipingPage() {
                 </svg>
                 <ul className="inner-list el-panel sliding ">
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="../sewer-services/sewer-line-installation-replacement/index.html"
+                      to="/plumbing-services/sewer-services/sewer-line-installation-replacement"
                       target=""
                       role="menuitem"
                     >
                       Sewer Line Installation &amp; Replacement
-                    </a>
+                    </Link>
                   </li>
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="../sewer-services/septic-to-sewer-conversion/index.html"
+                      to="/plumbing-services/sewer-services/septic-to-sewer-conversion"
                       target=""
                       role="menuitem"
                     >
                       Septic to Sewer Conversion
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="level-1  active-children flex-between-middle-wrap">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../drain-issues/index.html"
+                  to="/plumbing-services/drain-issues"
                   target=""
                   role="menuitem"
                 >
                   Drain Issues
-                </a>
+                </Link>
                 <svg
                   className="site-arrow el-tab  relative right-margin-tiny"
                   title="Open child menu of Drain Issues"
@@ -276,56 +277,56 @@ function WholeHomeRepipingPage() {
                 </svg>
                 <ul className="inner-list el-panel sliding ">
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="../drain-issues/camera-drain-inspection/index.html"
+                      to="/plumbing-services/drain-issues/camera-drain-inspection"
                       target=""
                       role="menuitem"
                     >
                       Camera Drain Inspection
-                    </a>
+                    </Link>
                   </li>
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="../drain-issues/drain-cleaning-snaking/index.html"
+                      to="/plumbing-services/drain-issues/drain-cleaning-snaking"
                       target=""
                       role="menuitem"
                     >
                       Drain Cleaning Snaking
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="level-1 selected ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="index.html"
+                  to="/plumbing-services/whole-home-repiping"
                   target=""
                   role="menuitem"
                 >
                   Whole Home Repiping
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../water-heaters/index.html"
+                  to="/plumbing-services/water-heaters"
                   target=""
                   role="menuitem"
                 >
                   Water Heaters
-                </a>
+                </Link>
               </li>
               <li className="level-1  active-children flex-between-middle-wrap">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../water-filtration/index.html"
+                  to="/plumbing-services/water-filtration"
                   target=""
                   role="menuitem"
                 >
                   Water Filtration
-                </a>
+                </Link>
                 <svg
                   className="site-arrow el-tab  relative right-margin-tiny"
                   title="Open child menu of Water Filtration"
@@ -334,178 +335,178 @@ function WholeHomeRepipingPage() {
                 </svg>
                 <ul className="inner-list el-panel sliding ">
                   <li className="level-2  active-children flex-between-middle-wrap">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="../water-filtration/water-filtration-products/index.html"
+                      to="/plumbing-services/water-filtration/water-filtration-products"
                       target=""
                       role="menuitem"
                     >
                       Water Filtration Products
-                    </a>
+                    </Link>
                     <ul className="inner-list el-panel sliding ">
                       <li className="level-3  active-children flex-between-middle-wrap">
-                        <a
+                        <Link
                           className="pseudo-before relative auto"
-                          href="../water-filtration/water-filtration-products/whole-house-filtration-systems/index.html"
+                          to="/plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems"
                           target=""
                           role="menuitem"
                         >
                           Whole House Filtration Systems
-                        </a>
+                        </Link>
                       </li>
                       <li className="level-3  active-children flex-between-middle-wrap">
-                        <a
+                        <Link
                           className="pseudo-before relative auto"
-                          href="../water-filtration/water-filtration-products/drinking-water-systems/index.html"
+                          to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems"
                           target=""
                           role="menuitem"
                         >
                           Drinking Water Systems
-                        </a>
+                        </Link>
                       </li>
                       <li className="level-3  active-children flex-between-middle-wrap">
-                        <a
+                        <Link
                           className="pseudo-before relative auto"
-                          href="../water-filtration/water-filtration-products/water-softeners/index.html"
+                          to="/plumbing-services/water-filtration/water-filtration-products/water-softeners"
                           target=""
                           role="menuitem"
                         >
                           Water Softeners
-                        </a>
+                        </Link>
                       </li>
                       <li className="level-3  active-children flex-between-middle-wrap">
-                        <a
+                        <Link
                           className="pseudo-before relative auto"
-                          href="../water-filtration/water-filtration-products/anti-scale-systems/index.html"
+                          to="/plumbing-services/water-filtration/water-filtration-products/anti-scale-systems"
                           target=""
                           role="menuitem"
                         >
                           Anti-Scale Systems
-                        </a>
+                        </Link>
                       </li>
                       <li className="level-3  active-children flex-between-middle-wrap">
-                        <a
+                        <Link
                           className="pseudo-before relative auto"
-                          href="../water-filtration/water-filtration-products/filter-tanks/index.html"
+                          to="/plumbing-services/water-filtration/water-filtration-products/filter-tanks"
                           target=""
                           role="menuitem"
                         >
                           Filter Tanks
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../backwater-valves/index.html"
+                  to="/plumbing-services/backwater-valves"
                   target=""
                   role="menuitem"
                 >
                   Backwater Valves
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../bathroom-plumbing-renovation-upgrade/index.html"
+                  to="/plumbing-services/bathroom-plumbing-renovation-upgrade"
                   target=""
                   role="menuitem"
                 >
                   Bathroom Plumbing Renovation Upgrade
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../commercial-plumbing/index.html"
+                  to="/plumbing-services/commercial-plumbing"
                   target=""
                   role="menuitem"
                 >
                   Commercial Plumbing
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../custom-home-plumbing/index.html"
+                  to="/plumbing-services/custom-home-plumbing"
                   target=""
                   role="menuitem"
                 >
                   Custom Home Plumbing
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../leak-detection-repair/index.html"
+                  to="/plumbing-services/leak-detection-repair"
                   target=""
                   role="menuitem"
                 >
                   Leak Detection &amp; Repair
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../plumbing-upgrades/index.html"
+                  to="/plumbing-services/plumbing-upgrades"
                   target=""
                   role="menuitem"
                 >
                   Plumbing Upgrades
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../thermostatic-pressure-balancing/index.html"
+                  to="/plumbing-services/thermostatic-pressure-balancing"
                   target=""
                   role="menuitem"
                 >
                   Thermostatic Pressure Balancing
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../toilets/index.html"
+                  to="/plumbing-services/toilets"
                   target=""
                   role="menuitem"
                 >
                   Toilets
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../other-services/index.html"
+                  to="/plumbing-services/other-services"
                   target=""
                   role="menuitem"
                 >
                   Other Services
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../tankless-gas-water-heater/index.html"
+                  to="/plumbing-services/tankless-gas-water-heater"
                   target=""
                   role="menuitem"
                 >
                   Tankless Gas Water Heater
-                </a>
+                </Link>
               </li>
               <li className="level-1  ">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="../tankless-electric-water-heater/index.html"
+                  to="/plumbing-services/tankless-electric-water-heater"
                   target=""
                   role="menuitem"
                 >
                   Tankless Electric Water Heater
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -765,13 +766,13 @@ function WholeHomeRepipingPage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../coupons/print/index0a09.html?id=7622"
+                        to="/coupons"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -812,13 +813,13 @@ function WholeHomeRepipingPage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../coupons/print/index9f4e.html?id=7223"
+                        to="/coupons"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -890,9 +891,9 @@ function WholeHomeRepipingPage() {
         id="CtaV13List"
       >
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../photo-gallery/index.html"
+            to="/photo-gallery"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -908,12 +909,12 @@ function WholeHomeRepipingPage() {
               </strong>
               <span className="btn v1 top-margin-small">View Our Gallery</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../blog/index.html"
+            to="/blog"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -931,12 +932,12 @@ function WholeHomeRepipingPage() {
               </strong>
               <span className="btn v1 top-margin-small">Read Our bLogs</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../coupons/index.html"
+            to="/coupons"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -954,7 +955,7 @@ function WholeHomeRepipingPage() {
               </strong>
               <span className="btn v1 top-margin-small">View our Offers</span>
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
@@ -964,7 +965,7 @@ function WholeHomeRepipingPage() {
     id="ValuesV9"
     data-onvisible="show"
   >
-    <a name="valuesAnchor" />
+    <Link name="valuesAnchor" />
     <picture className="img-bg" role="presentation" data-role="picture">
       <source
         media="(max-width: 500px)"

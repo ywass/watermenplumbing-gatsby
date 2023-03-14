@@ -132,7 +132,7 @@ function SewerLineInstReplacePage() {
                   <li>Sewage is backing up into your sink or shower</li>
                   <li>
                     The
-                    <Link to="/toilets">toilet</Link> backs up when
+                    <Link to="/plumbing-services/toilets">toilet</Link> backs up when
                     you flush
                   </li>
                 </ul>

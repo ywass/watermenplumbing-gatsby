@@ -8,6 +8,7 @@ import UnderJobTwoImg from '../../images/20190618_215602649_iOS.jpg'
 import UnderJobThreeImg from '../../images/20190618_221425398_iOS.jpg'
 import UnderJobFourImg from '../../images/20190619_164924973_iOS.jpg'
 import UnderJobFiveImg from '../../images/20190619_211553304_iOS.jpg'
+import { Link } from 'gatsby'
 function UndergroundJobsPhoto() {
   return (
     <main id="MainZone">
@@ -59,9 +60,9 @@ function UndergroundJobsPhoto() {
             data-item="i"
             data-key={289302}
           >
-            <a
+            <Link
               className="img pad-height-100  box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                
@@ -69,7 +70,7 @@ function UndergroundJobsPhoto() {
                 title=""
                 src={UnderJobOneImg}
               />
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit scaling-img-item"
@@ -82,9 +83,9 @@ function UndergroundJobsPhoto() {
             data-item="i"
             data-key={289303}
           >
-            <a
+            <Link
               className="img pad-height-100  box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                
@@ -93,7 +94,7 @@ function UndergroundJobsPhoto() {
                 src={UnderJobTwoImg}
                 
               />
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit scaling-img-item"
@@ -106,9 +107,9 @@ function UndergroundJobsPhoto() {
             data-item="i"
             data-key={289304}
           >
-            <a
+            <Link
               className="img pad-height-100  box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                 
@@ -116,7 +117,7 @@ function UndergroundJobsPhoto() {
                 title=""
                 src={UnderJobThreeImg}
               />
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit scaling-img-item"
@@ -129,9 +130,9 @@ function UndergroundJobsPhoto() {
             data-item="i"
             data-key={289305}
           >
-            <a
+            <Link
               className="img pad-height-100  box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                
@@ -139,7 +140,7 @@ function UndergroundJobsPhoto() {
                 title=""
                src={UnderJobFourImg}
               />
-            </a>
+            </Link>
           </li>
           <li
             className="photo fit scaling-img-item"
@@ -152,9 +153,9 @@ function UndergroundJobsPhoto() {
             data-item="i"
             data-key={289306}
           >
-            <a
+            <Link
               className="img pad-height-100  box-shadow border-radius-item"
-              href="javascript:void('Gallery')"
+              to="javascript:void('Gallery')"
             >
               <img
                
@@ -162,7 +163,7 @@ function UndergroundJobsPhoto() {
                 title=""
                src={UnderJobFiveImg}
               />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

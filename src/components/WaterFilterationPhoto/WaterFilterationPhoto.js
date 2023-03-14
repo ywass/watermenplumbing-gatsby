@@ -11,6 +11,7 @@ import waterFFiveImg from '../../images/water-filtration-and-smart-valve.jpg'
 import waterFSixImg from '../../images/Basic-point-of-use-water-filtration.jpg'
 import waterFSevenImg from '../../images/CX-Carbon-Whole-house-filter.jpg'
 import waterFEightImg from '../../images/dual-function-softener-filter.jpg'
+import { Link } from 'gatsby'
 function WaterFilterationPhoto() {
   return (
     <main id="MainZone">
@@ -62,9 +63,9 @@ function WaterFilterationPhoto() {
           data-item="i"
           data-key={289294}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               
@@ -75,7 +76,7 @@ function WaterFilterationPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Flow-Tech Water Softener
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -88,9 +89,9 @@ function WaterFilterationPhoto() {
           data-item="i"
           data-key={289295}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src={waterFTwoImg}
@@ -101,7 +102,7 @@ function WaterFilterationPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Ion Exchange Water Softener
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -114,9 +115,9 @@ function WaterFilterationPhoto() {
           data-item="i"
           data-key={289296}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -127,7 +128,7 @@ function WaterFilterationPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Reverse Osmosis System
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -140,9 +141,9 @@ function WaterFilterationPhoto() {
           data-item="i"
           data-key={289297}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
             
@@ -153,7 +154,7 @@ function WaterFilterationPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               UV Filter
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -166,9 +167,9 @@ function WaterFilterationPhoto() {
           data-item="i"
           data-key={289298}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -179,7 +180,7 @@ function WaterFilterationPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Water Filtration and Smart Valve
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -192,9 +193,9 @@ function WaterFilterationPhoto() {
           data-item="i"
           data-key={289299}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -205,7 +206,7 @@ function WaterFilterationPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Basic Point of Use Water Filtration
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -218,9 +219,9 @@ function WaterFilterationPhoto() {
           data-item="i"
           data-key={289300}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               
@@ -231,7 +232,7 @@ function WaterFilterationPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               CX Carbon Whole House Filter
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -244,9 +245,9 @@ function WaterFilterationPhoto() {
           data-item="i"
           data-key={289301}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -257,7 +258,7 @@ function WaterFilterationPhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Dual Function Softener Filter
             </strong>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

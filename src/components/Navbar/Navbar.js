@@ -522,7 +522,7 @@ function Navbar() {
           >
             <li className="  relative">
               <Link
-                to="blog/index.html"
+                to="/blog"
                 className="title-style-4 title-color-4"
                 target=""
                 style={{ textDecoration: 'none' }}
@@ -532,7 +532,7 @@ function Navbar() {
             </li>
             <li className="top-margin-small  relative">
               <Link
-                to="photo-gallery/index.html"
+                to="/photo-gallery"
                 className="title-style-4 title-color-4"
                 target=""
                 style={{ textDecoration: 'none' }}
@@ -558,7 +558,7 @@ function Navbar() {
           >
             <li className="  selected  relative" role="menuitem">
               <Link
-                to="index.html"
+                to="/"
                 className="title-style-4 title-color-4"
                 target=""
                 style={{ textDecoration: 'none' }}
@@ -571,7 +571,7 @@ function Navbar() {
               role="menuitem"
             >
               <Link
-                to="about-us/index.html"
+                to="/about-us"
                 className="title-style-4 title-color-4"
                 target=""
                 style={{ textDecoration: 'none' }}
@@ -592,7 +592,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="about-us/areas-we-serve/index.html"
+                    to="/about-us/areas-we-serve"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -606,7 +606,7 @@ function Navbar() {
               role="menuitem"
             >
               <Link
-                to="plumbing-services/index.html"
+                to="/plumbing-services"
                 className="title-style-4 title-color-4"
                 target=""
                 style={{ textDecoration: 'none' }}
@@ -627,7 +627,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/sewer-services/index.html"
+                    to="/plumbing-services/sewer-services"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -637,7 +637,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/drain-issues/index.html"
+                    to="/plumbing-services/drain-issues"
                     target=""
                   >
                     Drain Issues
@@ -646,7 +646,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/whole-home-repiping/index.html"
+                    to="/plumbing-services/whole-home-repiping"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -656,7 +656,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/water-heaters/index.html"
+                    to="/plumbing-services/water-heaters"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -666,7 +666,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/water-filtration/index.html"
+                    to="/plumbing-services/water-filtration"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -676,7 +676,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/backwater-valves/index.html"
+                    to="/plumbing-services/backwater-valves"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -686,7 +686,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/bathroom-plumbing-renovation-upgrade/index.html"
+                    to="/plumbing-services/bathroom-plumbing-renovation-upgrade"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -696,7 +696,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/commercial-plumbing/index.html"
+                    to="/plumbing-services/commercial-plumbing"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -706,7 +706,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/custom-home-plumbing/index.html"
+                    to="/plumbing-services/custom-home-plumbing"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -716,7 +716,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/leak-detection-repair/index.html"
+                    to="/plumbing-services/leak-detection-repair"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -726,7 +726,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/plumbing-upgrades/index.html"
+                    to="/plumbing-services/plumbing-upgrades"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -736,7 +736,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/thermostatic-pressure-balancing/index.html"
+                    to="/plumbing-services/thermostatic-pressure-balancing"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -746,7 +746,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/toilets/index.html"
+                    to="/plumbing-services/toilets"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -756,7 +756,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/other-services/index.html"
+                    to="/plumbing-services/other-services"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -766,7 +766,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/tankless-gas-water-heater/index.html"
+                    to="/plumbing-services/tankless-gas-water-heater"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -776,7 +776,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/tankless-electric-water-heater/index.html"
+                    to="/plumbing-services/tankless-electric-water-heater"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -790,7 +790,7 @@ function Navbar() {
               role="menuitem"
             >
               <Link
-                to="plumbing-services/water-filtration/index.html"
+                to="/plumbing-services/water-filtration"
                 className="title-style-4 title-color-4"
                 target=""
                 style={{ textDecoration: 'none' }}
@@ -811,7 +811,7 @@ function Navbar() {
                 <li className="" role="menuitem">
                   <Link
                     className="btn-color-hover"
-                    to="plumbing-services/water-filtration/water-filtration-products/index.html"
+                    to="/plumbing-services/water-filtration/water-filtration-products"
                     target=""
                     style={{ textDecoration: 'none' }}
                   >
@@ -822,7 +822,7 @@ function Navbar() {
             </li>
             <li className="top-margin-small    relative" role="menuitem">
               <Link
-                to="coupons/index.html"
+                to="/coupons"
                 className="title-style-4 title-color-4"
                 target=""
                 style={{ textDecoration: 'none' }}
@@ -832,7 +832,7 @@ function Navbar() {
             </li>
             <li className="top-margin-small    relative" role="menuitem">
               <Link
-                to="reviews/index.html"
+                to="/reviews"
                 className="title-style-4 title-color-4"
                 target=""
                 style={{ textDecoration: 'none' }}
@@ -846,7 +846,7 @@ function Navbar() {
       <div className="half bg-box like-bg side-padding-medium vertical-padding-large business-info">
         <div id="HeaderV11AltLocationInfo" className="ui-repeater">
           <div data-item="i" data-key={13320}>
-            <Link className="btn v1" to="locations/index.html" style={{ textDecoration: 'none' }}>
+            <Link className="btn v1" to="/locations" style={{ textDecoration: 'none' }}>
               View Our Locations
             </Link>
           </div>
@@ -904,7 +904,7 @@ function Navbar() {
           </ul>
         </nav>
         <div className="top-margin-large">
-          <Link className="search-link btn v1" to="site-search/index.html" style={{ textDecoration: 'none' }}>
+          <Link className="search-link btn v1" to="/site-search" style={{ textDecoration: 'none' }}>
             Search Our Site
           </Link>
         </div>

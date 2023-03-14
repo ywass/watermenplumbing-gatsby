@@ -14,6 +14,7 @@ import waterSpi8Img from '../../images/i4.jpg'
 import waterSpi9Img from '../../images/i5.jpg'
 import waterSpi10Img from '../../images/i6.jpg'
 import waterSpi11Img from '../../images/i8.jpg'
+import { Link } from 'gatsby'
 function WaterLineSpiInstallPhoto() {
   return (
     <main id="MainZone">
@@ -65,9 +66,9 @@ function WaterLineSpiInstallPhoto() {
           data-item="i"
           data-key={289371}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src={waterSpi1Img}
@@ -75,7 +76,7 @@ function WaterLineSpiInstallPhoto() {
               title=""
 
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -88,9 +89,9 @@ function WaterLineSpiInstallPhoto() {
           data-item="i"
           data-key={289372}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
                             
@@ -98,7 +99,7 @@ function WaterLineSpiInstallPhoto() {
               title=""
               src={waterSpi2Img}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -111,9 +112,9 @@ function WaterLineSpiInstallPhoto() {
           data-item="i"
           data-key={289373}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -121,7 +122,7 @@ function WaterLineSpiInstallPhoto() {
               title=""
               src={waterSpi3Img}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -134,9 +135,9 @@ function WaterLineSpiInstallPhoto() {
           data-item="i"
           data-key={289374}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -144,7 +145,7 @@ function WaterLineSpiInstallPhoto() {
               title=""
               src={waterSpi4Img}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -157,9 +158,9 @@ function WaterLineSpiInstallPhoto() {
           data-item="i"
           data-key={289375}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -167,7 +168,7 @@ function WaterLineSpiInstallPhoto() {
               title=""
               src={waterSpi5Img}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -180,16 +181,16 @@ function WaterLineSpiInstallPhoto() {
           data-item="i"
           data-key={289376}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt=""
               title=""
               src={waterSpi6Img}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -202,16 +203,16 @@ function WaterLineSpiInstallPhoto() {
           data-item="i"
           data-key={289377}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt=""
               title=""
               src={waterSpi7Img}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -224,16 +225,16 @@ function WaterLineSpiInstallPhoto() {
           data-item="i"
           data-key={289378}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt=""
               title=""
               src={waterSpi8Img}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -246,16 +247,16 @@ function WaterLineSpiInstallPhoto() {
           data-item="i"
           data-key={289379}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt=""
               title=""
               src={waterSpi9Img}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -268,16 +269,16 @@ function WaterLineSpiInstallPhoto() {
           data-item="i"
           data-key={289380}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt=""
               title=""
               src={waterSpi10Img}
             />
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit scaling-img-item"
@@ -290,16 +291,16 @@ function WaterLineSpiInstallPhoto() {
           data-item="i"
           data-key={289381}
         >
-          <a
+          <Link
             className="img pad-height-100  box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               alt=""
               title=""
               src={waterSpi11Img}
 />
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

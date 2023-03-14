@@ -3,6 +3,7 @@ import tltBdr2Img from '../images/tlt-bdr2.png'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import '../style/error.css'
+import { Link } from "gatsby"
 const NotFoundPage = () => (
   <Layout>
    <main id="MainZone">
@@ -39,9 +40,9 @@ const NotFoundPage = () => (
             Looks like something went completely wrong!
           </p>
           <div className="top-margin-small">
-            <a className="btn v1" href="../../index.html">
+            <Link className="btn v1" to="/">
               Back to Home
-            </a>
+            </Link>
           </div>
         </div>
       </div>

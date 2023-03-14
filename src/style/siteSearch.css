@@ -14214,14 +14214,6 @@ body .scorpion-footer {
   height: 100vh;
   top: 0;
   left: 0;
-  visibility: hidden;
-  transform: translateX(-100%);
-  transition: transform 0.5s ease 0s, visibility 0s ease 0.5s;
-}
-.options-available.accessibility-options.v1 .accessibility-menu {
-  visibility: visible;
-  transform: translateX(0);
-  transition: transform 0.5s ease 0.5s, visibility 0s ease 0.5s;
 }
 .accessibility-options.v1 .floater {
   position: fixed;

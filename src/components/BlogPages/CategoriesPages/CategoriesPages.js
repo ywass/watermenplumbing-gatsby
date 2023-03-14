@@ -158,7 +158,7 @@ function CategoriesPages() {
                   >
                     <Link
                       className="flex-column full border-radius scaling-item bg-box relative"
-                      to="/blog//2021/october/what-homeowners-should-know-about-septic-tanks/index.html"
+                      to="/blog//2021/october/what-homeowners-should-know-about-septic-tanks"
                     >
                       <div
                         className="img pad-height-50 fit full"
@@ -207,7 +207,7 @@ function CategoriesPages() {
             <ul role="menu">
               <li className="level-1" data-item="i" data-key={1191482}>
                 <Link
-                  to="/blog/2018/september/master-plumber-vs-plumber-in-florida-what-s-the-/index.html"
+                  to="/blog/2018/september/master-plumber-vs-plumber-in-florida-what-s-the-"
                   target=""
                   role="menuitem"
                 >
@@ -216,7 +216,7 @@ function CategoriesPages() {
               </li>
               <li className="level-1" data-item="i" data-key={1191463}>
                 <Link
-                  to="/blog/2017/september/5-post-hurricane-plumbing-problems-to-watch-for/index.html"
+                  to="/blog/2017/september/5-post-hurricane-plumbing-problems-to-watch-for"
                   target=""
                   role="menuitem"
                 >
@@ -225,7 +225,7 @@ function CategoriesPages() {
               </li>
               <li className="level-1" data-item="i" data-key={1191503}>
                 <Link
-                  to="/blog/2020/march/plumbing-maintenance-and-repair-in-your-rental-p/index.html"
+                  to="/blog/2020/march/plumbing-maintenance-and-repair-in-your-rental-p"
                   target=""
                   role="menuitem"
                 >
@@ -234,7 +234,7 @@ function CategoriesPages() {
               </li>
               <li className="level-1" data-item="i" data-key={1223080}>
                 <Link
-                  to="/blog/2021/march/plumbing-problems-that-can-cause-mold/index.html"
+                  to="/blog/2021/march/plumbing-problems-that-can-cause-mold"
                   target=""
                   role="menuitem"
                 >
@@ -243,7 +243,7 @@ function CategoriesPages() {
               </li>
               <li className="level-1" data-item="i" data-key={1191189}>
                 <Link
-                  to="/blog/2020/november/plumbing-upgrades-that-will-increase-your-home-s/index.html"
+                  to="/blog/2020/november/plumbing-upgrades-that-will-increase-your-home-s"
                   target=""
                   role="menuitem"
                 >

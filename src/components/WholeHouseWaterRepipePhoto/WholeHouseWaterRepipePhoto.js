@@ -5,6 +5,7 @@ import tltBdr2Img from '../../images/tlt-bdr2.png'
 import subBannerBgImg from '../../images/sub-banner-v1-bg.jpg'
 import WholeOneImg from '../../images/Repipe-1.jpg'
 import WholeTwoImg from '../../images/house-repipe.jpg'
+import { Link } from 'gatsby'
 function WholeHouseWaterRepipePhoto() {
   return (
     <main id="MainZone">
@@ -56,9 +57,9 @@ function WholeHouseWaterRepipePhoto() {
           data-item="i"
           data-key={289292}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               
@@ -69,7 +70,7 @@ function WholeHouseWaterRepipePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Whole House Water Repipe
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -82,9 +83,9 @@ function WholeHouseWaterRepipePhoto() {
           data-item="i"
           data-key={289293}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -95,7 +96,7 @@ function WholeHouseWaterRepipePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Whole House Water Repipe
             </strong>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

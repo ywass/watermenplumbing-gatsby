@@ -284,7 +284,7 @@ function ServicesPage() {
                 <li className="half flex-" data-item="i" data-key={54116}>
                   <Link
                     className="full flex-middle btn-style btn-color-hover full text-left"
-                    to="/toilets"
+                    to="/plumbing-services/toilets"
                   >
                    <ToiletsIcon className="right-margin-tiny fit"/>
                     <span>Toilets</span>

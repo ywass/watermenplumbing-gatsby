@@ -18,6 +18,7 @@ import softThumb from '../../images/softener-500-thumbnail.png'
 import antiThumb from '../../images/anti-scale-thumbnail.png'
 import filterThumb from '../../images/filter-tank-500-thumbnail.png'
 import uvFilter from '../../images/uv-filter.jpg'
+import { Link } from 'gatsby'
 function WaterFilterationProductsPage() {
   return (
     <main id="MainZone">
@@ -80,10 +81,10 @@ function WaterFilterationProductsPage() {
                 <h1>Water Filtration Products in Boca Raton</h1>
                 <p>
                   At
-                  <a href="../../../about-us/index.html"> Watermen Plumbing Inc.
-                  </a>
+                  <Link to="/about-us"> Watermen Plumbing Inc.
+                  </Link>
                   , we consider ourselves South Florida’s premier
-                  <a href="../../index.html"> plumbing services</a> provider, and
+                  <Link to="/plumbing-services"> plumbing services</Link> provider, and
                   we couldn’t be the best without providing the best products.
                   In addition to being punctual, respectful and knowledgeable,
                   we use top-of-the-line products from Plumber’s Choice.
@@ -123,8 +124,8 @@ function WaterFilterationProductsPage() {
                   by-products and organic contaminants found in tap water – in
                   every room of your house.
                   <br />
-                  <a href="whole-house-filtration-systems/index.html"> View Products
-                  </a>
+                  <Link to="/plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems"> View Products
+                  </Link>
                 </p>
                 <p className="cf">
                   <b>
@@ -141,7 +142,7 @@ function WaterFilterationProductsPage() {
                   unpleasant taste and order of chlorine, and some units slide
                   right underneath your sink.
                   <br />
-                  <a href="drinking-water-systems/index.html"> View Products</a>
+                  <Link to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems"> View Products</Link>
                 </p>
                 <p className="cf">
                   <b>
@@ -159,7 +160,7 @@ function WaterFilterationProductsPage() {
                   these stains and buildup disappear. Explore our selection of
                   water softeners and combination products.
                   <br />
-                  <a href="water-softeners/index.html"> View Products</a>
+                  <Link to="/plumbing-services/water-filtartion/water-filtration-products/water-softeners"> View Products</Link>
                 </p>
                 <p className="cf">
                   <b>
@@ -176,7 +177,7 @@ function WaterFilterationProductsPage() {
                   help you improve flow, efficiency, and cleanliness throughout
                   your entire home.
                   <br />
-                  <a href="anti-scale-systems/index.html"> View Products</a>
+                  <Link to="/plumbing-services/water-filtration/water-filtration-products/anti-scale-systems"> View Products</Link>
                 </p>
                 <p className="cf">
                   <b>
@@ -191,7 +192,7 @@ function WaterFilterationProductsPage() {
                   them, consider a filter tank instead. Filter tanks work just
                   like filters, but you won’t have to replace them as often.
                   <br />
-                  <a href="filter-tanks/index.html"> View Products</a>
+                  <Link to="/plumbing-services/water-filtration/water-filtration-products/filter-tanks"> View Products</Link>
                 </p>
                 <p className="cf">
                   <b>
@@ -210,7 +211,7 @@ function WaterFilterationProductsPage() {
                   viruses, parasites, and cysts. The commonly used treatment for
                   tap water is chlorine.
                   <br />
-                  <a href="filter-tanks/index.html"> View Products</a>
+                  <Link to="/plumbing-services/water-filtration/water-filtration-products/filter-tanks"> View Products</Link>
                 </p>
                 <p className="cf">
                   <b>Flo by Moen: </b>Bring smart plumbing to your home with Flo
@@ -244,8 +245,8 @@ function WaterFilterationProductsPage() {
                     > (954) 800-6364
                     </span>{" "}
                     or
-                    <a href="../../../contact-us/index.html"> send us your information
-                    </a>{" "}
+                    <Link to="/contact-us"> send us your information
+                    </Link>{" "}
                     online so we can find the brand and product that works best
                     for you and send our fully stocked trucks and reliable
                     technicians out for professional installation.
@@ -264,20 +265,20 @@ function WaterFilterationProductsPage() {
         >
           <nav>
             <header className="text-left">
-              <a href="index.html">
+              <Link to="/plumbing-services/water-filtration/water-filtration-products">
                 <h5> Water Filtration Products</h5>
-              </a>
+              </Link>
             </header>
             <ul className="el-tab-box" role="menu">
               <li className="level-1  active-children flex-between-middle-wrap">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="whole-house-filtration-systems/index.html"
+                  to="/plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems"
                   target=""
                   role="menuitem"
                 >
                   Whole House Filtration Systems
-                </a>
+                </Link>
                 <svg
                   className="site-arrow el-tab  relative right-margin-tiny"
                   title="Open child menu of Whole House Filtration Systems"
@@ -286,56 +287,56 @@ function WaterFilterationProductsPage() {
                 </svg>
                 <ul className="inner-list el-panel sliding ">
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="whole-house-filtration-systems/flow-tech-pure-cx-carbon-whole-house-w/index.html"
+                      to="/plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/flow-tech-pure-cx-carbon-whole-house-w"
                       target=""
                       role="menuitem"
                     >
                       Flow-Tech Pure CX Carbon Whole-House Water Filter
-                    </a>
+                    </Link>
                   </li>
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="whole-house-filtration-systems/flow-tech-pure-cs-carbon-whole-house-w/index.html"
+                      to="/plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/flow-tech-pure-cs-carbon-whole-house-w"
                       target=""
                       role="menuitem"
                     >
                       Flow-Tech PURE CS Carbon Whole-House Water Filter
-                    </a>
+                    </Link>
                   </li>
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="whole-house-filtration-systems/flow-tech-whole-house-iron-filter/index.html"
+                      to="/plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/flow-tech-whole-house-iron-filter"
                       target=""
                       role="menuitem"
                     >
                       Flow-Tech Whole-House Iron Filter
-                    </a>
+                    </Link>
                   </li>
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="whole-house-filtration-systems/flow-tech-home-sulfur-filter/index.html"
+                      to="/plumbing-services/water-filtration/water-filtration-products/whole-house-filtration-systems/flow-tech-home-sulfur-filter"
                       target=""
                       role="menuitem"
                     >
                       Flow-Tech Home Sulfur Filter
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="level-1  active-children flex-between-middle-wrap">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="drinking-water-systems/index.html"
+                  to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems"
                   target=""
                   role="menuitem"
                 >
                   Drinking Water Systems
-                </a>
+                </Link>
                 <svg
                   className="site-arrow el-tab  relative right-margin-tiny"
                   title="Open child menu of Drinking Water Systems"
@@ -344,36 +345,36 @@ function WaterFilterationProductsPage() {
                 </svg>
                 <ul className="inner-list el-panel sliding ">
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="drinking-water-systems/alwaysfresh-drinking-water-system/index.html"
+                      to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/alwaysfresh-drinking-water-system"
                       target=""
                       role="menuitem"
                     >
                       AlwaysFresh® Drinking Water System
-                    </a>
+                    </Link>
                   </li>
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="drinking-water-systems/reverse-osmosis-drinking-water-system/index.html"
+                      to="/plumbing-services/water-filtration/water-filtration-products/drinking-water-systems/reverse-osmosis-drinking-water-system"
                       target=""
                       role="menuitem"
                     >
                       Reverse Osmosis Drinking Water System
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="level-1  active-children flex-between-middle-wrap">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="water-softeners/index.html"
+                  to="/plumbing-services/water-filtration/water-filtration-products/water-softeners"
                   target=""
                   role="menuitem"
                 >
                   Water Softeners
-                </a>
+                </Link>
                 <svg
                   className="site-arrow el-tab  relative right-margin-tiny"
                   title="Open child menu of Water Softeners"
@@ -382,36 +383,36 @@ function WaterFilterationProductsPage() {
                 </svg>
                 <ul className="inner-list el-panel sliding ">
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="water-softeners/flow-tech-dual-function-softener-filter/index.html"
+                      to="/plumbing-services/water-filtration/water-filtration-products/water-softeners/flow-tech-dual-function-softener-filter"
                       target=""
                       role="menuitem"
                     >
                       Flow-Tech Dual Function Softener/Filter
-                    </a>
+                    </Link>
                   </li>
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="water-softeners/flow-tech-ion-exchange-water-softener/index.html"
+                      to="/plumbing-services/water-filtration/water-filtration-products/water-softeners/flow-tech-ion-exchange-water-softener"
                       target=""
                       role="menuitem"
                     >
                       Flow-Tech Ion Exchange Water Softener
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="level-1  active-children flex-between-middle-wrap">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="anti-scale-systems/index.html"
+                  to="/plumbing-services/water-filtration/water-filtration-products/anti-scale-systems"
                   target=""
                   role="menuitem"
                 >
                   Anti-Scale Systems
-                </a>
+                </Link>
                 <svg
                   className="site-arrow el-tab  relative right-margin-tiny"
                   title="Open child menu of Anti-Scale Systems"
@@ -420,26 +421,26 @@ function WaterFilterationProductsPage() {
                 </svg>
                 <ul className="inner-list el-panel sliding ">
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="anti-scale-systems/flow-tech-home-max-anti-scale-system/index.html"
+                      to="/plumbing-services/water-filtration/water-filtration-products/anti-scale-systems/flow-tech-home-max-anti-scale-system"
                       target=""
                       role="menuitem"
                     >
                       Flow-Tech Home MAX Anti-Scale System
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="level-1  active-children flex-between-middle-wrap">
-                <a
+                <Link
                   className="pseudo-before relative auto"
-                  href="filter-tanks/index.html"
+                  to="/plumbing-services/water-filtration/water-filtration-products/filter-tanks"
                   target=""
                   role="menuitem"
                 >
                   Filter Tanks
-                </a>
+                </Link>
                 <svg
                   className="site-arrow el-tab  relative right-margin-tiny"
                   title="Open child menu of Filter Tanks"
@@ -448,14 +449,14 @@ function WaterFilterationProductsPage() {
                 </svg>
                 <ul className="inner-list el-panel sliding ">
                   <li className="level-2  ">
-                    <a
+                    <Link
                       className="pseudo-before relative auto"
-                      href="filter-tanks/one-cartridge-filter-tank/index.html"
+                      to="/plumbing-services/water-filtration/water-filtration-products/filter-tanks/one-cartridge-filter-tank"
                       target=""
                       role="menuitem"
                     >
                       One™ Cartridge Filter Tank
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -717,13 +718,13 @@ function WaterFilterationProductsPage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../../coupons/print/index0a09.html?id=7622"
+                        to="/coupons"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -764,13 +765,13 @@ function WaterFilterationProductsPage() {
                       <small>- Dec 31, 2022</small>
                     </div>
                     <div className="top-margin-small auto full">
-                      <a
+                      <Link
                         className="btn v1"
-                        href="../../../coupons/print/index9f4e.html?id=7223"
+                        to="/coupons"
                         target="_blank"
                       >
                         Print
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -842,9 +843,9 @@ function WaterFilterationProductsPage() {
         id="CtaV13List"
       >
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../../photo-gallery/index.html"
+            to="/photo-gallery"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -862,12 +863,12 @@ function WaterFilterationProductsPage() {
               </strong>
               <span className="btn v1 top-margin-small">View Our Gallery</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../../blog/index.html"
+            to="/blog"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -885,12 +886,12 @@ function WaterFilterationProductsPage() {
               </strong>
               <span className="btn v1 top-margin-small">Read Our bLogs</span>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="flex- fit" data-item="i">
-          <a
+          <Link
             className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-            href="../../../coupons/index.html"
+            to="/coupons"
           >
             <div className="img pad-height- bottom-margin">
               <img
@@ -909,7 +910,7 @@ function WaterFilterationProductsPage() {
               </strong>
               <span className="btn v1 top-margin-small">View our Offers</span>
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
@@ -919,7 +920,7 @@ function WaterFilterationProductsPage() {
     id="ValuesV9"
     data-onvisible="show"
   >
-    <a name="valuesAnchor" />
+    <Link name="valuesAnchor" />
     <picture className="img-bg" role="presentation" data-role="picture">
       <source
         media="(max-width: 500px)"

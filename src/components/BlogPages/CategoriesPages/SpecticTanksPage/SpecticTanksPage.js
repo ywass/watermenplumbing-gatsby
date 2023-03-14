@@ -204,7 +204,7 @@ function SpecticTanksPage() {
               </li>
               <li className="level-1" data-item="i" data-key={1191463}>
                 <Link
-                  to="/blog/2017/september/5-post-hurricane-plumbing-problems-to-watch-for/index.html"
+                  to="/blog/2017/september/5-post-hurricane-plumbing-problems-to-watch-for"
                   target=""
                   role="menuitem"
                 >
@@ -213,7 +213,7 @@ function SpecticTanksPage() {
               </li>
               <li className="level-1" data-item="i" data-key={1191503}>
                 <Link
-                  to="/blog/2020/march/plumbing-maintenance-and-repair-in-your-rental-p/index.html"
+                  to="/blog/2020/march/plumbing-maintenance-and-repair-in-your-rental-p"
                   target=""
                   role="menuitem"
                 >
@@ -222,7 +222,7 @@ function SpecticTanksPage() {
               </li>
               <li className="level-1" data-item="i" data-key={1223080}>
                 <Link
-                  to="/blog/2021/march/plumbing-problems-that-can-cause-mold/index.html"
+                  to="/blog/2021/march/plumbing-problems-that-can-cause-mold"
                   target=""
                   role="menuitem"
                 >
@@ -231,7 +231,7 @@ function SpecticTanksPage() {
               </li>
               <li className="level-1" data-item="i" data-key={1191189}>
                 <Link
-                  to="/blog/2020/november/plumbing-upgrades-that-will-increase-your-home-s/index.html"
+                  to="/blog/2020/november/plumbing-upgrades-that-will-increase-your-home-s"
                   target=""
                   role="menuitem"
                 >

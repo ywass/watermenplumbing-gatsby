@@ -2,6 +2,7 @@ import React from 'react'
 import '../../style/thankYou.css'
 import thankyouBg from '../../images/thank-you-v1-bg.jpeg'
 import tltBdrImg from '../../images/tlt-bdr.png'
+import { Link } from 'gatsby'
 function ThankYouPage() {
   return (
     <main id="MainZone">
@@ -36,9 +37,9 @@ function ThankYouPage() {
               We'll get back to you shortly!
             </p>
             <div className="top-margin-small">
-              <a className="btn v1" href="../../index.html">
+              <Link className="btn v1" to="/">
                 Back to Home
-              </a>
+              </Link>
             </div>
           </div>
         </div>

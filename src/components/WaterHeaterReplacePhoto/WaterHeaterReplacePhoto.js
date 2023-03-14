@@ -13,6 +13,7 @@ import waterHRSevenImg from '../../images/replaceing-an-outdoor-water-heater-wit
 import waterHREightImg from '../../images/Water-fountain-replacement.jpg'
 import waterHRNineImg from '../../images/20180209_225118498_iOS.jpg'
 import waterHRTenImg from '../../images/20190824_184559590_iOS.jpg'
+import { Link } from 'gatsby'
 function WaterHeaterReplacePhoto() {
   return (
     <main id="MainZone">
@@ -64,9 +65,9 @@ function WaterHeaterReplacePhoto() {
           data-item="i"
           data-key={289283}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -77,7 +78,7 @@ function WaterHeaterReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Water Heater Replacement Before
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -90,9 +91,9 @@ function WaterHeaterReplacePhoto() {
           data-item="i"
           data-key={289282}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -103,7 +104,7 @@ function WaterHeaterReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Water Heater Replacement After
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -116,9 +117,9 @@ function WaterHeaterReplacePhoto() {
           data-item="i"
           data-key={289284}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -129,7 +130,7 @@ function WaterHeaterReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Water Heater Replacement Before &amp; After
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -142,9 +143,9 @@ function WaterHeaterReplacePhoto() {
           data-item="i"
           data-key={289285}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -155,7 +156,7 @@ function WaterHeaterReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Water Heater Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -168,9 +169,9 @@ function WaterHeaterReplacePhoto() {
           data-item="i"
           data-key={289286}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -181,7 +182,7 @@ function WaterHeaterReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Water Heater Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -194,9 +195,9 @@ function WaterHeaterReplacePhoto() {
           data-item="i"
           data-key={289287}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -207,7 +208,7 @@ function WaterHeaterReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Water Heater Replacement Before
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -220,9 +221,9 @@ function WaterHeaterReplacePhoto() {
           data-item="i"
           data-key={289288}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               
@@ -233,7 +234,7 @@ function WaterHeaterReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Water Heater Replacement After
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -246,9 +247,9 @@ function WaterHeaterReplacePhoto() {
           data-item="i"
           data-key={289289}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               
@@ -259,7 +260,7 @@ function WaterHeaterReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Water Heater Replacement Before &amp; After
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -272,9 +273,9 @@ function WaterHeaterReplacePhoto() {
           data-item="i"
           data-key={289291}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
@@ -285,7 +286,7 @@ function WaterHeaterReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Water Heater Replacement
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -298,9 +299,9 @@ function WaterHeaterReplacePhoto() {
           data-item="i"
           data-key={289290}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
               
@@ -311,7 +312,7 @@ function WaterHeaterReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Water Heater Replacement After
             </strong>
-          </a>
+          </Link>
         </li>
         <li
           className="photo fit "
@@ -324,9 +325,9 @@ function WaterHeaterReplacePhoto() {
           data-item="i"
           data-key={289281}
         >
-          <a
+          <Link
             className="img pad-height-100 opacity-in-item box-shadow border-radius-item"
-            href="javascript:void('Gallery')"
+            to="javascript:void('Gallery')"
           >
             <img
              
@@ -337,7 +338,7 @@ function WaterHeaterReplacePhoto() {
             <strong className="title-style-4 title-color-4 bg-box faded transition-item side-padding-medium vertical-padding-tiny flex-middle-center text-center">
               Water Heater Replacement After
             </strong>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

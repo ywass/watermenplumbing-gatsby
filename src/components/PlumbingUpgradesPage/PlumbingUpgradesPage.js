@@ -440,7 +440,7 @@ function PlumbingUpgradesPage() {
                 <li className="level-1  ">
                   <Link
                     className="pseudo-before relative auto"
-                    to="/toilets"
+                    to="/plumbing-services/toilets"
                     target=""
                     role="menuitem"
                   >
@@ -906,7 +906,7 @@ function PlumbingUpgradesPage() {
           <li className="flex- fit" data-item="i">
             <Link
               className="bg-box scaling-img-item border-radius-item side-padding-medium vertical-padding-small text-center full"
-              to="../../coupons/index.html"
+              to="/coupons"
             >
               <div className="img pad-height- bottom-margin">
                 <img
