@@ -9,17 +9,18 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Watermen Plumbing`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://watermenplumbing.com/`,
   },
+ 
   plugins: [
   
       `gatsby-plugin-image`,
       `gatsby-plugin-sharp`,
       `gatsby-transformer-sharp`,
-  
+      `gatsby-plugin-sitemap`,
     
     {
       resolve: `gatsby-source-filesystem`,
