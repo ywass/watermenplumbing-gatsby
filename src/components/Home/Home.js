@@ -160,7 +160,7 @@ function Home() {
                   className="no-pad bottom-margin-tiny"
                   id="ContactV6ContentHeader"
                 >
-                  <h1>Boca Raton Plumbers!</h1>
+                  <h1>Boca Raton Plumbers</h1>
                 </header>
                 <div className="content-style" id="ContactV6ContentMainContent">
                   <h2>
