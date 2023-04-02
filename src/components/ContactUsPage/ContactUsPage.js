@@ -4,6 +4,10 @@ import map from '../../images/map-img.jpg'
 import tltBdrImg from '../../images/tlt-bdr.png'
 import tltBdr2Img from '../../images/tlt-bdr2.png'
 function ContactUsPage() {
+  const defaultProps = {
+    center: {lat: 26.343042551391708, lng: -80.15822291534144}, 
+    zoom: 12
+ }
   return (
     <main id="MainZone">
   <form
@@ -297,7 +301,18 @@ function ContactUsPage() {
               data-minlng="-80.1695817"
               data-maxlng="-80.1695817"
             >
-            <img src={map}/>
+          
+          <iframe
+            frameborder="0"
+            className=' w-full h-96 md:h-[650px] md:ml-5'
+            scrolling="no"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Watermen%20Plumbing,%2022485%20Arcadia%20Ct,%20Boca%20Raton,%20FL%2033433,%20United%20States+(Watermen%20Plumbing)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            title="  8171 Yonge Street Suite 321 Thornhill, ON L3T 2C6."
+            aria-label="  8171 Yonge Street Suite 321 Thornhill, ON L3T 2C6."
+            allowfullscreen
+          ></iframe>
+    
+          
             </div>
           </div>
         </div>
