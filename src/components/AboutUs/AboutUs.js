@@ -548,6 +548,7 @@ function AboutUs() {
     </div>
   </section>
   <form
+    netlify    
     id="Form_ContactV4"
     method="post"
     encType="multipart/form-data"

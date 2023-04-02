@@ -7,6 +7,7 @@ function SiteSearchPage() {
   return (
     <main id="MainZone">
   <form
+  netlify
     id="Form_SiteSearchSystemV1"
     method="post"
     encType="multipart/form-data"

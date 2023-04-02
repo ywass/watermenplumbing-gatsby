@@ -138,6 +138,7 @@ function Home() {
     </picture> 
     <div className="box" id="PanelGroupV5Zone">
       <form
+      netlify
         id="Form_ContactV6"
         method="post"
         encType="multipart/form-data"
@@ -159,7 +160,7 @@ function Home() {
                   className="no-pad bottom-margin-tiny"
                   id="ContactV6ContentHeader"
                 >
-                  <h1>Boca Raton Plumbers</h1>
+                  <h1>Boca Raton Plumbers!</h1>
                 </header>
                 <div className="content-style" id="ContactV6ContentMainContent">
                   <h2>
@@ -221,7 +222,7 @@ function Home() {
                     <img className="header-flair" src={tltBdr2Img}/>
                   </header>
                   <div id="ContactV6Form" className="ui-repeater">
-                    <fieldset data-item="i" data-key="">
+                    <fieldset data-item="i" data-key="" netlify>
                       <ul className="flex-spaced-between-wrap-block-500">
                         <li className="half">
                           <div className="input-text">
@@ -278,7 +279,7 @@ function Home() {
                             <input
                               id="ContactV6Form_ITM0_Phone"
                               type="tel"
-                              pattern="[(]\d{3}[)][\s]\d{3}[\-]\d{4}"
+                              pattern="[(]\d{3}[)][\s]\d{3}[\-]\d{4}" //(123) 456-7890
                               className="phone-mask ui-cms-input"
                               required="required"
                               name="ContactV6Form$ITM0$Phone"

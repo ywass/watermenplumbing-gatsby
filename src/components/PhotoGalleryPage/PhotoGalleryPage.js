@@ -56,6 +56,7 @@ function PhotoGalleryPage() {
       </div>
     </section>
     <form
+    netlify
       id="Form_PhotoGallerySystemV2"
       method="post"
       encType="multipart/form-data"

@@ -39,6 +39,7 @@ function CouponsPage() {
     </div>
   </section>
   <form
+  netlify
     id="Form_CouponsSystemV2"
     method="post"
     encType="multipart/form-data"

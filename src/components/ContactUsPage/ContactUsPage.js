@@ -7,6 +7,7 @@ function ContactUsPage() {
   return (
     <main id="MainZone">
   <form
+  netlify
     id="Form_ContactSystemV1"
     method="post"
     encType="multipart/form-data"

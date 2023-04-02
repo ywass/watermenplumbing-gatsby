@@ -28,6 +28,7 @@ function BlogMainPage() {
     <div className="main vertical-padding-small flex-spaced-between-block-1024-margined flex-direction">
       <div className="content-zone two-thirds" id="ContentZone">
         <form
+          netlify
           id="Form_BlogSystemV1BlogPostsHome"
           method="post"
           encType="multipart/form-data"

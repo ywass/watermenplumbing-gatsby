@@ -37,6 +37,7 @@ function August2018Pages() {
       <div className="main vertical-padding-small flex-spaced-between-block-1024-margined flex-direction">
         <div className="content-zone two-thirds" id="ContentZone">
           <form
+          netlify
             id="Form_BlogSystemV1BlogPostsMonth"
             method="post"
             encType="multipart/form-data"

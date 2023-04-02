@@ -41,6 +41,7 @@ function ReviewsPage() {
     </div>
   </section>
   <form
+  netlify
     id="Form_LeaveReviewV1"
     method="post"
     encType="multipart/form-data"
