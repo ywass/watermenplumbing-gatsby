@@ -181,13 +181,10 @@ function Home() {
         data-netlify="true"
         method="post"
         id="Form_ContactV6"
-        data-netlify-honeypot="bot-field"
+       /*  data-netlify-honeypot="bot-field" */
         onSubmit={e => onSubmit(e, setSubmitText)}
       >
-        <input type="hidden" name="home_form" value="contact home"  />
-        <div hidden>
-        <input name="bot-field" />
-        </div>
+       
         <section
           className="contact v6 light-bg bg-box-unlike col-50-50 items-spaced text-left vertical-top"
           id="ContactV6"
@@ -265,9 +262,13 @@ function Home() {
                     <img className="header-flair" src={tltBdr2Img}/>
                   </header>
                   <div id="ContactV6Form" className="ui-repeater">
-                    {/* <fieldset data-item="i" data-key="" >
+                    <fieldset data-item="i" data-key="" >
                       <ul className="flex-spaced-between-wrap-block-500">
                         <li className="half">
+                        <input type="hidden" name="home_form" value="contact home"  />
+                          <div hidden>
+                        <input name="bot-field" />
+                        </div>
                           <div className="input-text">
                             <input
                               required="required"
@@ -443,9 +444,7 @@ function Home() {
                           </div>
                         </li>
                       </ul>
-                    </fieldset> */}
-                    <input required placeholder='First Name' type="text" name="first-name" />
-      <input required placeholder='Last Name' type="text" name="last-name" />
+                    </fieldset>
                     <input
                       id="ContactV6Form_ITM0_FFD6"
                       type="hidden"
@@ -474,9 +473,9 @@ function Home() {
                   </div>
                 </div>
                          :
-                         <h1>Form Submitted</h1>
-                         
-                       }
+      <h1>Form Submitted</h1>
+      
+    }
               </div>
      
             </div>
