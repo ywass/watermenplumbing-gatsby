@@ -182,13 +182,26 @@ function Home() {
 
     <div className="box" id="PanelGroupV5Zone">
 
-       <div>
+     <form
+        name="contact home" 
+        data-netlify="true"
+        method="post"
+        id="Form_ContactV6"
+       data-netlify-honeypot="bot-field" 
+        onSubmit={e => onSubmit(e, setSubmitText)}
+      >
+         <input type="hidden" name="home_form" value="contact home"  />
+                          <div hidden>
+                        <input name="bot-field" />
+              </div>
+       
         <section
           className="contact v6 light-bg bg-box-unlike col-50-50 items-spaced text-left vertical-top"
           id="ContactV6"
           data-onvisible="show"
         >
-          <div className="main">
+          <h1>hy</h1>
+          {/* <div className="main">
             <div className="flex-auto-responsive-margined-block-1024 align-items item-widths item-spacing flex-direction">
               <div
                 className="text-align vertical-padding-small block-no-pad"
@@ -260,19 +273,6 @@ function Home() {
                     <img className="header-flair" src={tltBdr2Img}/>
                   </header>
                   <div id="ContactV6Form" className="ui-repeater">
-                     <form
-        name="contact home" 
-        data-netlify="true"
-        method="post"
-        id="Form_ContactV6"
-       data-netlify-honeypot="bot-field" 
-        onSubmit={e => onSubmit(e, setSubmitText)}
-      >
-         <input type="hidden" name="home_form" value="contact home"  />
-                          <div hidden>
-                        <input name="bot-field" />
-                        </div>
-       
                     <fieldset data-item="i" data-key="" >
                       <ul className="flex-spaced-between-wrap-block-500">
                         <li className="half">
@@ -452,7 +452,15 @@ function Home() {
                         </li>
                       </ul>
                     </fieldset>
-                  
+                    <input
+                      id="ContactV6Form_ITM0_FFD6"
+                      type="hidden"
+                      className="ui-cms-input"
+                      name="ContactV6Form$ITM0$FFD6"
+                      defaultValue=""
+                      data-item="i"
+                      data-key=""
+                    />
                     <div
                       className="top-margin-tiny text-center"
                       data-item="i"
@@ -464,12 +472,11 @@ function Home() {
                         type="submit"
                         id="ContactV6Form_ITM0_ctl08"
                         name="ContactV6Form$ITM0$ctl08"
-                      
+                        data-commandname="Update"
                       >
                         Send Information
                       </button>
                     </div>
-                    </form>
                   </div>
                 </div>
                          :
@@ -479,9 +486,57 @@ function Home() {
               </div>
      
             </div>
-          </div>
+          </div> */}
+
+<div>
+     <h3>Get Started Now</h3>
+    {!submitText ?
+     <form name="contact v2" method="post"  data-netlify="true" onSubmit={e => onSubmit(e, setSubmitText)} data-netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact v2" />
+      <div hidden>
+        <input name="bot-field" />
+      </div>
+      <input className="ui-cms-input" required placeholder='First Name' type="text" name="first-name" />
+      <input required placeholder='Last Name' type="text" name="last-name" />
+      <input required placeholder='Phone' type="tel" name="phone-number" />
+      <input required placeholder='Email' type="email" name="email" />
+      <input required placeholder='Zip Code' type="text" name="zip-code" />
+      <select required name="amount">
+       <option value="" disabled selected>Select an Amount</option>
+       <option value="$10,000_$25,000">$10,000_$25,000</option>
+       <option value="$25,000_$40,000">$25,000_$40,000</option>
+       <option value="$40,000_$55,000">$40,000_$55,000</option>
+       <option value="$55,000_$70,000">$55,000_$70,000</option>
+       <option value="$70,000_$100,000">$70,000_$100,000</option>
+       <option value="$100,000_$250,000">$100,000_$250,000</option>
+       <option value="$250,000+">$250,000+</option>
+      </select>
+      <select required name="time">
+       <option value="" disabled selected>Best time to Call</option>
+       <option value="9am - 11am">9am - 11am</option>
+       <option value="11am - 2pm">11am - 2pm</option>
+       <option value="2pm - 4pm">2pm - 4pm</option>
+       <option value="4pm - 6pm">4pm - 6pm</option>
+       <option value="Anytime">Anytime</option>
+      </select>
+      <button type="submit">Submit</button>
+     </form> :
+     <div>
+     
+       <h1>Thank You!</h1>
+       <p>
+       Your submission has been received.
+       </p>
+     </div>
+      
+     
+     }
+    </div>
+
+
+
         </section>
-      </div> 
+      </form> 
 
 
       <section
