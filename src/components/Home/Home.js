@@ -75,9 +75,6 @@ function Home() {
 
  <main id="MainZone">
 
-
-
-
   <section
     className="mainstage v3s dark-bg bg-image no-padding vertical-middle text-left bg-box-none"
     id="CustomMainstageV3"
@@ -185,19 +182,7 @@ function Home() {
 
     <div className="box" id="PanelGroupV5Zone">
 
-     <form
-        name="contact home" 
-        data-netlify="true"
-        method="post"
-        id="Form_ContactV6"
-       data-netlify-honeypot="bot-field" 
-        onSubmit={e => onSubmit(e, setSubmitText)}
-      >
-         <input type="hidden" name="home_form" value="contact home"  />
-                          <div hidden>
-                        <input name="bot-field" />
-                        </div>
-       
+       <div>
         <section
           className="contact v6 light-bg bg-box-unlike col-50-50 items-spaced text-left vertical-top"
           id="ContactV6"
@@ -275,11 +260,23 @@ function Home() {
                     <img className="header-flair" src={tltBdr2Img}/>
                   </header>
                   <div id="ContactV6Form" className="ui-repeater">
+                     <form
+        name="contact home" 
+        data-netlify="true"
+        method="post"
+        id="Form_ContactV6"
+       data-netlify-honeypot="bot-field" 
+        onSubmit={e => onSubmit(e, setSubmitText)}
+      >
+         <input type="hidden" name="home_form" value="contact home"  />
+                          <div hidden>
+                        <input name="bot-field" />
+                        </div>
+       
                     <fieldset data-item="i" data-key="" >
                       <ul className="flex-spaced-between-wrap-block-500">
                         <li className="half">
-                          <input className="ui-cms-input" required placeholder='First Name' type="text" name="first-name" />
-                         {/*  <div className="input-text">
+                          <div className="input-text">
                             <input
                               required="required"
                               type="text"
@@ -301,9 +298,9 @@ function Home() {
                             >
                               Please enter your first name.
                             </div>
-                          </div> */}
+                          </div>
                         </li>
-                       {/*  <li className="half">
+                        <li className="half">
                           <div className="input-text">
                             <input
                               required="required"
@@ -452,18 +449,10 @@ function Home() {
                               Please enter a message.
                             </div>
                           </div>
-                        </li> */}
+                        </li>
                       </ul>
                     </fieldset>
-                    <input
-                      id="ContactV6Form_ITM0_FFD6"
-                      type="hidden"
-                      className="ui-cms-input"
-                      name="ContactV6Form$ITM0$FFD6"
-                      defaultValue=""
-                      data-item="i"
-                      data-key=""
-                    />
+                  
                     <div
                       className="top-margin-tiny text-center"
                       data-item="i"
@@ -475,11 +464,12 @@ function Home() {
                         type="submit"
                         id="ContactV6Form_ITM0_ctl08"
                         name="ContactV6Form$ITM0$ctl08"
-                        data-commandname="Update"
+                      
                       >
                         Send Information
                       </button>
                     </div>
+                    </form>
                   </div>
                 </div>
                          :
@@ -491,7 +481,7 @@ function Home() {
             </div>
           </div>
         </section>
-      </form> 
+      </div> 
 
 
       <section
