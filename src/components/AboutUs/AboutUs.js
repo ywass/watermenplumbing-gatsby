@@ -13,7 +13,47 @@ import tltBdrImg from '../../images/tlt-bdr.png'
 import tltBdr2Img from '../../images/tlt-bdr2.png'
 import PanelGroupImg from "../../images/panel-group-v5-bg.jpg"
 import { Link } from 'gatsby'
+import { useState } from 'react'
+
+const onSubmit = async (event, setSubmitText) => {
+  event.preventDefault();
+  setSubmitText("Submitting ...");
+  const formElements = [...event.currentTarget.elements];
+  const isValid =
+    formElements.filter((elem) => elem.name === "bot-field")[0].value === "";
+  const validFormElements = isValid ? formElements : [];
+  if (validFormElements.length < 1) {
+    // or some other cheeky error message
+    setSubmitText("It looks like you filled out too many fields!");
+  } else {
+    const filledOutElements = validFormElements
+      .filter((elem) => !!elem.value)
+      .map(
+        (element) =>
+          encodeURIComponent(element.name) +
+          "=" +
+          encodeURIComponent(element.value)
+      )
+      .join("&");
+
+    await fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: filledOutElements,
+    })
+      .then(() => {
+        setSubmitText("Successfully submitted!");
+      })
+      .catch((_) => {
+        setSubmitText(
+          "There was an error with your submission, please email me using the address above."
+        );
+      });
+  }
+};
+
 function AboutUs() {
+  const [submitText, setSubmitText] = useState(null);
   return (
     <main id="MainZone">
   <section
@@ -548,13 +588,18 @@ function AboutUs() {
     </div>
   </section>
   <form
-    netlify    
+    name="contact about"
+    data-netlify="true"
     id="Form_ContactV4"
     method="post"
-    encType="multipart/form-data"
-    action="https://www.watermenplumbing.com/about-us/"
+    data-netlify-honeypot="bot-field"
+    onSubmit={(e) => onSubmit(e, setSubmitText)}
+
   >
-    <input type="hidden" name="_m_" defaultValue="ContactV4" />
+    <input type="hidden" name="form-name" value="contact about" />
+            <div hidden>
+              <input name="bot-field" />
+            </div>
     <section
       className="contact v4 light-bg bg-box-unlike col-50-50 items-spaced vertical-middle text-center flow-reverse bg-image svg-deco-bottom-hill-4 svg-deco-bottom-wave-bottom"
       id="ContactV4"
@@ -674,7 +719,7 @@ function AboutUs() {
               </ul>
             </div>
           </div>
-          <div>
+          {!submitText ?  <div>
             <header className="text-align center-1024" id="ContactV4Header2">
               <h4>Ready to Get Started?</h4>
               <strong>
@@ -889,7 +934,9 @@ function AboutUs() {
                 </button>
               </div>
             </div>
-          </div>
+          </div>:
+           <h1>Form Submitted</h1>
+          }
         </div>
       </div>
     </section>
