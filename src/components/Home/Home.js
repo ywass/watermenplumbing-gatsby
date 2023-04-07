@@ -138,13 +138,17 @@ function Home() {
     </picture> 
     <div className="box" id="PanelGroupV5Zone">
       <form
-      netlify
+        name="contact home" 
+        data-netlify="true"
         id="Form_ContactV6"
-        method="post"
         encType="multipart/form-data"
         action="https://www.watermenplumbing.com/"
+        data-netlify-honeypot="bot-field"
       >
-        <input type="hidden" name="_m_" defaultValue="ContactV6" />
+        <input type="hidden" name="home_form" value="contact home"  />
+        <div hidden>
+        <input name="bot-field" />
+        </div>
         <section
           className="contact v6 light-bg bg-box-unlike col-50-50 items-spaced text-left vertical-top"
           id="ContactV6"
@@ -222,7 +226,7 @@ function Home() {
                     <img className="header-flair" src={tltBdr2Img}/>
                   </header>
                   <div id="ContactV6Form" className="ui-repeater">
-                    <fieldset data-item="i" data-key="" netlify>
+                    <fieldset data-item="i" data-key="" >
                       <ul className="flex-spaced-between-wrap-block-500">
                         <li className="half">
                           <div className="input-text">
