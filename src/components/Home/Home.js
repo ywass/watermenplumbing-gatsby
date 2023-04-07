@@ -180,8 +180,12 @@ function Home() {
       />
     </picture> 
     
+ 
+
+
     <div className="box" id="PanelGroupV5Zone">
-      <form
+
+     <form
         name="contact home" 
         data-netlify="true"
         method="post"
@@ -274,8 +278,8 @@ function Home() {
                     <fieldset data-item="i" data-key="" >
                       <ul className="flex-spaced-between-wrap-block-500">
                         <li className="half">
-                       
-                          <div className="input-text">
+                          <input className="ui-cms-input" required placeholder='First Name' type="text" name="first-name" />
+                         {/*  <div className="input-text">
                             <input
                               required="required"
                               type="text"
@@ -297,9 +301,9 @@ function Home() {
                             >
                               Please enter your first name.
                             </div>
-                          </div>
+                          </div> */}
                         </li>
-                        <li className="half">
+                       {/*  <li className="half">
                           <div className="input-text">
                             <input
                               required="required"
@@ -448,7 +452,7 @@ function Home() {
                               Please enter a message.
                             </div>
                           </div>
-                        </li>
+                        </li> */}
                       </ul>
                     </fieldset>
                     <input
@@ -488,6 +492,8 @@ function Home() {
           </div>
         </section>
       </form> 
+
+
       <section
         className="services v9 light-bg text-center items-overlapped col-60-40 vertical-middle bg-image bg-box-unlike"
         id="ServicesV9"
