@@ -177,13 +177,17 @@ function Home() {
     </picture> 
     <div className="box" id="PanelGroupV5Zone">
       <form
-        name="contact home" 
+        name="contact v2" 
         data-netlify="true"
         method="post"
         id="Form_ContactV6"
-       /*  data-netlify-honeypot="bot-field" */
+       data-netlify-honeypot="bot-field" 
         onSubmit={e => onSubmit(e, setSubmitText)}
       >
+         <input type="hidden" name="home_form" value="contact v2"  />
+                          <div hidden>
+                        <input name="bot-field" />
+                        </div>
        
         <section
           className="contact v6 light-bg bg-box-unlike col-50-50 items-spaced text-left vertical-top"
@@ -265,10 +269,7 @@ function Home() {
                     <fieldset data-item="i" data-key="" >
                       <ul className="flex-spaced-between-wrap-block-500">
                         <li className="half">
-                        <input type="hidden" name="home_form" value="contact home"  />
-                          <div hidden>
-                        <input name="bot-field" />
-                        </div>
+                       
                           <div className="input-text">
                             <input
                               required="required"
