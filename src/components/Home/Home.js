@@ -176,7 +176,7 @@ function Home() {
       />
     </picture> 
     <div className="box" id="PanelGroupV5Zone">
-    {!submitText ?   <form
+      <form
         name="contact home" 
         data-netlify="true"
         method="post"
@@ -257,7 +257,7 @@ function Home() {
                 <div id="ContactV6BtnCon"></div>
               </div>
               <div className="bg-box border-radius side-padding vertical-padding-small box-flair">
-                <div className="flair-border">
+              {!submitText ? <div className="flair-border">
                   <span className="flair-1" />
                   <span className="flair-2" />
                   <header className="text-center" id="ContactV6Header">
@@ -265,7 +265,7 @@ function Home() {
                     <img className="header-flair" src={tltBdr2Img}/>
                   </header>
                   <div id="ContactV6Form" className="ui-repeater">
-                    <fieldset data-item="i" data-key="" >
+                    {/* <fieldset data-item="i" data-key="" >
                       <ul className="flex-spaced-between-wrap-block-500">
                         <li className="half">
                           <div className="input-text">
@@ -443,7 +443,9 @@ function Home() {
                           </div>
                         </li>
                       </ul>
-                    </fieldset>
+                    </fieldset> */}
+                    <input required placeholder='First Name' type="text" name="first-name" />
+      <input required placeholder='Last Name' type="text" name="last-name" />
                     <input
                       id="ContactV6Form_ITM0_FFD6"
                       type="hidden"
@@ -471,14 +473,16 @@ function Home() {
                     </div>
                   </div>
                 </div>
+                         :
+                         <h1>Form Submitted</h1>
+                         
+                       }
               </div>
+     
             </div>
           </div>
         </section>
-      </form> :
-      <h1>Form Submitted</h1>
-      
-    }
+      </form> 
       <section
         className="services v9 light-bg text-center items-overlapped col-60-40 vertical-middle bg-image bg-box-unlike"
         id="ServicesV9"
