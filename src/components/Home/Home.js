@@ -73,7 +73,54 @@ function Home() {
   const [submitText, setSubmitText] = useState(null);
   return (
 
-<main id="MainZone">
+ <main id="MainZone">
+
+<div>
+<h3>Get Started Now</h3>
+{!submitText ?
+<form name="contact v2" method="post"  data-netlify="true" onSubmit={e => onSubmit(e, setSubmitText)} data-netlify-honeypot="bot-field">
+ <input type="hidden" name="form-name" value="contact v2" />
+ <div hidden>
+   <input name="bot-field" />
+ </div>
+ <input required placeholder='First Name' type="text" name="first-name" />
+ <input required placeholder='Last Name' type="text" name="last-name" />
+ <input required placeholder='Phone' type="tel" name="phone-number" />
+ <input required placeholder='Email' type="email" name="email" />
+ <input required placeholder='Zip Code' type="text" name="zip-code" />
+ <select required name="amount">
+  <option value="" disabled selected>Select an Amount</option>
+  <option value="$10,000_$25,000">$10,000_$25,000</option>
+  <option value="$25,000_$40,000">$25,000_$40,000</option>
+  <option value="$40,000_$55,000">$40,000_$55,000</option>
+  <option value="$55,000_$70,000">$55,000_$70,000</option>
+  <option value="$70,000_$100,000">$70,000_$100,000</option>
+  <option value="$100,000_$250,000">$100,000_$250,000</option>
+  <option value="$250,000+">$250,000+</option>
+ </select>
+ <select required name="time">
+  <option value="" disabled selected>Best time to Call</option>
+  <option value="9am - 11am">9am - 11am</option>
+  <option value="11am - 2pm">11am - 2pm</option>
+  <option value="2pm - 4pm">2pm - 4pm</option>
+  <option value="4pm - 6pm">4pm - 6pm</option>
+  <option value="Anytime">Anytime</option>
+ </select>
+ <button type="submit">Submit</button>
+</form> :
+<div>
+
+  <h1>Thank You!</h1>
+  <p>
+  Your submission has been received.
+  </p>
+</div>
+ 
+
+}
+</div>
+
+{/*
   <section
     className="mainstage v3s dark-bg bg-image no-padding vertical-middle text-left bg-box-none"
     id="CustomMainstageV3"
@@ -175,16 +222,17 @@ function Home() {
         src={PanelGroupImg}
       />
     </picture> 
+    
     <div className="box" id="PanelGroupV5Zone">
       <form
-        name="contact v2" 
+        name="contact home" 
         data-netlify="true"
         method="post"
         id="Form_ContactV6"
        data-netlify-honeypot="bot-field" 
         onSubmit={e => onSubmit(e, setSubmitText)}
       >
-         <input type="hidden" name="home_form" value="contact v2"  />
+         <input type="hidden" name="home_form" value="contact home"  />
                           <div hidden>
                         <input name="bot-field" />
                         </div>
@@ -1565,8 +1613,9 @@ function Home() {
         </div>
       </section>
     </div>
-  </section>
+  </section>*/}
 </main>
+
 
   )
 }
