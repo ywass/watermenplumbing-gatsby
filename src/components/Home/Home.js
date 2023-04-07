@@ -140,9 +140,10 @@ function Home() {
       <form
         name="contact home" 
         data-netlify="true"
+        method="post"
         id="Form_ContactV6"
         encType="multipart/form-data"
-        action="https://www.watermenplumbing.com/"
+     /*    action="https://www.watermenplumbing.com/" */
         data-netlify-honeypot="bot-field"
       >
         <input type="hidden" name="home_form" value="contact home"  />
