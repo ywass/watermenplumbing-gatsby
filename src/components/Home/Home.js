@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../../style/home.css'
 import SenoirImg from "../../images/Senoir[9].jpg"
 import MainStageImg from "../../images/mainstage-v3-bg.jpg"
@@ -30,8 +30,47 @@ import ReliableHonestIcon from "../../images/svg/reliableHonest.svg";
 import FullyStockIcon from "../../images/svg/fullyStock.svg";
 import StarIcon from "../../images/svg/star.svg";
 import { Link } from 'gatsby'
-function Home() {
 
+const onSubmit = async (event, setSubmitText) => {
+  event.preventDefault();
+  setSubmitText("Submitting ...");
+  const formElements = [...event.currentTarget.elements];
+  const isValid = formElements.filter((elem) => elem.name === "bot-field")[0].value === "";
+  const validFormElements = isValid ? formElements : [];
+  if (validFormElements.length < 1) {
+   // or some other cheeky error message
+   setSubmitText("It looks like you filled out too many fields!");
+  } 
+  else {
+  const filledOutElements = validFormElements
+    .filter((elem) => !!elem.value)
+    .map(
+      (element) =>
+        encodeURIComponent(element.name) +
+        "=" +
+        encodeURIComponent(element.value)
+    )
+    .join("&");
+
+  await fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: filledOutElements,
+  })
+    .then(() => {
+      setSubmitText("Successfully submitted!");
+    })
+    .catch((_) => {
+      setSubmitText(
+        "There was an error with your submission, please email me using the address above."
+      );
+    });
+}
+
+};
+
+function Home() {
+  const [submitText, setSubmitText] = useState(null);
   return (
 
 <main id="MainZone">
@@ -137,14 +176,13 @@ function Home() {
       />
     </picture> 
     <div className="box" id="PanelGroupV5Zone">
-      <form
+    {!submitText ?   <form
         name="contact home" 
         data-netlify="true"
         method="post"
         id="Form_ContactV6"
-        encType="multipart/form-data"
-     /*    action="https://www.watermenplumbing.com/" */
         data-netlify-honeypot="bot-field"
+        onSubmit={e => onSubmit(e, setSubmitText)}
       >
         <input type="hidden" name="home_form" value="contact home"  />
         <div hidden>
@@ -437,7 +475,10 @@ function Home() {
             </div>
           </div>
         </section>
-      </form>
+      </form> :
+      <h1>Form Submitted</h1>
+      
+    }
       <section
         className="services v9 light-bg text-center items-overlapped col-60-40 vertical-middle bg-image bg-box-unlike"
         id="ServicesV9"
