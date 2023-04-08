@@ -101,12 +101,13 @@ function ReviewsPage() {
               <QuoteIcon style={{ marginLeft: "auto", marginRight: "auto" }} />
               <strong className="title-style-3">Leave a Review</strong>
             </div>
-            {leaveReview && !submitText ? (
+            {leaveReview && 
               <div
                 className="add-review-form bg-box vertical-padding side-padding ui-repeater"
                 id="ReviewForm"
                 data-role="panel"
               >
+                {!submitText ? (<>
                 <div className="flex-between-middle" data-item="i" data-key="">
                   <h2>Write a Review</h2>
                   <span
@@ -445,15 +446,15 @@ function ReviewsPage() {
                     type="submit"
                     id="ReviewForm_ITM0_ctl09"
                     name="ReviewForm$ITM0$ctl09"
-                    data-commandname="Update"
+                   
                   >
                     Submit Review
                   </button>
                 </div>
-              </div>
-            ) : (
+                </>) : (
               <h1>Form Submitted</h1>
             )}
+              </div>}
           </div>
         </section>
       </form>
