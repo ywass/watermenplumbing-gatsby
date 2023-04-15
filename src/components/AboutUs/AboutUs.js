@@ -740,13 +740,14 @@ function AboutUs() {
                         className="ui-cms-input"
                         name="ContactV4Form$ITM0$FirstName"
                         defaultValue=""
+                        placeholder='First Name'
                       />
-                      <label
+                     {/*  <label
                         className="hide"
                         htmlFor="ContactV4Form_ITM0_FirstName"
                       >
                         First Name
-                      </label>
+                      </label> */}
                       <div
                         className="validation"
                         htmlFor="ContactV4Form_ITM0_FirstName"
@@ -765,13 +766,14 @@ function AboutUs() {
                         className="ui-cms-input"
                         name="ContactV4Form$ITM0$LastName"
                         defaultValue=""
+                        placeholder='Last Name'
                       />
-                      <label
+                     {/*  <label
                         className="hide"
                         htmlFor="ContactV4Form_ITM0_LastName"
                       >
                         Last Name
-                      </label>
+                      </label> */}
                       <div
                         className="validation"
                         htmlFor="ContactV4Form_ITM0_LastName"
@@ -786,18 +788,18 @@ function AboutUs() {
                       <input
                         id="ContactV4Form_ITM0_Phone"
                         type="tel"
-                        pattern="[(]\d{3}[)][\s]\d{3}[\-]\d{4}"
                         className="phone-mask ui-cms-input"
                         required="required"
                         name="ContactV4Form$ITM0$Phone"
                         defaultValue=""
+                        placeholder='Phone'
                       />
-                      <label
+                      {/* <label
                         className="hide"
                         htmlFor="ContactV4Form_ITM0_Phone"
                       >
                         Phone
-                      </label>
+                      </label> */}
                       <div
                         className="validation"
                         htmlFor="ContactV4Form_ITM0_Phone"
@@ -823,13 +825,14 @@ function AboutUs() {
                         className="ui-cms-input"
                         name="ContactV4Form$ITM0$EmailAddress"
                         defaultValue=""
+                        placeholder='Email'
                       />
-                      <label
+                     {/*  <label
                         className="hide"
                         htmlFor="ContactV4Form_ITM0_EmailAddress"
                       >
                         Email
-                      </label>
+                      </label> */}
                       <div
                         className="validation"
                         htmlFor="ContactV4Form_ITM0_EmailAddress"
@@ -854,7 +857,7 @@ function AboutUs() {
                         className="ui-cms-select ui-cms-input"
                         name="ContactV4Form$ITM0$LeadTypeID"
                       >
-                        <option value="" />
+                       <option value="" disabled selected>Are you a new customer?</option>
                         <option value={1}>
                           Yes, I am a potential new customer
                         </option>
@@ -863,12 +866,12 @@ function AboutUs() {
                         </option>
                         <option value={13}>I'm neither.</option>
                       </select>
-                      <label
+                     {/*  <label
                         className="hide"
                         htmlFor="ContactV4Form_ITM0_LeadTypeID"
                       >
                         Are you a new customer?
-                      </label>
+                      </label> */}
                       <svg className="site-arrow">
                         <use href="../includes/flair.svg#arrow-down" />
                       </svg>
@@ -890,13 +893,14 @@ function AboutUs() {
                         className="ui-cms-input"
                         name="ContactV4Form$ITM0$Message"
                         defaultValue={""}
+                        placeholder='Message'
                       />
-                      <label
+                     {/*  <label
                         className="hide"
                         htmlFor="ContactV4Form_ITM0_Message"
                       >
                         Message
-                      </label>
+                      </label> */}
                       <div
                         className="validation"
                         htmlFor="ContactV4Form_ITM0_Message"
