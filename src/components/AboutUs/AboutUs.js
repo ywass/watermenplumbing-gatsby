@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../../style/about.css'
 import subBannerBgImg from '../../images/sub-banner-v1-bg.jpg'
 import letUsImg from '../../images/Let-us.jpg'
@@ -13,7 +13,8 @@ import tltBdrImg from '../../images/tlt-bdr.png'
 import tltBdr2Img from '../../images/tlt-bdr2.png'
 import PanelGroupImg from "../../images/panel-group-v5-bg.jpg"
 import { Link } from 'gatsby'
-import { useState } from 'react'
+import JotformEmbed from 'react-jotform-embed';
+
 
 const onSubmit = async (event, setSubmitText) => {
   event.preventDefault();
@@ -587,7 +588,144 @@ function AboutUs() {
       </ul>
     </div>
   </section>
- <form
+
+  <section
+      className="contact v4 light-bg bg-box-unlike col-50-50 items-spaced vertical-middle text-center flow-reverse bg-image svg-deco-bottom-hill-4 svg-deco-bottom-wave-bottom"
+      id="ContactV4"
+      data-onvisible="show"
+    >
+      <picture
+        className="img-bg bg-position"
+        role="presentation"
+        data-role="picture"
+      >
+        <source
+          media="(max-width: 500px)"
+          srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+          data-src="../assets/contact/contact-v4-bg-mobile.jpg"
+        />
+        <source
+          media="(max-width: 1024px)"
+          srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+          data-src="../assets/contact/contact-v4-bg-tablet.jpg"
+        />
+        <img
+        
+          alt=""
+          src={PanelGroupImg}
+        />
+      </picture>
+      <div className="main">
+        <div className="flex-auto-responsive-margined-block-1024 align-items item-widths item-spacing flex-direction">
+          <div className="bg-box side-padding vertical-padding-small box-flair border-radius">
+            <div className="flair-border">
+              <span className="flair-1" />
+              <span className="flair-2" />
+              <header className="text-left center-1024" id="ContactV4Values">
+                <h4>Why Choose Us?</h4>
+                <strong>
+                  We Believe That Only the Best Is Good Enough, for You!
+                </strong>
+                <img className="header-flair" src={tltBdrImg}/>
+              </header>
+              <ul className="values-list ui-repeater" id="ContactV4List">
+                <li
+                  className="flex-top-block-500 center-500 auto top-margin-small"
+                  data-item="i"
+                  data-key={15797}
+                >
+                  <span className="ico-con">
+                   <CustomerEmployeeIcon className="values-icon"/>
+                  </span>
+                  <div className="info">
+                    <strong className="title-style-4 title-color-4">
+                      Customer &amp; Employee Safety First
+                    </strong>
+                    <p>
+                      We truly care about the health and safety of our staff and
+                      customers. We wear full PPE gear to ensure everyone is
+                      protected.
+                    </p>
+                  </div>
+                </li>
+                <li
+                  className="flex-top-block-500 center-500 auto top-margin-small"
+                  data-item="i"
+                  data-key={15796}
+                >
+                  <span className="ico-con">
+                   <KnowledgeAbleIcon className="values-icon"/>
+                  </span>
+                  <div className="info">
+                    <strong className="title-style-4 title-color-4">
+                      Knowledgeable &amp; Skilled Technicians
+                    </strong>
+                    <p />
+                    <p>
+                      Our technicians undergo weekly continuing education
+                      classes and are tested weekly to ensure quality control,
+                      and customer satisfaction.
+                    </p>
+                    <p />
+                  </div>
+                </li>
+                <li
+                  className="flex-top-block-500 center-500 auto top-margin-small"
+                  data-item="i"
+                  data-key={15795}
+                >
+                  <span className="ico-con">
+                    <ReliableHonestIcon className="values-icon"/>
+                  </span>
+                  <div className="info">
+                    <strong className="title-style-4 title-color-4">
+                      Reliable Honest Company
+                    </strong>
+                    <p>
+                      We provide peace of mind and stand behind our work with a
+                      1-year warranty.
+                    </p>
+                  </div>
+                </li>
+                <li
+                  className="flex-top-block-500 center-500 auto top-margin-small"
+                  data-item="i"
+                  data-key={15794}
+                >
+                  <span className="ico-con">
+                   <FullyStockIcon className="values-icon"/>
+                  </span>
+                  <div className="info">
+                    <strong className="title-style-4 title-color-4">
+                      Fully Stocked Trucks
+                    </strong>
+                    <p>
+                      With the latest plumbing technology at our disposal, our
+                      team is prepared to handle your job in one trip.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+          <header className="text-align center-1024" id="ContactV4Header2">
+              <h4>Ready to Get Started?</h4>
+              <strong>
+                Contact Us for Solutions Today &amp; Ask About Our Financing
+                Options
+              </strong>
+             <img className="header-flair" src={tltBdr2Img}/>
+            </header>
+            <div id="ContactV4Form" className="ui-repeater contact_form">
+            <JotformEmbed src="https://form.jotform.com/232918068868472" />
+            </div>
+            </div>
+            </div>
+      </div>
+    </section>
+
+ {/* <form
     name="contact about"
     data-netlify="true"
     id="Form_ContactV4"
@@ -742,12 +880,6 @@ function AboutUs() {
                         defaultValue=""
                         placeholder='First Name'
                       />
-                     {/*  <label
-                        className="hide"
-                        htmlFor="ContactV4Form_ITM0_FirstName"
-                      >
-                        First Name
-                      </label> */}
                       <div
                         className="validation"
                         htmlFor="ContactV4Form_ITM0_FirstName"
@@ -767,13 +899,7 @@ function AboutUs() {
                         name="ContactV4Form$ITM0$LastName"
                         defaultValue=""
                         placeholder='Last Name'
-                      />
-                     {/*  <label
-                        className="hide"
-                        htmlFor="ContactV4Form_ITM0_LastName"
-                      >
-                        Last Name
-                      </label> */}
+                      />                    
                       <div
                         className="validation"
                         htmlFor="ContactV4Form_ITM0_LastName"
@@ -794,12 +920,6 @@ function AboutUs() {
                         defaultValue=""
                         placeholder='Phone'
                       />
-                      {/* <label
-                        className="hide"
-                        htmlFor="ContactV4Form_ITM0_Phone"
-                      >
-                        Phone
-                      </label> */}
                       <div
                         className="validation"
                         htmlFor="ContactV4Form_ITM0_Phone"
@@ -827,12 +947,6 @@ function AboutUs() {
                         defaultValue=""
                         placeholder='Email'
                       />
-                     {/*  <label
-                        className="hide"
-                        htmlFor="ContactV4Form_ITM0_EmailAddress"
-                      >
-                        Email
-                      </label> */}
                       <div
                         className="validation"
                         htmlFor="ContactV4Form_ITM0_EmailAddress"
@@ -866,12 +980,6 @@ function AboutUs() {
                         </option>
                         <option value={13}>I'm neither.</option>
                       </select>
-                     {/*  <label
-                        className="hide"
-                        htmlFor="ContactV4Form_ITM0_LeadTypeID"
-                      >
-                        Are you a new customer?
-                      </label> */}
                       <svg className="site-arrow">
                         <use href="../includes/flair.svg#arrow-down" />
                       </svg>
@@ -895,12 +1003,6 @@ function AboutUs() {
                         defaultValue={""}
                         placeholder='Message'
                       />
-                     {/*  <label
-                        className="hide"
-                        htmlFor="ContactV4Form_ITM0_Message"
-                      >
-                        Message
-                      </label> */}
                       <div
                         className="validation"
                         htmlFor="ContactV4Form_ITM0_Message"
@@ -944,7 +1046,7 @@ function AboutUs() {
         </div>
       </div>
     </section>
-  </form>
+  </form> */}
 </main>
 
   )

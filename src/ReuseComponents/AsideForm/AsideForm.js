@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import "../../style/areaWeServe.css";
+import JotformEmbed from 'react-jotform-embed';
+
 
 const onSubmit = async (event, setSubmitText) => {
   event.preventDefault();
@@ -41,224 +43,220 @@ const onSubmit = async (event, setSubmitText) => {
 function AsideForm() {
   const [submitText, setSubmitText] = useState(null);
   return (
-    <form
-      name="contact aside"
-      data-netlify="true"
-      id="Form_ContactV4"
-      method="post"
-      data-netlify-honeypot="bot-field"
-      onSubmit={(e) => onSubmit(e, setSubmitText)}
+    <aside
+    className="side-contact v1 side-padding-large text-left vertical-padding-tiny border-radius box-shadow dark-bg"
+    id="SideContactV1"
+    data-onvisible="show"
+  >
+    <header
+      className="text-align bottom-margin-small no-pad"
+      id="SideContactV1Header"
     >
-      <input type="hidden" name="form-name" value="contact aside" />
-      <div hidden>
-        <input name="bot-field" />
-      </div>
-      <aside
-        className="side-contact v1 side-padding-large text-left vertical-padding-tiny border-radius box-shadow dark-bg"
-        id="SideContactV1"
-        data-onvisible="show"
-      >
-        <header
-          className="text-align bottom-margin-small no-pad"
-          id="SideContactV1Header"
-        >
-          <h5>Contact Us Today</h5>
-          <p>Complete the form below to connect with our plumbing team!</p>
-        </header>
-        {!submitText ? (
-          <div id="SideContactV1Form" className="ui-repeater">
-            <fieldset data-item="i" data-key="">
-              <ul>
-                <li>
-                  <div className="input-text">
-                    <input
-                      required="required"
-                      type="text"
-                      id="SideContactV1Form_ITM0_FirstName"
-                      className="ui-cms-input"
-                      name="SideContactV1Form$ITM0$FirstName"
-                      defaultValue=""
-                      placeholder="First Name"
-                    />
-                  {/*   <label htmlFor="SideContactV1Form_ITM0_FirstName">
-                      First Name
-                    </label> */}
-                    <div
-                      className="validation"
-                      htmlFor="SideContactV1Form_ITM0_FirstName"
-                      data-type="valueMissing"
-                    >
-                      Please enter your first name.
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div className="input-text">
-                    <input
-                      required="required"
-                      type="text"
-                      id="SideContactV1Form_ITM0_LastName"
-                      className="ui-cms-input"
-                      name="SideContactV1Form$ITM0$LastName"
-                      defaultValue=""
-                      placeholder="Last Name"
-                    />
-                    {/* <label htmlFor="SideContactV1Form_ITM0_LastName">
-                      Last Name
-                    </label> */}
-                    <div
-                      className="validation"
-                      htmlFor="SideContactV1Form_ITM0_LastName"
-                      data-type="valueMissing"
-                    >
-                      Please enter your last name.
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div className="input-text">
-                    <input
-                      id="SideContactV1Form_ITM0_Phone"
-                      type="tel"
-                      className="phone-mask ui-cms-input"
-                      required="required"
-                      name="SideContactV1Form$ITM0$Phone"
-                      defaultValue=""
-                      placeholder="Phone"
-                    />
-                    {/* <label htmlFor="SideContactV1Form_ITM0_Phone">Phone</label> */}
-                    <div
-                      className="validation"
-                      htmlFor="SideContactV1Form_ITM0_Phone"
-                      data-type="valueMissing"
-                    >
-                      Please enter your phone number.
-                    </div>
-                    <div
-                      className="validation"
-                      htmlFor="SideContactV1Form_ITM0_Phone"
-                      data-type="typeMismatch"
-                    >
-                      This isn't a valid phone number.
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div className="input-text">
-                    <input
-                      required="required"
-                      type="email"
-                      id="SideContactV1Form_ITM0_EmailAddress"
-                      className="ui-cms-input"
-                      name="SideContactV1Form$ITM0$EmailAddress"
-                      defaultValue=""
-                      placeholder="Email"
-                    />
-                    {/* <label htmlFor="SideContactV1Form_ITM0_EmailAddress">
-                      Email
-                    </label> */}
-                    <div
-                      className="validation"
-                      htmlFor="SideContactV1Form_ITM0_EmailAddress"
-                      data-type="valueMissing"
-                    >
-                      Please enter your email address.
-                    </div>
-                    <div
-                      className="validation"
-                      htmlFor="SideContactV1Form_ITM0_EmailAddress"
-                      data-type="typeMismatch"
-                    >
-                      This isn't a valid email address.
-                    </div>
-                  </div>
-                </li>
-                <li className="select">
-                  <div className="input-text">
-                    <select
-                      id="SideContactV1Form_ITM0_LeadTypeID"
-                      required="required"
-                      className="ui-cms-select ui-cms-input"
-                      name="SideContactV1Form$ITM0$LeadTypeID"
-                    >
-                      <option value="" disabled selected>Are you a new customer?</option>
-                      <option value={1}>
-                        Yes, I am a potential new customer
-                      </option>
-                      <option value={11}>
-                        No, I'm a current existing customer
-                      </option>
-                      <option value={13}>I'm neither.</option>
-                    </select>
-                    {/* <label
-                      className="hide"
-                      htmlFor="SideContactV1Form_ITM0_LeadTypeID"
-                    >
-                      Are you a new customer?
-                    </label> */}
-                    <dropDownIcon className="site-arrow" />
-                    <div
-                      className="validation"
-                      htmlFor="SideContactV1Form_ITM0_LeadTypeID"
-                      data-type="valueMissing"
-                    >
-                      Please make a selection.
-                    </div>
-                  </div>
-                </li>
-                <li className="message">
-                  <div className="input-text">
-                    <textarea
-                      required="required"
-                      type="text"
-                      id="SideContactV1Form_ITM0_Message"
-                      className="ui-cms-input"
-                      name="SideContactV1Form$ITM0$Message"
-                      defaultValue={""}
-                      placeholder="Message"
-                    />
-                    {/* <label
-                      className="hide"
-                      htmlFor="SideContactV1Form_ITM0_Message"
-                    >
-                      Message
-                    </label> */}
-                    <div
-                      className="validation"
-                      htmlFor="SideContactV1Form_ITM0_Message"
-                      data-type="valueMissing"
-                    >
-                      Please enter a message.
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </fieldset>
-            <input
-              id="SideContactV1Form_ITM0_FFD6"
-              type="hidden"
-              className="ui-cms-input"
-              name="SideContactV1Form$ITM0$FFD6"
-              defaultValue=""
-              data-item="i"
-              data-key=""
-            />
-            <div className="text-align" data-item="i" data-key="">
-              <button
-                className="btn v1"
-                type="submit"
-                id="SideContactV1Form_ITM0_ctl08"
-                name="SideContactV1Form$ITM0$ctl08"
-              >
-                Send
-              </button>
-            </div>
-          </div>
-        ) : (
-          <h1>Form Submitted</h1>
-        )}
-      </aside>
-    </form>
+      <h5>Contact Us Today</h5>
+      <p>Complete the form below to connect with our plumbing team!</p>
+    </header>
+
+      <div id="SideContactV1Form" className="ui-repeater sidecontact_form">
+      <JotformEmbed src="https://form.jotform.com/232918068868472" />
+        </div>
+        </aside>
+
+    // <form
+    //   name="contact aside"
+    //   data-netlify="true"
+    //   id="Form_ContactV4"
+    //   method="post"
+    //   data-netlify-honeypot="bot-field"
+    //   onSubmit={(e) => onSubmit(e, setSubmitText)}
+    // >
+    //   <input type="hidden" name="form-name" value="contact aside" />
+    //   <div hidden>
+    //     <input name="bot-field" />
+    //   </div>
+    //   <aside
+    //     className="side-contact v1 side-padding-large text-left vertical-padding-tiny border-radius box-shadow dark-bg"
+    //     id="SideContactV1"
+    //     data-onvisible="show"
+    //   >
+    //     <header
+    //       className="text-align bottom-margin-small no-pad"
+    //       id="SideContactV1Header"
+    //     >
+    //       <h5>Contact Us Today</h5>
+    //       <p>Complete the form below to connect with our plumbing team!</p>
+    //     </header>
+    //     {!submitText ? (
+    //       <div id="SideContactV1Form" className="ui-repeater">
+    //         <fieldset data-item="i" data-key="">
+    //           <ul>
+    //             <li>
+    //               <div className="input-text">
+    //                 <input
+    //                   required="required"
+    //                   type="text"
+    //                   id="SideContactV1Form_ITM0_FirstName"
+    //                   className="ui-cms-input"
+    //                   name="SideContactV1Form$ITM0$FirstName"
+    //                   defaultValue=""
+    //                   placeholder="First Name"
+    //                 />
+    //                 <div
+    //                   className="validation"
+    //                   htmlFor="SideContactV1Form_ITM0_FirstName"
+    //                   data-type="valueMissing"
+    //                 >
+    //                   Please enter your first name.
+    //                 </div>
+    //               </div>
+    //             </li>
+    //             <li>
+    //               <div className="input-text">
+    //                 <input
+    //                   required="required"
+    //                   type="text"
+    //                   id="SideContactV1Form_ITM0_LastName"
+    //                   className="ui-cms-input"
+    //                   name="SideContactV1Form$ITM0$LastName"
+    //                   defaultValue=""
+    //                   placeholder="Last Name"
+    //                 />
+    //                 <div
+    //                   className="validation"
+    //                   htmlFor="SideContactV1Form_ITM0_LastName"
+    //                   data-type="valueMissing"
+    //                 >
+    //                   Please enter your last name.
+    //                 </div>
+    //               </div>
+    //             </li>
+    //             <li>
+    //               <div className="input-text">
+    //                 <input
+    //                   id="SideContactV1Form_ITM0_Phone"
+    //                   type="tel"
+    //                   className="phone-mask ui-cms-input"
+    //                   required="required"
+    //                   name="SideContactV1Form$ITM0$Phone"
+    //                   defaultValue=""
+    //                   placeholder="Phone"
+    //                 />
+    //                 <div
+    //                   className="validation"
+    //                   htmlFor="SideContactV1Form_ITM0_Phone"
+    //                   data-type="valueMissing"
+    //                 >
+    //                   Please enter your phone number.
+    //                 </div>
+    //                 <div
+    //                   className="validation"
+    //                   htmlFor="SideContactV1Form_ITM0_Phone"
+    //                   data-type="typeMismatch"
+    //                 >
+    //                   This isn't a valid phone number.
+    //                 </div>
+    //               </div>
+    //             </li>
+    //             <li>
+    //               <div className="input-text">
+    //                 <input
+    //                   required="required"
+    //                   type="email"
+    //                   id="SideContactV1Form_ITM0_EmailAddress"
+    //                   className="ui-cms-input"
+    //                   name="SideContactV1Form$ITM0$EmailAddress"
+    //                   defaultValue=""
+    //                   placeholder="Email"
+    //                 />
+    //                 <div
+    //                   className="validation"
+    //                   htmlFor="SideContactV1Form_ITM0_EmailAddress"
+    //                   data-type="valueMissing"
+    //                 >
+    //                   Please enter your email address.
+    //                 </div>
+    //                 <div
+    //                   className="validation"
+    //                   htmlFor="SideContactV1Form_ITM0_EmailAddress"
+    //                   data-type="typeMismatch"
+    //                 >
+    //                   This isn't a valid email address.
+    //                 </div>
+    //               </div>
+    //             </li>
+    //             <li className="select">
+    //               <div className="input-text">
+    //                 <select
+    //                   id="SideContactV1Form_ITM0_LeadTypeID"
+    //                   required="required"
+    //                   className="ui-cms-select ui-cms-input"
+    //                   name="SideContactV1Form$ITM0$LeadTypeID"
+    //                 >
+    //                   <option value="" disabled selected>Are you a new customer?</option>
+    //                   <option value={1}>
+    //                     Yes, I am a potential new customer
+    //                   </option>
+    //                   <option value={11}>
+    //                     No, I'm a current existing customer
+    //                   </option>
+    //                   <option value={13}>I'm neither.</option>
+    //                 </select>
+    //                 <dropDownIcon className="site-arrow" />
+    //                 <div
+    //                   className="validation"
+    //                   htmlFor="SideContactV1Form_ITM0_LeadTypeID"
+    //                   data-type="valueMissing"
+    //                 >
+    //                   Please make a selection.
+    //                 </div>
+    //               </div>
+    //             </li>
+    //             <li className="message">
+    //               <div className="input-text">
+    //                 <textarea
+    //                   required="required"
+    //                   type="text"
+    //                   id="SideContactV1Form_ITM0_Message"
+    //                   className="ui-cms-input"
+    //                   name="SideContactV1Form$ITM0$Message"
+    //                   defaultValue={""}
+    //                   placeholder="Message"
+    //                 />
+    //                 <div
+    //                   className="validation"
+    //                   htmlFor="SideContactV1Form_ITM0_Message"
+    //                   data-type="valueMissing"
+    //                 >
+    //                   Please enter a message.
+    //                 </div>
+    //               </div>
+    //             </li>
+    //           </ul>
+    //         </fieldset>
+    //         <input
+    //           id="SideContactV1Form_ITM0_FFD6"
+    //           type="hidden"
+    //           className="ui-cms-input"
+    //           name="SideContactV1Form$ITM0$FFD6"
+    //           defaultValue=""
+    //           data-item="i"
+    //           data-key=""
+    //         />
+    //         <div className="text-align" data-item="i" data-key="">
+    //           <button
+    //             className="btn v1"
+    //             type="submit"
+    //             id="SideContactV1Form_ITM0_ctl08"
+    //             name="SideContactV1Form$ITM0$ctl08"
+    //           >
+    //             Send
+    //           </button>
+    //         </div>
+    //       </div>
+    //     ) : (
+    //       <h1>Form Submitted</h1>
+    //     )}
+    //   </aside>
+    // </form>
   );
 }
 

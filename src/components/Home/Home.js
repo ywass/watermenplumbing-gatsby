@@ -31,6 +31,9 @@ import FullyStockIcon from "../../images/svg/fullyStock.svg";
 import StarIcon from "../../images/svg/star.svg";
 import { Link } from "gatsby";
 
+import JotformEmbed from 'react-jotform-embed';
+
+
 const onSubmit = async (event, setSubmitText) => {
   event.preventDefault();
   setSubmitText("Submitting ...");
@@ -166,7 +169,101 @@ function Home() {
         </picture>
 
         <div className="box" id="PanelGroupV5Zone">
-          <form
+
+        <section
+              className="contact v6 light-bg bg-box-unlike col-50-50 items-spaced text-left vertical-top"
+              id="ContactV6"
+              data-onvisible="show"
+            >
+              <div className="main">
+                <div className="flex-auto-responsive-margined-block-1024 align-items item-widths item-spacing flex-direction">
+                  <div
+                    className="text-align vertical-padding-small block-no-pad"
+                    data-content="true"
+                  >
+                    <header
+                      className="no-pad bottom-margin-tiny"
+                      id="ContactV6ContentHeader"
+                    >
+                      <h1>Boca Raton Plumbers</h1>
+                    </header>
+                    <div
+                      className="content-style"
+                      id="ContactV6ContentMainContent"
+                    >
+                      <h2>
+                        Providing Elite Plumbing Service in Davie, Hallandale
+                        Beach, Hollywood, and Southern Florida Since 2015
+                      </h2>
+                      <p>
+                        The team at
+                        <Link to="/about-us"> Watermen Plumbing</Link> has been
+                        serving customers in South Florida since 2015. We are
+                        proud to serve Boca Raton, Hallandale Beach, Davie, and
+                        beyond, with honest and professional
+                        <Link to="/plumbing-services">
+                          {" "}
+                          plumbing services
+                        </Link>{" "}
+                        for homeowners and
+                        <Link to="/plumbing-services/commercial-plumbing">
+                          {" "}
+                          businesses
+                        </Link>{" "}
+                        alike. We provide a high level of customer service and
+                        expertise-driven solutions. Our team is working to prove
+                        we are the best plumbing professionals in Boca Raton,
+                        and we know you will agree with us after we’ve solved
+                        all your plumbing headaches. We believe that in order to
+                        be the best, you have to always provide the best
+                        service! So, whether it’s customer service,
+                        <Link to="/plumbing-services/toilets">
+                          {" "}
+                          toilet repairs
+                        </Link>
+                        , water heater installations, or general maintenance
+                        calls, we will always give you our best.
+                      </p>
+                      <p>
+                        <b>
+                          We offer comprehensive plumbing services for customers
+                          in{" "}
+                        </b>
+                        <strong>Boca Raton, Davie,</strong>
+                        <strong>Hallandale Beach, </strong>
+                        <b>
+                          and surrounding communities. Call in the experts from
+                          Watermen Plumbing Inc. at{" "}
+                          <span
+                            id="ContactV6_1"
+                            data-process="replace"
+                            data-replace="{F:P:Cookie:PPCP1/(954)%20800-6364}"
+                          >
+                            (954) 800-6364
+                          </span>{" "}
+                          or contact us online. Be sure to ask about our
+                          financing options!
+                        </b>
+                      </p>
+                    </div>
+                    <div id="ContactV6BtnCon"></div>
+                  </div>
+                  <div className="form_blk bg-box border-radius side-padding vertical-padding-small box-flair">
+                  <div className="flair-border contact_form">
+                        <span className="flair-1" />
+                        <span className="flair-2" />
+                        <header className="text-center" id="ContactV6Header">
+                          <h4>Contact Us Today</h4>
+                          <img className="header-flair" src={tltBdr2Img} />
+                        </header>
+                  <JotformEmbed src="https://form.jotform.com/232918068868472" />
+                  </div>
+                    </div>
+                  </div>
+                  </div>
+            </section>
+
+        {/*    <form
             name="contact home"
             data-netlify="true"
             method="post"
@@ -266,6 +363,9 @@ function Home() {
                           <h4>Contact Us Today</h4>
                           <img className="header-flair" src={tltBdr2Img} />
                         </header>
+                        
+                        <JotformEmbed src="https://form.jotform.com/jsform/232918068868472" />
+
                         <div id="ContactV6Form" className="ui-repeater">
                           <fieldset data-item="i" data-key="">
                             <ul className="flex-spaced-between-wrap-block-500">
@@ -279,13 +379,7 @@ function Home() {
                                     name="ContactV6Form$ITM0$FirstName"
                                     defaultValue=""
                                     placeholder="First Name"
-                                  />
-                                 {/*  <label
-                                    className="hide"
-                                    htmlFor="ContactV6Form_ITM0_FirstName"
-                                  >
-                                    First Name
-                                  </label> */}
+                                  />                               
                                   <div
                                     className="validation"
                                     htmlFor="ContactV6Form_ITM0_FirstName"
@@ -306,12 +400,7 @@ function Home() {
                                     defaultValue=""
                                     placeholder="Last Name"
                                   />
-                                 {/*  <label
-                                    className="hide"
-                                    htmlFor="ContactV6Form_ITM0_LastName"
-                                  >
-                                    Last Name
-                                  </label> */}
+                                 
                                   <div
                                     className="validation"
                                     htmlFor="ContactV6Form_ITM0_LastName"
@@ -326,19 +415,14 @@ function Home() {
                                   <input
                                     id="ContactV6Form_ITM0_Phone"
                                     type="tel"
-                                    //(123) 456-7890
+                                   
                                     className="phone-mask ui-cms-input"
                                     required="required"
                                     name="ContactV6Form$ITM0$Phone"
                                     defaultValue=""
                                     placeholder="Phone"
                                   />
-                                 {/*  <label
-                                    className="hide"
-                                    htmlFor="ContactV6Form_ITM0_Phone"
-                                  >
-                                    Phone
-                                  </label> */}
+                                
                                   <div
                                     className="validation"
                                     htmlFor="ContactV6Form_ITM0_Phone"
@@ -366,12 +450,7 @@ function Home() {
                                     defaultValue=""
                                     placeholder="Email"
                                   />
-                                 {/*  <label
-                                    className="hide"
-                                    htmlFor="ContactV6Form_ITM0_EmailAddress"
-                                  >
-                                    Email
-                                  </label> */}
+                                 
                                   <div
                                     className="validation"
                                     htmlFor="ContactV6Form_ITM0_EmailAddress"
@@ -406,12 +485,7 @@ function Home() {
                                     </option>
                                     <option value={13}>I'm neither.</option>
                                   </select>
-                                 {/*  <label
-                                    className="hide"
-                                    htmlFor="ContactV6Form_ITM0_LeadTypeID"
-                                  >
-                                    Are you a new customer?
-                                  </label> */}
+                               
                                   <svg className="site-arrow">
                                     <use href="includes/flair.svg#arrow-down" />
                                   </svg>
@@ -434,13 +508,7 @@ function Home() {
                                     name="ContactV6Form$ITM0$Message"
                                     defaultValue={""}
                                     placeholder="Message"
-                                  />
-                                {/*   <label
-                                    className="hide"
-                                    htmlFor="ContactV6Form_ITM0_Message"
-                                  >
-                                    Message
-                                  </label> */}
+                                  />                              
                                   <div
                                     className="validation"
                                     htmlFor="ContactV6Form_ITM0_Message"
@@ -486,7 +554,7 @@ function Home() {
                 </div>
               </div>
             </section>
-          </form>
+          </form>*/}
 
           <section
             className="services v9 light-bg text-center items-overlapped col-60-40 vertical-middle bg-image bg-box-unlike"

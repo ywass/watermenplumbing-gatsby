@@ -3,6 +3,7 @@ import "../../style/contactUs.css";
 import map from "../../images/map-img.jpg";
 import tltBdrImg from "../../images/tlt-bdr.png";
 import tltBdr2Img from "../../images/tlt-bdr2.png";
+import JotformEmbed from 'react-jotform-embed';
 
 const onSubmit = async (event, setSubmitText) => {
   event.preventDefault();
@@ -49,7 +50,108 @@ function ContactUsPage() {
   };
   return (
     <main id="MainZone">
-      <form
+
+      <section
+        className="contact-system v1 light-bg text-center bg-box-like col-50-50 items-touching"
+        id="ContactSystemV1"
+        data-onvisible="show"
+      >
+        <picture
+          className="img-bg bg-position"
+          role="presentation"
+          data-role="picture"
+        >
+          <source
+            media="(max-width: 500px)"
+            srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            data-src="/assets/contact/contact-system-v1-bg-mobile.jpg"
+          />
+          <source
+            media="(max-width: 800px)"
+            srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            data-src="/assets/contact/contact-system-v1-bg-tablet.jpg"
+          />
+          <img
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            alt=""
+            data-src="/assets/contact/contact-system-v1-bg.jpg"
+          />
+        </picture>
+        <div className="main thin text-align">
+          <header
+            className="no-pad bottom-margin-tiny center-800"
+            id="ContactSystemV1Header"
+          >
+            <h1>Contact Watermen Plumbing Today!</h1>
+            <img src={tltBdr2Img} className="header-flair" />
+          </header>
+          <div
+            className="content-style relative bottom-margin"
+            id="ContactSystemV1Content"
+          >
+            At Watermen Plumbing Inc., we are proud to offer our customers in
+            Hallandale Beach, Davie, Boca Raton, and beyond, with high-quality
+            plumbing services they can trust. Selecting a plumber is easy when
+            you’ve experienced the work ethic and commitment to excellence
+            exhibited by the talented team of professionals at Watermen
+            Plumbing Inc. We work hard to offer our customers the products and
+            services they need when they need them.
+          </div>
+        </div>
+        <div className="main top-margin-small">
+          <div className="flex-auto-responsive-margined flex-direction align-items item-widths item-spacing">
+            <div
+              className="bg-box side-padding-small vertical-padding-small under-item border-radius ui-repeater"
+              id="ContactSystemV1Form"
+            >
+               <div className="flair-border contact_form" data-item="i" data-key="">
+               <JotformEmbed src="https://form.jotform.com/232918068868472" />
+               </div>
+               </div>
+                <input
+                  type="hidden"
+                  className="ui-cms-input"
+                  id="ContactSystemV1Map__edit_"
+                  name="ContactSystemV1Map$_edit_"
+                  defaultValue=""
+                />
+                <input
+                  type="hidden"
+                  className="ui-cms-input"
+                  id="ContactSystemV1Map__command_"
+                  name="ContactSystemV1Map$_command_"
+                  defaultValue=""
+                />
+                <div
+                  className="map-container over-item relative border-radius ui-repeater ui-ajax"
+                  id="ContactSystemV1Map"
+                  data-ajaxreplace="true"
+                >
+                  <div
+                    className="imap"
+                    data-map='{"draggable":true,"scrollwheel":false,"zoomControl":true}'
+                    data-minlat="25.9935053"
+                    data-maxlat="25.9935053"
+                    data-minlng="-80.1695817"
+                    data-maxlng="-80.1695817"
+                  >
+                    <iframe
+                      frameborder="0"
+                      className=" w-full h-96 md:h-[650px] md:ml-5"
+                      scrolling="no"
+                      src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Watermen%20Plumbing,%2022485%20Arcadia%20Ct,%20Boca%20Raton,%20FL%2033433,%20United%20States+(Watermen%20Plumbing)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                      title="  8171 Yonge Street Suite 321 Thornhill, ON L3T 2C6."
+                      aria-label="  8171 Yonge Street Suite 321 Thornhill, ON L3T 2C6."
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+
+           
+          </div>
+        </div>
+      </section>
+      {/* <form
         name="contact contact-us"
         data-netlify="true"
         method="post"
@@ -131,13 +233,7 @@ function ContactUsPage() {
                                 name="ContactSystemV1Form$ITM0$FirstName"
                                 defaultValue=""
                                 placeholder="First Name"
-                              />
-                             {/*  <label
-                                className="hide"
-                                htmlFor="ContactSystemV1Form_ITM0_FirstName"
-                              >
-                                First Name
-                              </label> */}
+                              />                             
                               <div
                                 className="validation"
                                 htmlFor="ContactSystemV1Form_ITM0_FirstName"
@@ -157,13 +253,7 @@ function ContactUsPage() {
                                 name="ContactSystemV1Form$ITM0$LastName"
                                 defaultValue=""
                                 placeholder="Last Name"
-                              />
-                              {/* <label
-                                className="hide"
-                                htmlFor="ContactSystemV1Form_ITM0_LastName"
-                              >
-                                Last Name
-                              </label> */}
+                              />                              
                               <div
                                 className="validation"
                                 htmlFor="ContactSystemV1Form_ITM0_LastName"
@@ -183,10 +273,7 @@ function ContactUsPage() {
                                 name="ContactSystemV1Form$ITM0$Phone"
                                 defaultValue=""
                                 placeholder="Phone"
-                              />
-                              {/* <label htmlFor="ContactSystemV1Form_ITM0_Phone">
-                                Phone
-                              </label> */}
+                              />                              
                               <div
                                 className="validation"
                                 htmlFor="ContactSystemV1Form_ITM0_Phone"
@@ -213,13 +300,7 @@ function ContactUsPage() {
                                 name="ContactSystemV1Form$ITM0$EmailAddress"
                                 defaultValue=""
                                 placeholder="Email"
-                              />
-                              {/* <label
-                                className="hide"
-                                htmlFor="ContactSystemV1Form_ITM0_EmailAddress"
-                              >
-                                Email
-                              </label> */}
+                              />                             
                               <div
                                 className="validation"
                                 htmlFor="ContactSystemV1Form_ITM0_EmailAddress"
@@ -252,13 +333,7 @@ function ContactUsPage() {
                                   No, I'm a current existing customer
                                 </option>
                                 <option value={13}>I'm neither.</option>
-                              </select>
-                              {/* <label
-                                className="hide"
-                                htmlFor="ContactSystemV1Form_ITM0_LeadTypeID"
-                              >
-                                Are you a new customer?
-                              </label> */}
+                              </select>                              
                               <svg className="site-arrow">
                                 <use href="../includes/flair.svg#arrow-down" />
                               </svg>
@@ -281,13 +356,7 @@ function ContactUsPage() {
                                 name="ContactSystemV1Form$ITM0$Message"
                                 defaultValue={""}
                                 placeholder="Message"
-                              />
-                              {/* <label
-                                className="hide"
-                                htmlFor="ContactSystemV1Form_ITM0_Message"
-                              >
-                                Message
-                              </label> */}
+                              />                              
                               <div
                                 className="validation"
                                 htmlFor="ContactSystemV1Form_ITM0_Message"
@@ -365,7 +434,7 @@ function ContactUsPage() {
             </div>
           </div>
         </section>
-      </form>
+      </form> */}
     </main>
   );
 }

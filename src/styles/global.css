@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+p.phone a{font-size: 1.2rem;font-weight: 700; cursor: pointer;}
+
+.contact_form iframe{height: 550px !important;}
+.form_blk.side-padding{padding-left: 1.5% !important;padding-right: 1.5% !important;}
+
+.sidecontact_form iframe{height: 720px !important;}
+
+@media screen and (min-width:639px) and (max-width:1024px){
+    .sidecontact_form iframe{height: 550px !important;}
+}
+@media screen and (max-width:624px){
+.contact_form li.form-line{margin: 0 0 20px 0 !important;}
+.contact_form iframe{height: 720px !important;}
+.contact_form.flair-border{padding: 0 !important;}
+}
+
