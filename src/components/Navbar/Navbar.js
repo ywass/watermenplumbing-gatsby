@@ -106,13 +106,13 @@ function Navbar() {
      
         <Link className="top-logo fit flex-middle center-800" to="/">
           <img
-            className="dark-logo"
+            className="dark-logo mb-0"
             alt="Watermen Plumbing"
             title="Watermen Plumbing"
             src={LogoImg}
           />
           <img
-            className="light-logo"
+            className="light-logo mb-0"
             alt="Watermen Plumbing"
             title="Watermen Plumbing"
             src={LogoImg2}
