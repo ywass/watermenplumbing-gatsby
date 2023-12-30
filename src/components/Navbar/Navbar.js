@@ -488,7 +488,7 @@ function Navbar() {
           >
             <Link
               className="btn v1"
-              to="https://book.housecallpro.com/book/Watermen-Plumbing-Inc/373bf5a05fc149db80dc799b751841fe"
+              to="https://book.housecallpro.com/book/Watermen-Plumbing-Inc/373bf5a05fc149db80dc799b751841fe?v2=true"
               target="_blank"
               style={{ textDecoration: 'none' }}
             >
