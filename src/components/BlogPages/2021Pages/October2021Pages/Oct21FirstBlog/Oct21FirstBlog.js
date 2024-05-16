@@ -237,8 +237,8 @@ function Oct21FirstBlog() {
               <b>contact us online</b>
             </Link>
             <b> or call </b>
-            <Link to="tel:(954)%20800-6364">
-              <b>(954) 800-6364</b>
+            <Link to="tel:(954)%20997-5797">
+              <b>(954) 997-5797</b>
             </Link>
             <b> today.</b>
           </p>

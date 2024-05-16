@@ -83,7 +83,7 @@ function PlantationArea() {
                     customer service representatives are available to answer any
                     questions you might have about our services or to schedule
                     service for you. You can reach one of our representatives by
-                    calling 954-800-6364.
+                    calling 954-997-5797.
                   </p>
                   <p>
                     <b>

@@ -75,7 +75,7 @@ function PrivacyPolicyPage() {
                   you should contact us immediately via telephone at{" "}
                 </strong>{" "}
                 <strong>
-                  (954) 800-6364 or via mail Attn: Privacy Officer, 22485
+                  (954) 997-5797 or via mail Attn: Privacy Officer, 22485
                   Arcadia Court, Boca Raton, FL 33433.
                 </strong>
               </p>

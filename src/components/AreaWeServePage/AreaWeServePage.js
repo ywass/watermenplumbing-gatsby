@@ -229,7 +229,7 @@ function AreaWeServePage() {
                         <b> Contact us </b>
                       </Link>
                       <b>online, or give us a call:</b>
-                      <b>(954) 800-6364!</b>
+                      <b>(954) 997-5797!</b>
                     </p>
                   </div>
                 </div>

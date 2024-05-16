@@ -45,17 +45,17 @@ function Footer() {
           </div>
           <Link
             className="phone-link phone-number-style"
-            to="tel:954-800-6364"
+            to="tel:954-997-5797"
             id="FooterV1_1"
-            data-replace-href="tel:{F:P3:Cookie:PPCP1/954-800-6364}"
+            data-replace-href="tel:{F:P3:Cookie:PPCP1/954-997-5797}"
           >
             <span itemProp="telephone">
               <span
                 id="FooterV1_2"
                 data-process="replace"
-                data-replace="{F:P3:Cookie:PPCP1/954-800-6364}"
+                data-replace="{F:P3:Cookie:PPCP1/954-997-5797}"
               >
-                954-800-6364
+                954-997-5797
               </span>
             </span>
           </Link>
