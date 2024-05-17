@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: ywass/watermenplumbing-gatsby
+  name: git-gateway
   branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
