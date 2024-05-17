@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: ywass/watermenplumbing-gatsby
-  branch: branch-name
+  branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
