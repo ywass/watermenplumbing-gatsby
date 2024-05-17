@@ -16,7 +16,12 @@ module.exports = {
   },
  
   plugins: [
-  
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        enableIdentityWidget: true,
+      },
+    },
       `gatsby-plugin-image`,
       `gatsby-plugin-sharp`,
       `gatsby-transformer-sharp`,
@@ -53,6 +58,7 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-postcss'
+    'gatsby-plugin-postcss',
+    `gatsby-plugin-netlify`
   ],
 }

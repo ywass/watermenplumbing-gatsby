@@ -1,0 +1,119 @@
+backend:
+  name: git-gateway
+  branch: master
+  commit_messages:
+    create: "Create {{collection}} “{{slug}}”"
+    update: "Update {{collection}} “{{slug}}”"
+    delete: "Delete {{collection}} “{{slug}}”"
+    uploadMedia: "[skip ci] Upload “{{path}}”"
+    deleteMedia: "[skip ci] Delete “{{path}}”"
+
+local_backend: true
+media_folder: static/images
+public_folder: /images
+
+collections:   
+  - label: "Home Page"
+    name: "homepage"
+    files:    
+    - label: "Home Page"
+      name: "home"
+      file:  "src/data/pages/home/index.json"   
+      media_folder: ''
+      public_folder: ''         
+      fields:
+        - {
+            label: "Template Key",
+            name: "templateKey",
+            widget: "hidden",
+            default: "home",
+          }
+        - { label: Title, name: title, widget: string, required: false } 
+        - { label: Slug, name: slug, widget: string, required: false }   
+        - { label: Content, name: content, widget: markdown, required: false }  
+        - {
+            label: Services Details,
+            name: servicesdetails,
+            widget: list,
+            fields:
+              [
+                { label: Heading, name: heading, widget: string, required: false },
+                { label: Content, name: content, widget: text, required: false },
+                { label: Image, name: serviceImage, widget: image, required: false}
+              ],
+          }  
+        - label: Meta Data
+          name: meta
+          widget: "object"
+          fields:
+            - {label: Seo Title, name: seoTitle, widget: string, required: false}
+            - {label: Seo Description, name: seoDescription, widget: text, required: false}   
+  - name: "pages"
+    label: "Pages"
+    folder: "src/data/pages"
+    media_folder: ''
+    public_folder: ''    
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "pages",
+        }
+      - { label: Title, name: title, widget: string, required: false } 
+      - { label: Slug, name: slug, widget: string, required: false }   
+      - { label: Content, name: content, widget: markdown, required: false }        
+      - label: Meta Data
+        name: meta
+        widget: "object"
+        fields:
+          - {label: Seo Title, name: seoTitle, widget: string, required: false}
+          - {label: Seo Description, name: seoDescription, widget: text, required: false}   
+  - name: "services"
+    label: "Services"
+    folder: "src/data/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "services",
+        }
+      - { label: Title, name: title, widget: string, required: false } 
+      - { label: Slug, name: slug, widget: string, required: false }   
+      - { label: Featured Image, name: featuredimage, widget: image }
+      - { label: Content, name: content, widget: markdown, required: false }    
+      - label: Meta Data
+        name: meta
+        widget: "object"
+        fields:
+          - {label: Seo Title, name: seoTitle, widget: string, required: false}
+          - {label: Seo Description, name: seoDescription, widget: text, required: false} 
+  - name: "city-pages"
+    label: "City Pages"
+    folder: "src/data/city-pages"
+    media_folder: ''
+    public_folder: ''    
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "city-pages",
+        }
+      - { label: Title, name: title, widget: string, required: false }  
+      - { label: Content, name: content, widget: markdown, required: false } 
+      - { label: Map, name: map, widget: text, required: false }   
+      - label: Meta Data
+        name: meta
+        widget: "object"
+        fields:
+          - {label: Seo Title, name: seoTitle, widget: string, required: false}
+          - {label: Seo Description, name: seoDescription, widget: text, required: false}    
+      
