@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -29,25 +29,13 @@ collections:
             default: "home",
           }
         - { label: Title, name: title, widget: string, required: false } 
-        - { label: Slug, name: slug, widget: string, required: false }   
-        - { label: Content, name: content, widget: markdown, required: false }  
-        - {
-            label: Services Details,
-            name: servicesdetails,
-            widget: list,
-            fields:
-              [
-                { label: Heading, name: heading, widget: string, required: false },
-                { label: Content, name: content, widget: text, required: false },
-                { label: Image, name: serviceImage, widget: image, required: false}
-              ],
-          }  
         - label: Meta Data
           name: meta
           widget: "object"
           fields:
             - {label: Seo Title, name: seoTitle, widget: string, required: false}
-            - {label: Seo Description, name: seoDescription, widget: text, required: false}   
+            - {label: Seo Description, name: seoDescription, widget: text, required: false} 
+            - {label: Seo Keywords, name: seoKeywords, widget: text, required: false}  
   - name: "pages"
     label: "Pages"
     folder: "src/data/pages"
@@ -70,32 +58,11 @@ collections:
         widget: "object"
         fields:
           - {label: Seo Title, name: seoTitle, widget: string, required: false}
-          - {label: Seo Description, name: seoDescription, widget: text, required: false}   
-  - name: "services"
-    label: "Services"
-    folder: "src/data/services"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "services",
-        }
-      - { label: Title, name: title, widget: string, required: false } 
-      - { label: Slug, name: slug, widget: string, required: false }   
-      - { label: Featured Image, name: featuredimage, widget: image }
-      - { label: Content, name: content, widget: markdown, required: false }    
-      - label: Meta Data
-        name: meta
-        widget: "object"
-        fields:
-          - {label: Seo Title, name: seoTitle, widget: string, required: false}
           - {label: Seo Description, name: seoDescription, widget: text, required: false} 
-  - name: "city-pages"
-    label: "City Pages"
-    folder: "src/data/city-pages"
+          - {label: Seo Keywords, name: seoKeywords, widget: text, required: false} 
+  - name: "areasweservepages"
+    label: "Areas We Serve Pages"
+    folder: "src/data/pages/areasweserve/"
     media_folder: ''
     public_folder: ''    
     create: true
@@ -105,15 +72,109 @@ collections:
           label: "Template Key",
           name: "templateKey",
           widget: "hidden",
-          default: "city-pages",
+          default: "areasweservepages",
         }
-      - { label: Title, name: title, widget: string, required: false }  
-      - { label: Content, name: content, widget: markdown, required: false } 
-      - { label: Map, name: map, widget: text, required: false }   
+      - { label: Title, name: title, widget: string, required: false } 
+      - { label: Slug, name: slug, widget: string, required: false }         
       - label: Meta Data
         name: meta
         widget: "object"
         fields:
           - {label: Seo Title, name: seoTitle, widget: string, required: false}
-          - {label: Seo Description, name: seoDescription, widget: text, required: false}    
+          - {label: Seo Description, name: seoDescription, widget: text, required: false} 
+          - {label: Seo Keywords, name: seoKeywords, widget: text, required: false} 
+  - name: "plumbingservices"
+    label: "Plumbing Services"
+    folder: "src/data/pages/plumbingservices/"
+    media_folder: ''
+    public_folder: ''    
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "plumbingservices",
+        }
+      - { label: Title, name: title, widget: string, required: false } 
+      - { label: Slug, name: slug, widget: string, required: false }         
+      - label: Meta Data
+        name: meta
+        widget: "object"
+        fields:
+          - {label: Seo Title, name: seoTitle, widget: string, required: false}
+          - {label: Seo Description, name: seoDescription, widget: text, required: false} 
+          - {label: Seo Keywords, name: seoKeywords, widget: text, required: false} 
+  - name: "waterfilterproducts"
+    label: "Water Filter Products"
+    folder: "src/data/pages/waterfilterproducts/"
+    media_folder: ''
+    public_folder: ''    
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "waterfilterproducts",
+        }
+      - { label: Title, name: title, widget: string, required: false } 
+      - { label: Slug, name: slug, widget: string, required: false }         
+      - label: Meta Data
+        name: meta
+        widget: "object"
+        fields:
+          - {label: Seo Title, name: seoTitle, widget: string, required: false}
+          - {label: Seo Description, name: seoDescription, widget: text, required: false} 
+          - {label: Seo Keywords, name: seoKeywords, widget: text, required: false}
+  - name: "blog"
+    label: "Blog"
+    folder: "src/data/blog"
+    media_folder: ''
+    public_folder: ''    
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "blog-post",
+        }
+      - { label: Title, name: title, widget: string }  
+      - { label: Slug, name: slug, widget: string }
+      - label: 'Category'
+        name: 'category'
+        widget: 'relation'
+        collection: 'blogcategory'
+        search_fields: ['categoryname']
+        value_field: 'categoryname'
+        display_fields: ['{{categoryname}}']
+        multiple: true
+      - label: Meta Data
+        name: meta
+        widget: "object"
+        fields:
+          - {label: Seo Title, name: seoTitle, widget: string}
+          - {label: Seo Description, name: seoDescription, widget: string}  
+          - {label: Seo Keywords, name: seoKeywords, widget: text, required: false}    
+      
+         
+  - name: "blogcategory"
+    label: "Category"
+    folder: "src/data/blogcategory"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+       - { label: Name, name: categoryname, widget: string }
+       - label: Meta Data
+         name: meta
+         widget: "object"
+         fields:
+            - {label: Seo Title, name: seoTitle, widget: string}
+            - {label: Seo Description, name: seoDescription, widget: string}  
+            - {label: Seo Keywords, name: seoKeywords, widget: text, required: false}    
+ 
       
