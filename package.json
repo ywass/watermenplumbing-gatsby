@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "gatsby": "^5.7.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-image": "^3.7.0",
@@ -16,6 +17,7 @@
     "gatsby-source-filesystem": "^5.7.0",
     "gatsby-source-prismic": "^6.0.1",
     "gatsby-transformer-sharp": "^5.7.0",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-jotform-embed": "^1.1.3"
