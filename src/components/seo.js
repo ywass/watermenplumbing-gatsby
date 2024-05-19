@@ -8,9 +8,7 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, title, socialImage, children }) {
-
-  console.log('socialImage',socialImage)
+function Seo({ description, title, children }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -26,22 +24,18 @@ function Seo({ description, title, socialImage, children }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = title ? title : site.siteMetadata?.title
+  const defaultTitle = site.siteMetadata?.title
 
   return (
     <>
-      <title>{defaultTitle}</title>
-       <meta name="description" content={metaDescription} />
-       <meta name="image" content={socialImage} />
-       <meta name="og:locale" content={`en`} />
-       <meta name="og:title" content={defaultTitle} />
-       <meta name="og:description" content={metaDescription} />
-       <meta name="og:type" content="website" />
-       <meta name="og:image" content={socialImage} />
-       <meta name="twitter:card" content="summary" />
-       <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
-       <meta name="twitter:description" content={metaDescription} />
-       <meta name="twitter:image" content={socialImage} />
+      <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
+      <meta name="description" content={metaDescription} />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={metaDescription} />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
+      <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
       {children}
     </>
