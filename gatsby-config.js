@@ -8,7 +8,6 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  THE_FLAG: false,
   DEV_SSR: false,
   siteMetadata: {
     title: `Watermen Plumbing`,
