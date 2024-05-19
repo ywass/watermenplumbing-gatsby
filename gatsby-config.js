@@ -1,9 +1,6 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
-
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
@@ -57,9 +54,9 @@ module.exports = {
     {
       resolve: 'gatsby-source-prismic',
       options: {
-        repositoryName: `watermenplumbing`,
-        accessToken: `MC5aa2xlRWhFQUFDWUF0c3cz.77-9VO-_vVVJ77-977-9Su-_ve-_vXLvv70477-9PBfvv71rHe-_vXfvv701QTsZ77-9XDHvv73vv71b`,
-        customTypesApiToken: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoibWFjaGluZTJtYWNoaW5lIiwiZGJpZCI6IndhdGVybWVucGx1bWJpbmctMTc2MWVhOTItZDRmMC00NjNkLTk5ZDMtYjhiZjRiYWQ1MDg3XzUiLCJkYXRlIjoxNzE2MDg0Mjk3LCJkb21haW4iOiJ3YXRlcm1lbnBsdW1iaW5nIiwiYXBwTmFtZSI6IkN1c3RvbUFwaVRva2VuIiwiaWF0IjoxNzE2MDg0Mjk3fQ.uOvMPm6h-lz77RSJm2zpH_rjKYjVcVPXSnVIDGgNL24`
+        repositoryName: process.env.GATSBY_PRISMIC_REPO_NAME,
+        accessToken: process.env.PRISMIC_ACCESS_TOKEN,
+        customTypesApiToken: process.env.PRISMIC_CUSTOM_TYPES_API_TOKEN
       },
     },
   ],
