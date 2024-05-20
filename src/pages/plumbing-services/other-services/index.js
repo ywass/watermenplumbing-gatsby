@@ -15,8 +15,8 @@ export default index
 
 export const Head = (props) => {
   let socialImage =  '';
-  if(props.data.PageData.data.seo_social_image.url){
-    const socialImageNew = props.data.PageData.data.seo_social_image.url.split('?');
+  if(props?.data?.PageData?.data?.seo_social_image?.url){
+    const socialImageNew = props?.data?.PageData?.data?.seo_social_image?.url.split('?');
     socialImage = socialImageNew[0]
   }  
   return(
