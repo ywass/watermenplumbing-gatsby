@@ -20,7 +20,7 @@ export const Head = (props) => {
     socialImage = socialImageNew[0]
   }  
   return(
-    <Seo title={props.data.PageData.data.seo_title} description={props.data.PageData.data.seo_description} socialImage={socialImage} />
+    <Seo title={props.data.PageData.data.seo_title} description={props.data.PageData.data.seo_description} socialImage={socialImage && socialImage} />
   )
 }
 
