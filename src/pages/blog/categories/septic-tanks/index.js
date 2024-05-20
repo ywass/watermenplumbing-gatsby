@@ -17,10 +17,10 @@ export const Head = (props) => {
   let socialImage =  '';
   if(props?.data?.PageData?.data?.seo_social_image?.url){
     const socialImageNew = props?.data?.PageData?.data?.seo_social_image?.url.split('?');
-    socialImage = socialImageNew[0]
+    socialImage = socialImageNew && socialImageNew[0]
   }  
   return(
-    <Seo title={props.data.PageData.data.seo_title} description={props.data.PageData.data.seo_description} socialImage={socialImage && socialImage} />
+    <Seo title={props.data.PageData.data.seo_title} description={props.data.PageData.data.seo_description} socialImage={socialImage ? socialImage : ''} />
   )
 }
 
