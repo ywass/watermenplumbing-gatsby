@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from "gatsby"
 import BrowardArea from '../../../../components/AreaWeServePage/BrowardArea/BrowardArea'
 import Layout from '../../../../components/layout'
 
