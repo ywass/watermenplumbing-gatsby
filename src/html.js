@@ -11,8 +11,8 @@ export default function HTML(props) {
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
 
         {props.headComponents}
-        <Script id="gtag-id" src="https://www.googletagmanager.com/gtag/js?id=G-83CCXZ2TZ6" strategy="idle"/>
-        <Script id="gtag-config" strategy="idle" forward={[`gtag`]}>
+        <script id="gtag-id" src="https://www.googletagmanager.com/gtag/js?id=G-83CCXZ2TZ6"></script>
+        <Script id="gtag-config" strategy="off-main-thread" forward={[`gtag`]}>
         {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
