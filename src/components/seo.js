@@ -10,7 +10,6 @@ import { useStaticQuery, graphql } from "gatsby"
 
 function Seo({ description, title, socialImage, children }) {
 
-  console.log('socialImage',socialImage)
   const { site } = useStaticQuery(
     graphql`
       query {

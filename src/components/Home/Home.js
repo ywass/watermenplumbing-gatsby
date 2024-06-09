@@ -130,7 +130,6 @@ function Home() {
                 to="/plumbing-services"
               >
                 <KnowledgeIcon />
-
                 <span className="title-font">Plumbing Services</span>
               </Link>
             </li>
@@ -673,6 +672,8 @@ function Home() {
               </div>
             </div>
           </section>
+
+          
           <section
             className="values v4 alt light-bg bg-box-unlike large-padding vertical-middle col-50-50 items-spaced text-left bg-image flow-reverse"
             id="ValuesV4Alt"
@@ -778,6 +779,8 @@ function Home() {
                     </li>
                   </ul>
                 </div>
+
+
                 <div className="relative flex-column-end">
                   <picture
                     className="img pad-height- bottom-margin-negative bg-position box-shadow border-radius"

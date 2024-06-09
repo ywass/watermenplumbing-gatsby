@@ -2,13 +2,30 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Home from "../components/Home/Home"
+import { SliceZone } from "@prismicio/react"
+import { components } from "../components/Home"
 
-const IndexPage = () => (  
-  <Layout>
-      <Home/>
-  </Layout>
-)
+
+const IndexPage = (props) => {
+
+  const { data } = props
+  if (!props.data) return null
+  const pageData = props.data.PageData
+  const page = pageData?.data || {}
+  return (
+    <Layout>
+      <div className="!bg-[#ecf9ff]">
+      <SliceZone
+        slices={page.body}
+        components={components}
+        context={pageData}
+        defaultComponent={() => null}
+      />
+      </div>
+    </Layout>
+  )
+}
+
 
 export const Head = (props) => {
   let socialImage =  '';
@@ -17,22 +34,31 @@ export const Head = (props) => {
     socialImage = socialImageNew[0]
   }  
   return(
-    <Seo title={props.data.PageData.data.seo_title} description={props.data.PageData.data.seo_description} socialImage={socialImage && socialImage} />
+    <Seo title={props?.data?.PageData?.data?.seo_title} description={props?.data?.PageData?.data?.seo_description} socialImage={socialImage && socialImage} />
   )
 }
 
 export default IndexPage
 
 export const query = graphql`
-query HomePage {
-  PageData : prismicPages(uid: {eq: "home"}) {
-    data {
+query pageQuery{
+PageData: prismicHomepage {
+  data {
       seo_title
       seo_description
       seo_social_image {
         url
       }
-    }
+   body{
+    ...homeHeroSlice
+    ...homeContentWithFormSlice
+    ...homecanWeHelpSlice
+    ...homeWhyChooseSlice
+    ...home5starReviews
+    ...homeOurSpecials
+    ...homeClientLogos
   }
+}
+}
 }
 `
