@@ -11,7 +11,7 @@ const HomecanWeHelpSection = ({ slice }) => {
     return (
         <>
             <section
-                className="!bg-[#ecf9ff] services v9 light-bg text-center items-overlapped col-60-40 vertical-middle bg-image bg-box-unlike"
+                className="lg:!bg-[#ecf9ff] services v9 light-bg text-center items-overlapped col-60-40 vertical-middle bg-image bg-box-unlike sec_padding"
                 id="ServicesV9"
                 data-onvisible="show"
             >
@@ -43,7 +43,6 @@ const HomecanWeHelpSection = ({ slice }) => {
                                     </strong>
                                     <img className="header-flair" src={tltBdr2Img} />
                                 </header>
-
                                 <ul
                                     className="services-list flex-wrap-spaced-between-block-800 top-margin-small ui-repeater"
                                     id="ServicesV9Services"
@@ -55,17 +54,12 @@ const HomecanWeHelpSection = ({ slice }) => {
                                                     className="full flex-middle btn-style btn-color-hover full text-left"
                                                     to="/"
                                                 >
-                                                    {/* {item.icon} */}
-                                                    {/* <div className="right-margin-tiny fit" > {item.icon}</div> */}
                                                     <span>{item.title1}</span>
                                                 </Link>
                                             </li>
                                         )
                                     })}
                                 </ul>
-
-
-
                                 <div id="ServicesV9BtnCon">
                                     <div className="top-margin text-align">
                                         <Link
@@ -74,31 +68,11 @@ const HomecanWeHelpSection = ({ slice }) => {
                                         >
                                             {button_text}
                                         </Link>
-                                        {/* <Link
-                                            className="btn v1"
-                                            aria-labelledby="ServicesV9Header"
-                                            to="/plumbing-services"
-                                        >
-                                            Additional Services
-                                        </Link> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <img src={image.url} alt={image.alt} className='img bg-position pad-height- border-radius box-shadow over-item' />
-                        {/* <GatsbyImage
-                image={getImage(image)}
-                alt={'Watermen Plumbing'}
-                className='img bg-position pad-height- border-radius box-shadow over-item'
-            /> */}
-                        {/* <picture
-                            className="img bg-position pad-height- border-radius box-shadow over-item"
-                            role="presentation"
-                            data-role="picture"
-                        >
-                            <source media="(max-width: 500px)" src={ServicesImg} />
-                            <img alt="" src={ServicesImg} />
-                        </picture> */}
                     </div>
                 </div>
             </section>

@@ -7,29 +7,14 @@ import tltBdr2Img from "../../images/tlt-bdr2.png";
 
 const WhyChooseSection = ({ slice }) => {
   const { primary, items } = slice
-  const { content, home_deserves_heading, home_deserves_description, why_choose_heading, why_choose_sub_heading, image, button_text, button_link } = primary
+  const { home_deserves_heading, home_deserves_description, why_choose_heading, why_choose_sub_heading, image, button_text, button_link } = primary
   return (
     <>
       <section
-        className="!bg-[#ecf9ff] values v4 alt light-bg bg-box-unlike large-padding vertical-middle col-50-50 items-spaced text-left bg-image flow-reverse"
+        className="lg:!bg-[#ecf9ff] values v4 alt light-bg bg-box-unlike large-padding vertical-middle col-50-50 items-spaced text-left bg-image flow-reverse sec_padding" 
         id="ValuesV4Alt"
         data-onvisible="show"
-      >
-        {/* <GatsbyImage
-                image={getImage(image)}
-                alt={'Watermen Plumbing'}
-                className='img-bg'
-            />  */}
-        {/* <picture className="img-bg" role="presentation" data-role="picture">
-              <source
-                media="(max-width: 500px)"
-                srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                data-src="../../images/values-v4-alt-bg-mobile.jpg"
-              />
-               
-            <img alt="" src={Values2Img} /> 
-            </picture> */}
-
+      >     
         <div className="main">
           <div className="flex-margined-auto-responsive-block-1024 item-spacing item-widths align-items flex-direction">
             <div>
@@ -62,7 +47,6 @@ const WhyChooseSection = ({ slice }) => {
                 </strong>
                 <img className="header-flair" src={tltBdrImg} />
               </header>
-
               <ul
                 className="values-list ui-repeater" id="ValuesV4AltList"
               >               
@@ -76,7 +60,7 @@ const WhyChooseSection = ({ slice }) => {
                         <strong className="title-style-4 title-color-4">
                           {item.title1}
                         </strong>
-                        <p>{item.description}</p>
+                        <p className='max-w-full'>{item.description}</p>
                       </div>
                     </li>
                   )
@@ -87,12 +71,6 @@ const WhyChooseSection = ({ slice }) => {
 
             <div className="relative flex-column-end">
               <img src={image.url} alt={image.alt} className='img pad-height- bottom-margin-negative bg-position box-shadow border-radius' />
-              {/* <GatsbyImage
-                image={getImage(image)}
-                alt={'Watermen Plumbing'}
-                className='img pad-height- bottom-margin-negative bg-position box-shadow border-radius'
-              /> */}
-             
               <div className="relative top-margin-negative side-padding-medium">
                 <div
                   className="bg-box text-center box-flair border-radius"
@@ -105,11 +83,8 @@ const WhyChooseSection = ({ slice }) => {
                       <strong className="title-style-1 title-color-1">
                         {home_deserves_heading.text}
                       </strong>
-
                       <img className="header-flair" src={tltBdr2Img} />
-
-                      {home_deserves_description}
-                    
+                      {home_deserves_description}                    
                       <div className="text-center top-margin">
                         <Link
                           href={button_link}

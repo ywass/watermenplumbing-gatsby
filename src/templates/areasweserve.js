@@ -9,13 +9,11 @@ import Seo from '../components/seo'
 import ServicesSidebar from '../components/Elements/ServicesSidebar'
 
 const AreasWeServePage = (props)=>{
-  const { services } = props.pageContext
-  
+  const { services } = props.pageContext 
 
   if (!props.data) return null
   const pageData = props.data.PageData
   const page = pageData.data || {}
-
   const { PageData } = props.data
 
   const PageBanner = page.body.filter((item)=>{
@@ -33,7 +31,6 @@ const AreasWeServePage = (props)=>{
               <div className="md:w-1/3 w-full">
                 <ServicesSidebar> 
                   <div className='serv_links bg-[#033996] py-4 mb-8'>
-                  {/* <h2 className='py-5 px-8 text-[#ffc51a] lg:text-[2.7rem] lg:leading-tight  text-3xl font1'>{PageData?.data?.title?.text}</h2> */}
                   <h2 className='py-5 px-8 text-[#ffc51a] lg:text-[2.7rem] lg:leading-tight  text-3xl font1'>Areas We Serve</h2>
                   <ul>
                     {services && services.map((item, index)=>{

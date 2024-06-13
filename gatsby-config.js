@@ -9,8 +9,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Experienced and Professional Plumber in Boca Raton, FL`,
+    description: `Are looking for a Professional plumber in Boca Raton, Florida? We provide top-quality services including repairs, installations, and maintenance`,
     author: `@gatsbyjs`,
     siteUrl: `https://watermenplumbing.com/`,
   },

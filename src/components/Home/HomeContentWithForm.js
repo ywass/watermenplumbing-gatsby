@@ -14,11 +14,6 @@ const HomeContentWithForm = ({ slice }) => {
             className="panel-group v1 relative no-padding light-bg bg-image"
             id="PanelGroupV5"
         >
-            {/* <GatsbyImage
-                image={getImage(image)}
-                alt={'Watermen Plumbing'}
-                className='img-bg bg-position'
-            /> */}
             <picture
                 className="img-bg bg-position"
                 role="presentation"
@@ -39,7 +34,7 @@ const HomeContentWithForm = ({ slice }) => {
 
             <div className="box" id="PanelGroupV5Zone">
                 <section
-                    className="contact v6 light-bg bg-box-unlike col-50-50 items-spaced text-left vertical-top"
+                    className="contact v6 light-bg bg-box-unlike col-50-50 items-spaced text-left vertical-top sec_padding"
                     id="ContactV6"
                     data-onvisible="show"
                 >
@@ -64,7 +59,7 @@ const HomeContentWithForm = ({ slice }) => {
                                                 </h2>
                                             ),
                                             paragraph: ({ children }) => (
-                                                <p className=''>
+                                                <p className='max-w-full'>
                                                     {children}
                                                 </p>
                                             )

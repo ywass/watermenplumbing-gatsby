@@ -22,6 +22,66 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const { data } = await graphql(`
     query {
+      AllMonths : allPrismicArchivesMonth(sort: {data: {month_id: ASC}}) {
+        edges {
+          node {
+            id
+            data {
+              month
+            }
+          }
+        }
+      }
+      AllYears : allPrismicArchivesYear(sort: {data: {year: DESC}}) {
+        edges {
+          node {
+            id
+            data {
+              year
+            }
+          }
+        }
+      }
+    AllPosts : allPrismicPosts {
+        edges {
+          node {
+              uid
+              id
+              data {
+              popular_posts   
+              publish_date
+              title {
+                richText
+                text
+              }
+              short_description {
+                richText
+                text
+              }
+              archives_month {
+                document {
+                  ... on PrismicArchivesMonth {
+                    id
+                    data {
+                      month
+                    }
+                  }
+                }
+              }
+              archives_year {
+                document {
+                  ... on PrismicArchivesYear {
+                    id
+                    data {
+                      year
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
       plumbingServices: allPrismicPlumbingservices {
         edges {
           node {
@@ -128,10 +188,69 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
 
+const AllPosts = data.AllPosts
+const AllYears = data.AllYears
+const AllMonths = data.AllMonths
+
+
+AllPosts.edges.forEach((item)=>{
+  createPage({
+    path: `/blog/${item?.node?.data?.archives_year?.document?.data?.year}/${item?.node?.data?.archives_month?.document?.data?.month.toLowerCase()}/${item?.node?.uid}`,
+    component: path.resolve(`./src/templates/blog-template.js`),
+    context: {
+      id: item.node.id,
+    },
+  }) 
+})
+
+
+
+const postByYear = []
+
+  AllYears.edges.map((item)=>{
+    postByYear[item.node.data.year] = AllPosts.edges.filter((post)=>{
+      return post.node.data.archives_year.document.data.year===item.node.data.year
+    })
+  })
+
+
+
   const mainServices = data.plumbingServices.edges.filter(item => {
     if (!item?.node?.data?.parent?.document?.id) {
       return item
     }
+  })
+
+  postByYear.forEach((item, index)=>{
+    createPage({
+      path: `/blog/${index}`,
+      component: path.resolve(`./src/templates/year-template.js`),
+      context: {
+        id: index,
+        year: index,
+        AllPosts: AllPosts
+      },
+    })
+
+    const monthByYear = item && item.length!=0 && item.filter((yyitem)=>{
+      return AllMonths.edges.find((mitem)=>{
+          return yyitem.node.data.archives_month.document.data.month === mitem.node.data.month
+      })
+    })
+
+    monthByYear && monthByYear.length!=0 && monthByYear.forEach((mitem)=>{
+      createPage({
+        path: `/blog/${index}/${mitem.node.data.archives_month.document.data.month.toLowerCase()}`,
+        component: path.resolve(`./src/templates/month-template.js`),
+        context: {
+          AllPosts: AllPosts,
+          id: mitem.node.data.archives_month.document.data.month,
+          month: mitem.node.data.archives_month.document.data.month,
+          year: index          
+        },
+      })
+    })
+
   })
 
   mainServices.forEach(({ node }) => {

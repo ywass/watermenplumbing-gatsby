@@ -11,7 +11,7 @@ const HomeOurSpecials = ({ slice }) => {
     return (
         <>
             <section
-                className="coupon v10 light-bg items-touching text-center bg-image bg-box-unlike"
+                className="lg:!bg-[#ecf9ff] coupon v10 light-bg items-touching text-center bg-image bg-box-unlike sec_padding"
                 id="CouponV10"
                 data-onvisible="show"
                 data-role="scroller"
@@ -30,7 +30,6 @@ const HomeOurSpecials = ({ slice }) => {
                 </picture>
                 <div className="main">
                     <header className="text-align center-800" id="CouponV10Header">
-
                         <PrismicRichText
                             field={heading.richText}
                             components={{
@@ -77,7 +76,7 @@ const HomeOurSpecials = ({ slice }) => {
                                                                     field={item?.coupon?.document?.data?.title?.richText}
                                                                     components={{
                                                                         paragraph: ({ children }) => (
-                                                                            <p >
+                                                                            <p className='max-w-full'>
                                                                                 {children}
                                                                             </p>
                                                                         )
@@ -88,7 +87,7 @@ const HomeOurSpecials = ({ slice }) => {
                                                                 field={item?.coupon?.document?.data?.sub_title?.richText}
                                                                 components={{
                                                                     paragraph: ({ children }) => (
-                                                                        <p >
+                                                                        <p className='max-w-full'>
                                                                             <span className='title-style-2 title-color-2'>{children}</span>
                                                                         </p>
                                                                     )

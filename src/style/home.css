@@ -2232,6 +2232,7 @@ aside header > *:first-child:not(a),aside header > a > *:first-child{
     .phone-number-style{
         font-size:calc(1.556rem *0.9);
     }
+   
 }
 @media screen and (max-width: 500px){
     :root{
@@ -2968,6 +2969,11 @@ aside:not(.bg-image) > picture.img-bg,aside:not(.bg-image) > picture.img-bg img,
         margin-left:0 !important;
         margin-right:0 !important;
     }
+    [data-role="scroller"] [class*="flex-"][class*="-grid"][class*="-large"] > li.third{
+        width: calc(50% - 3rem);
+        max-width: calc(50% - 3rem);
+    }
+
 }
 @media screen and (min-width:1025px){
     .btn-color-hover.bg-box:hover::before,.btn-color-hover.bg-box:focus::before{
@@ -3029,7 +3035,17 @@ aside:not(.bg-image) > picture.img-bg,aside:not(.bg-image) > picture.img-bg img,
         margin-left:0 !important;
         margin-right:0 !important;
     }
+    [data-role="scroller"] [class*="flex-"][class*="-grid"][class*="-large"] > li.third{
+        width: calc(100% - 3rem);
+        max-width: calc(100% - 3rem);
+    }
+    [class*="flex-"][class*="-grid"][class*="-large"] {
+        flex-direction: column;
+      }
+    
 }
+
+
 @media screen and (max-width:500px){
     html{
         font-size:calc(15px + (17 - 15) * ((100vw - 320px) / (500 - 320)));
@@ -5133,6 +5149,7 @@ section .content-style header,section header.content-style,section header.no-pad
         margin-top:calc(calc(2rem * .8) * .75 );
     }
 }
+
 @media screen and (max-width:800px){
     :root{
     }

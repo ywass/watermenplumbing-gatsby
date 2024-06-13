@@ -71,28 +71,7 @@ const WaterFilterProductsPage = props => {
       className="cta v13 !bg-[#ecf9ff] light-bg text-left bg-image bg-box-unlike"
       id="CtaV13"
       data-onvisible="show"
-    >
-      {/* <picture
-        className="img-bg bg-position"
-        role="presentation"
-        data-role="picture"
-      >
-        <source
-          media="(max-width: 500px)"
-          srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-          data-src="/assets/ctas/cta-v13-bg-mobile.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcSet="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-          data-src="/assets/ctas/cta-v13-bg-tablet.jpg"
-        />
-        <img
-          
-          alt=""
-          src={ctaV13Bg}
-        />
-      </picture> */}
+    >    
       <div className="main">
         <header className="text-align center-800" id="CtaV13Header" />
         <ul
