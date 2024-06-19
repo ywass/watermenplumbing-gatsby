@@ -49,7 +49,13 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        createLinkInHead: true,
+      }      
+    },
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -57,7 +63,12 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-  
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://watermenplumbing.com/`,
+      },
+    },  
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
