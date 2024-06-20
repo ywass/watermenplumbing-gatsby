@@ -27,6 +27,32 @@ function Seo({ description, title, socialImage, children }) {
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = title ? title : site.siteMetadata?.title
 
+  const schemaOrgJSONLD = [{
+    "@context": "https://schema.org/", 
+    "@type": "BreadcrumbList", 
+    itemListElement: [{
+      "@type": "ListItem", 
+      position: 1, 
+      name: "Broward County",
+      item: "https://watermenplumbing.com/about-us/areas-we-serve/broward-county/"  
+    },{
+      "@type": "ListItem", 
+      position: 2, 
+      name: "Coral Springs",
+      item: "https://watermenplumbing.com/about-us/areas-we-serve/coral-springs/"  
+    },{
+      "@type": "ListItem", 
+      position: 3, 
+      name: "Hollywood",
+      item: "https://watermenplumbing.com/about-us/areas-we-serve/hollywood/"  
+    },{
+      "@type": "ListItem", 
+      position: 4, 
+      name: "Plantation",
+      item: "https://watermenplumbing.com/about-us/areas-we-serve/plantation/"  
+    }]
+  }]
+
   return (
     <>
       <title>{defaultTitle}</title>
@@ -42,6 +68,7 @@ function Seo({ description, title, socialImage, children }) {
        <meta name="twitter:description" content={metaDescription} />
        <meta name="twitter:image" content={socialImage} />
       <meta name="twitter:description" content={metaDescription} />
+      <script type='application/ld+json'>{JSON.stringify(schemaOrgJSONLD)}</script>
       {children}
     </>
   )

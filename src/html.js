@@ -2,32 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Script } from "gatsby"
 
-export default function HTML(props) {
-  const schemaOrgJSONLD = {
-      "@context": "https://schema.org/", 
-      "@type": "BreadcrumbList", 
-      itemListElement: [{
-        "@type": "ListItem", 
-        position: 1, 
-        name: "Broward County",
-        item: "https://watermenplumbing.com/about-us/areas-we-serve/broward-county/"  
-      },{
-        "@type": "ListItem", 
-        position: 2, 
-        name: "Coral Springs",
-        item: "https://watermenplumbing.com/about-us/areas-we-serve/coral-springs/"  
-      },{
-        "@type": "ListItem", 
-        position: 3, 
-        name: "Hollywood",
-        item: "https://watermenplumbing.com/about-us/areas-we-serve/hollywood/"  
-      },{
-        "@type": "ListItem", 
-        position: 4, 
-        name: "Plantation",
-        item: "https://watermenplumbing.com/about-us/areas-we-serve/plantation/"  
-      }]
-    } 
+export default function HTML(props) {  
   return (
     <html {...props.htmlAttributes}>
       <head>
@@ -38,13 +13,11 @@ export default function HTML(props) {
         {props.headComponents}
         <script id="gtag-id" src="https://www.googletagmanager.com/gtag/js?id=G-83CCXZ2TZ6"></script>
         <Script id="gtag-config" strategy="off-main-thread" forward={[`gtag`]}>
-        {`window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-83CCXZ2TZ6');`}
-      </Script>   
-      
-      {schemaOrgJSONLD && <script type='application/ld+json'>{JSON.stringify(schemaOrgJSONLD)}</script>}
+          {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-83CCXZ2TZ6');`}
+        </Script>  
       </head>
       <body {...props.bodyAttributes}>
      {props.preBodyComponents}
