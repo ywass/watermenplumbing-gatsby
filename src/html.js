@@ -3,33 +3,31 @@ import PropTypes from "prop-types"
 import { Script } from "gatsby"
 
 export default function HTML(props) {
-  const schemaOrgJSONLD = [
-    {
+  const schemaOrgJSONLD = {
       "@context": "https://schema.org/", 
       "@type": "BreadcrumbList", 
-      "itemListElement": [{
+      itemListElement: [{
         "@type": "ListItem", 
-        "position": 1, 
-        "name": "Broward County",
-        "item": "https://watermenplumbing.com/about-us/areas-we-serve/broward-county/"  
+        position: 1, 
+        name: "Broward County",
+        item: "https://watermenplumbing.com/about-us/areas-we-serve/broward-county/"  
       },{
         "@type": "ListItem", 
-        "position": 2, 
-        "name": "Coral Springs",
-        "item": "https://watermenplumbing.com/about-us/areas-we-serve/coral-springs/"  
+        position: 2, 
+        name: "Coral Springs",
+        item: "https://watermenplumbing.com/about-us/areas-we-serve/coral-springs/"  
       },{
         "@type": "ListItem", 
-        "position": 3, 
-        "name": "Hollywood",
-        "item": "https://watermenplumbing.com/about-us/areas-we-serve/hollywood/"  
+        position: 3, 
+        name: "Hollywood",
+        item: "https://watermenplumbing.com/about-us/areas-we-serve/hollywood/"  
       },{
         "@type": "ListItem", 
-        "position": 4, 
-        "name": "Plantation",
-        "item": "https://watermenplumbing.com/about-us/areas-we-serve/plantation/"  
+        position: 4, 
+        name: "Plantation",
+        item: "https://watermenplumbing.com/about-us/areas-we-serve/plantation/"  
       }]
-    }    
-  ]
+    } 
   return (
     <html {...props.htmlAttributes}>
       <head>
