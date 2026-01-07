@@ -220,7 +220,7 @@ function Footer() {
     <div className="main">
       <div className="flex-middle-spaced-between">
         <small className="info" id="HSScorpionFooterDisclaimer">
-          <div>Master License# RF11067654</div>
+          <div>Master License# CFC143111</div>
           <p>© {new Date().getFullYear()} All Rights Reserved.</p>
         </small>
         <Link
