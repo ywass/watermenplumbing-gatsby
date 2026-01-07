@@ -14,14 +14,14 @@ const HomeClientLogos = ({ slice }) => {
                 data-onvisible="show"
             >
                 <div className="main">
-                    <div className="awards-list" data-role="container">
-                        <ul className="flex-middle auto-responsive" data-role="list">
+                    <div className="awards-list flex items-center justify-center" data-role="container">
+                        <ul className="w-full flex-middle auto-responsive" data-role="list">
 
                             {items &&
                                 items.map((item, index) => {
                                     return (
                                         <li key={index}
-                                            className="fifth"
+                                            className="third"
                                             data-role="item"
                                             data-item="i"
                                             data-key={30661}

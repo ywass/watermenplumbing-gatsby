@@ -25,6 +25,7 @@ const IndexPage = (props) => {
     })
   })
 
+  console.log('page.body',pageData)
 
   return (
     <Layout>

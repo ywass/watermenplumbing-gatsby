@@ -1395,7 +1395,7 @@ function Home() {
                       />
                     </div>
                   </li>
-                  <li
+                  {/* <li
                     className="fifth"
                     data-role="item"
                     data-item="i"
@@ -1408,7 +1408,7 @@ function Home() {
                         src={BBBImg}
                       />
                     </div>
-                  </li>
+                  </li> */}
                   <li
                     className="fifth"
                     data-role="item"

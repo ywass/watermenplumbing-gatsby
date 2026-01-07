@@ -221,7 +221,7 @@ function Footer() {
       <div className="flex-middle-spaced-between">
         <small className="info" id="HSScorpionFooterDisclaimer">
           <div>Master License# RF11067654</div>
-          <p>© 2022 All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} All Rights Reserved.</p>
         </small>
         <Link
           to="https://www.scorpion.co/home-services/"
