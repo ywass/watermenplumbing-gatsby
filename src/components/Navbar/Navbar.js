@@ -121,14 +121,7 @@ function Navbar() {
       </div>
       <div className="flex-column auto">
         <div className="top-bar bg-box side-padding-small flex-middle-spaced-end full">
-          <a
-            className="btn v1 margin-right hide-500"
-            href="mailto:info@watermenplumbing.com"
-            target="_blank"
-            style={{ textDecoration: 'none' }}
-          >
-            Now Hiring
-          </a>
+          
           <nav
             className="flex- hide-1280 secondary-nav right-margin-large"
             aria-label="Quick Links"
@@ -494,14 +487,7 @@ function Navbar() {
             >
               BOOK ONLINE
             </Link>
-            <Link
-              className="btn v1 hiring top-margin"
-              to="https://watermenplumbing.applicantlist.com/jobs/"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              Now Hiring
-            </Link>
+           
           </div>
           <button
             className="menu-btn desktop hide-800 btn-colors top-margin-small bottom-margin-small"
