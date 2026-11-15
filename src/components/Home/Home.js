@@ -696,8 +696,7 @@ function Home() {
                   >
                     <h4>Why Choose Us?</h4>
                     <strong>
-                      We Believe That Only the Best Is Good Enough, for You!
-                    </strong>
+                      We Believe That Only the Best Is Good Enough.
                     <img className="header-flair" src={tltBdrImg} />
                   </header>
                   <ul className="values-list ui-repeater" id="ValuesV4AltList">
